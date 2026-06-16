@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Estudio - Anticipados App</title>
+    <meta name="description" content="Simula tus exámenes semanales y diarios con preguntas de Lengua y Literatura, Historia, Razonamiento Verbal y Razonamiento Numérico.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="header-logo">
+                <span class="logo-icon">⚡</span>
+                <h1 class="logo-text">Anticipados <span class="accent-text">Simulador</span></h1>
+            </div>
+            <div class="header-tag">por Joseph Coello</div>
+        </header>
+
+        <!-- MAIN CONTENT SWITCHER -->
+        <main class="app-main">
+            
+            <!-- VIEW 1: LANDING PAGE & NAVIGATION -->
+            <section id="landing-view" class="view-section active">
+                <div class="hero-section">
+                    <h2>Tu Plan de Estudio Interactivo</h2>
+                    <p>Selecciona una semana y elige el día correspondiente para iniciar tu simulador de estudio diario.</p>
+                </div>
+
+                <!-- WEEK TABS / SEPARATION -->
+                <div class="week-tabs-container">
+                    <button class="week-tab active" data-week="1" id="tab-week-1">Semana 1</button>
+                    <button class="week-tab" data-week="2" id="tab-week-2">Semana 2</button>
+                    <button class="week-tab" data-week="3" id="tab-week-3">Semana 3</button>
+                    <button class="week-tab" data-week="4" id="tab-week-4">Semana 4</button>
+                </div>
+
+                <!-- DAYS CONTAINER (Dynamic depending on active week) -->
+                <div class="days-section">
+                    <h3 class="days-title">Días de la <span id="selected-week-title">Semana 1</span></h3>
+                    <div class="days-grid" id="days-grid">
+                        <!-- Dynamic days will be rendered here -->
+                    </div>
+                </div>
+
+                <!-- APP INFO / GUIDE -->
+                <div class="guide-card">
+                    <h4>💡 ¿Cómo funciona?</h4>
+                    <p>Cada día contiene preguntas seleccionadas de los temas del plan de estudio de ese día (Lengua, Historia, Razonamiento Verbal y Numérico). Responde las preguntas y obtén retroalimentación inmediata al finalizar.</p>
+                </div>
+            </section>
+
+            <!-- VIEW 1.5: MODE SELECTION (ESTUDIAR / EXAMEN) -->
+            <section id="mode-selection-view" class="view-section">
+                <div class="simulator-header">
+                    <button id="btn-back-from-mode" class="btn-secondary">← Volver al Inicio</button>
+                    <span id="mode-week-day-tag" class="meta-tag">Semana 1 - Lunes</span>
+                </div>
+                
+                <div class="mode-selection-card">
+                    <h2>¿Qué deseas hacer hoy?</h2>
+                    <p>Elige repasar el material teórico con ejemplos resueltos, o poner a prueba tus conocimientos con el simulador de examen.</p>
+                    
+                    <div class="mode-options">
+                        <button id="btn-select-study" class="mode-btn">
+                            <span class="mode-icon">📖</span>
+                            <span class="mode-title">ESTUDIAR</span>
+                            <span class="mode-desc">Repasa los conceptos clave y revisa los ejercicios resueltos de hoy.</span>
+                        </button>
+                        
+                        <button id="btn-select-exam" class="mode-btn">
+                            <span class="mode-icon">✍️</span>
+                            <span class="mode-title">EXAMEN</span>
+                            <span class="mode-desc">Enfréntate al simulador con preguntas de selección múltiple.</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 1.8: STUDY VIEW (TEMAS, CONCEPTOS, EJERCICIOS) -->
+            <section id="study-view" class="view-section">
+                <div class="simulator-header">
+                    <button id="btn-back-from-study" class="btn-secondary">← Volver a Selección</button>
+                    <span id="study-week-day-tag" class="meta-tag">Semana 1 - Lunes</span>
+                </div>
+
+                <div class="study-container">
+                    <div class="study-intro">
+                        <h2>Material de Estudio</h2>
+                        <p>Lee detenidamente la teoría, analiza los conceptos y revisa los ejercicios resueltos propuestos.</p>
+                    </div>
+                    
+                    <!-- Dynamic study topics rendered here -->
+                    <div id="study-content-container">
+                        <!-- study topic cards will be generated here -->
+                    </div>
+                    
+                    <div class="study-footer">
+                        <p class="study-prompt">¿Te sientes listo? Pon a prueba lo aprendido:</p>
+                        <button id="btn-start-exam-from-study" class="btn-primary">Iniciar Simulador de Examen →</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 2: SIMULATOR / CUESTIONARIO -->
+            <section id="simulator-view" class="view-section">
+                <div class="simulator-header">
+                    <button id="btn-back-to-landing" class="btn-secondary">← Volver al Inicio</button>
+                    <div class="simulator-meta">
+                        <span id="quiz-week-day-tag" class="meta-tag">Semana 1 - Lunes</span>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar-bg">
+                        <div id="progress-bar-fill" class="progress-bar-fill" style="width: 0%;"></div>
+                    </div>
+                    <div class="progress-text">Pregunta <span id="current-q-num">1</span> de <span id="total-q-num">5</span></div>
+                </div>
+
+                <!-- QUESTION CARD -->
+                <div class="question-card">
+                    <div class="question-subject-badge" id="question-subject">Lengua y Literatura</div>
+                    <h3 class="question-text" id="question-text">¿Cargando pregunta?</h3>
+                    
+                    <div class="options-grid" id="options-grid">
+                        <!-- 4 options will be rendered here -->
+                    </div>
+
+                    <div class="feedback-box hidden" id="feedback-box">
+                        <div class="feedback-title" id="feedback-title">¡Correcto!</div>
+                        <p class="feedback-explanation" id="feedback-explanation">Explicación del tema...</p>
+                    </div>
+
+                    <div class="action-footer">
+                        <button id="btn-action" class="btn-primary" disabled>Comprobar Respuesta</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 3: RESULTS SCREEN -->
+            <section id="results-view" class="view-section">
+                <div class="results-card">
+                    <div class="results-icon" id="results-icon">🎉</div>
+                    <h2>¡Simulador Completado!</h2>
+                    <p id="results-subtext">Has terminado el cuestionario del día.</p>
+                    
+                    <div class="score-display">
+                        <span class="score-number" id="score-correct">0</span>
+                        <span class="score-divider">/</span>
+                        <span class="score-total" id="score-total">0</span>
+                    </div>
+                    <div class="score-percentage" id="score-percentage">0% de aciertos</div>
+
+                    <div class="results-actions">
+                        <button id="btn-restart-quiz" class="btn-primary">Reintentar Cuestionario</button>
+                        <button id="btn-home-from-results" class="btn-secondary">Volver a las Semanas</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Anticipados Simulador App. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
