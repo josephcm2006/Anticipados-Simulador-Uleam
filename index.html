@@ -124,22 +124,47 @@
                     <div class="progress-text">Pregunta <span id="current-q-num">1</span> de <span id="total-q-num">5</span></div>
                 </div>
 
-                <!-- QUESTION CARD -->
-                <div class="question-card">
-                    <div class="question-subject-badge" id="question-subject">Lengua y Literatura</div>
-                    <h3 class="question-text" id="question-text">¿Cargando pregunta?</h3>
-                    
-                    <div class="options-grid" id="options-grid">
-                        <!-- 4 options will be rendered here -->
+                <div class="simulator-layout-grid">
+                    <!-- LEFT COLUMN: QUESTION CARD AND NAV -->
+                    <div class="simulator-main-column">
+                        <div class="question-nav-header">
+                            <button id="btn-prev-q" class="btn-secondary">← Anterior</button>
+                            <button id="btn-next-q" class="btn-secondary">Siguiente →</button>
+                        </div>
+
+                        <!-- QUESTION CARD -->
+                        <div class="question-card">
+                            <div class="question-subject-badge" id="question-subject">Lengua y Literatura</div>
+                            <h3 class="question-text" id="question-text">¿Cargando pregunta?</h3>
+                            
+                            <div class="options-grid" id="options-grid">
+                                <!-- 4 options will be rendered here -->
+                            </div>
+
+                            <div class="feedback-box hidden" id="feedback-box">
+                                <div class="feedback-title" id="feedback-title">¡Correcto!</div>
+                                <p class="feedback-explanation" id="feedback-explanation">Explicación del tema...</p>
+                            </div>
+
+                            <div class="action-footer">
+                                <button id="btn-action" class="btn-primary" disabled>Comprobar Respuesta</button>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="feedback-box hidden" id="feedback-box">
-                        <div class="feedback-title" id="feedback-title">¡Correcto!</div>
-                        <p class="feedback-explanation" id="feedback-explanation">Explicación del tema...</p>
-                    </div>
-
-                    <div class="action-footer">
-                        <button id="btn-action" class="btn-primary" disabled>Comprobar Respuesta</button>
+                    <!-- RIGHT COLUMN: QUESTION MAP SIDEBAR -->
+                    <div class="simulator-side-column">
+                        <div class="nav-grid-card">
+                            <h4>Mapa de Preguntas</h4>
+                            <div class="question-nav-grid" id="question-nav-grid">
+                                <!-- 20 question buttons rendered dynamically -->
+                            </div>
+                            <div class="nav-grid-legend">
+                                <div class="legend-item"><span class="legend-dot current"></span> Actual</div>
+                                <div class="legend-item"><span class="legend-dot answered"></span> Respondida</div>
+                                <div class="legend-item"><span class="legend-dot pending"></span> Pendiente</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
