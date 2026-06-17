@@ -1,3 +1,7 @@
+// Theme Initialization Logic
+const currentTheme = localStorage.getItem('theme') || 'dark';
+document.documentElement.setAttribute('data-theme', currentTheme);
+
 // State variables
 let currentWeek = "1";
 let currentDay = "";
@@ -56,6 +60,26 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function init() {
+    // Setup theme toggle
+    const themeToggleBtn = document.getElementById("theme-toggle");
+    const themeToggleIcon = themeToggleBtn ? themeToggleBtn.querySelector(".theme-toggle-icon") : null;
+    
+    if (themeToggleIcon) {
+        themeToggleIcon.textContent = currentTheme === 'dark' ? '🌙' : '☀️';
+    }
+    
+    if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            if (themeToggleIcon) {
+                themeToggleIcon.textContent = newTheme === 'dark' ? '🌙' : '☀️';
+            }
+        });
+    }
+
     // Setup week tab event listeners
     weekTabs.forEach(tab => {
         tab.addEventListener("click", (e) => {

@@ -1,37 +1,62 @@
 /* Global Design System */
 :root {
-    --bg-app: #0b0f19;
-    --bg-card: #151d30;
-    --bg-card-hover: #1e2942;
-    --border-color: #24324f;
-    --border-color-active: #3b82f6;
-    
-    --primary: #3b82f6;
-    --primary-hover: #2563eb;
-    --secondary: #1e293b;
-    --secondary-hover: #334155;
-    
-    --success: #10b981;
-    --success-bg: rgba(16, 185, 129, 0.1);
-    --error: #ef4444;
-    --error-bg: rgba(239, 68, 68, 0.1);
-    
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
-    
     --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 16px;
-    --transition-fast: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    --transition-fast: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, opacity 0.25s ease, transform 0.2s ease;
+}
+
+/* Dark Theme (Default) */
+[data-theme="dark"], :root:not([data-theme="light"]) {
+    --bg-app: #000000;
+    --bg-card: #0d0d0d;
+    --bg-card-hover: #161616;
+    --border-color: #262626;
+    --border-color-active: #a855f7; /* Purple */
+    
+    --primary: #a855f7; /* Purple */
+    --primary-hover: #9333ea;
+    --secondary: #171717;
+    --secondary-hover: #262626;
+    
+    --success: #10b981;
+    --success-bg: rgba(16, 185, 129, 0.15);
+    --error: #ef4444;
+    --error-bg: rgba(239, 68, 68, 0.15);
+    
+    --text-primary: #ffffff;
+    --text-secondary: #a3a3a3;
+    --text-muted: #737373;
+}
+
+/* Light Theme */
+[data-theme="light"] {
+    --bg-app: #ffffff;
+    --bg-card: #fafafa;
+    --bg-card-hover: #f5f5f5;
+    --border-color: #e5e5e5;
+    --border-color-active: #dc2626; /* Red */
+    
+    --primary: #dc2626; /* Red */
+    --primary-hover: #b91c1c;
+    --secondary: #f4f4f5;
+    --secondary-hover: #e4e4e7;
+    
+    --success: #16a34a;
+    --success-bg: rgba(22, 163, 74, 0.08);
+    --error: #dc2626;
+    --error-bg: rgba(220, 38, 38, 0.08);
+    
+    --text-primary: #18181b;
+    --text-secondary: #52525b;
+    --text-muted: #71717a;
 }
 
 /* Reset & Base Styles */
 * {
     margin: 0;
     padding: 0;
-    box-box: border-box;
     box-sizing: border-box;
 }
 
@@ -44,6 +69,9 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* App Container */
@@ -767,7 +795,7 @@ body {
     border-radius: var(--radius-sm);
     overflow: hidden;
     border: 1px solid var(--border-color);
-    background-color: #0b0f19;
+    background-color: var(--bg-app);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1127,6 +1155,118 @@ body {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+}
+
+/* ==========================================================================
+   Nuevos Estilos para el Tema Claro/Oscuro y Elementos de Interfaz
+   ========================================================================== */
+
+/* Esferas de luz difuminadas (Modo Oscuro) */
+.glow-sphere {
+    position: fixed;
+    width: 45vw;
+    height: 45vw;
+    min-width: 320px;
+    min-height: 320px;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(95px); /* Ajustado para un difuminado más suave y elegante */
+    opacity: 0.35; /* Opacidad balanceada para que sea visible pero sutil */
+    pointer-events: none;
+    transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glow-sphere-purple {
+    top: -10%;
+    left: -10%;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.85) 0%, rgba(168, 85, 247, 0.3) 50%, rgba(168, 85, 247, 0) 75%);
+}
+
+.glow-sphere-cyan {
+    bottom: -10%;
+    right: -10%;
+    background: radial-gradient(circle, rgba(6, 182, 212, 0.85) 0%, rgba(6, 182, 212, 0.3) 50%, rgba(6, 182, 212, 0) 75%);
+}
+
+/* Ocultar esferas en Modo Claro */
+[data-theme="light"] .glow-sphere {
+    opacity: 0;
+}
+
+/* Acciones en el Header (Theme Switcher y Tag) */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.theme-toggle-btn {
+    background-color: var(--secondary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: var(--transition-fast);
+}
+
+.theme-toggle-btn:hover {
+    background-color: var(--secondary-hover);
+    border-color: var(--border-color-active);
+    transform: scale(1.08) rotate(15deg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.theme-toggle-btn:active {
+    transform: scale(0.95);
+}
+
+/* Ajustes de contraste para insignias de materias en Modo Claro */
+[data-theme="light"] .question-subject-badge.subj-lengua {
+    background-color: rgba(37, 99, 235, 0.1);
+    color: #1d4ed8;
+    border-color: rgba(37, 99, 235, 0.2);
+}
+
+[data-theme="light"] .question-subject-badge.subj-historia {
+    background-color: rgba(194, 65, 12, 0.1);
+    color: #b45309;
+    border-color: rgba(194, 65, 12, 0.2);
+}
+
+[data-theme="light"] .question-subject-badge.subj-verbal {
+    background-color: rgba(161, 98, 7, 0.1);
+    color: #a16207;
+    border-color: rgba(161, 98, 7, 0.2);
+}
+
+[data-theme="light"] .question-subject-badge.subj-numerico {
+    background-color: rgba(109, 40, 217, 0.1);
+    color: #6d28d9;
+    border-color: rgba(109, 40, 217, 0.2);
+}
+
+/* Modificaciones sutiles de cards e inputs en modo claro */
+[data-theme="light"] .day-card:hover {
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.08);
+}
+
+[data-theme="light"] .week-tab.active {
+    color: #ffffff !important;
+}
+
+[data-theme="light"] .btn-primary {
+    color: #ffffff !important;
+}
+
+[data-theme="light"] .study-img {
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.05));
 }
 
 

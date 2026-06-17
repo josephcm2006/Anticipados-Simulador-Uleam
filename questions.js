@@ -850,7 +850,528 @@ const questionsData = {
                 "explanation": "Para resolver esto, primero sumamos todos los alumnos de ambos deportes: 25 + 20 = 45. Luego, como sabemos que en la clase solo hay 40 alumnos reales, restamos 45 menos 40, y esos 5 que \"sobran\" son los que hacen ambas actividades"
             }
         ],
-        "Miércoles": [],
+        "Miércoles": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué es un metaplasmo?",
+                "options": [
+                    "Un tipo de poema de la Edad Media.",
+                    "Un fenómeno lingüístico que consiste en alterar, añadir o quitar sonidos a las palabras.",
+                    "Una técnica para ganar un debate formal.",
+                    "La traducción literal de un texto a otro idioma."
+                ],
+                "correct": 1,
+                "explanation": "Un metaplasmo es un fenómeno lingüístico que altera la estructura fonética o gráfica de una palabra mediante la adición, supresión o cambio de posición de sonidos o grafías."
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "Si una persona dice \"dijistes\" en lugar de \"dijiste\", está cometiendo un metaplasmo por:",
+                "options": [
+                    "Supresión (quitar letras).",
+                    "Adición (agregar letras al final).",
+                    "Traslación (cambiar el orden de las letras).",
+                    "Metáfora."
+                ],
+                "correct": 1,
+                "explanation": "Decir 'dijistes' añade una 's' al final de la palabra (paragoge), por lo que se trata de un metaplasmo por adición."
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué característica fundamental define a la \"conversación\" frente a un monólogo?",
+                "options": [
+                    "Es siempre por escrito.",
+                    "No permite que nadie más opine.",
+                    "Existe una interacción y un intercambio de roles entre emisor y receptor.",
+                    "Se utiliza exclusivamente lenguaje científico."
+                ],
+                "correct": 2,
+                "explanation": "La conversación es esencialmente interactiva y bilateral, requiriendo que emisor y receptor alternen activamente sus roles."
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "Una conversación espontánea y sin un tema preestablecido en la que participas con tus amigos se clasifica como:",
+                "options": [
+                    "Debate parlamentario.",
+                    "Conversación informal o coloquial.",
+                    "Entrevista de trabajo.",
+                    "Disertación académica."
+                ],
+                "correct": 1,
+                "explanation": "Una conversación casual entre amigos es espontánea y sin un protocolo rígido, por lo que es de carácter informal o coloquial."
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué son los vicios pragmáticos del lenguaje?",
+                "options": [
+                    "Palabras que se escriben exactamente igual pero significan cosas distintas.",
+                    "Figuras literarias utilizadas por los poetas para embellecer un texto.",
+                    "Errores o malos hábitos en el uso del lenguaje que ocurren en el momento de la comunicación y afectan la fluidez.",
+                    "Las reglas oficiales dictadas por la Real Academia Española."
+                ],
+                "correct": 2,
+                "explanation": "Los vicios pragmáticos son aquellas incorrecciones de carácter temporal o circunstancial que se producen en el acto del habla y dificultan la comunicación."
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "Decir repetidamente \"eh\", \"este...\", \"o sea\" mientras se habla, para rellenar silencios, es un vicio pragmático llamado:",
+                "options": [
+                    "Arcaísmo",
+                    "Neologismo",
+                    "Muletilla",
+                    "Cacofonía"
+                ],
+                "correct": 2,
+                "explanation": "Las muletillas son palabras o frases cortas que se repiten con frecuencia para apoyarse o rellenar pausas en la conversación."
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "El metaplasmo donde se quita un sonido al principio de la palabra (como decir \"ora\" en vez de \"ahora\") se llama:",
+                "options": [
+                    "Prótesis",
+                    "Aféresis",
+                    "Paragoge",
+                    "Epéntesis"
+                ],
+                "correct": 1,
+                "explanation": "La aféresis es el metaplasmo que consiste en la pérdida o eliminación de uno o varios sonidos al inicio de una palabra."
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "El uso de palabras muy antiguas que ya no son comunes en el habla actual (por ejemplo, decir \"vuestra merced\") es un vicio pragmático conocido como:",
+                "options": [
+                    "Extranjerismo",
+                    "Arcaísmo",
+                    "Barbarismo",
+                    "Muletilla"
+                ],
+                "correct": 1,
+                "explanation": "Un arcaísmo es un elemento lingüístico cuya forma o significado resultan anticuados en una época determinada."
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "Para que una conversación sea efectiva, es indispensable que exista:",
+                "options": [
+                    "Un micrófono para cada participante.",
+                    "Un moderador estricto.",
+                    "Un código (idioma) compartido y voluntad de escucha activa.",
+                    "Un guion escrito previamente."
+                ],
+                "correct": 2,
+                "explanation": "Para establecer comunicación real se requiere que los interlocutores compartan el mismo código e idioma, y estén dispuestos a escucharse activamente."
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "\"Apretar\" en lugar de \"apretar\" no es un metaplasmo, pero decir \"apreta\" en lugar de \"aprieta\" muestra una alteración verbal. Los metaplasmos en el habla coloquial suelen originarse por:",
+                "options": [
+                    "Reglas gramaticales estrictas.",
+                    "Economía del lenguaje o falta de educación formal.",
+                    "Exigencia de los profesores de literatura.",
+                    "El uso de diccionarios electrónicos."
+                ],
+                "correct": 1,
+                "explanation": "Los metaplasmos coloquiales ocurren comúnmente por comodidad (economía del lenguaje) o por un desconocimiento de la norma gramatical estándar."
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "En la Antigua Grecia, ¿qué se entendía por \"polis\"?",
+                "options": [
+                    "Un gran imperio gobernado por un solo rey.",
+                    "Un templo dedicado exclusivamente a los dioses del Olimpo.",
+                    "Una ciudad-estado independiente con su propio gobierno, leyes y ejército.",
+                    "Una alianza militar entre romanos y griegos."
+                ],
+                "correct": 2,
+                "explanation": "La polis era la estructura política y ciudadana fundamental de Grecia, constituida como una ciudad-estado soberana e independiente."
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "Una característica principal de las polis griegas era:",
+                "options": [
+                    "La dependencia política total de la ciudad de Atenas.",
+                    "Su autonomía política y económica.",
+                    "Su rechazo a tener un ejército.",
+                    "Estar gobernadas por un faraón."
+                ],
+                "correct": 1,
+                "explanation": "Cada polis poseía autarquía (autonomía económica) y soberanía jurídica y política (leyes y gobierno propios)."
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Cómo se llamaba la parte alta y fortificada de una polis, donde se encontraban los templos principales (como el Partenón en Atenas)?",
+                "options": [
+                    "Ágora",
+                    "Acrópolis",
+                    "Foro",
+                    "Coliseo"
+                ],
+                "correct": 1,
+                "explanation": "La acrópolis era la zona más elevada de las polis, que servía como refugio defensivo y albergaba los santuarios religiosos primordiales."
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "La plaza pública central en la polis donde se desarrollaba la vida política, social y el mercado se llamaba:",
+                "options": [
+                    "Ágora",
+                    "Acrópolis",
+                    "Partenón",
+                    "Zigurats"
+                ],
+                "correct": 0,
+                "explanation": "El ágora era el espacio abierto neurálgico para las asambleas, el comercio y el debate público diario en las polis griegas."
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "A pesar de ser ciudades-estado independientes y a veces enemigas, ¿qué elemento cultural unía a todas las polis griegas?",
+                "options": [
+                    "El uso del mismo sistema monetario.",
+                    "Un solo rey supremo que las gobernaba a todas.",
+                    "El mismo idioma, la religión y tradiciones como los Juegos Olímpicos.",
+                    "La prohibición de la esclavitud."
+                ],
+                "correct": 2,
+                "explanation": "Los griegos compartían la Hélade como noción cultural común: un mismo idioma (griego antiguo), panteón religioso (dioses del Olimpo) y ritos panhelénicos."
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Qué fue el proceso de \"colonización griega\"?",
+                "options": [
+                    "La conquista de Grecia por parte del Imperio Romano.",
+                    "La migración masiva de griegos para fundar nuevas ciudades (colonias) por el Mediterráneo y el Mar Negro.",
+                    "El sometimiento militar de Esparta sobre Atenas.",
+                    "La invasión de los persas al territorio griego."
+                ],
+                "correct": 1,
+                "explanation": "La colonización consistió en expediciones marítimas destinadas a fundar asentamientos permanentes con fines agrarios y mercantiles fuera de Grecia."
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Cuál fue una de las causas principales que impulsó a los griegos a colonizar otros territorios?",
+                "options": [
+                    "El exceso de tierras fértiles en Grecia.",
+                    "La escasez de tierras cultivables y el aumento de la población en sus polis originarias.",
+                    "El deseo de conquistar América.",
+                    "Un mandato directo de los dioses que prohibía vivir en Grecia."
+                ],
+                "correct": 1,
+                "explanation": "La falta de tierras cultivables fértiles (stenochoria) y el crecimiento demográfico en el período arcaico forzaron la expiración ultramarina."
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Cómo llamaban los griegos a la polis \"madre\" o ciudad de origen que fundaba una nueva colonia?",
+                "options": [
+                    "Metrópolis",
+                    "Provincia",
+                    "Feudo",
+                    "Satrapía"
+                ],
+                "correct": 0,
+                "explanation": "El término metrópolis proviene del griego y significa 'ciudad madre', denominación dada a la polis de origen de los colonos."
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿Qué relación solía existir entre la colonia recién fundada y su metrópolis?",
+                "options": [
+                    "De guerra constante y sometimiento.",
+                    "La colonia era esclava de la metrópolis y le pagaba todos sus impuestos.",
+                    "Eran políticamente independientes, pero mantenían lazos comerciales, religiosos y culturales.",
+                    "No se volvían a hablar nunca más."
+                ],
+                "correct": 2,
+                "explanation": "Las colonias eran ciudades políticamente independientes de su metrópolis de origen, pero mantenían lazos sagrados, tradicionales y comerciales."
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "Una gran consecuencia económica de las colonizaciones griegas fue:",
+                "options": [
+                    "El fin del uso de la moneda.",
+                    "El aislamiento total de las polis griegas.",
+                    "La expansión del comercio marítimo y la introducción de nuevos productos en Grecia.",
+                    "El empobrecimiento total de los navegantes."
+                ],
+                "correct": 2,
+                "explanation": "La fundación de colonias dinamizó el intercambio marítimo en todo el Mediterráneo, enriqueciendo a Grecia con nuevas materias primas y alimentos."
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogía: DEDO es a MANO como:",
+                "options": [
+                    "Hoja es a Rama",
+                    "Zapato es a Pie",
+                    "Pétalo es a Flor",
+                    "Sombrero es a Cabeza"
+                ],
+                "correct": 2,
+                "explanation": "Dedo es una parte constituyente de la mano (relación parte-todo). De manera idéntica, el pétalo es una parte constituyente de la flor."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogía: CALIENTE es a FRÍO como:",
+                "options": [
+                    "Alto es a Gigante",
+                    "Luz es a Oscuridad",
+                    "Agua es a Hielo",
+                    "Correr es a Caminar"
+                ],
+                "correct": 1,
+                "explanation": "Caliente y frío son conceptos opuestos (antónimos). La misma relación de oposición se da entre luz y oscuridad."
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogía: ESCULTOR es a ESTATUA como:",
+                "options": [
+                    "Pintor es a Pincel",
+                    "Músico es a Guitarra",
+                    "Escritor es a Novela",
+                    "Actor es a Teatro"
+                ],
+                "correct": 2,
+                "explanation": "El sculptor es el creador directo de la estatua (relación agente-producto). De igual modo, el escritor crea una novela."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogía: AVIÓN es a CIELO como:",
+                "options": [
+                    "Tren es a Estación",
+                    "Barco es a Mar",
+                    "Pájaro es a Nido",
+                    "Coche es a Garaje"
+                ],
+                "correct": 1,
+                "explanation": "El avión es un medio de transporte que se desplaza por el aire/cielo (objeto-medio de desplazamiento). El barco se desplaza por el agua/mar."
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogía: LIBRO es a BIBLIOTECA como:",
+                "options": [
+                    "Cuadro es a Museo",
+                    "Profesor es a Escuela",
+                    "Médico es a Hospital",
+                    "Plato es a Cocina"
+                ],
+                "correct": 0,
+                "explanation": "El libro se conserva, cataloga y exhibe en una biblioteca (objeto-lugar de depósito/exhibición). El cuadro se conserva y exhibe en un museo."
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Si todos los mamíferos tienen pelo y el perro es un mamífero, entonces la conclusión lógica es:",
+                "options": [
+                    "El perro a veces tiene pelo.",
+                    "El perro es el único mamífero con pelo.",
+                    "El perro tiene pelo.",
+                    "Algunos perros no tienen pelo."
+                ],
+                "correct": 2,
+                "explanation": "Es un silogismo categórico simple: Premisa mayor (Todos los mamíferos tienen pelo) + Premisa menor (El perro es mamífero) = Conclusión (El perro tiene pelo)."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: \"Todos los lunes tenemos clase de historia. Hoy es lunes.\" Por lo tanto:",
+                "options": [
+                    "Mañana tendremos historia.",
+                    "Hoy no hay clases.",
+                    "Hoy tenemos clase de historia.",
+                    "La historia es la mejor materia."
+                ],
+                "correct": 2,
+                "explanation": "Aplicando deducción lógica simple: si ocurre la condición de ser lunes, necesariamente se tiene clase de historia."
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Juan es más alto que Pedro, y Pedro es más alto que Luis. Por lo tanto:",
+                "options": [
+                    "Luis es el más alto de los tres.",
+                    "Juan es más alto que Luis.",
+                    "Pedro es más bajo que Luis.",
+                    "Juan y Luis miden lo mismo."
+                ],
+                "correct": 1,
+                "explanation": "Por transitividad matemática de la relación de orden (Juan > Pedro y Pedro > Luis), se deduce directamente que Juan > Luis."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Ningún reptil tiene pelo. La iguana es un reptil. Entonces:",
+                "options": [
+                    "La iguana es un mamífero.",
+                    "Algunas iguanas tienen pelo.",
+                    "La iguana no tiene pelo.",
+                    "Los reptiles prefieren el calor."
+                ],
+                "correct": 2,
+                "explanation": "Puesto que las iguanas están contenidas en el grupo de los reptiles, y ningún miembro de dicho grupo posee pelo, la iguana carece de pelo."
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Algunos músicos tocan el piano. Todos los que tocan el piano saben leer partituras. Por lo tanto:",
+                "options": [
+                    "Todos los músicos saben leer partituras.",
+                    "Algunos músicos saben leer partituras.",
+                    "Nadie que toque el piano es músico.",
+                    "Leer partituras es fácil."
+                ],
+                "correct": 1,
+                "explanation": "Puesto que hay músicos que tocan el piano, y todos los pianistas saben leer partituras, esos músicos específicos saben leer partituras."
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "¿Cuál es el resultado de sumar las fracciones 1/4 + 2/4?",
+                "options": [
+                    "3/8",
+                    "3/4",
+                    "2/8",
+                    "4/4"
+                ],
+                "correct": 1,
+                "explanation": "Como las fracciones tienen el mismo denominador (4), sumamos directamente los numeradores: 1 + 2 = 3. Manteniendo el denominador común, resulta 3/4."
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Si comes 3 porciones de una pizza que fue dividida en 8 partes iguales, ¿qué fracción de la pizza queda intacta?",
+                "options": [
+                    "3/8",
+                    "5/8",
+                    "8/5",
+                    "1/8"
+                ],
+                "correct": 1,
+                "explanation": "La pizza completa equivale a la unidad 8/8. Si sustraemos las 3 partes comidas (3/8), nos quedan exactamente 5/8 de pizza."
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "¿Cuál de las siguientes fracciones es equivalente (vale lo mismo) a 1/2?",
+                "options": [
+                    "2/3",
+                    "3/4",
+                    "4/8",
+                    "5/12"
+                ],
+                "correct": 2,
+                "explanation": "Si simplificamos la fracción 4/8 dividiendo numerador y denominador entre 4, obtenemos 1/2."
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Juan gasta 1/3 de su sueldo en comida y 1/3 en alquiler. ¿Qué fracción de su sueldo ha gastado en total?",
+                "options": [
+                    "2/6",
+                    "2/3",
+                    "1/9",
+                    "3/3"
+                ],
+                "correct": 1,
+                "explanation": "Sumamos los gastos homogéneos: 1/3 + 1/3 = 2/3 del sueldo total gastado."
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve la siguiente operación respetando la jerarquía matemática: 15 + 5 × 2 =",
+                "options": [
+                    "40",
+                    "20",
+                    "25",
+                    "100"
+                ],
+                "correct": 2,
+                "explanation": "Por jerarquía de operaciones, realizamos la multiplicación antes que la suma: 5 × 2 = 10. Luego sumamos: 15 + 10 = 25."
+            },
+            {
+                "id": 36,
+                "subject": "Razonamiento Numérico",
+                "question": "Si compras 4 cuadernos a $3 cada uno y pagas con un billete de $20, ¿cuánto recibes de vuelto?",
+                "options": [
+                    "$12",
+                    "$8",
+                    "$10",
+                    "$6"
+                ],
+                "correct": 1,
+                "explanation": "Calculamos el gasto total de los cuadernos: 4 × 3 = $12. Restamos este valor del billete entregado: $20 - $12 = $8 de vuelto."
+            },
+            {
+                "id": 37,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve (10 + 2) / 3 =",
+                "options": [
+                    "4",
+                    "6",
+                    "10",
+                    "12"
+                ],
+                "correct": 0,
+                "explanation": "Los paréntesis indican que debemos resolver primero la suma interna: 10 + 2 = 12. Posteriormente efectuamos la división: 12 / 3 = 4."
+            },
+            {
+                "id": 38,
+                "subject": "Razonamiento Numérico",
+                "question": "Un agricultor tiene 150 manzanas y las quiere empacar en cajas donde caben exactamente 10 manzanas. ¿Cuántas cajas necesita?",
+                "options": [
+                    "10 cajas",
+                    "15 cajas",
+                    "20 cajas",
+                    "150 cajas"
+                ],
+                "correct": 1,
+                "explanation": "Dividimos la cantidad total de manzanas entre la capacidad de cada caja: 150 / 10 = 15 cajas requeridas."
+            },
+            {
+                "id": 39,
+                "subject": "Razonamiento Numérico",
+                "question": "Si a la mitad de 50 le sumo el doble de 10, ¿cuál es el resultado?",
+                "options": [
+                    "35",
+                    "45",
+                    "55",
+                    "65"
+                ],
+                "correct": 1,
+                "explanation": "Calculamos las partes por separado: la mitad de 50 es 25, y el doble de 10 es 20. Al sumarlos: 25 + 20 = 45."
+            },
+            {
+                "id": 40,
+                "subject": "Razonamiento Numérico",
+                "question": "Al multiplicar fracciones (por ejemplo 1/2 × 3/4), el procedimiento correcto es:",
+                "options": [
+                    "Multiplicar en cruz.",
+                    "Sumar los números de arriba.",
+                    "Multiplicar el de arriba por el de arriba (numeradores) y el de abajo por el de abajo (denominadores).",
+                    "Invertir la segunda fracción y restar."
+                ],
+                "correct": 2,
+                "explanation": "La multiplicación de fracciones es directa: se multiplican numeradores entre sí para obtener el nuevo numerador, y denominadores entre sí para el deminador resultante."
+            }
+        ],
         "Jueves": [],
         "Viernes": [],
         "Sábado": [],
@@ -1116,7 +1637,116 @@ const studyData = {
                 ]
             }
         ],
-        "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
+        "Miércoles": [
+            {
+                "topic": "Metaplasmos",
+                "subject": "Lengua y Literatura",
+                "concept": "Son fenómenos lingüísticos que consisten en cambiar, añadir o quitar sonidos o letras a las palabras, alterando su estructura original, ya sea por razones literarias o por un uso coloquial incorrecto, como decir \"dijistes\" en lugar de \"dijiste\".",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=metaplasmos+lenguaje",
+                "exercises": []
+            },
+            {
+                "topic": "La Conversación",
+                "subject": "Lengua y Literatura",
+                "concept": "Es una forma de comunicación interactiva y espontánea entre dos o más personas que intercambian ideas, información o sentimientos, caracterizada por alternar turnos de palabra.",
+                "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=la+conversacion+comunicacion",
+                "exercises": []
+            },
+            {
+                "topic": "Vicios Pragmáticos en el Lenguaje",
+                "subject": "Lengua y Literatura",
+                "concept": "Son errores o malos hábitos en el uso del lenguaje que ocurren directamente en el momento de la comunicación, los cuales entorpecen la fluidez o afectan la claridad del mensaje, como por ejemplo abusar de muletillas o usar arcaísmos.",
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=vicios+pragmaticos+del+lenguaje",
+                "exercises": []
+            },
+            {
+                "topic": "El origen de las polis",
+                "subject": "Historia",
+                "concept": "Se refiere al surgimiento en la Antigua Grecia de las ciudades-estado independientes conocidas como \"polis\", las cuales funcionaban como pequeños países autónomos, cada una con su propio gobierno, leyes, territorio, ejército y moneda.",
+                "image": "https://images.unsplash.com/photo-1503152394-c571994fd383?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+origen+de+las+polis+griegas",
+                "exercises": []
+            },
+            {
+                "topic": "Las colonizaciones griegas",
+                "subject": "Historia",
+                "concept": "Fue el proceso de gran expansión migratoria y territorial impulsado por los griegos entre los siglos VIII y VI a.C., mediante el cual fundaron nuevas colonias a lo largo de las costas del mar Mediterráneo y el mar Negro para buscar tierras cultivables y expandir sus rutas comerciales.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=las+colonizaciones+griegas",
+                "exercises": []
+            },
+            {
+                "topic": "Analogías verbales",
+                "subject": "Razonamiento Verbal",
+                "concept": "Son ejercicios que consisten en identificar la relación lógica o de semejanza que existe entre dos pares de palabras, evaluando la capacidad de entender cómo se conectan los conceptos, por ejemplo: \"Aleta es a pez como ala es a ave\".",
+                "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=analogias+verbales+ejercicios",
+                "exercises": [
+                    {
+                        "problem": "Analogía: DEDO es a MANO como:\n\na) Hoja es a Rama\nb) Zapato es a Pie\nc) Pétalo es a Flor\nd) Sombrero es a Cabeza",
+                        "solution": "1. Analizamos la relación entre el primer par de palabras: 'dedo' y 'mano'. Un dedo es una parte constituyente de la mano (relación de parte a todo).\n2. Evaluamos las opciones para encontrar una relación equivalente:\n   - 'Hoja' y 'Rama': Una hoja es parte de una rama, pero la rama a su vez es parte de un árbol, y la relación no es tan directa como miembro y extremidad.\n   - 'Zapato' y 'Pie': El zapato cubre al pie (relación de objeto de uso a órgano corporal).\n   - 'Pétalo' y 'Flor': Un pétalo es una parte constituyente e indispensable de la estructura de una flor (relación de parte a todo exacta).\n   - 'Sombrero' y 'Cabeza': El sombrero cubre a la cabeza.\n3. Por lo tanto, la opción correcta es la c) Pétalo es a Flor."
+                    },
+                    {
+                        "problem": "Analogía: CALIENTE es a FRÍO como:\n\na) Alto es a Gigante\nb) Luz es a Oscuridad\nc) Agua es a Hielo\nd) Correr es a Caminar",
+                        "solution": "1. Analizamos la relación entre 'caliente' y 'frío'. Son antónimos o conceptos opuestos extremos en una escala térmica.\n2. Buscamos el par con la misma relación de oposición:\n   - 'Alto' y 'Gigante': Relación de intensidad (un gigante es extremadamente alto).\n   - 'Luz' y 'Oscuridad': Son antónimos directos y excluyentes (donde hay luz no hay oscuridad).\n   - 'Agua' y 'Hielo': Diferentes estados físicos de la misma sustancia.\n   - 'Correr' y 'Caminar': Diferentes intensidades o velocidades del mismo tipo de locomoción.\n3. La opción b) presenta la relación de antonimia perfecta. La opción correcta es la b)."
+                    }
+                ]
+            },
+            {
+                "topic": "Selección lógica",
+                "subject": "Razonamiento Verbal",
+                "concept": "Es la habilidad para analizar un conjunto de datos o afirmaciones y deducir la respuesta correcta o la conclusión válida, aplicando principios de sentido común y descartando opciones ilógicas o inconsistentes.",
+                "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=seleccion+logica+razonamiento+verbal",
+                "exercises": [
+                    {
+                        "problem": "Selección lógica: Si todos los mamíferos tienen pelo y el perro es un mamífero, entonces la conclusión lógica es:\n\na) El perro a veces tiene pelo.\nb) El perro es el único mamífero con pelo.\nc) El perro tiene pelo.\nd) Algunos perros no tienen pelo.",
+                        "solution": "1. Identificamos las premisas del silogismo:\n   - Premisa 1 (Universal): Todos los mamíferos tienen pelo.\n   - Premisa 2 (Particular): El perro es un mamífero.\n2. Si el conjunto de 'perros' pertenece enteramente al conjunto de 'mamíferos', y todos los miembros del conjunto 'mamíferos' tienen la propiedad de tener pelo, se deduce necesariamente que el perro posee dicha propiedad.\n3. Por lo tanto, la conclusión lógica y certera es 'El perro tiene pelo'. La opción correcta es la c)."
+                    },
+                    {
+                        "problem": "Selección lógica: Juan es más alto que Pedro, y Pedro es más alto que Luis. Por lo tanto:\n\na) Luis es el más alto de los tres.\nb) Juan es más alto que Luis.\nc) Pedro es más bajo que Luis.\nd) Juan y Luis miden lo mismo.",
+                        "solution": "1. Traducimos las afirmaciones de comparación a símbolos matemáticos de desigualdad:\n   - Juan > Pedro\n   - Pedro > Luis\n2. Aplicamos la propiedad transitiva de la relación de orden mayor que: Si A > B y B > C, entonces A > C.\n3. Reemplazando con los nombres: Juan > Luis (Juan es más alto que Luis).\n4. La opción correcta es la b)."
+                    }
+                ]
+            },
+            {
+                "topic": "Fracciones",
+                "subject": "Razonamiento Numérico",
+                "concept": "Representan matemáticamente una parte de un todo, expresando una cantidad dividida entre otra; se componen de un numerador que indica las partes que se toman, y un denominador que indica en cuántas partes iguales se dividió el entero.",
+                "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=fracciones+matematicas+desde+cero",
+                "exercises": [
+                    {
+                        "problem": "¿Cuál es el resultado de sumar las fracciones 1/4 + 2/4?\n\na) 3/8\nb) 3/4\nc) 2/8\nd) 4/4",
+                        "solution": "1. Identificamos que ambas fracciones tienen el mismo denominador (4), lo que significa que son fracciones homogéneas.\n2. En la suma de fracciones homogéneas, se mantiene el denominador y se suman los numeradores directamente:\n   1/4 + 2/4 = (1 + 2) / 4 = 3/4.\n3. Por lo tanto, el resultado es 3/4. La opción correcta es la b)."
+                    },
+                    {
+                        "problem": "Si comes 3 porciones de una pizza que fue dividida en 8 partes iguales, ¿qué fracción de la pizza queda intacta?\n\na) 3/8\nb) 5/8\nc) 8/5\nd) 1/8",
+                        "solution": "1. Representamos la pizza entera como una fracción: como fue dividida en 8 partes, la pizza completa es 8/8.\n2. Representamos la cantidad de pizza comida: 3 de las 8 partes equivale a 3/8.\n3. Restamos la cantidad consumida del total para obtener la fracción restante:\n   Pizza restante = 8/8 - 3/8 = (8 - 3) / 8 = 5/8.\n4. La opción correcta es la b) 5/8."
+                    }
+                ]
+            },
+            {
+                "topic": "Operaciones básicas",
+                "subject": "Razonamiento Numérico",
+                "concept": "Comprenden los cálculos aritméticos fundamentales, es decir, la suma, la resta, la multiplicación y la división, los cuales son la base indispensable para resolver cualquier problema matemático.",
+                "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=operaciones+basicas+jerarquia+de+operaciones",
+                "exercises": [
+                    {
+                        "problem": "Resuelve la siguiente operación respetando la jerarquía matemática: 15 + 5 × 2 =\n\na) 40\nb) 20\nc) 25\nd) 100",
+                        "solution": "1. Recordamos la regla de jerarquía de operaciones (PEMDAS / GMDAS): Las multiplicaciones y divisiones se deben realizar antes que las sumas y restas.\n2. Aplicamos la multiplicación primero:\n   5 × 2 = 10.\n3. Realizamos la suma con el resultado obtenido:\n   15 + 10 = 25.\n4. El resultado correcto es 25. La opción correcta es la c)."
+                    },
+                    {
+                        "problem": "Si compras 4 cuadernos a $3 cada uno y pagas con un billete de $20, ¿cuánto recibes de vuelto?\n\na) $12\nb) $8\nc) $10\nd) $6",
+                        "solution": "1. Calculamos primero el costo total de la compra multiplicando la cantidad de cuadernos por el precio unitario:\n   Costo Total = 4 × $3 = $12.\n2. Restamos el costo total del monto pagado para obtener el vuelto:\n   Vuelto = $20 - $12 = $8.\n3. Por tanto, recibes de vuelto $8. La opción correcta es la b)."
+                    }
+                ]
+            }
+        ], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
     },
     "Semana 2": {
         "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []

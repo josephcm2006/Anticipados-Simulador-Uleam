@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Decorative background glow spheres (Dark mode only) -->
+    <div class="glow-sphere glow-sphere-purple"></div>
+    <div class="glow-sphere glow-sphere-cyan"></div>
+
     <div class="app-container">
         <!-- HEADER -->
         <header class="app-header">
@@ -20,7 +24,12 @@
                 <span class="logo-icon">⚡</span>
                 <h1 class="logo-text">Anticipados <span class="accent-text">Simulador</span></h1>
             </div>
-            <div class="header-tag">por Joseph Coello</div>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar tema">
+                    <span class="theme-toggle-icon">🌙</span>
+                </button>
+                <div class="header-tag">por Joseph Coello</div>
+            </div>
         </header>
 
         <!-- MAIN CONTENT SWITCHER -->
