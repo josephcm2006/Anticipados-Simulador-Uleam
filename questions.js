@@ -1372,7 +1372,463 @@ const questionsData = {
                 "explanation": "La multiplicación de fracciones es directa: se multiplican numeradores entre sí para obtener el nuevo numerador, y denominadores entre sí para el deminador resultante."
             }
         ],
-        "Jueves": [],
+        "Jueves": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué es la declamación?",
+                "options": [
+                    "Leer un texto en silencio y rápidamente.",
+                    "El arte de interpretar un poema frente a un público usando la voz, la entonación y los gestos.",
+                    "Escribir un poema utilizando rimas asonantes.",
+                    "Traducir una obra teatral antigua a un idioma moderno."
+                ],
+                "correct": 1,
+                "explanation": "La declamación consiste en la interpretación artística de poemas ante un público, integrando el uso adecuado de la voz, el tono y la expresión corporal para transmitir el sentido estético del texto."
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "A diferencia de una simple lectura en voz alta, la declamación requiere:",
+                "options": [
+                    "Que el texto sea improvisado en el momento.",
+                    "El uso del lenguaje corporal y la transmisión profunda de emociones.",
+                    "Que el presentador esté sentado y sin mirar al público.",
+                    "El uso exclusivo de textos expositivos."
+                ],
+                "correct": 1,
+                "explanation": "Mientras que la lectura en voz alta solo busca oralizar el texto, la declamación busca conmover e interpretar, apoyándose decididamente en la gestualidad y la emotividad."
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué son los \"vicios sintácticos\" en el lenguaje?",
+                "options": [
+                    "Palabras que suenan mal pero están bien escritas.",
+                    "Errores en la pronunciación de las vocales.",
+                    "Errores que afectan la estructura gramatical y el orden lógico de las palabras en una oración.",
+                    "El uso excesivo de signos de exclamación."
+                ],
+                "correct": 2,
+                "explanation": "Los vicios sintácticos corresponden a infracciones de las reglas de construcción o concordancia gramatical, afectando la correcta hilación y estructura de los enunciados."
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de las siguientes oraciones presenta un vicio sintáctico conocido como \"solecismo\" (error de concordancia o construcción)?",
+                "options": [
+                    "Hubieron muchas personas en la fiesta.",
+                    "Hubo muchas personas en la fiesta.",
+                    "El niño juega en el parque.",
+                    "Nosotros fuimos al cine ayer."
+                ],
+                "correct": 0,
+                "explanation": "El verbo haber usado como impersonal ('hubo') debe conjugarse en tercera persona del singular. La forma 'hubieron' para indicar la presencia de varios elementos es un solecismo de concordancia."
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "Los vicios semánticos son errores que:",
+                "options": [
+                    "Solo ocurren en la poesía.",
+                    "Alteran el orden de sujeto y predicado.",
+                    "Oscurecen o alteran el significado real de las palabras, generando confusión.",
+                    "Consisten en escribir sin tildes."
+                ],
+                "correct": 2,
+                "explanation": "A diferencia de los sintácticos, los vicios semánticos son aquellos que inciden directamente sobre la significación o sentido de los vocablos, entorpeciendo la interpretación exacta de la idea."
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "La \"anfibología\" es un vicio semántico que consiste en:",
+                "options": [
+                    "Inventar palabras nuevas que no existen.",
+                    "Construir frases con doble sentido o ambigüedad, dificultando saber qué se quiso decir.",
+                    "Repetir la misma palabra muchas veces.",
+                    "Usar palabras en inglés cuando se habla español."
+                ],
+                "correct": 1,
+                "explanation": "La anfibología o ambigüedad ocurre cuando la redacción de un enunciado permite dos o más interpretaciones diferentes, lo cual confunde al receptor."
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "Lee esta oración: \"Se vende ropa de señora usada\". Este es un claro ejemplo de anfibología porque:",
+                "options": [
+                    "No tiene sujeto explícito.",
+                    "Faltan comas en la oración.",
+                    "No queda claro si lo que está usado es la ropa o la señora.",
+                    "Contiene un error de ortografía."
+                ],
+                "correct": 2,
+                "explanation": "Al colocar 'usada' después de 'señora', se genera la duda de si el adjetivo califica a la ropa o a la señora, constituyendo un caso típico de anfibología."
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "Si una persona dice: \"Me compré un ticket para el cine\" en lugar de \"boleto\", está cometiendo un vicio del lenguaje llamado:",
+                "options": [
+                    "Solecismo",
+                    "Extranjerismo (préstamo innecesario)",
+                    "Anfibología",
+                    "Declamación"
+                ],
+                "correct": 1,
+                "explanation": "Consiste en utilizar términos de otros idiomas (en este caso el inglés 'ticket') cuando en el propio español existen equivalentes perfectos como 'boleto' o 'entrada'."
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "En la declamación, el movimiento de las manos y las expresiones faciales son:",
+                "options": [
+                    "Completamente innecesarios.",
+                    "Elementos no verbales fundamentales para acompañar el sentimiento del poema.",
+                    "Prohibidos por las reglas del teatro clásico.",
+                    "Solo útiles si el público no escucha bien."
+                ],
+                "correct": 1,
+                "explanation": "Los recursos corporales y gestuales forman parte de la expresión no verbal, siendo indispensables para realzar y transmitir los matices emotivos inherentes al poema declamado."
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de estos es un vicio sintáctico?",
+                "options": [
+                    "Decir \"subir para arriba\".",
+                    "Decir \"Acuérdate que\" en lugar de \"Acuérdate de que\" (queísmo/dequeísmo).",
+                    "Hablar con un tono de voz muy bajo.",
+                    "Escribir un poema sin rima."
+                ],
+                "correct": 1,
+                "explanation": "El queísmo ('acuérdate que') es un vicio sintáctico o gramatical porque suprime indebidamente la preposición 'de' exigida por el régimen verbal (acordarse de algo)."
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "En la Antigua Grecia, ¿cuál fue la principal diferencia política entre Atenas y Esparta?",
+                "options": [
+                    "Atenas era gobernada por faraones y Esparta por reyes persas.",
+                    "Atenas fue la cuna de la democracia, mientras que Esparta tenía un sistema militarista y oligárquico.",
+                    "Ambas tenían exactamente el mismo gobierno democrático.",
+                    "Esparta no tenía ejército y Atenas era pacífica."
+                ],
+                "correct": 1,
+                "explanation": "Atenas representó el surgimiento de la participación ciudadana y el gobierno democrático, mientras que Esparta basó su estructura en una oligarquía rígida dirigida por guerreros."
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "La sociedad espartana estaba enfocada principalmente en:",
+                "options": [
+                    "El comercio marítimo y las artes.",
+                    "La filosofía y el teatro.",
+                    "La disciplina militar y la guerra desde la niñez.",
+                    "La agricultura pacífica."
+                ],
+                "correct": 2,
+                "explanation": "Toda la estructura civil y educativa (la agogé) en Esparta estaba orientada a forjar soldados de élite disciplinados para defender los intereses del Estado."
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Qué ciudad-estado (polis) griega es recordada por el gran desarrollo de la filosofía, el arte, la arquitectura y el debate político?",
+                "options": [
+                    "Troya",
+                    "Esparta",
+                    "Atenas",
+                    "Macedonia"
+                ],
+                "correct": 2,
+                "explanation": "Atenas floreció como el epicentro cultural e intelectual de la Hélade, legando enormes desarrollos en la filosofía clásica, las artes plásticas y los ideales democráticos."
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Qué evento marca el inicio de la \"etapa helenística\"?",
+                "options": [
+                    "El inicio de las guerras médicas.",
+                    "La caída del Imperio Romano.",
+                    "La muerte de Alejandro Magno en el año 323 a.C.",
+                    "La fundación de la ciudad de Atenas."
+                ],
+                "correct": 2,
+                "explanation": "Tradicionalmente se toma la muerte prematura de Alejandro Magno (323 a.C.) y la posterior división de su imperio entre sus generales como el inicio del helenismo."
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "El concepto de \"helenismo\" o época helenística se refiere a:",
+                "options": [
+                    "La fusión de la cultura griega con las culturas orientales (Egipto, Persia) tras las conquistas de Alejandro Magno.",
+                    "El período de mayor aislamiento de Grecia del resto del mundo.",
+                    "El momento en que Esparta conquistó el mundo entero.",
+                    "La adopción de la cultura romana por parte de los griegos."
+                ],
+                "correct": 0,
+                "explanation": "El helenismo supuso una época de cosmopolitismo e intercambio cultural sin precedentes, donde las costumbres, el idioma (koiné) y la filosofía griega se amalgamaron con tradiciones del Medio Oriente y Egipto."
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Quién fue el líder militar responsable de crear el vasto imperio que dio paso a la etapa helenística?",
+                "options": [
+                    "Julio César",
+                    "Pericles",
+                    "Leónidas",
+                    "Alejandro Magno"
+                ],
+                "correct": 3,
+                "explanation": "Alejandro Magno, rey de Macedonia, emprendió una gran campaña militar derrotando al Imperio Persa y uniendo bajo su mando un inmenso territorio que abarcaba desde Grecia hasta la India."
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "Durante la época helenística, una ciudad en Egipto se convirtió en el mayor centro cultural, científico y comercial del mundo, famosa por su gran biblioteca. ¿Cuál era?",
+                "options": [
+                    "Alejandría",
+                    "Constantinopla",
+                    "Babilonia",
+                    "Esparta"
+                ],
+                "correct": 0,
+                "explanation": "Alejandría de Egipto, fundada por Alejandro Magno, destacó como la gran metrópolis científica y cultural del helenismo, albergando intelectuales de diversas regiones y una vastísima biblioteca."
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "En Esparta, el gobierno estaba liderado por dos reyes simultáneamente. Este sistema se conoce como:",
+                "options": [
+                    "Democracia directa",
+                    "Diarquía",
+                    "Tiranía",
+                    "Anarquía"
+                ],
+                "correct": 1,
+                "explanation": "La diarquía es una forma de gobierno en la que el poder monárquico es compartido por dos reyes jefes que gobiernan de manera conjunta, como sucedía en la estructura espartana."
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿Cómo era la educación de los niños en Atenas en comparación con Esparta?",
+                "options": [
+                    "En Atenas los preparaban solo para la guerra; en Esparta para la filosofía.",
+                    "En Atenas buscaban una formación integral (intelectual y física); en Esparta los separaban de su familia para un duro entrenamiento militar.",
+                    "En ambas ciudades la educación estaba prohibida.",
+                    "Solo las mujeres recibían educación en Atenas."
+                ],
+                "correct": 1,
+                "explanation": "El ideal educativo ateniense promovía el cultivo de la mente (retórica, música, matemáticas) a la par del cuerpo, mientras que el modelo espartano priorizaba casi con exclusividad la obediencia ciega, el esfuerzo físico extremo y la preparación militar."
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "El fin de la etapa helenística se marca tradicionalmente con:",
+                "options": [
+                    "La conquista de Grecia y Egipto por parte del Imperio Romano (como la derrota de Cleopatra).",
+                    "El descubrimiento de América.",
+                    "La invasión de los hunos.",
+                    "El inicio del Renacimiento."
+                ],
+                "correct": 0,
+                "explanation": "Culmina de manera formal con la anexión definitiva del último gran reino helenístico (el Egipto de los Ptolomeos bajo Cleopatra) al Imperio Romano, tras la batalla de Actium."
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Identifica el término excluido:",
+                "options": [
+                    "Guitarra",
+                    "Violín",
+                    "Arpa",
+                    "Trompeta"
+                ],
+                "correct": 3,
+                "explanation": "Trompeta es un instrumento de viento; el resto son de cuerda."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Identifica el término excluido en este grupo de profesiones:",
+                "options": [
+                    "Abogado",
+                    "Juez",
+                    "Fiscal",
+                    "Arquitecto"
+                ],
+                "correct": 3,
+                "explanation": "Arquitecto es de la construcción; los demás pertenecen al ámbito del derecho."
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar la siguiente oración: (1. parque / 2. Los / 3. juegan / 4. en / 5. niños / 6. el)",
+                "options": [
+                    "2, 5, 3, 4, 6, 1",
+                    "2, 3, 5, 4, 1, 6",
+                    "5, 2, 3, 4, 6, 1",
+                    "4, 6, 1, 2, 5, 3"
+                ],
+                "correct": 0,
+                "explanation": "Al ordenar las palabras en la secuencia 2 (Los), 5 (niños), 3 (juegan), 4 (en), 6 (el), 1 (parque), obtenemos 'Los niños juegan en el parque', que es la estructura sintácticamente correcta."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar la siguiente oración: (1. examen / 2. difícil / 3. El / 4. muy / 5. estaba)",
+                "options": [
+                    "3, 2, 5, 4, 1",
+                    "3, 1, 5, 4, 2",
+                    "1, 3, 5, 4, 2",
+                    "5, 4, 2, 3, 1"
+                ],
+                "correct": 1,
+                "explanation": "Al seguir la secuencia 3 (El), 1 (examen), 5 (estaba), 4 (muy), 2 (difícil), formamos la oración coherente 'El examen estaba muy difícil'."
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar la siguiente oración: (1. mañana / 2. lloverá / 3. intensa / 4. de / 5. manera)",
+                "options": [
+                    "1, 2, 4, 5, 3",
+                    "2, 1, 3, 4, 5",
+                    "4, 5, 3, 1, 2",
+                    "1, 3, 2, 5, 4"
+                ],
+                "correct": 0,
+                "explanation": "La combinación lógica es 1 (Mañana), 2 (lloverá), 4 (de), 5 (manera), 3 (intensa), resultando en la oración coherente 'Mañana lloverá de manera intensa'."
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Numérico",
+                "question": "Si lanzas una moneda al aire, ¿cuál es la probabilidad de que caiga en \"cara\"?",
+                "options": [
+                    "1/4 (25%)",
+                    "1/2 (50%)",
+                    "1/3 (33.3%)",
+                    "1/1 (100%)"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, debes ver los casos favorables sobre los casos posibles. Solo hay 1 cara favorable, y 2 lados posibles en la moneda, así que es 1 dividido para 2 (1/2 o 50%)."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Numérico",
+                "question": "Si lanzas un dado estándar de 6 caras, ¿cuál es la probabilidad de sacar exactamente un 4?",
+                "options": [
+                    "1/2",
+                    "4/6",
+                    "1/6",
+                    "1/4"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, en un dado solo hay un número 4, ese es tu caso favorable. Como hay 6 caras en total, la probabilidad es 1 de 6 (1/6)."
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Numérico",
+                "question": "Al lanzar un dado de 6 caras, ¿cuál es la probabilidad de sacar un número par?",
+                "options": [
+                    "1/6",
+                    "2/6",
+                    "3/6 (o 1/2)",
+                    "4/6"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, cuentas cuántos números pares hay en el dado: el 2, el 4 y el 6. Son 3 casos favorables de 6 posibles. Al simplificar 3/6 te da 1/2."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Numérico",
+                "question": "En una bolsa hay 3 canicas rojas y 2 canicas azules. Si sacas una canica al azar, ¿cuál es la probabilidad de que sea roja?",
+                "options": [
+                    "3/5",
+                    "2/5",
+                    "1/3",
+                    "1/5"
+                ],
+                "correct": 0,
+                "explanation": "Para resolver esto, primero sumas todas las canicas: 3 rojas + 2 azules = 5 canicas en total. Como quieres sacar una roja, y hay 3, tu probabilidad es 3 de 5, es decir 3/5."
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Numérico",
+                "question": "¿Cuál es la probabilidad de un evento imposible (por ejemplo, sacar un 7 en un dado normal de 6 caras)?",
+                "options": [
+                    "1",
+                    "0",
+                    "-1",
+                    "1/2"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, por regla general en matemáticas, si un evento jamás va a suceder, su probabilidad siempre será cero."
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Si 2 trabajadores pintan 1 pared en 3 días, ¿cuántos días tardarán 4 trabajadores en pintar 2 paredes iguales? (Asumiendo el mismo ritmo)",
+                "options": [
+                    "2 días",
+                    "3 días",
+                    "4 días",
+                    "6 días"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, fíjate en la lógica: si duplicas los trabajadores de 2 a 4, trabajarán el doble de rápido, pero como también duplicas las paredes de 1 a 2, el tiempo extra se compensa. Por eso, tardarán los mismos 3 días."
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Si 3 impresoras imprimen 100 páginas en 2 horas, ¿cuántas horas tardarán 6 impresoras en imprimir 200 páginas?",
+                "options": [
+                    "1 hora",
+                    "2 horas",
+                    "4 horas",
+                    "6 horas"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto aplicamos la misma lógica anterior: tienes el doble de impresoras (de 3 a 6), pero también el doble de trabajo (de 100 a 200). Se compensa, así que tardan las mismas 2 horas."
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Si 5 hornos consumen 2 tanques de gas en 4 horas. ¿Cuántas horas durará 1 tanque de gas si encendemos 10 hornos?",
+                "options": [
+                    "1 hora",
+                    "2 horas",
+                    "4 horas",
+                    "8 horas"
+                ],
+                "correct": 0,
+                "explanation": "Para resolver esto, nota que pasaste de 5 a 10 hornos (el doble de consumo), y bajaste de 2 tanques a 1 (la mitad de combustible). Si con 5 hornos 1 tanque duraba 2 horas, con 10 hornos (el doble) durará la mitad del tiempo: 1 hora."
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Un establo con 4 vacas consume 10 fardos de pasto en 6 días. ¿Cuántos días durarán 20 fardos si ahora hay 8 vacas?",
+                "options": [
+                    "3 días",
+                    "6 días",
+                    "12 días",
+                    "8 días"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto: duplicaste la cantidad de vacas de 4 a 8, pero también duplicaste la cantidad de pasto de 10 a 20. El alimento extra compensa a las vacas extra, durando los mismos 6 días."
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Si 10 máquinas fabrican 50 juguetes en 5 días. ¿Cuántos días tardarán 5 máquinas en fabricar los mismos 50 juguetes?",
+                "options": [
+                    "2.5 días",
+                    "5 días",
+                    "10 días",
+                    "15 días"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, la cantidad de juguetes (50) no cambia. Si reduces las máquinas a la mitad (de 10 a 5), lógicamente se van a demorar el doble de tiempo. Por eso pasas de 5 a 10 días."
+            }
+        ],
         "Viernes": [],
         "Sábado": [],
         "Domingo": []
@@ -1746,7 +2202,117 @@ const studyData = {
                     }
                 ]
             }
-        ], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
+        ],
+        "Jueves": [
+            {
+                "topic": "La Declamación",
+                "subject": "Lengua y Literatura",
+                "concept": "Es el arte escénico de interpretar un poema o texto literario frente a un público, utilizando no solo la voz y la entonación, sino también los gestos y la expresión corporal para transmitir emociones de manera profunda y conmover a quienes escuchan.",
+                "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd6a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=la+declamacion+poetica",
+                "exercises": []
+            },
+            {
+                "topic": "Vicios Sintácticos en el Lenguaje",
+                "subject": "Lengua y Literatura",
+                "concept": "Son errores que afectan la estructura gramatical o el orden lógico de las palabras dentro de una oración (como el solecismo, queísmo, o falta de concordancia), lo cual dificulta la comprensión del mensaje y transgrede las normas de la lengua.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=vicios+sintacticos+en+el+lenguaje",
+                "exercises": []
+            },
+            {
+                "topic": "Vicios Semánticos en el Lenguaje",
+                "subject": "Lengua y Literatura",
+                "concept": "Son alteraciones que oscurecen o confunden el significado de las palabras o de la oración en su totalidad. Un ejemplo común es la anfibología, que consiste en construir frases con doble sentido involuntario, o el uso inapropiado de extranjerismos innecesarios.",
+                "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=vicios+semanticos+en+el+lenguaje+anfibologia",
+                "exercises": []
+            },
+            {
+                "topic": "Dos tipos de polis: Atenas y Esparta",
+                "subject": "Historia",
+                "concept": "Representan los dos modelos de ciudades-estado (polis) más importantes de la Antigua Grecia. Atenas se destacó por su desarrollo democrático, su enfoque en el debate, la filosofía, las artes y el comercio, mientras que Esparta estructuró una sociedad estrictamente militarizada, oligárquica (gobernada por una diarquía) y orientada a la guerra.",
+                "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=atenas+y+esparta+diferencias",
+                "exercises": []
+            },
+            {
+                "topic": "La etapa helenística",
+                "subject": "Historia",
+                "concept": "Es el período histórico que comenzó tras la muerte de Alejandro Magno en el año 323 a.C. Se caracteriza por la enorme expansión de la cultura griega y su fusión con elementos de las culturas de Egipto y el Medio Oriente, creando centros cosmopolitas destacados como la ciudad de Alejandría.",
+                "image": "https://images.unsplash.com/photo-1608155686393-8fdd966d784d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=etapa+helenistica+alejandro+magno",
+                "exercises": []
+            },
+            {
+                "topic": "Término excluido",
+                "subject": "Razonamiento Verbal",
+                "concept": "Es un ejercicio verbal que consiste en identificar la palabra que, dentro de un grupo de términos propuestos, no pertenece al campo semántico común ni guarda relación lógica o de analogía con las demás.",
+                "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=termino+excluido+razonamiento+verbal",
+                "exercises": [
+                    {
+                        "problem": "Identifica el término excluido:\n\na) Guitarra\nb) Violín\nc) Arpa\nd) Trompeta",
+                        "solution": "1. Analizamos la categoría común de los elementos dados: Guitarra, Violín y Arpa son instrumentos de cuerda.\n2. Comparamos con la trompeta, la cual es un instrumento de viento metal.\n3. Al no pertenecer a la familia de instrumentos de cuerda, la trompeta (opción d) es el término excluido."
+                    },
+                    {
+                        "problem": "Identifica el término excluido en este grupo de profesiones:\n\na) Abogado\nb) Juez\nc) Fiscal\nd) Arquitecto",
+                        "solution": "1. Analizamos el campo de desempeño de cada profesión: Abogado, Juez y Fiscal son profesionales vinculados de forma directa con el ámbito de las leyes, el derecho y el sistema judicial.\n2. Por otro lado, la arquitectura pertenece al sector del diseño, construcción e ingeniería civil.\n3. Por tanto, Arquitecto es la profesión que no pertenece al grupo del derecho. La opción correcta es la d)."
+                    }
+                ]
+            },
+            {
+                "topic": "Ordenar oraciones",
+                "subject": "Razonamiento Verbal",
+                "concept": "Consiste en estructurar y organizar de manera lógica y coherente una serie de palabras o fragmentos desordenados para construir una oración gramaticalmente correcta y con sentido completo, respetando la estructura sintáctica estándar (Sujeto + Verbo + Predicado).",
+                "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=ordenar+oraciones+razonamiento+verbal",
+                "exercises": [
+                    {
+                        "problem": "Ordenar la siguiente oración: (1. parque / 2. Los / 3. juegan / 4. en / 5. niños / 6. el)\n\na) 2, 5, 3, 4, 6, 1\nb) 2, 3, 5, 4, 1, 6\nc) 5, 2, 3, 4, 6, 1\nd) 4, 6, 1, 2, 5, 3",
+                        "solution": "1. Buscamos el sujeto o agente de la acción, el cual está compuesto por un artículo y un sustantivo: 'Los niños' (2, 5).\n2. Identificamos el verbo o acción principal que realiza el sujeto: 'juegan' (3).\n3. Buscamos el complemento circunstancial de lugar que detalla dónde juegan: 'en el parque' (4, 6, 1).\n4. Al unir estas partes, la estructura sintáctica correcta es 'Los niños juegan en el parque', lo que corresponde a la secuencia 2, 5, 3, 4, 6, 1.\n5. Por lo tanto, la opción correcta es la a)."
+                    },
+                    {
+                        "problem": "Ordenar la siguiente oración: (1. examen / 2. difícil / 3. El / 4. muy / 5. estaba)\n\na) 3, 2, 5, 4, 1\nb) 3, 1, 5, 4, 2\nc) 1, 3, 5, 4, 2\nd) 5, 4, 2, 3, 1",
+                        "solution": "1. Ubicamos el sustantivo que funciona como sujeto de la oración: 'El examen' (3, 1).\n2. Identificamos el verbo copulativo que describe el estado del sujeto: 'estaba' (5).\n3. Colocamos el adverbio de intensidad y el adjetivo que componen el atributo del sujeto: 'muy difícil' (4, 2).\n4. La estructura sintácticamente coherente es 'El examen estaba muy difícil', equivalente al orden 3, 1, 5, 4, 2.\n5. La opción correcta es la b)."
+                    }
+                ]
+            },
+            {
+                "topic": "Probabilidad",
+                "subject": "Razonamiento Numérico",
+                "concept": "Es la rama de las matemáticas que calcula el nivel de certidumbre de que ocurra un suceso aleatorio. Se expresa como una fracción o porcentaje entre 0 (imposibilidad absoluta) y 1 (certeza total), aplicando la Regla de Laplace: Casos Favorables divididos por Casos Posibles.",
+                "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=probabilidad+desde+cero",
+                "exercises": [
+                    {
+                        "problem": "En una bolsa hay 3 canicas rojas y 2 canicas azules. Si sacas una canica al azar, ¿cuál es la probabilidad de que sea roja?\n\na) 3/5\nb) 2/5\nc) 1/3\nd) 1/5",
+                        "solution": "1. Identificamos el total de eventos o casos posibles sumando todas las canicas que hay dentro de la bolsa: 3 rojas + 2 azules = 5 canicas en total.\n2. Definimos los casos favorables que cumplen con nuestra condición (sacar una roja): como hay 3 canicas rojas, tenemos 3 casos favorables.\n3. Aplicamos la regla de Laplace (probabilidad = casos favorables / casos posibles): P = 3 / 5.\n4. La respuesta correcta es la opción a) 3/5."
+                    },
+                    {
+                        "problem": "Si lanzas un dado estándar de 6 caras, ¿cuál es la probabilidad de sacar exactamente un 4?\n\na) 1/2\nb) 4/6\nc) 1/6\nd) 1/4",
+                        "solution": "1. Identificamos los casos posibles: un dado estándar tiene 6 caras numeradas del 1 al 6 (6 casos posibles).\n2. Determinamos los casos favorables: solo una de esas caras tiene impreso el número 4 (1 caso favorable).\n3. Dividimos casos favorables para casos posibles: P = 1 / 6.\n4. La respuesta correcta es la c) 1/6."
+                    }
+                ]
+            },
+            {
+                "topic": "Proporcionalidad compuesta",
+                "subject": "Razonamiento Numérico",
+                "concept": "Es una técnica matemática para resolver problemas que relacionan tres o más magnitudes proporcionales. A diferencia de la proporcionalidad simple, aquí se comparan múltiples variables al mismo tiempo, determinando si las relaciones entre ellas son directas o inversas para calcular una incógnita.",
+                "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=proporcionalidad+compuesta+regla+de+tres+compuesta",
+                "exercises": [
+                    {
+                        "problem": "Si 2 trabajadores pintan 1 pared en 3 días, ¿cuántos días tardarán 4 trabajadores en pintar 2 paredes iguales? (Asumiendo el mismo ritmo)\n\na) 2 días\nb) 3 días\nc) 4 días\nd) 6 días",
+                        "solution": "1. Analizamos las relaciones de proporcionalidad con respecto al número de días:\n   - A más trabajadores, menos días se demorarán (Relación Inversa).\n   - A más paredes a pintar, más días se demorarán (Relación Directa).\n2. Razonamos lógicamente:\n   - Duplicamos los trabajadores (de 2 a 4), por lo que el tiempo de ejecución para pintar 1 pared se reduce a la mitad (3 días / 2 = 1.5 días).\n   - Duplicamos la cantidad de trabajo (de 1 a 2 paredes), por lo que el tiempo necesario se duplica nuevamente (1.5 días * 2 = 3 días).\n3. Ambas variaciones de escala se neutralizan mutuamente, por ende, el tiempo requerido sigue siendo de 3 días.\n4. La opción correcta es la b)."
+                    },
+                    {
+                        "problem": "Si 3 impresoras imprimen 100 páginas en 2 horas, ¿cuántas horas tardarán 6 impresoras en imprimir 200 páginas?\n\na) 1 hora\nb) 2 horas\nc) 4 horas\nd) 6 horas",
+                        "solution": "1. Analizamos la proporcionalidad:\n   - A más impresoras funcionando, menos horas requeridas (Inversa).\n   - A más páginas impresas, más horas requeridas (Directa).\n2. Observamos la progresión de los datos:\n   - La cantidad de impresoras se duplica (de 3 a 6), reduciendo a la mitad el tiempo para la misma cantidad de páginas (2 horas / 2 = 1 hora).\n   - La cantidad de páginas a imprimir también se duplica (de 100 a 200), lo que duplica el tiempo de impresión (1 hora * 2 = 2 horas).\n3. La mayor velocidad de trabajo se compensa exactamente con la mayor carga de impresión, de modo que tardarán las mismas 2 horas.\n4. La respuesta correcta es la b)."
+                    }
+                ]
+            }
+        ], "Viernes": [], "Sábado": [], "Domingo": []
     },
     "Semana 2": {
         "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
