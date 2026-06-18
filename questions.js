@@ -2207,7 +2207,7 @@ const studyData = {
             {
                 "topic": "La Declamación",
                 "subject": "Lengua y Literatura",
-                "concept": "Es el arte escénico de interpretar un poema o texto literario frente a un público, utilizando no solo la voz y la entonación, sino también los gestos y la expresión corporal para transmitir emociones de manera profunda y conmover a quienes escuchan.",
+                "concept": "La declamación es el arte escénico y literario que consiste en interpretar un poema frente a un público, empleando de manera armónica la voz, la modulación, la entonación y la expresión corporal. A diferencia de la simple lectura en voz alta, que busca transmitir palabras de forma lineal, la declamación persigue revivir la obra en su dimensión emocional profunda, de modo que el intérprete se convierte en un puente que conecta el sentimiento original del autor con la sensibilidad de los oyentes.\n\nPara lograr este propósito, el declamador debe dominar diversos recursos no verbales y paralingüísticos, tales como los gestos faciales, la postura corporal, los movimientos de las manos y el manejo estratégico del ritmo y los silencios. Estos elementos no verbales son fundamentales para subrayar la intensidad de los versos, evitando tanto la monotonía como la gesticulación exagerada o artificial, logrando así una puesta en escena elegante e impactante.",
                 "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd6a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=la+declamacion+poetica",
                 "exercises": []
@@ -2215,7 +2215,7 @@ const studyData = {
             {
                 "topic": "Vicios Sintácticos en el Lenguaje",
                 "subject": "Lengua y Literatura",
-                "concept": "Son errores que afectan la estructura gramatical o el orden lógico de las palabras dentro de una oración (como el solecismo, queísmo, o falta de concordancia), lo cual dificulta la comprensión del mensaje y transgrede las normas de la lengua.",
+                "concept": "Los vicios sintácticos son aquellos errores o incorrecciones que se cometen al estructurar gramaticalmente las oraciones o al ordenar las palabras dentro de un enunciado. Estas fallas atentan directamente contra las reglas de concordancia, cohesión y sintaxis establecidas por la lengua, dificultando la claridad del mensaje y la fluidez comunicativa. Entre los vicios sintácticos más recurrentes se encuentran el solecismo (errores de concordancia o régimen), el queísmo y dequeísmo, y la redundancia viciosa.\n\nEl estudio de estas incorrecciones es vital para mejorar la producción de textos y el habla formal, ya que permite identificar y corregir estructuras anómalas muy comunes como el uso pluralizado incorrecto del verbo impersonal haber (por ejemplo, decir \"hubieron muchos problemas\" en lugar de \"hubo muchos problemas\"). Al erradicar estos vicios, se garantiza una comunicación mucho más precisa, coherente y respetuosa de las normas gramaticales.",
                 "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=vicios+sintacticos+en+el+lenguaje",
                 "exercises": []
@@ -2223,7 +2223,7 @@ const studyData = {
             {
                 "topic": "Vicios Semánticos en el Lenguaje",
                 "subject": "Lengua y Literatura",
-                "concept": "Son alteraciones que oscurecen o confunden el significado de las palabras o de la oración en su totalidad. Un ejemplo común es la anfibología, que consiste en construir frases con doble sentido involuntario, o el uso inapropiado de extranjerismos innecesarios.",
+                "concept": "Los vicios semánticos son fallas en el uso del idioma que afectan de manera directa la significación o el sentido de las palabras y enunciados, generando confusión, vaguedad o interpretaciones erróneas en el receptor. A diferencia de los errores gramaticales, en este caso las palabras pueden estar bien ordenadas, pero su significado real se ve distorsionado o enmascarado por un empleo inadecuado del vocabulario o por construcciones ambiguas de doble sentido.\n\nUno de los ejemplos más notables de vicios semánticos es la anfibología o ambigüedad, la cual ocurre cuando una frase se presta a más de una interpretación lógica debido a una mala redacción (como en \"Se vende ropa de señora usada\"). Asimismo, el uso indiscriminado e innecesario de extranjerismos o préstamos lingüísticos que ya tienen un equivalente exacto en español (como decir \"ticket\" por \"boleto\") constituye otra manifestación común de estos vicios que empobrecen la riqueza de nuestro lenguaje.",
                 "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=vicios+semanticos+en+el+lenguaje+anfibologia",
                 "exercises": []
@@ -2231,7 +2231,7 @@ const studyData = {
             {
                 "topic": "Dos tipos de polis: Atenas y Esparta",
                 "subject": "Historia",
-                "concept": "Representan los dos modelos de ciudades-estado (polis) más importantes de la Antigua Grecia. Atenas se destacó por su desarrollo democrático, su enfoque en el debate, la filosofía, las artes y el comercio, mientras que Esparta estructuró una sociedad estrictamente militarizada, oligárquica (gobernada por una diarquía) y orientada a la guerra.",
+                "concept": "Atenas y Esparta representan los dos modelos políticos, sociales y culturales más influyentes e irreconciliables de las ciudades-estado (polis) de la Antigua Grecia. Atenas destacó históricamente por ser la cuna de la democracia directa, promoviendo la participación de sus ciudadanos en el debate de la asamblea, el desarrollo del libre pensamiento, la filosofía clásica, las artes plásticas, la literatura y el comercio marítimo floreciente.\n\nPor el contrario, Esparta se consolidó como una sociedad estrictamente militarizada, oligárquica e inflexible. Gobernada por una diarquía (dos reyes simultáneos) y un consejo de ancianos, centró todos sus esfuerzos estatales en el entrenamiento bélico riguroso de sus ciudadanos desde la niñez (la agogé) y en la disciplina militar extrema, relegando las artes y la filosofía con el fin de mantener un ejército invencible en tierra.",
                 "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=atenas+y+esparta+diferencias",
                 "exercises": []
@@ -2239,7 +2239,7 @@ const studyData = {
             {
                 "topic": "La etapa helenística",
                 "subject": "Historia",
-                "concept": "Es el período histórico que comenzó tras la muerte de Alejandro Magno en el año 323 a.C. Se caracteriza por la enorme expansión de la cultura griega y su fusión con elementos de las culturas de Egipto y el Medio Oriente, creando centros cosmopolitas destacados como la ciudad de Alejandría.",
+                "concept": "La etapa helenística es el período histórico de la antigüedad clásica que se extiende tradicionalmente desde la muerte de Alejandro Magno en el año 323 a.C. hasta la definitiva conquista de Egipto por parte del Imperio Romano en el año 30 a.C. Tras la muerte de Alejandro, su inmenso imperio se fragmentó en diversos reinos independientes gobernados por sus generales, lo que dio inicio a una era caracterizada por un intenso intercambio y sincretismo cultural.\n\nDurante este período, la lengua y las costumbres griegas se expandieron de forma masiva por el Medio Oriente y el norte de África, fusionándose con las ricas tradiciones locales de Egipto, Persia y Mesopotamia. Esta mezcla de mundos favoreció el florecimiento científico y cultural en grandes metrópolis de carácter cosmopolita, siendo la ciudad egipcia de Alejandría el epicentro indiscutible del conocimiento de la época gracias a su legendaria biblioteca y museo.",
                 "image": "https://images.unsplash.com/photo-1608155686393-8fdd966d784d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=etapa+helenistica+alejandro+magno",
                 "exercises": []
@@ -2247,7 +2247,7 @@ const studyData = {
             {
                 "topic": "Término excluido",
                 "subject": "Razonamiento Verbal",
-                "concept": "Es un ejercicio verbal que consiste en identificar la palabra que, dentro de un grupo de términos propuestos, no pertenece al campo semántico común ni guarda relación lógica o de analogía con las demás.",
+                "concept": "El ejercicio de término excluido es una prueba de razonamiento verbal que evalúa la capacidad de análisis y síntesis semántica de los estudiantes. Consiste en identificar y descartar, dentro de un listado de vocablos propuestos, aquella palabra que no comparte el campo semántico, la categoría gramatical o la relación de semejanza lógica que sí une a todas las demás. Esto requiere que el alumno examine detenidamente los rasgos significativos de cada opción para definir la regla de asociación del grupo.\n\nEste tipo de reactivos no solo mide la amplitud del vocabulario del estudiante, sino también su habilidad para clasificar información de manera lógica y coherente. Por ejemplo, en un conjunto que contiene nombres de instrumentos musicales como guitarra, violín y arpa, la palabra trompeta debe ser excluida debido a que pertenece a la familia de viento metal, mientras que los demás pertenecen al grupo de cuerdas, demostrando así la capacidad del estudiante para establecer categorías precisas.",
                 "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=termino+excluido+razonamiento+verbal",
                 "exercises": [
@@ -2264,7 +2264,7 @@ const studyData = {
             {
                 "topic": "Ordenar oraciones",
                 "subject": "Razonamiento Verbal",
-                "concept": "Consiste en estructurar y organizar de manera lógica y coherente una serie de palabras o fragmentos desordenados para construir una oración gramaticalmente correcta y con sentido completo, respetando la estructura sintáctica estándar (Sujeto + Verbo + Predicado).",
+                "concept": "Ordenar oraciones es un ejercicio de razonamiento verbal orientado a medir la competencia sintáctica y la lógica gramatical del alumno. Consiste en recibir un conjunto de palabras o sintagmas que han sido desorganizados y secuenciados con números, para luego reestructurarlos de tal manera que vuelvan a formar un enunciado con sentido completo, coherente y gramaticalmente correcto, siguiendo las normas sintácticas fundamentales.\n\nPara resolver exitosamente estos ejercicios, se debe identificar en primer lugar el sujeto de la acción (compuesto usualmente por un sustantivo y determinantes), luego localizar el verbo o núcleo del predicado, y finalmente situar los complementos circunstanciales y directos de forma natural. Este tipo de práctica refuerza la comprensión de las jerarquías y funciones sintácticas de la lengua, facilitando el desarrollo de destrezas de redacción y lectura analítica.",
                 "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=ordenar+oraciones+razonamiento+verbal",
                 "exercises": [
@@ -2281,7 +2281,7 @@ const studyData = {
             {
                 "topic": "Probabilidad",
                 "subject": "Razonamiento Numérico",
-                "concept": "Es la rama de las matemáticas que calcula el nivel de certidumbre de que ocurra un suceso aleatorio. Se expresa como una fracción o porcentaje entre 0 (imposibilidad absoluta) y 1 (certeza total), aplicando la Regla de Laplace: Casos Favorables divididos por Casos Posibles.",
+                "concept": "La probabilidad es la disciplina matemática que se encarga del estudio y cálculo cuantitativo de la posibilidad de que ocurra un evento o suceso determinado en un experimento de carácter aleatorio. Se expresa numéricamente en una escala que va desde el valor 0 (que indica la absoluta imposibilidad de ocurrencia de un fenómeno) hasta el valor 1 o 100% (que denota la certeza absoluta de que el evento va a suceder).\n\nPara determinar esta medida en situaciones cotidianas o teóricas simples, se recurre a la célebre Regla de Laplace, la cual establece que la probabilidad de un suceso es igual al cociente entre la cantidad de casos favorables de dicho suceso y el número total de casos posibles e igualmente probables de suceder. Este concepto es indispensable para comprender fenómenos cotidianos que involucran el azar, tales como el lanzamiento de dados, monedas, sorteos y predicciones de tendencias estadísticas.",
                 "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=probabilidad+desde+cero",
                 "exercises": [
@@ -2298,7 +2298,7 @@ const studyData = {
             {
                 "topic": "Proporcionalidad compuesta",
                 "subject": "Razonamiento Numérico",
-                "concept": "Es una técnica matemática para resolver problemas que relacionan tres o más magnitudes proporcionales. A diferencia de la proporcionalidad simple, aquí se comparan múltiples variables al mismo tiempo, determinando si las relaciones entre ellas son directas o inversas para calcular una incógnita.",
+                "concept": "La proporcionalidad compuesta es una extensión avanzada del concepto de regla de tres simple que se emplea para resolver problemas matemáticos complejos en los cuales intervienen e interactúan tres o más magnitudes proporcionales de forma simultánea. A diferencia de las proporciones simples, aquí la variable desconocida debe compararse con cada una de las otras magnitudes para determinar si mantienen una relación de proporcionalidad directa o inversa.\n\nSe dice que la relación es directa si al aumentar una magnitud, la otra también aumenta proporcionalmente, y es inversa si al incrementarse una, la otra disminuye. Al ordenar estas variables mediante multiplicaciones y divisiones concatenadas, es posible aislar y despejar la incógnita de forma rigurosa, siendo una herramienta sumamente práctica en ámbitos como la optimización de recursos, la distribución del trabajo industrial y la planificación logística.",
                 "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=proporcionalidad+compuesta+regla+de+tres+compuesta",
                 "exercises": [
