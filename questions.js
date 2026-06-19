@@ -1829,7 +1829,463 @@ const questionsData = {
                 "explanation": "Para resolver esto, la cantidad de juguetes (50) no cambia. Si reduces las máquinas a la mitad (de 10 a 5), lógicamente se van a demorar el doble de tiempo. Por eso pasas de 5 a 10 días."
             }
         ],
-        "Viernes": [],
+        "Viernes": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué es una dramatización?",
+                "options": [
+                    "La lectura silenciosa de una novela clásica.",
+                    "La representación teatral de una situación o texto mediante actores, diálogos y gestos.",
+                    "Escribir un poema triste.",
+                    "El análisis gramatical de una oración."
+                ],
+                "correct": 1,
+                "explanation": "La dramatización consiste en la representación teatral de una historia o situación donde los actores interpretan personajes mediante el uso de diálogos, gestos y movimientos corporales."
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "En un texto dramático o guion teatral, las indicaciones del autor sobre los movimientos, gestos o escenarios (que no se leen en voz alta) se llaman:",
+                "options": [
+                    "Acotaciones",
+                    "Metáforas",
+                    "Párrafos",
+                    "Diálogos"
+                ],
+                "correct": 0,
+                "explanation": "Las acotaciones son indicaciones del dramaturgo escritas entre paréntesis o en cursiva, destinadas a guiar a los actores y al director sobre la puesta en escena, gestos y movimientos."
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es el propósito principal de un conversatorio?",
+                "options": [
+                    "Que un panel debata violentamente hasta que alguien gane.",
+                    "Intercambiar ideas y reflexiones de forma oral y dialogada sobre un tema específico.",
+                    "Escribir un libro de historia.",
+                    "Convencer a la gente de comprar un producto comercial."
+                ],
+                "correct": 1,
+                "explanation": "El conversatorio es un espacio para entablar un diálogo abierto, informal pero estructurado, donde varios participantes comparten opiniones y reflexiones sobre una temática definida."
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "A diferencia de un debate formal, en el conversatorio predomina:",
+                "options": [
+                    "El uso de falacias lógicas.",
+                    "El ataque a los argumentos del oponente.",
+                    "El diálogo constructivo y el intercambio pacífico de opiniones.",
+                    "El uso exclusivo de textos escritos, nadie habla."
+                ],
+                "correct": 2,
+                "explanation": "En el conversatorio no se busca confrontar o ganar una disputa ideológica, sino construir conocimiento y compartir reflexiones mediante el diálogo respetuoso y la escucha activa."
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "El ensayo argumentativo es un tipo de texto cuyo objetivo principal es:",
+                "options": [
+                    "Narrar una historia de ciencia ficción.",
+                    "Describir un paisaje con mucho detalle.",
+                    "Persuadir o convencer al lector sobre una postura utilizando argumentos lógicos.",
+                    "Hacer reír al público con chistes."
+                ],
+                "correct": 2,
+                "explanation": "El ensayo argumentativo es un texto reflexivo y crítico en prosa donde el autor expone una tesis y trata de persuadir al lector utilizando razonamientos y argumentos válidos."
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "En la estructura de un ensayo argumentativo, la \"tesis\" corresponde a:",
+                "options": [
+                    "La portada del documento.",
+                    "La bibliografía final.",
+                    "La postura, opinión o idea principal que el autor va a defender a lo largo del texto.",
+                    "El título del ensayo."
+                ],
+                "correct": 2,
+                "explanation": "La tesis es el núcleo o eje de un ensayo argumentativo; representa la postura personal e hipótesis del autor, la cual defenderá con argumentos en el desarrollo."
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "La sección del ensayo donde se exponen las pruebas, datos, ejemplos y razones para defender la tesis se llama:",
+                "options": [
+                    "Introducción",
+                    "Cuerpo argumentativo o desarrollo",
+                    "Conclusión",
+                    "Prólogo"
+                ],
+                "correct": 1,
+                "explanation": "El cuerpo argumentativo o desarrollo contiene la sustentación de la tesis mediante argumentos de autoridad, lógicos, de causa-efecto, ejemplos, entre otros."
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "En un conversatorio, el rol de la persona que guía la charla, da los turnos de palabra y mantiene el enfoque del tema recibe el nombre de:",
+                "options": [
+                    "Juez",
+                    "Moderador",
+                    "Protagonista",
+                    "Espectador"
+                ],
+                "correct": 1,
+                "explanation": "El moderador se encarga de dar la bienvenida, introducir el tema, asignar los turnos y tiempos de palabra a los participantes, y guiar el rumbo de la conversación."
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "Al final de un ensayo argumentativo, el autor suele incluir:",
+                "options": [
+                    "Una conclusión que resume los puntos clave y reafirma la tesis.",
+                    "El inicio de una nueva novela.",
+                    "Un índice de capítulos.",
+                    "Una encuesta para el lector."
+                ],
+                "correct": 0,
+                "explanation": "La conclusión de un ensayo argumentativo tiene como finalidad sintetizar los argumentos expuestos y reiterar la validez de la tesis a la luz de los argumentos discutidos."
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes elementos es fundamental para realizar una buena dramatización?",
+                "options": [
+                    "Usar diapositivas de PowerPoint.",
+                    "La expresión corporal, el tono de voz y la interpretación de roles.",
+                    "No mirar nunca al público.",
+                    "Leer todo directamente de una enciclopedia."
+                ],
+                "correct": 1,
+                "explanation": "En una dramatización, el lenguaje no verbal (gestos, movimientos, postura) y paralingüístico (tono de voz, volumen), junto con la personificación adecuada, son vitales para dar vida al personaje y transmitir el mensaje dramático."
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "La religión en la Antigua Grecia se caracterizaba por ser:",
+                "options": [
+                    "Monoteísta (creían en un solo dios).",
+                    "Politeísta y antropomorfa (muchos dioses con forma y pasiones humanas).",
+                    "Atea (no tenían creencias religiosas).",
+                    "Budista."
+                ],
+                "correct": 1,
+                "explanation": "La religión de la Grecia Antigua era politeísta porque adoraban a múltiples deidades, y antropomorfa porque creían que los dioses tenían formas físicas, emociones, virtudes y vicios similares a los humanos."
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "En el ámbito de la filosofía, ¿quiénes son considerados los tres grandes pensadores clásicos de Grecia?",
+                "options": [
+                    "Homero, Pericles y Leónidas.",
+                    "Sófocles, Eurípides y Esquilo.",
+                    "Sócrates, Platón y Aristóteles.",
+                    "Julio César, Augusto y Nerón."
+                ],
+                "correct": 2,
+                "explanation": "Sócrates, Platón y Aristóteles representan la cumbre del pensamiento filosófico clásico de la Antigua Grecia, cuyas ideas sobre ética, política y metafísica formaron la base intelectual de Occidente."
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Qué gran sistema político moderno tiene sus raíces e invención en la antigua polis de Atenas?",
+                "options": [
+                    "La dictadura militar",
+                    "El feudalismo",
+                    "La democracia",
+                    "El comunismo"
+                ],
+                "correct": 2,
+                "explanation": "Atenas es reconocida históricamente como la cuna de la democracia (demos = pueblo, kratos = poder), un sistema político que permitía a los ciudadanos participar directamente en la toma de decisiones públicas."
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "El principal evento deportivo de la Antigüedad que unía a todas las ciudades-estado griegas, celebrado en honor al dios Zeus, era:",
+                "options": [
+                    "El Mundial de Fútbol",
+                    "Las Cruzadas",
+                    "Los Juegos Olímpicos",
+                    "El Coliseo Romano"
+                ],
+                "correct": 2,
+                "explanation": "Los Juegos Olímpicos se celebraban cada cuatro años en Olimpia en honor a Zeus, promoviendo una tregua sagrada que unía temporalmente a todas las polis en paz a través de competencias atléticas."
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿Qué otra gran civilización europea posterior copió e imitó en gran medida la cultura griega (incluyendo sus dioses, aunque cambiándoles el nombre)?",
+                "options": [
+                    "La civilización romana",
+                    "El Imperio Chino",
+                    "La cultura Maya",
+                    "Los Vikingos"
+                ],
+                "correct": 0,
+                "explanation": "La civilización romana conquistó militarmente a Grecia, pero fue conquistada culturalmente por ella. Adoptaron la mitología griega, asimilando sus deidades (por ejemplo, Zeus pasó a ser Júpiter) y su estilo artístico."
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "Las grandes epopeyas griegas, la Ilíada y la Odisea, son atribuidas tradicionalmente al poeta:",
+                "options": [
+                    "Aristóteles",
+                    "Homero",
+                    "Alejandro Magno",
+                    "Pitágoras"
+                ],
+                "correct": 1,
+                "explanation": "Homero es el célebre aedo (poeta lírico) griego a quien se le atribuye la creación de la Ilíada (sobre la Guerra de Troya) y la Odisea (sobre el retorno de Odiseo a Ítaca)."
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Qué disciplina artística literaria e interpretativa nació en Grecia durante los festivales dedicados a Dioniso, desarrollándose en géneros como la tragedia y la comedia?",
+                "options": [
+                    "El cine",
+                    "La radio",
+                    "El teatro",
+                    "La novela negra"
+                ],
+                "correct": 2,
+                "explanation": "El teatro nació en Atenas, Grecia, a partir de celebraciones rituales en honor a Dioniso, dios del vino y la fertilidad, dando origen a la tragedia (obras solemnes) y a la comedia (obras humorísticas)."
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "El arte clásico griego, particularmente en sus esculturas, buscaba principalmente:",
+                "options": [
+                    "Generar miedo y terror en el espectador.",
+                    "Representar figuras abstractas e incomprensibles.",
+                    "Representar la belleza ideal, la perfección y la proporción del cuerpo humano.",
+                    "Mostrar animales míticos de otras culturas."
+                ],
+                "correct": 2,
+                "explanation": "El arte de la Grecia clásica estuvo dominado por el ideal estético de la proporción armónica, el canon de belleza del cuerpo humano, la simetría y el equilibrio natural."
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "El juramento que hoy en día hacen los médicos al graduarse tiene un origen griego y lleva el nombre del \"padre de la medicina\". ¿Cómo se llama este juramento?",
+                "options": [
+                    "Juramento Socrático",
+                    "Juramento Hipocrático (por Hipócrates)",
+                    "Juramento Olímpico",
+                    "Juramento Ateniense"
+                ],
+                "correct": 1,
+                "explanation": "El juramento Hipocrático, atribuido a Hipócrates de Cos (médico griego del siglo V a.C.), es una declaración de principios éticos que rige la conducta profesional de los médicos hasta nuestros días."
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "Gran parte del vocabulario científico y técnico del español actual proviene del griego (ej: biología, geometría, filosofía). A estas palabras heredadas se les conoce como:",
+                "options": [
+                    "Anglicismos",
+                    "Galicismos",
+                    "Helenismos",
+                    "Arabismos"
+                ],
+                "correct": 2,
+                "explanation": "Los helenismos son vocablos o giros lingüísticos procedentes del idioma griego que se han incorporado a otra lengua, y abundan en el vocabulario científico, médico y académico del español."
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Selecciona la oración que tiene una correcta concordancia verbal:",
+                "options": [
+                    "El grupo de personas llegaron tarde al evento.",
+                    "La manada de lobos aulló durante toda la noche.",
+                    "Los niños que estaba jugando se cansaron.",
+                    "Tú y yo irá al cine mañana."
+                ],
+                "correct": 1,
+                "explanation": "La manada de lobos aulló durante toda la noche es correcta. En sujetos colectivos seguidos de un complemento plural, el verbo concuerda en singular con el núcleo sustantivo colectivo (manada aulló)."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "¿Qué oración presenta un error evidente de concordancia?",
+                "options": [
+                    "Hubo muchos problemas durante la reunión.",
+                    "La mitad de los estudiantes aprobaron el examen.",
+                    "Habían muchas personas esperando en la fila.",
+                    "Mi familia viajará a la playa el domingo."
+                ],
+                "correct": 2,
+                "explanation": "El verbo haber en su uso impersonal (para indicar existencia) se debe conjugar únicamente en tercera persona del singular: 'había muchas personas', no 'habían'."
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Completa la oración manteniendo la concordancia correcta: \"Ni la profesora ni los alumnos _______ de acuerdo con la nueva regla\".",
+                "options": [
+                    "estaba",
+                    "estuvo",
+                    "estuvieron",
+                    "estando"
+                ],
+                "correct": 2,
+                "explanation": "Cuando un sujeto coordinado por la conjunción disyuntiva 'ni' precede al verbo, y alguno o todos los elementos están en plural, el verbo debe concordar obligatoriamente en plural: 'estuvieron'."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Lee la siguiente frase: \"El ocaso tiñó de rojo el infinito horizonte marino\". ¿A qué se refiere el autor?",
+                "options": [
+                    "A un atardecer en la playa.",
+                    "A un amanecer en la montaña.",
+                    "A una tormenta de nieve.",
+                    "A un incendio en un bosque."
+                ],
+                "correct": 0,
+                "explanation": "El término 'ocaso' hace referencia a la puesta del sol o el atardecer, y al mencionar el 'horizonte marino' se establece una escena en la playa o costa."
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Comprensión lectora: \"A pesar del intenso frío y la tormenta de nieve, los rescatistas no detuvieron su marcha hasta encontrar a los excursionistas perdidos\". ¿Cuál es la idea principal de esta oración?",
+                "options": [
+                    "Que hacer excursiones es una mala idea.",
+                    "El clima frío de las montañas.",
+                    "El compromiso, la perseverancia y valentía de los rescatistas.",
+                    "Que los excursionistas no sabían abrigarse."
+                ],
+                "correct": 2,
+                "explanation": "El texto resalta el compromiso y la perseverancia de los rescatistas, quienes a pesar de las condiciones meteorológicas hostiles continuaron hasta cumplir su objetivo de rescate."
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias: ¿Qué número continúa lógicamente en la serie? 2, 4, 8, 16, ___",
+                "options": [
+                    "24",
+                    "32",
+                    "20",
+                    "64"
+                ],
+                "correct": 1,
+                "explanation": "Cada término de la secuencia se obtiene multiplicando el término anterior por 2: 2 * 2 = 4; 4 * 2 = 8; 8 * 2 = 16. Por tanto, el término siguiente es 16 * 2 = 32."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias: Encuentra el número que falta en la serie: 3, 6, 11, 18, ___",
+                "options": [
+                    "25",
+                    "27",
+                    "29",
+                    "36"
+                ],
+                "correct": 1,
+                "explanation": "La diferencia entre los números aumenta progresivamente en números impares: de 3 a 6 hay +3; de 6 a 11 hay +5; de 11 a 18 hay +7. El siguiente incremento debe ser +9, entonces 18 + 9 = 27."
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias alfanuméricas: ¿Qué elemento sigue en esta serie? 1A, 2C, 3E, 4G, ___",
+                "options": [
+                    "5H",
+                    "6J",
+                    "5I",
+                    "4H"
+                ],
+                "correct": 2,
+                "explanation": "Los números aumentan de 1 en 1 (sigue el 5). Las letras se saltan una letra en el abecedario: A -> (B) -> C -> (D) -> E -> (F) -> G -> (H) -> I (sigue la I). Por ende, el elemento es 5I."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: Si el patrón es restar 5 y luego sumar 2, ¿qué número sigue después del 12 en esta secuencia: 15, 10, 12, 7, 9, 4, ___?",
+                "options": [
+                    "2",
+                    "6",
+                    "-1",
+                    "11"
+                ],
+                "correct": 1,
+                "explanation": "Siguiendo el patrón: 15 (-5)= 10 (+2)= 12 (-5)= 7 (+2)= 9 (-5)= 4. El siguiente paso requiere sumar 2 al último valor: 4 + 2 = 6."
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones: Resuelve la siguiente ecuación de primer grado: 2x − 4 = 10",
+                "options": [
+                    "x = 3",
+                    "x = 7",
+                    "x = 14",
+                    "x = 6"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver 2x - 4 = 10, sumamos 4 a ambos lados: 2x = 14. Luego dividimos entre 2: x = 14 / 2 = 7."
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones: Si el triple de un número menos 5 es igual a 16, ¿cuál es ese número?",
+                "options": [
+                    "5",
+                    "7",
+                    "9",
+                    "21"
+                ],
+                "correct": 1,
+                "explanation": "Planteamos la ecuación: 3x - 5 = 16. Sumamos 5 en ambos miembros: 3x = 21. Dividiendo para 3, obtenemos x = 7."
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Resuelve para x: 5x = 3x + 12",
+                "options": [
+                    "x = 2",
+                    "x = 4",
+                    "x = 6",
+                    "x = 8"
+                ],
+                "correct": 2,
+                "explanation": "Transponemos los términos con x al lado izquierdo restando 3x: 5x - 3x = 12. Obtenemos 2x = 12. Dividimos entre 2: x = 6."
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Problema de ecuaciones: Juan tiene el doble de dinero que Pedro. Si entre los dos suman $60, ¿cuánto dinero tiene Pedro?",
+                "options": [
+                    "$10",
+                    "$20",
+                    "$30",
+                    "$40"
+                ],
+                "correct": 1,
+                "explanation": "Si representamos a Pedro como 'x', Juan tiene '2x'. La ecuación es x + 2x = 60, de donde 3x = 60, lo cual da x = 20. Por lo tanto, Pedro tiene $20."
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Problema de ecuaciones: La suma de dos números enteros y consecutivos es 21. ¿Cuáles son esos números?",
+                "options": [
+                    "9 y 12",
+                    "10 y 11",
+                    "8 y 13",
+                    "11 y 12"
+                ],
+                "correct": 1,
+                "explanation": "Sean los números x y x+1. Su suma es x + x + 1 = 21, o sea 2x + 1 = 21. Despejas: 2x = 20, dando x = 10. Los números son 10 y 11."
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones: Resuelve: x + (x + 2) = 18",
+                "options": [
+                    "x = 6",
+                    "x = 10",
+                    "x = 8",
+                    "x = 16"
+                ],
+                "correct": 2,
+                "explanation": "Sumando los términos semejantes: 2x + 2 = 18. Restando 2 de ambos lados: 2x = 16. Dividiendo entre 2 obtenemos x = 8."
+            }
+        ],
         "Sábado": [],
         "Domingo": []
     },
@@ -2312,7 +2768,117 @@ const studyData = {
                     }
                 ]
             }
-        ], "Viernes": [], "Sábado": [], "Domingo": []
+        ],
+        "Viernes": [
+            {
+                "topic": "La Dramatización",
+                "subject": "Lengua y Literatura",
+                "concept": "La dramatización es la representación escénica o teatral de una situación, historia, conflicto o texto literario, en la cual los participantes asumen roles de personajes específicos. A través de este proceso creativo, se da vida a un relato mediante el uso combinado de diálogos, monólogos, expresiones corporales, gestos y desplazamientos en el espacio físico. Este ejercicio no solo permite explorar la narrativa desde una perspectiva vivencial, sino que también estimula la empatía, la improvisación y la comprensión profunda de las motivaciones humanas.\n\nPara llevar a cabo una dramatización efectiva, es fundamental que los actores logren conectar emocionalmente con sus personajes y dominen los elementos verbales y no verbales de la comunicación. La modulación de la voz, el lenguaje de las manos, el ritmo corporal y la caracterización o escenografía complementan el guion teatral, logrando capturar la atención del espectador y transmitir con claridad el conflicto central de la obra representada.",
+                "image": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=la+dramatizacion+teatral+elementos",
+                "exercises": []
+            },
+            {
+                "topic": "El conversatorio",
+                "subject": "Lengua y Literatura",
+                "concept": "El conversatorio es una herramienta de comunicación oral estructurada como un diálogo informal y fluido, en el cual un grupo de invitados o expertos comparte sus conocimientos, experiencias y puntos de vista sobre un tema de interés común. A diferencia de las conferencias tradicionales o los debates académicos rígidos, el conversatorio prescinde de discursos extensos y unilaterales, priorizando en su lugar la interacción espontánea y la conversación natural dirigida por un moderador.\n\nEste formato es altamente participativo, ya que suele abrir un espacio directo para que el público plantee interrogantes, exponga dudas y dialogue directamente con los expositores. El rol fundamental del moderador es plantear preguntas desencadenadoras, regular los tiempos de manera sutil y asegurar que la charla mantenga un clima respetuoso y constructivo, promoviendo el enriquecimiento mutuo de todos los asistentes.",
+                "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+conversatorio+estructura+y+caracteristicas",
+                "exercises": []
+            },
+            {
+                "topic": "El ensayo argumentativo",
+                "subject": "Lengua y Literatura",
+                "concept": "El ensayo argumentativo es un texto escrito en prosa que tiene como propósito central persuadir o convencer al lector de adoptar la postura, hipótesis o tesis personal del autor con respecto a un tema específico. A diferencia de un texto informativo puro, el ensayo argumentativo exige una toma de posición crítica y analítica, la cual se sustenta rigurosamente mediante el planteamiento de razonamientos lógicos, datos duros, ejemplos ilustrativos y citas de autoridad.\n\nEstructuralmente, consta de tres partes esenciales: la introducción, donde se presenta el tema contextualizado y se enuncia la tesis de forma clara; el desarrollo o cuerpo argumentativo, donde se despliegan y debaten las razones que defienden dicha postura y se rebaten posibles contraargumentos; y la conclusión, que sintetiza los puntos clave and reafirma la tesis inicial con una reflexión final que invita a la acción o análisis continuo.",
+                "image": "https://images.unsplash.com/photo-1496115965489-21be7e6e994e?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+ensayo+argumentativo+estructura",
+                "exercises": []
+            },
+            {
+                "topic": "La cultura griega",
+                "subject": "Historia",
+                "concept": "La cultura griega, florecida en la antigüedad clásica, representa uno de los pilares más sólidos e influyentes sobre los que se edificó la civilización occidental. Su cosmovisión se distinguió por un profundo humanismo y racionalismo, situando al ser humano, sus facultades intelectuales y su desarrollo físico en el centro del arte, la política y el pensamiento. A nivel artístico, los griegos desarrollaron una búsqueda incansable de la belleza ideal, manifestada en su equilibrada arquitectura de templos como el Partenón y en esculturas que retrataban la perfecta proporción corporal.\n\nAsimismo, su compleja mitología politeísta no solo explicaba los fenómenos naturales, sino que humanizaba a los dioses, dotándolos de pasiones y virtudes con las que el pueblo interactuaba cotidianamente. A través de disciplinas como el teatro (tragedia y comedia), la poesía épica atribuida a Homero y el desarrollo de eventos panhelénicos como los Juegos Olímpicos, los antiguos griegos consolidaron una identidad cultural fuerte que trascendía las fronteras y rivalidades de sus respectivas polis.",
+                "image": "https://images.unsplash.com/photo-1555992336-03a23c7b20eb?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=la+cultura+griega+antigua+resumen",
+                "exercises": []
+            },
+            {
+                "topic": "Influencia griega en el mundo",
+                "subject": "Historia",
+                "concept": "La influencia de la civilización griega en el mundo moderno es inconmensurable, sentando las bases en áreas tan diversas como la política, la ciencia, el lenguaje, el arte y la filosofía. El legado más revolucionario de la polis de Atenas es, sin duda, la invención de la democracia directa, modelo de soberanía ciudadana que inspiró los sistemas democráticos actuales. De igual manera, las reflexiones filosóficas de Sócrates, Platón y Aristóteles estructuraron el razonamiento analítico y el método científico que hoy rigen la investigación y el saber.\n\nEn otras ramas del conocimiento, los griegos heredaron el juramento Hipocrático en medicina, las bases de la geometría euclidiana, el desarrollo del teatro clásico y la creación de los Juegos Olímpicos. Por último, nuestra propia lengua española está repleta de helenismos (palabras originadas en el griego, como 'democracia', 'psicología' o 'antropología'), demostrando que la forma en que pensamos, nos gobernamos y nos expresamos sigue íntimamente vinculada a la herencia helénica.",
+                "image": "https://images.unsplash.com/photo-1505506874110-6a7a69069a08?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=legado+y+influencia+griega+en+el+mundo+occidental",
+                "exercises": []
+            },
+            {
+                "topic": "Comprensión lectora",
+                "subject": "Razonamiento Verbal",
+                "concept": "La comprensión lectora es la capacidad cognitiva que posee un individuo para entender, analizar, interpretar y valorar críticamente un texto escrito. Lejos de ser un proceso pasivo de simple decodificación de letras y palabras, la comprensión lectora implica una interacción activa en la cual el lector relaciona la nueva información con sus conocimientos previos, identifica el tema central, extrae las ideas principales y secundarias, e infiere intenciones o significados implícitos que no se encuentran explícitos en el texto.\n\nPara desarrollar un óptimo razonamiento verbal en comprensión lectora, es fundamental aprender a distinguir entre el sentido literal del escrito y el sentido figurado o metafórico (como ocurre con los refranes o textos literarios). Asimismo, la práctica constante permite al estudiante deducir el significado de palabras desconocidas a partir del contexto lingüístico, facilitando la síntesis de información densa y la resolución acertada de cuestionamientos analíticos sobre cualquier lectura.",
+                "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=comprension+lectora+razonamiento+verbal",
+                "exercises": [
+                    {
+                        "problem": "Lea el siguiente texto e identifique la idea principal:\n\n'La educación tradicional se centró por siglos en la memorización y la obediencia. Sin embargo, el mundo moderno exige un cambio radical hacia el pensamiento crítico y el aprendizaje autónomo, preparando al estudiante no para repetir datos, sino para resolver problemas inéditos'.\n\na) La memorización es el método de estudio más antiguo.\nb) La educación debe transformarse para fomentar la autonomía y el pensamiento crítico frente a los desafíos modernos.\nc) Los estudiantes de antes eran más obedientes que los de ahora.\nd) La repetición de datos es innecesaria en cualquier nivel educativo.",
+                        "solution": "1. Analizamos el texto: expone un contraste ('Sin embargo') entre la educación tradicional (memorización) y las exigencias del mundo moderno (pensamiento crítico, autonomía).\n2. Evaluamos la opción b: condensa la idea central al señalar que la educación debe evolucionar hacia estos nuevos enfoques para que los alumnos resuelvan problemas modernos.\n3. Las demás opciones se enfocan en detalles secundarios (como la antigüedad de la memoria) o interpretaciones extremas no apoyadas directamente por el texto.\n4. La respuesta correcta es la b)."
+                    },
+                    {
+                        "problem": "A partir del enunciado: 'Aunque la tecnología facilita la conexión instantánea, el abuso de las pantallas puede generar un distanciamiento emocional en las familias si se descuidan las interacciones cara a cara'. ¿Cuál es una conclusión lógica?\n\na) La tecnología destruye por completo los lazos afectivos familiares.\nb) La conexión instantánea es perjudicial para la salud de las personas.\nc) Es necesario balancear el uso de pantallas con la comunicación presencial para cuidar los vínculos familiares.\nd) Las familias de hoy no tienen ningún tipo de distanciamiento emocional.",
+                        "solution": "1. El texto indica que la tecnología tiene una ventaja (conexión instantánea) pero plantea un riesgo condicionado ('puede generar un distanciamiento... si se descuidan las interacciones cara a cara').\n2. Para evitar ese riesgo, se infiere lógicamente que debe existir un equilibrio o balance entre el uso digital y las interacciones presenciales.\n3. La opción c sintetiza esta recomendación de equilibrio de manera de cuidar los vínculos familiares.\n4. La respuesta correcta es la c)."
+                    }
+                ]
+            },
+            {
+                "topic": "Concordancia verbal",
+                "subject": "Razonamiento Verbal",
+                "concept": "La concordancia verbal es la regla gramatical básica y obligatoria que establece que el verbo principal de una oración debe coincidir en número (singular o plural) y persona (primera, segunda o tercera) con el núcleo del sujeto. Esta relación formal garantiza la cohesión interna del enunciado y la claridad del mensaje, evitando distorsiones o ambigüedades en la interpretación de quién realiza la acción enunciada.\n\nExisten casos especiales que suelen causar confusión y errores frecuentes en el habla y la escritura, tales como los sujetos colectivos (por ejemplo, 'la manada', 'el grupo', donde el verbo concuerda formalmente en singular), el uso del verbo impersonal 'haber' (el cual carece de sujeto y debe conjugarse siempre en singular: 'había problemas', no 'habían problemas'), o sujetos compuestos unidos por la disyuntiva 'ni' u 'o'. Conocer estas excepciones es crucial para evitar solecismos y asegurar una redacción sintácticamente intachable.",
+                "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=concordancia+verbal+reglas+y+ejemplos",
+                "exercises": [
+                    {
+                        "problem": "Elija la opción que presente una correcta concordancia verbal:\n\na) El enjambre de abejas atacaron al intruso.\nb) Hubieron muchos asistentes en el concierto de ayer.\nc) La mayoría de los postulantes rindió el examen con éxito.\nd) Tú y él irás a la biblioteca por la tarde.",
+                        "solution": "1. Analicemos cada opción:\n   - a) Presenta error porque 'el enjambre' es un sustantivo colectivo singular, por lo que el verbo debe ir en singular ('atacó').\n   - b) Presenta error porque el verbo impersonal 'haber' que denota existencia solo se usa en singular ('Hubo').\n   - d) Presenta error porque 'Tú y él' equivale a 'ustedes' (plural) o 'vosotros', por lo que debe concordar en plural ('irán' o 'iréis'), no en singular ('irás').\n   - c) Es correcta, ya que con cuantificadores partitivos ('la mayoría de') seguidos de un sustantivo plural, se acepta la concordancia en singular ('rindió') concordando con el núcleo singular 'mayoría'.\n2. Por lo tanto, la opción correcta es la c)."
+                    },
+                    {
+                        "problem": "Complete la oración manteniendo la concordancia gramatical correcta:\n\n'La junta directiva de la empresa, junto con los asesores externos, _______ la propuesta de fusión'.\n\na) aprobaron\nb) aprobó\nc) aprobando\nd) aprobarían",
+                        "solution": "1. El núcleo del sujeto es 'La junta directiva' (singular).\n2. El elemento 'junto con los asesores externos' funciona como un complemento de compañía o adición introducido por preposición, pero no convierte al sujeto en compuesto gramaticalmente.\n3. Por lo tanto, el verbo principal debe concordar en singular con el núcleo 'junta directiva': 'aprobó'.\n4. La opción correcta es la b)."
+                    }
+                ]
+            },
+            {
+                "topic": "Secuencias lógicas",
+                "subject": "Razonamiento Numérico",
+                "concept": "Las secuencias lógicas son sucesiones ordenadas de elementos (números, letras, figuras geométricas o combinaciones de estos) que se estructuran siguiendo una regla de formación, patrón o ley lógica específica. Resolver una secuencia consiste en analizar de manera inductiva los términos iniciales de la serie para descubrir el patrón subyacente y, a partir de él, deducir con exactitud cuál es el elemento que continúa o completa el conjunto establecido.\n\nEn las secuencias puramente numéricas, los patrones más habituales implican operaciones aritméticas básicas de adición o multiplicación constantes (progresiones aritméticas o geométricas), o bien incrementos variables que siguen una serie secundaria (por ejemplo, sumas de números impares consecutivos). En el caso de las secuencias alfanuméricas, se debe realizar un doble análisis: por un lado, se identifica la regla matemática que gobierna a los números y, por el otro, se determina el patrón de saltos en el abecedario para las letras, integrando ambos resultados.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=secuencias+logicas+y+numericas+ejercicios",
+                "exercises": [
+                    {
+                        "problem": "Determine qué número continúa la siguiente secuencia lógica:\n\n4, 9, 19, 39, 79, ___\n\na) 119\nb) 159\nc) 139\nd) 169",
+                        "solution": "1. Analizamos la relación entre cada término sucesivo:\n   - De 4 a 9: podemos ver que 4 * 2 + 1 = 9.\n   - De 9 a 19: vemos que 9 * 2 + 1 = 19.\n   - De 19 a 39: vemos que 19 * 2 + 1 = 39.\n   - De 39 a 79: vemos que 39 * 2 + 1 = 79.\n2. El patrón es multiplicar por 2 y luego sumar 1 (2n + 1).\n3. Aplicamos el mismo patrón al último término para hallar el número siguiente: 79 * 2 + 1 = 158 + 1 = 159.\n4. Por lo tanto, la respuesta correcta es la b) 159."
+                    },
+                    {
+                        "problem": "Encuentre el elemento que continúa la serie: 2B, 6E, 18H, 54K, ___\n\na) 108N\nb) 162N\nc) 162M\nd) 108M",
+                        "solution": "1. Analizamos de forma separada la parte numérica y la parte alfabética:\n   - Números: 2, 6, 18, 54. Cada número es el triple del anterior (multiplicación por 3: 2*3=6, 6*3=18, 18*3=54). El siguiente número debe ser 54 * 3 = 162.\n   - Letras: B, E, H, K. Observamos la distancia entre las letras del abecedario: B -> (C, D) -> E -> (F, G) -> H -> (I, J) -> K. Se saltan dos letras consecutivas cada vez. El siguiente salto desde K saltará L y M, llegando a la letra N.\n2. Combinando los dos resultados, el elemento que continúa es 162N.\n3. La opción correcta es la b)."
+                    }
+                ]
+            },
+            {
+                "topic": "Solución de problemas de ecuaciones lineales",
+                "subject": "Razonamiento Numérico",
+                "concept": "La solución de problemas de ecuaciones lineales consiste en traducir enunciados o situaciones de la vida real (expresadas en lenguaje natural) al lenguaje algebraico o formal de las matemáticas, estructurando una o más igualdades de primer grado para despejar una incógnita desconocida. Este proceso requiere habilidades de lectura comprensiva y abstracción, ya que es necesario identificar claramente cuál es el dato desconocido (la variable, típicamente 'x'), cuáles son los valores constantes y qué relaciones lógicas o equivalencias ligan a estos elementos.\n\nUna vez planteada la ecuación matemática (donde la variable solo aparece con exponente 1), se aplica el método sistemático de transposición de términos. Esto consiste en operar a ambos lados del signo de igualdad de manera equilibrada empleando las operaciones inversas correspondientes: los términos que están sumando pasan a restar al otro miembro, los que restan pasan a sumar, los que multiplican pasan a dividir y los que dividen a multiplicar. Al despejar y aislar la incógnita 'x', se halla su valor numérico específico, el cual debe sustituirse en el planteamiento original para comprobar la veracidad de la igualdad obtenida.",
+                "image": "https://images.unsplash.com/photo-1518133835104-39f43532f951?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=como+plantear+y+resolver+problemas+de+ecuaciones+lineales",
+                "exercises": [
+                    {
+                        "problem": "El doble del dinero de Luisa, aumentado en $15, equivale a la mitad de su dinero más $75. ¿Cuánto dinero tiene Luisa?\n\na) $30\nb) $40\nc) $50\nd) $60",
+                        "solution": "1. Traducimos el enunciado al lenguaje matemático. Sea 'x' el dinero de Luisa:\n   - 'El doble de su dinero': 2x\n   - 'aumentado en 15': 2x + 15\n   - 'equivale a': =\n   - 'la mitad de su dinero más 75': x/2 + 75\n2. Planteamos la ecuación: 2x + 15 = x/2 + 75.\n3. Para eliminar el denominador, multiplicamos toda la ecuación por 2:\n   4x + 30 = x + 150.\n4. Agrupamos los términos con 'x' a la izquierda y constantes a la derecha:\n   4x - x = 150 - 30\n   3x = 120.\n5. Despejamos 'x':\n   x = 120 / 3\n   x = 40.\n6. Luisa tiene $40. La opción correcta es la b)."
+                    },
+                    {
+                        "problem": "La suma de tres números enteros y consecutivos es igual a 72. Halle el valor del número mayor del grupo.\n\na) 23\nb) 24\nc) 25\nd) 26",
+                        "solution": "1. Planteamos las variables de los tres números consecutivos:\n   - Primer número (menor): x\n   - Segundo número: x + 1\n   - Tercer número (mayor): x + 2\n2. Escribimos la ecuación de su suma:\n   x + (x + 1) + (x + 2) = 72.\n3. Simplificamos los términos semejantes:\n   3x + 3 = 72.\n4. Restamos 3 a ambos miembros de la ecuación:\n   3x = 69.\n5. Despejamos 'x' dividiendo por 3:\n   x = 69 / 3 = 23.\n6. El número menor es 23. Como nos piden el número mayor (x + 2):\n   Mayor = 23 + 2 = 25.\n7. La opción correcta es la c) 25."
+                    }
+                ]
+            }
+        ], "Sábado": [], "Domingo": []
     },
     "Semana 2": {
         "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
