@@ -2286,11 +2286,1379 @@ const questionsData = {
                 "explanation": "Sumando los términos semejantes: 2x + 2 = 18. Restando 2 de ambos lados: 2x = 16. Dividiendo entre 2 obtenemos x = 8."
             }
         ],
-        "Sábado": [],
-        "Domingo": []
+        "Sábado": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es el objetivo principal de una \"investigación monográfica\"?",
+                "options": [
+                    "Escribir un poema sobre un tema libre.",
+                    "Recopilar información breve sobre muchos temas a la vez.",
+                    "Investigar, analizar y profundizar de manera detallada y sistemática sobre un tema específico y delimitado.",
+                    "Publicar una noticia rápida en un periódico."
+                ],
+                "correct": 2,
+                "explanation": "La investigación monográfica busca estudiar en profundidad un tema determinado de forma sistemática y rigurosa."
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "Los textos académicos se caracterizan principalmente por:",
+                "options": [
+                    "Utilizar lenguaje informal y coloquial.",
+                    "Su rigor, objetividad, estructura formal y uso de un lenguaje técnico o especializado.",
+                    "Estar escritos siempre en verso.",
+                    "Basarse exclusivamente en las emociones del autor sin necesitar pruebas."
+                ],
+                "correct": 1,
+                "explanation": "Los textos académicos requieren formalidad, rigor conceptual, objetividad y una estructura bien definida para transmitir conocimiento de forma confiable."
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes ejemplos NO es un texto académico?",
+                "options": [
+                    "Un artículo científico.",
+                    "Una tesis de grado.",
+                    "Un cuento de fantasía.",
+                    "Un ensayo argumentativo universitario."
+                ],
+                "correct": 2,
+                "explanation": "Un cuento de fantasía es una obra de ficción literaria y creativa, a diferencia de los otros documentos que pertenecen al ámbito académico y de investigación."
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "En la estructura básica de un informe académico o monografía, la \"Introducción\" sirve para:",
+                "options": [
+                    "Detallar todos los libros que se leyeron.",
+                    "Presentar el tema, los objetivos del trabajo y la justificación de la investigación.",
+                    "Agradecer a los familiares del autor.",
+                    "Escribir el resumen final de los resultados."
+                ],
+                "correct": 1,
+                "explanation": "La introducción tiene como finalidad contextualizar al lector sobre el tema a tratar, delimitar los objetivos y justificar la relevancia de la investigación."
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "Todo texto académico debe respaldar sus afirmaciones y datos para no caer en el plagio. ¿Cómo se logra esto?",
+                "options": [
+                    "Poniendo el nombre del autor en la portada.",
+                    "Utilizando citas y referencias bibliográficas confiables.",
+                    "Escribiendo en mayúsculas las partes importantes.",
+                    "Usando muchas imágenes en el texto."
+                ],
+                "correct": 1,
+                "explanation": "Las citas y referencias bibliográficas otorgan validez al trabajo y dan crédito a las fuentes originales, evitando así el plagio."
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "El estilo de redacción en un informe académico debe ser:",
+                "options": [
+                    "Subjetivo y lleno de opiniones personales sin fundamento.",
+                    "Humorístico y entretenido.",
+                    "Claro, objetivo, preciso y en tercera persona (o primera del plural).",
+                    "Literario y poético."
+                ],
+                "correct": 2,
+                "explanation": "La redacción académica se caracteriza por ser formal, clara, precisa y evitar juicios subjetivos o emociones personales del autor."
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué sección de un informe académico presenta los hallazgos y el análisis de la información recopilada?",
+                "options": [
+                    "El prólogo.",
+                    "El cuerpo o desarrollo.",
+                    "El índice.",
+                    "La dedicatoria."
+                ],
+                "correct": 1,
+                "explanation": "En el cuerpo o desarrollo se expone en detalle la información recopilada, los argumentos y el análisis de la investigación."
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "En una investigación monográfica, la \"bibliografía\" corresponde a:",
+                "options": [
+                    "La biografía del autor que escribió la monografía.",
+                    "La lista ordenada alfabéticamente de todas las fuentes, libros y documentos consultados.",
+                    "El lugar físico donde se guardan los libros.",
+                    "Las conclusiones finales del estudio."
+                ],
+                "correct": 1,
+                "explanation": "La bibliografía o sección de referencias es la lista de todas las fuentes bibliográficas y digitales utilizadas a lo largo del trabajo."
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "Para que un texto sea considerado \"académico\", generalmente se produce en un entorno:",
+                "options": [
+                    "Estudiantil, universitario o científico.",
+                    "Exclusivamente deportivo.",
+                    "Familiar o de amigos.",
+                    "De entretenimiento televisivo."
+                ],
+                "correct": 0,
+                "explanation": "Los textos académicos son aquellos elaborados dentro de comunidades escolares, universitarias o de investigación científica."
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "La parte final de un informe académico, donde se sintetizan las ideas principales y se responde a los objetivos planteados al inicio, se llama:",
+                "options": [
+                    "Anexos",
+                    "Conclusión",
+                    "Glosario",
+                    "Índice"
+                ],
+                "correct": 1,
+                "explanation": "La conclusión resume los puntos clave, el resultado de la investigación y las deducciones finales de acuerdo a los objetivos propuestos."
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "Según la leyenda mitológica, la ciudad de Roma fue fundada por los hermanos:",
+                "options": [
+                    "Caín y Abel",
+                    "Rómulo y Remo",
+                    "Zeus y Hades",
+                    "Julio y Augusto"
+                ],
+                "correct": 1,
+                "explanation": "Según la tradición mitológica romana, Rómulo y Remo fundaron Roma en el año 753 a.C., siendo criados por una loba."
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿Cuál fue el primer sistema de gobierno que tuvo la antigua Roma desde su fundación?",
+                "options": [
+                    "Imperio",
+                    "República",
+                    "Monarquía",
+                    "Tiranía"
+                ],
+                "correct": 2,
+                "explanation": "La primera etapa política de Roma fue la Monarquía, que abarcó desde su fundación en el 753 a.C. hasta la caída del último rey en el 509 a.C."
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "El fin de la monarquía romana y el inicio de la República se produjo tras la expulsión del último rey (que era de origen etrusco). ¿Cómo se llamaba?",
+                "options": [
+                    "Tarquinio el Soberbio",
+                    "Julio César",
+                    "Octavio Augusto",
+                    "Nerón"
+                ],
+                "correct": 0,
+                "explanation": "Tarquinio el Soberbio fue el séptimo y último rey de Roma, cuyo gobierno tiránico provocó una rebelión que instauró la República en el 509 a.C."
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "Durante la República romana, ¿cuál era la institución política más poderosa, formada originalmente por patricios ancianos y sabios?",
+                "options": [
+                    "La Asamblea de la Plebe",
+                    "El Senado",
+                    "El Foro",
+                    "La Iglesia"
+                ],
+                "correct": 1,
+                "explanation": "El Senado romano era la institución central de la República, encargada de la política exterior, finanzas y asesoramiento general del Estado."
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "En la República, en lugar de un rey, el gobierno y el ejército eran dirigidos por dos magistrados elegidos cada año, llamados:",
+                "options": [
+                    "Faraones",
+                    "Cónsules",
+                    "Emperadores",
+                    "Dictadores"
+                ],
+                "correct": 1,
+                "explanation": "Los cónsules eran los magistrados supremos de la República romana, ejerciendo el poder ejecutivo y el mando militar durante un mandato anual."
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Qué clase social en Roma luchó durante siglos en la época de la República para lograr igualdad de derechos políticos frente a los patricios?",
+                "options": [
+                    "Los esclavos",
+                    "Los gladiadores",
+                    "Los plebeyos",
+                    "Los extranjeros"
+                ],
+                "correct": 2,
+                "explanation": "Los plebeyos constituían la clase mayoritaria de ciudadanos libres sin linaje noble, quienes lucharon por equiparar sus derechos políticos y sociales a los de los patricios."
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "Durante su expansión por el Mar Mediterráneo, la República romana se enfrentó a su mayor rival comercial y militar en las \"Guerras Púnicas\". ¿Cuál era esa ciudad rival?",
+                "options": [
+                    "Atenas",
+                    "Cartago",
+                    "Esparta",
+                    "Troya"
+                ],
+                "correct": 1,
+                "explanation": "Las Guerras Púnicas fueron una serie de tres conflictos bélicos entre Roma y la ciudad de origen fenicio Cartago por la hegemonía en el Mediterráneo."
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Cómo se llamaba a los grandes territorios que Roma conquistó fuera de Italia durante la expansión de la República?",
+                "options": [
+                    "Colonias",
+                    "Feudos",
+                    "Provincias",
+                    "Metrópolis"
+                ],
+                "correct": 2,
+                "explanation": "Las provincias eran las divisiones administrativas y territoriales que Roma establecía en los territorios conquistados fuera de la península itálica."
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "La expansión de la República trajo muchas riquezas, pero también causó una grave crisis social porque:",
+                "options": [
+                    "Los patricios se empobrecieron y los esclavos se hicieron ricos.",
+                    "Las tierras y riquezas se concentraron en pocas manos, arruinando a los pequeños campesinos.",
+                    "Roma prohibió el uso del dinero.",
+                    "Se quedaron sin barcos para navegar."
+                ],
+                "correct": 1,
+                "explanation": "La afluencia masiva de riquezas y esclavos favoreció la creación de grandes latifundios de los nobles (patricios), arruinando a la clase campesina plebeya."
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿Qué famoso y exitoso general militar romano cruzó el río Rubicón, ganó una guerra civil y se hizo nombrar \"dictador perpetuo\", lo que llevó a su asesinato y marcó el declive final de la República?",
+                "options": [
+                    "Julio César",
+                    "Alejandro Magno",
+                    "Leónidas",
+                    "Marco Antonio"
+                ],
+                "correct": 0,
+                "explanation": "Julio César concentró el poder absoluto tras vencer en la guerra civil, asumiendo la dictadura perpetua, lo que desencadenó su conspiración y asesinato, allanando el camino al Imperio."
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Precisión semántica: Completa la oración con la palabra más exacta según el contexto médico: \"El cirujano realizó una _______ muy delicada a corazón abierto\".",
+                "options": [
+                    "tarea",
+                    "intervención",
+                    "aventura",
+                    "charla"
+                ],
+                "correct": 1,
+                "explanation": "En el ámbito médico y de cirugías, el término técnico y más preciso es 'intervención' (o intervención quirúrgica)."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Precisión semántica: \"Debido a la tormenta, el barco no pudo _______ en el puerto y tuvo que volver a alta mar\".",
+                "options": [
+                    "estacionarse",
+                    "parquear",
+                    "atracar",
+                    "frenar"
+                ],
+                "correct": 2,
+                "explanation": "Atracar es el término náutico preciso que designa la acción de arrimar una embarcación a un muelle."
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Identifica el sinónimo de la palabra \"EFÍMERO\".",
+                "options": [
+                    "Duradero",
+                    "Eterno",
+                    "Pasajero",
+                    "Antiguo"
+                ],
+                "correct": 2,
+                "explanation": "Algo efímero es aquello que dura muy poco tiempo, por lo que su sinónimo exacto es 'pasajero'."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Encuentra el sinónimo de la palabra \"OBSOLETO\".",
+                "options": [
+                    "Moderno",
+                    "Anticuado",
+                    "Brillante",
+                    "Novedoso"
+                ],
+                "correct": 1,
+                "explanation": "Algo obsoleto es aquello que ha caído en desuso, resultando inadecuado o anticuado."
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: ¿Cuál es el sinónimo de \"ALTRUISTA\"?",
+                "options": [
+                    "Egoísta",
+                    "Tacaño",
+                    "Solidario",
+                    "Ambicioso"
+                ],
+                "correct": 2,
+                "explanation": "Una persona altruista es aquella que procura el bien ajeno de manera desinteresada, equivalente a ser solidario."
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: ¿Cuál es el 20% de 150?",
+                "options": [
+                    "15",
+                    "20",
+                    "30",
+                    "45"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, primero multiplicas 150 por 20, lo que da 3000. Luego divides ese 3000 entre 100, y te da los 30 exactos."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Un videojuego cuesta $80, pero tiene un descuento del 25%. ¿Cuánto pagarás finalmente?",
+                "options": [
+                    "$60",
+                    "$55",
+                    "$65",
+                    "$70"
+                ],
+                "correct": 0,
+                "explanation": "Para resolver esto, primero calculas el descuento multiplicando 80 por 0.25, lo que da 20 dólares de rebaja. Luego restas esos 20 al precio original de 80, y pagarás 60."
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: En una clase de 40 estudiantes, el día de hoy faltaron 10. ¿Qué porcentaje de la clase faltó?",
+                "options": [
+                    "10%",
+                    "20%",
+                    "25%",
+                    "40%"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, divides los 10 estudiantes que faltaron entre el total de 40 estudiantes, lo que te da 0.25. Al multiplicar eso por 100 para sacar el porcentaje, te da 25%."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Si el 15% de un número desconocido es 30, ¿cuál es ese número total?",
+                "options": [
+                    "150",
+                    "200",
+                    "300",
+                    "450"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto con una regla de tres, si el 15% es 30, multiplicas 30 por el 100% total que buscas y lo divides entre el 15%. 3000 dividido para 15 te da 200."
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: El sueldo mensual de Carlos es de $500. Si le dan un aumento del 10%, ¿cuál será su nuevo sueldo?",
+                "options": [
+                    "$510",
+                    "$550",
+                    "$600",
+                    "$505"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, calculas el aumento sacando el 10% de 500, que es 50 dólares. Luego sumas esos 50 al sueldo original, dándote 550."
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres directa: Si 3 kilos de manzanas cuestan $6, ¿cuánto costarán 5 kilos?",
+                "options": [
+                    "$8",
+                    "$10",
+                    "$12",
+                    "$15"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, como es regla directa, multiplicas cruzado 5 por 6 que da 30, y luego divides entre los 3 kilos iniciales, dándote 10 dólares."
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres inversa: Si 4 obreros construyen una pared en 6 días, ¿cuánto tardarán 8 obreros trabajando al mismo ritmo?",
+                "options": [
+                    "3 días",
+                    "6 días",
+                    "12 días",
+                    "2 días"
+                ],
+                "correct": 0,
+                "explanation": "Para resolver esto, al ser inversa, multiplicas en línea recta: 4 obreros por 6 días da 24. Luego divides ese 24 entre los 8 nuevos obreros, y te da 3 días."
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres directa: Un automóvil viajando a velocidad constante recorre 120 kilómetros en 2 horas. ¿Cuántos kilómetros recorrerá en 5 horas?",
+                "options": [
+                    "240 km",
+                    "250 km",
+                    "300 km",
+                    "350 km"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, como es directa, multiplicas los 5 horas por los 120 km, dando 600. Luego divides esos 600 entre las 2 horas iniciales y te da 300 kilómetros."
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres inversa: Una manguera arroja 10 litros de agua por minuto y llena una piscina en 60 minutos. Si usamos una manguera más grande que arroja 20 litros por minuto, ¿en cuánto tiempo se llenará la piscina?",
+                "options": [
+                    "120 minutos",
+                    "45 minutos",
+                    "20 minutos",
+                    "30 minutos"
+                ],
+                "correct": 3,
+                "explanation": "Para resolver esto, al ser inversa, multiplicas los 10 litros por los 60 minutos, lo que da 600. Luego lo divides entre la nueva capacidad de 20 litros, obteniendo 30 minutos."
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres directa: Para preparar un postre para 4 personas se necesitan 200 gramos de harina. ¿Cuántos gramos se necesitarán para 10 personas?",
+                "options": [
+                    "400 g",
+                    "500 g",
+                    "600 g",
+                    "800 g"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, al ser directa, multiplicas las 10 personas por los 200 gramos, lo que da 2000. Al dividir eso entre las 4 personas originales, te quedan los 500 gramos necesarios."
+            }
+        ],
+        "Domingo": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es la función principal de la referenciación bibliográfica en un texto académico?",
+                "options": [
+                    "Ocupar más páginas en el documento.",
+                    "Dar crédito a los autores originales de la información y evitar el plagio.",
+                    "Hacer el texto más difícil de leer.",
+                    "Ahorrar tinta al imprimir."
+                ],
+                "correct": 1,
+                "explanation": "La referenciación bibliográfica sirve para otorgar reconocimiento a los autores citados y permitir al lector contrastar las fuentes originales, previniendo el plagio."
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "El formato o estilo internacional más utilizado actualmente para citar fuentes y crear referencias en ciencias sociales y educación es el de las normas:",
+                "options": [
+                    "APA",
+                    "ISO",
+                    "RAE",
+                    "ONU"
+                ],
+                "correct": 0,
+                "explanation": "Las normas APA (American Psychological Association) constituyen el estándar más extendido en el ámbito académico y científico internacional."
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "Si copias un párrafo de internet y lo incluyes en tu trabajo monográfico sin citar la fuente, estás cometiendo:",
+                "options": [
+                    "Un ensayo.",
+                    "Una paráfrasis.",
+                    "Un plagio.",
+                    "Una cita directa."
+                ],
+                "correct": 2,
+                "explanation": "Utilizar obras o textos ajenos haciéndolos pasar por propios al omitir la referencia se considera plagio académico."
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué es una \"contradicción\" dentro de un texto?",
+                "options": [
+                    "Cuando una afirmación se opone o niega por completo a otra afirmación dentro del mismo texto.",
+                    "Cuando el texto tiene mala ortografía.",
+                    "Cuando el texto es muy extenso y aburrido.",
+                    "Cuando faltan las tildes en los verbos."
+                ],
+                "correct": 0,
+                "explanation": "Una contradicción se produce cuando dos proposiciones contenidas en un escrito se excluyen mutuamente, anulando la coherencia."
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "Lee la siguiente frase: \"Vi al perro de tu hermano\". Esta frase presenta una \"ambigüedad\" porque:",
+                "options": [
+                    "Tiene faltas de ortografía graves.",
+                    "No se entiende claramente si el perro le pertenece al hermano, o si es un insulto llamando \"perro\" al hermano.",
+                    "Usa palabras muy antiguas que ya no se entienden.",
+                    "Es una mentira comprobada."
+                ],
+                "correct": 1,
+                "explanation": "La ambigüedad o anfibología se presenta cuando la estructura sintáctica de un enunciado permite dos o más interpretaciones totalmente válidas."
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "Para evitar ambigüedades en un informe académico, el autor debe:",
+                "options": [
+                    "Usar la mayor cantidad de palabras extranjeras posible.",
+                    "Elegir palabras precisas y redactar las oraciones con extrema claridad.",
+                    "Escribir siempre en formato de poema.",
+                    "Eliminar los signos de puntuación."
+                ],
+                "correct": 1,
+                "explanation": "La claridad y precisión semántica en la redacción son los mejores recursos para asegurar que la transmisión del mensaje sea unívoca."
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "Las palabras \"vela\" (tela de un barco) y \"vela\" (cilindro de cera para iluminar) que se escriben y suenan exactamente igual pero tienen distinto origen y significado, son un ejemplo de:",
+                "options": [
+                    "Sinónimas.",
+                    "Homónimas (específicamente homógrafas).",
+                    "Antónimas.",
+                    "Parónimas."
+                ],
+                "correct": 1,
+                "explanation": "Las palabras homógrafas se escriben igual pero tienen etimologías y definiciones completamente diferentes."
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "Las palabras \"bello\" (hermoso) y \"vello\" (pelo corto) que suenan igual pero se escriben distinto y significan cosas diferentes, son un ejemplo de homonimia del tipo:",
+                "options": [
+                    "Homófonas.",
+                    "Sinónimas.",
+                    "Polisémicas.",
+                    "Antónimas."
+                ],
+                "correct": 0,
+                "explanation": "Las palabras homófonas tienen idéntica pronunciación pero diferente ortografía y significado."
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "Las palabras \"actitud\" (comportamiento) y \"aptitud\" (capacidad) suenan muy parecido, pero se escriben distinto y tienen significados diferentes. Este es un caso de:",
+                "options": [
+                    "Sinonimia.",
+                    "Antonimia.",
+                    "Paronimia.",
+                    "Monosemia."
+                ],
+                "correct": 2,
+                "explanation": "La paronimia agrupa palabras con gran semejanza fonética y escrita pero con distinta semántica."
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "El fenómeno semántico de la \"polisemia\" ocurre cuando:",
+                "options": [
+                    "Una misma palabra tiene múltiples significados que guardan alguna relación entre sí (ej. \"hoja\" de árbol y \"hoja\" de papel).",
+                    "Dos palabras distintas significan exactamente lo mismo.",
+                    "Una palabra se pronuncia diferente dependiendo del país.",
+                    "Se escribe una palabra al revés."
+                ],
+                "correct": 0,
+                "explanation": "A diferencia de la homonimia, en la polisemia una misma raíz léxica adquiere diversas acepciones conectadas conceptualmente."
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿Qué líder romano se convirtió en el primer emperador, marcando el fin de la República y el inicio formal del Imperio Romano?",
+                "options": [
+                    "Julio César",
+                    "Octavio Augusto",
+                    "Nerón",
+                    "Constantino el Grande"
+                ],
+                "correct": 1,
+                "explanation": "César Augusto (Octavio) asumió el título de emperador en el 27 a.C., instaurando el régimen del Principado."
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "Durante los primeros siglos del Imperio Romano, se vivió un largo período de estabilidad, orden y relativa paz dentro de sus extensas fronteras. ¿Cómo se conoce históricamente a esta etapa?",
+                "options": [
+                    "Las Guerras Púnicas",
+                    "La Pax Romana",
+                    "Las Cruzadas",
+                    "La Revolución Industrial"
+                ],
+                "correct": 1,
+                "explanation": "La Pax Romana fue la era de pacificación y apogeo interno que abarcó los siglos I y II d.C. bajo el mandato de la dinastía Julio-Claudia y Antonina."
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Qué suceso histórico marca convencionalmente el fin y la \"caída\" del Imperio Romano de Occidente en el año 476 d.C.?",
+                "options": [
+                    "El descubrimiento de América.",
+                    "La Revolución Francesa.",
+                    "La invasión de los pueblos germánicos (bárbaros) y la destitución del último emperador.",
+                    "La invención de la imprenta de Gutenberg."
+                ],
+                "correct": 2,
+                "explanation": "La deposición del emperador Rómulo Augústulo por parte del líder bárbaro Odoacro cierra la edad antigua en el 476 d.C."
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Cuál es uno de los legados culturales y jurídicos más importantes de Roma, que sirve como base para las leyes y códigos civiles de la mayoría de los países occidentales modernos?",
+                "options": [
+                    "El sistema de castas hindú.",
+                    "El Derecho Romano.",
+                    "La democracia directa.",
+                    "El código de Hammurabi."
+                ],
+                "correct": 1,
+                "explanation": "El corpus legal desarrollado por Roma constituye la base conceptual de gran parte del derecho continental actual."
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "El idioma hablado en el Imperio Romano, que con el tiempo evolucionó y dio origen a las \"lenguas romances\" (como el español, el francés, el italiano y el portugués), fue:",
+                "options": [
+                    "El griego antiguo",
+                    "El inglés",
+                    "El latín",
+                    "El arameo"
+                ],
+                "correct": 2,
+                "explanation": "El latín vulgar hablado por los soldados y comerciantes romanos es el tronco directo del que provienen las lenguas neolatinas."
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "En cuanto a su gran legado de arquitectura e ingeniería civil, los romanos destacaron a nivel mundial por la construcción de:",
+                "options": [
+                    "Pirámides escalonadas gigantes.",
+                    "Acueductos, calzadas (carreteras), baños públicos y enormes anfiteatros (como el Coliseo).",
+                    "Pagodas de madera y papel.",
+                    "Zigurats de barro."
+                ],
+                "correct": 1,
+                "explanation": "La ingeniería romana revolucionó las infraestructuras mediante el uso generalizado del arco de medio punto, hormigón y el trazado de vías terrestres."
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "Durante los primeros tres siglos de existencia del Imperio Romano, la relación del gobierno con los cristianos fue de:",
+                "options": [
+                    "Apoyo total y financiamiento de sus iglesias.",
+                    "Persecución constante y martirio, obligándolos a esconderse en catacumbas.",
+                    "Indiferencia absoluta, nadie sabía que existían.",
+                    "Someter a los emperadores al poder del Papa."
+                ],
+                "correct": 1,
+                "explanation": "Al negar el culto imperial y los dioses tradicionales, el cristianismo fue proscrito e ilegalizado, enfrentando persecuciones intermitentes."
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Qué emperador romano promulgó el famoso Edicto de Milán en el año 313 d.C., mediante el cual se permitía la libertad de culto y se detenía oficialmente la persecución a los cristianos?",
+                "options": [
+                    "Constantino I (el Grande)",
+                    "Calígula",
+                    "Tiberio",
+                    "Rómulo"
+                ],
+                "correct": 0,
+                "explanation": "Con el Edicto de Milán en 313, el emperador Constantino I proclamó la tolerancia religiosa del cristianismo dentro de los territorios imperiales."
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "A finales del siglo IV (año 380 d.C.), mediante el Edicto de Tesalónica del emperador Teodosio, el cristianismo pasó a ser:",
+                "options": [
+                    "Una religión prohibida para siempre.",
+                    "La religión oficial, exclusiva y obligatoria de todo el Imperio Romano.",
+                    "Una religión olvidada y reemplazada por la mitología nórdica.",
+                    "Una moda pasajera exclusiva de los esclavos."
+                ],
+                "correct": 1,
+                "explanation": "Teodosio I oficializó el cristianismo niceno, convirtiendo el paganismo antiguo en una práctica proscrita."
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿En qué región oriental dominada por el Imperio Romano se originó históricamente el cristianismo en el siglo I d.C. con las enseñanzas de Jesús de Nazaret?",
+                "options": [
+                    "En Egipto.",
+                    "En la península ibérica (Hispania).",
+                    "En Judea (actual Israel/Palestina).",
+                    "En el norte de Europa (Germania)."
+                ],
+                "correct": 2,
+                "explanation": "El movimiento cristiano nació en la provincia romana de Judea en Oriente Medio bajo el mandato imperial de Augusto y Tiberio."
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Antónimos: Identifica el antónimo (opuesto) exacto de la palabra \"ARROGANTE\".",
+                "options": [
+                    "Humilde",
+                    "Orgulloso",
+                    "Valiente",
+                    "Inteligente"
+                ],
+                "correct": 0,
+                "explanation": "Lo contrario de arrogante (alguien altivo y soberbio) es humilde (que no hace alarde de sus virtudes)."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Antónimos: ¿Cuál es el antónimo de la palabra \"PACÍFICO\"?",
+                "options": [
+                    "Tranquilo",
+                    "Violento",
+                    "Sereno",
+                    "Amable"
+                ],
+                "correct": 1,
+                "explanation": "Alguien pacífico busca la paz y sosiego; su antónimo es violento (que tiende a usar la fuerza o agresión)."
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Completamiento: \"El investigador fue muy _______ en su trabajo, no dejó ningún detalle al _______.\"",
+                "options": [
+                    "flojo / estudio",
+                    "riguroso / azar",
+                    "triste / momento",
+                    "rápido / caso"
+                ],
+                "correct": 1,
+                "explanation": "El completamiento lógico exige que si el investigador no deja detalles libres, es porque su trabajo fue meticuloso y 'riguroso', descartando el 'azar'."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Completamiento: \"A pesar de su _______ edad, demostró una _______ sorprendente para resolver el problema matemático.\"",
+                "options": [
+                    "avanzada / ignorancia",
+                    "corta / madurez",
+                    "mala / torpeza",
+                    "adulta / lentitud"
+                ],
+                "correct": 1,
+                "explanation": "El conector de contraste 'A pesar de' requiere elementos opuestos: una edad 'corta' (juventud) contrasta con una capacidad alta o 'madurez' para solucionar problemas complejos."
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Completamiento: \"La lectura constante no solo _______ nuestra imaginación, sino que también _______ nuestro vocabulario diario.\"",
+                "options": [
+                    "destruye / olvida",
+                    "frena / reduce",
+                    "estimula / enriquece",
+                    "pausa / limita"
+                ],
+                "correct": 2,
+                "explanation": "Tanto 'estimula' como 'enriquece' son efectos positivos coherentes con la práctica constructiva de la lectura habitual."
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos (Unión): Si el conjunto A = {2, 4, 6, 8} and el conjunto B = {1, 2, 3, 4}, ¿cuál es el resultado de la unión A ∪ B?",
+                "options": [
+                    "{2, 4}",
+                    "{1, 2, 3, 4, 6, 8}",
+                    "{6, 8}",
+                    "{1, 3}"
+                ],
+                "correct": 1,
+                "explanation": "La unión agrupa todos los elementos que pertenecen a A o a B, sin duplicar los repetidos (2 y 4): {1, 2, 3, 4, 6, 8}."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos (Intersección): Dados M = {a, e, i, o, u} y N = {a, b, c, d, e}, ¿qué elementos conforman la intersección M ∩ N?",
+                "options": [
+                    "{a, e, i, o, u, b, c, d}",
+                    "{a, e}",
+                    "{i, o, u}",
+                    "{b, c, d}"
+                ],
+                "correct": 1,
+                "explanation": "La intersección solo agrupa aquellos elementos comunes presentes simultáneamente en M y en N, en este caso las letras 'a' y 'e'."
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos (Problema): En una fiesta de 50 invitados, 30 personas comen pastel y 25 personas toman refresco. Si es obligatorio consumir al menos una de las dos cosas, ¿cuántas personas hacen AMBAS cosas (comen pastel y toman refresco)?",
+                "options": [
+                    "5 personas",
+                    "10 personas",
+                    "15 personas",
+                    "25 personas"
+                ],
+                "correct": 0,
+                "explanation": "La suma total es 30 + 25 = 55 consumos. Restando el total real de personas (50), concluimos que 5 personas consumieron ambas cosas."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos (Diferencia): Si el conjunto P = {10, 20} y el conjunto Q = {20, 30}, ¿cuál es la diferencia P - Q (elementos que están en P pero NO en Q)?",
+                "options": [
+                    "{10}",
+                    "{20}",
+                    "{30}",
+                    "{10, 20, 30}"
+                ],
+                "correct": 0,
+                "explanation": "La diferencia P - Q remueve de P todo elemento que esté también en Q, en este caso eliminando el 20, quedando únicamente {10}."
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos: Si absolutamente todos los elementos de un conjunto C se encuentran también dentro de un conjunto más grande D, se dice que el conjunto C es:",
+                "options": [
+                    "Un superconjunto de D",
+                    "Un subconjunto de D",
+                    "Una intersección",
+                    "Un conjunto nulo"
+                ],
+                "correct": 1,
+                "explanation": "Por definición teórica, si un conjunto está completamente contenido dentro de otro de mayor jerarquía, se le considera subconjunto de este."
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: ¿Cuál es el resultado simplificado de sumar las fracciones 1/3 + 1/6?",
+                "options": [
+                    "1/9",
+                    "2/9",
+                    "1/2",
+                    "1/4"
+                ],
+                "correct": 2,
+                "explanation": "Homogeneizamos: 1/3 = 2/6. Sumamos: 2/6 + 1/6 = 3/6. Simplificando la fracción dividiendo para 3, obtenemos 1/2."
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: Juan se come 2/5 de una pizza y María se come 1/5 de la misma pizza. ¿Qué fracción de la pizza sobra?",
+                "options": [
+                    "1/5",
+                    "2/5",
+                    "3/5",
+                    "4/5"
+                ],
+                "correct": 1,
+                "explanation": "Sumamos lo comido: 2/5 + 1/5 = 3/5. La fracción sobrante de la pizza completa (5/5) es: 5/5 - 3/5 = 2/5."
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: ¿Cuál es el resultado de la multiplicación de fracciones: 3/4 × 1/2?",
+                "options": [
+                    "3/8",
+                    "4/6",
+                    "3/6",
+                    "4/8"
+                ],
+                "correct": 0,
+                "explanation": "Multiplicamos los numeradores directamente (3 * 1 = 3) y los denominadores (4 * 2 = 8), lo que da 3/8."
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: En un salón de 40 estudiantes, 3/4 partes aprobaron el examen de matemáticas. ¿Cuántos estudiantes aprobaron exactamente?",
+                "options": [
+                    "10",
+                    "20",
+                    "30",
+                    "40"
+                ],
+                "correct": 2,
+                "explanation": "Calculamos la fracción del total: (40 * 3) / 4 = 120 / 4 = 30 estudiantes aprobados."
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: ¿Cuál de las siguientes fracciones es equivalente (tiene exactamente el mismo valor) a 4/8?",
+                "options": [
+                    "1/2",
+                    "1/3",
+                    "1/4",
+                    "2/3"
+                ],
+                "correct": 0,
+                "explanation": "Al simplificar la fracción 4/8 dividiendo numerador y denominador entre su máximo común divisor (4), resulta 1/2."
+            }
+        ]
     },
     "Semana 2": {
-        "Lunes": [],
+        "Lunes": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Para qué se utiliza principalmente el punto y seguido en un texto?",
+                "options": [
+                    "Para finalizar por completo un documento.",
+                    "Para separar oraciones que desarrollan la misma idea dentro de un mismo párrafo.",
+                    "Para hacer una pregunta.",
+                    "Para introducir una cita textual."
+                ],
+                "correct": 1,
+                "explanation": "El punto y seguido se utiliza para separar oraciones que pertenecen a un mismo párrafo y que abordan el mismo tema o desarrollan la misma idea principal."
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué signo de puntuación se utiliza para separar los elementos de una enumeración o lista (por ejemplo: manzanas, peras, uvas)?",
+                "options": [
+                    "El punto.",
+                    "Los dos puntos.",
+                    "La coma.",
+                    "Las comillas."
+                ],
+                "correct": 2,
+                "explanation": "La coma es el signo de puntuación utilizado para delimitar y separar los componentes de una enumeración o lista simple."
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es el objetivo principal de elaborar un resumen?",
+                "options": [
+                    "Escribir un texto mucho más largo que el original para explicarlo mejor.",
+                    "Dar la opinión personal y criticar duramente al autor del texto original.",
+                    "Redactar una exposición breve y objetiva que contenga solo las ideas principales de un texto más extenso.",
+                    "Cambiar por completo el significado de lo que el autor quiso decir."
+                ],
+                "correct": 2,
+                "explanation": "Un resumen busca sintetizar de forma clara, breve y objetiva la información esencial de un texto de origen, sin agregar interpretaciones personales ni opiniones."
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "Una característica fundamental que todo buen resumen debe tener es:",
+                "options": [
+                    "La objetividad (no incluir opiniones personales).",
+                    "El uso de rimas en todos sus párrafos.",
+                    "La inclusión de todos los ejemplos y detalles secundarios del texto original.",
+                    "Estar escrito obligatoriamente en otro idioma."
+                ],
+                "correct": 0,
+                "explanation": "La objetividad es clave en el resumen; se deben plasmar las ideas del autor de forma neutral y sin valoraciones del redactor."
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "Estructuralmente, ¿qué es un párrafo?",
+                "options": [
+                    "Una sola palabra que resume todo un libro.",
+                    "Un conjunto de oraciones que desarrollan una misma idea principal.",
+                    "El título grande que va al inicio de una noticia.",
+                    "Un conjunto de rimas y versos musicales."
+                ],
+                "correct": 1,
+                "explanation": "El párrafo es la unidad de texto que agrupa oraciones con sentido completo que giran en torno a una idea central o temática común."
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "Visualmente, ¿cómo puedes identificar rápidamente dónde termina un párrafo en un texto?",
+                "options": [
+                    "Porque siempre termina con una coma.",
+                    "Porque termina con un signo de interrogación.",
+                    "Porque termina con un punto y aparte, pasando a una nueva línea.",
+                    "Porque la última palabra siempre va en mayúsculas."
+                ],
+                "correct": 2,
+                "explanation": "El punto y aparte marca el cierre de un párrafo y el inicio del siguiente en una línea distinta (y comúnmente con sangría)."
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué es una entrevista?",
+                "options": [
+                    "Un monólogo donde una persona habla sola frente a un espejo.",
+                    "Un diálogo estructurado donde una persona formula preguntas a otra para conocer sus ideas, saberes o experiencias.",
+                    "Una pelea a gritos entre dos políticos.",
+                    "Un texto donde se describe detalladamente un paisaje."
+                ],
+                "correct": 1,
+                "explanation": "La entrevista es una conversación formal entre dos o más personas en la cual el entrevistador realiza preguntas dirigidas para obtener información del entrevistado."
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "En el formato de una entrevista, ¿quién tiene el rol de dirigir la conversación y formular las preguntas?",
+                "options": [
+                    "El entrevistador.",
+                    "El entrevistado.",
+                    "El camarógrafo.",
+                    "El público."
+                ],
+                "correct": 0,
+                "explanation": "El entrevistador es el responsable de planificar, conducir y guiar el diálogo mediante las preguntas diseñadas."
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "Si a un periodista le asignan hacer una \"entrevista estructurada\", ¿qué debe hacer?",
+                "options": [
+                    "Improvisar todo en el momento sin pensar.",
+                    "Llevar un guion con preguntas preestablecidas y seguir ese orden.",
+                    "Hablar él todo el tiempo sin dejar hablar al invitado.",
+                    "Pedirle al invitado que haga las preguntas."
+                ],
+                "correct": 1,
+                "explanation": "La entrevista estructurada se basa en un cuestionario o guion cerrado previamente elaborado que se sigue de forma estricta."
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué signo de puntuación es indispensable para escribir un texto en forma de diálogo o para hacer aclaraciones directas de quién está hablando?",
+                "options": [
+                    "La raya (o guion largo).",
+                    "El punto final.",
+                    "La arroba.",
+                    "El asterisco."
+                ],
+                "correct": 0,
+                "explanation": "La raya (—) se utiliza en los diálogos escritos para indicar la intervención de cada personaje y enmarcar sus aclaraciones o comentarios."
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "Históricamente, ¿a qué región del mundo se le conoce como el \"Viejo Continente\"?",
+                "options": [
+                    "A América.",
+                    "A la Antártida.",
+                    "A Europa.",
+                    "A Oceanía."
+                ],
+                "correct": 2,
+                "explanation": "Europa es denominada tradicionalmente como el 'Viejo Continente', puesto que allí se originaron las civilizaciones occidentales conocidas antes del contacto con América."
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿Por qué se empezó a utilizar el término \"Viejo Continente\" o \"Viejo Mundo\"?",
+                "options": [
+                    "Porque allí viven solo personas mayores.",
+                    "Para diferenciarlo del \"Nuevo Mundo\" (América), que fue descubierto más tarde por los europeos.",
+                    "Porque sus continentes se hunden rápidamente en el mar.",
+                    "Porque allí se inventaron los relojes antiguos."
+                ],
+                "correct": 1,
+                "explanation": "El término surgió tras los viajes transoceánicos del siglo XV para distinguir a los territorios ya conocidos por los europeos (Eurasia y África) de las nuevas tierras americanas (Nuevo Mundo)."
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "El largo proceso evolutivo y biológico mediante el cual los primeros primates fueron cambiando hasta convertirse en el ser humano actual se conoce como:",
+                "options": [
+                    "Colonización.",
+                    "Feudalismo.",
+                    "Hominización.",
+                    "Fotosíntesis."
+                ],
+                "correct": 2,
+                "explanation": "La hominización es el proceso de evolución biológica y sociocultural que determinó la aparición y el desarrollo del ser humano actual a partir de homínidos anteriores."
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Cuál fue uno de los logros más importantes del Homo erectus que cambió radicalmente la forma en que los primeros humanos se alimentaban y se protegían del frío?",
+                "options": [
+                    "La invención de la rueda.",
+                    "El dominio y uso del fuego.",
+                    "La creación de la moneda de oro.",
+                    "La invención de la imprenta."
+                ],
+                "correct": 1,
+                "explanation": "El Homo erectus fue la primera especie conocida en domesticar y usar el fuego de forma controlada, lo que le permitió cocinar alimentos, ahuyentar depredadores y calentarse."
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "Biológicamente, todos los seres humanos que habitamos hoy en día el planeta Tierra pertenecemos a la especie:",
+                "options": [
+                    "Homo neanderthalensis",
+                    "Australopithecus",
+                    "Homo erectus",
+                    "Homo sapiens"
+                ],
+                "correct": 3,
+                "explanation": "El Homo sapiens ('hombre sabio') es la especie homínida a la que pertenece la totalidad de la población humana actual."
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "Durante millones de años, en la etapa del Paleolítico, los primeros humanos eran \"nómadas\". ¿Qué significa este término?",
+                "options": [
+                    "Que construían enormes castillos de piedra y nunca salían de ellos.",
+                    "Que se trasladaban constantemente de un lugar a otro en busca de alimento, siguiendo a los animales y recolectando frutos.",
+                    "Que se dedicaban exclusivamente a escribir leyes.",
+                    "Que navegaban en grandes barcos de vapor por los océanos."
+                ],
+                "correct": 1,
+                "explanation": "El nomadismo implica la carencia de un lugar de asentamiento fijo, obligando a los grupos humanos a desplazarse buscando recursos naturales y climas propicios."
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Qué gran revolución permitió al ser humano dejar de ser nómada para volverse sedentario y construir las primeras aldeas?",
+                "options": [
+                    "La invención de la agricultura y la domesticación de animales (ganadería).",
+                    "La caída de los dinosaurios.",
+                    "El descubrimiento de la electricidad.",
+                    "La construcción de las pirámides de Egipto."
+                ],
+                "correct": 0,
+                "explanation": "La Revolución Neolítica introdujo la agricultura y la ganadería, permitiendo producir alimento de forma regular y establecerse permanentemente en un lugar."
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "Este importante cambio tecnológico y social, marcado por la agricultura y el sedentarismo, dio inicio a un nuevo período prehistórico llamado:",
+                "options": [
+                    "Edad Contemporánea.",
+                    "Neolítico.",
+                    "Edad de los Metales.",
+                    "Imperio Romano."
+                ],
+                "correct": 1,
+                "explanation": "El Neolítico ('piedra nueva') es la última etapa de la Edad de Piedra, caracterizada por la adopción de la vida agrícola y sedentaria."
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "Al establecerse de forma sedentaria gracias a la agricultura, las aldeas crecieron hasta convertirse en las primeras:",
+                "options": [
+                    "Agencias espaciales.",
+                    "Civilizaciones y ciudades complejas.",
+                    "Fábricas de autos.",
+                    "Repúblicas democráticas modernas."
+                ],
+                "correct": 1,
+                "explanation": "El sedentarismo y la abundancia de recursos agrícolas propiciaron la división del trabajo, el comercio y la estratificación social, naciendo las primeras ciudades."
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "Tradicionalmente, la Prehistoria (la etapa antes de la civilización humana registrada) termina, y comienza la Historia, con la invención de:",
+                "options": [
+                    "La rueda.",
+                    "La agricultura.",
+                    "La escritura.",
+                    "La televisión."
+                ],
+                "correct": 2,
+                "explanation": "El surgimiento de los primeros sistemas de escritura (en Mesopotamia y Egipto alrededor del 3200 a.C.) divide la Prehistoria de la Historia propiamente dicha."
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Interpretación de refranes: ¿Qué significa el dicho popular \"A palabras necias, oídos sordos\"?",
+                "options": [
+                    "Que las personas sordas no pueden escuchar palabras feas.",
+                    "Que debemos ignorar los insultos, críticas sin fundamento o comentarios malintencionados.",
+                    "Que hay que gritar para que nos entiendan.",
+                    "Que debemos taparnos las orejas cuando alguien cuenta un secreto."
+                ],
+                "correct": 1,
+                "explanation": "El refrán enseña que no debemos prestar atención a los comentarios imprudentes, necios o dañinos, evitando engancharnos en discusiones inútiles."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Interpretación de refranes: ¿Cuál es la moraleja de \"No por mucho madrugar amanece más temprano\"?",
+                "options": [
+                    "Que hay que dormir hasta el mediodía para tener buena salud.",
+                    "Que despertarse temprano es malo para la vista.",
+                    "Que algunos procesos llevan su tiempo natural y apresurarse o desesperarse no hará que las cosas sucedan antes.",
+                    "Que el sol sale a distintas horas todos los días."
+                ],
+                "correct": 2,
+                "explanation": "Este refrán advierte sobre la impaciencia, recordándonos que las cosas se toman su tiempo y que no por forzar las situaciones o correr lograremos adelantarlas."
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: PROFESOR es a ESCUELA como:",
+                "options": [
+                    "Pescador es a Río.",
+                    "Médico es a Hospital.",
+                    "Piloto es a Coche.",
+                    "Actor es a Cine."
+                ],
+                "correct": 1,
+                "explanation": "La analogía establece una relación de sujeto-lugar de trabajo: el profesor trabaja habitualmente en la escuela, al igual que el médico en el hospital."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: MARTILLO es a CLAVAR como:",
+                "options": [
+                    "Escoba es a Barrer.",
+                    "Cuchara es a Tenedor.",
+                    "Zapato es a Caminar.",
+                    "Libro es a Estudiar."
+                ],
+                "correct": 0,
+                "explanation": "La relación es de objeto y su función principal: el martillo sirve para clavar, y de igual forma, la escoba sirve para barrer."
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: LLANTO es a TRISTEZA como:",
+                "options": [
+                    "Grito es a Silencio.",
+                    "Sonrisa es a Alegría.",
+                    "Sudor es a Agua.",
+                    "Noche es a Día."
+                ],
+                "correct": 1,
+                "explanation": "Se presenta una relación de efecto-causa (o manifestación física de un sentimiento): el llanto es la manifestación externa de la tristeza, así como la sonrisa lo es de la alegría."
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve respetando la jerarquía matemática: 12 + 8 × 2 =",
+                "options": [
+                    "40",
+                    "28",
+                    "20",
+                    "36"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, primero hacemos la multiplicación porque tiene prioridad sobre la suma. Multiplicamos 8 x 2 = 16. Luego le sumamos los 12 iniciales, dándonos 28."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve: (15 − 5) / 2 + 4 =",
+                "options": [
+                    "9",
+                    "7",
+                    "14",
+                    "5"
+                ],
+                "correct": 0,
+                "explanation": "Para resolver esto, los paréntesis mandan. Primero restamos 15 - 5 = 10. A ese 10 lo dividimos entre 2, lo que da 5. Finalmente, le sumamos los 4, y tenemos 9."
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Numérico",
+                "question": "Problema básico: Si compras un pantalón que cuesta $25 y una camisa que cuesta $15, y pagas con un billete de $50, ¿cuánto recibes de vuelto?",
+                "options": [
+                    "$5",
+                    "$10",
+                    "$15",
+                    "$20"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, sumamos lo que gastamos: 25 del pantalón + 15 de la camisa = 40. Si pagaste con un billete de 50, restas 50 - 40, y te sobran 10 dólares de vuelto."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve: 5 × 4 − 10 / 2 =",
+                "options": [
+                    "15",
+                    "5",
+                    "20",
+                    "10"
+                ],
+                "correct": 0,
+                "explanation": "Para resolver esto, primero hacemos las multiplicaciones y divisiones al mismo tiempo: 5 x 4 = 20, y 10 / 2 = 5. Luego restamos los resultados: 20 - 5 = 15."
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Numérico",
+                "question": "Problema básico: Tienes una bolsa con 30 caramelos y quieres repartirlos en partes iguales entre 5 niños. ¿Cuántos caramelos le tocan a cada niño?",
+                "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, es una división muy sencilla. Tomas el total de caramelos que es 30, y lo divides entre los 5 niños. 30 / 5 = 6."
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Si lanzas un dado estándar (de 6 caras), ¿cuál es la probabilidad de sacar un número impar (1, 3 o 5)?",
+                "options": [
+                    "1/6",
+                    "2/6",
+                    "3/6 (o 1/2)",
+                    "4/6"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, contamos los casos que nos sirven: los impares son el 1, el 3 y el 5 (son 3 casos a favor). Como el dado tiene 6 casos totales, la fracción es 3/6, que simplificando es 1/2."
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: En una caja hay 4 pelotas rojas y 6 pelotas azules. Si sacas una pelota sin mirar, ¿cuál es la probabilidad de que sea roja?",
+                "options": [
+                    "4/10 (o 2/5)",
+                    "6/10",
+                    "1/4",
+                    "1/10"
+                ],
+                "correct": 0,
+                "explanation": "Para resolver esto, sumamos todas las pelotas de la caja: 4 rojas + 6 azules = 10 pelotas en total. Como queremos sacar una roja, y hay 4, la probabilidad es 4 de 10, es decir 4/10."
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Si lanzas dos monedas al aire al mismo tiempo, ¿cuál es la probabilidad de que AMBAS caigan en \"cara\"?",
+                "options": [
+                    "1/2",
+                    "1/4",
+                    "3/4",
+                    "1/1"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, mira las posibles combinaciones de 2 monedas: Cara-Cara, Cara-Cruz, Cruz-Cara, Cruz-Cruz. Hay 4 escenarios posibles, y solo 1 es Cara-Cara, así que la probabilidad es 1/4."
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Una ruleta tiene los números del 1 al 10. Si la giras, ¿cuál es la probabilidad de que caiga en un número MAYOR que 7?",
+                "options": [
+                    "2/10",
+                    "3/10",
+                    "4/10",
+                    "7/10"
+                ],
+                "correct": 1,
+                "explanation": "Para resolver esto, los números mayores que 7 en esa ruleta son el 8, el 9 y el 10. Son 3 casos que te sirven. Como la ruleta tiene 10 números posibles, la probabilidad es 3/10."
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: En una baraja normal de póker de 52 cartas, ¿cuál es la probabilidad de sacar exactamente el \"As de corazones\" en el primer intento?",
+                "options": [
+                    "1/4",
+                    "1/13",
+                    "1/52",
+                    "4/52"
+                ],
+                "correct": 2,
+                "explanation": "Para resolver esto, piensa cuántos Ases de corazones hay en una baraja. Solo hay 1. Como hay 52 cartas en total, tu probabilidad directa es de 1 entre 52."
+            }
+        ],
         "Martes": [],
         "Miércoles": [],
         "Jueves": [],
@@ -2878,10 +4246,364 @@ const studyData = {
                     }
                 ]
             }
-        ], "Sábado": [], "Domingo": []
+        ],
+        "Sábado": [
+            {
+                "topic": "La investigación monográfica",
+                "subject": "Lengua y Literatura",
+                "concept": "La investigación monográfica es un trabajo académico escrito, sistemático y sumamente metódico que tiene como finalidad primordial profundizar en un tema de estudio específico, delimitado y claramente definido. A través de este proceso de indagación, el investigador recopila, contrasta y analiza de manera crítica y rigurosa una variedad de fuentes bibliográficas o empíricas confiables para estructurar una explicación coherente y dar respuesta a preguntas de investigación específicas, culminando en una serie de conclusiones analíticas basadas en la evidencia recolectada.\n\nLa estructura de una monografía formal exige orden y rigor metodológico, incluyendo típicamente una portada institucional, un índice, una introducción (donde se delimita el tema, se justifican los objetivos del trabajo y se plantea el problema), el desarrollo o cuerpo argumentativo organizado en capítulos o secciones específicas, las conclusiones y la bibliografía detallada. Este tipo de documento fomenta el desarrollo del pensamiento crítico y es la base de la formación investigadora en entornos educativos de nivel superior.",
+                "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=la+investigacion+monografica",
+                "exercises": []
+            },
+            {
+                "topic": "Los textos Académicos",
+                "subject": "Lengua y Literatura",
+                "concept": "Los textos académicos son aquellos documentos formales de comunicación que se elaboran y difunden dentro del ámbito estudiantil, escolar, universitario y de la investigación científica. La principal característica que los define es su alto rigor intelectual, el cual se apoya en una argumentación coherente sustentada en datos, metodologías claras y referencias válidas que evitan el plagio. Además de difundir conocimiento y nuevos hallazgos, estos escritos buscan persuadir o informar al lector basándose en la objetividad y neutralidad.\n\nEn cuanto a su estilo de redacción, los textos académicos utilizan un lenguaje formal, claro y denotativo, incorporando terminología técnica o vocabulario especializado adecuado al área del conocimiento. La redacción se realiza preferentemente en tercera persona gramatical o utilizando la primera persona del plural (plural de modestia). Ejemplos típicos de estos textos incluyen artículos científicos (papers), tesis de grado, monografías, ensayos universitarios e informes de laboratorio.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=los+textos+academicos",
+                "exercises": []
+            },
+            {
+                "topic": "El informe Académico",
+                "subject": "Lengua y Literatura",
+                "concept": "El informe académico es un texto de carácter predominantemente expositivo e informativo que describe de manera sumamente clara, estructurada y objetiva los resultados de una investigación previa, un proyecto práctico o una actividad de aprendizaje realizada. A diferencia de un artículo de opinión, el informe no busca el lucimiento literario ni expresar emociones subjetivas, sino presentar hechos concretos y datos empíricos de forma ordenada para que otros miembros de la comunidad educativa o científica puedan comprender y evaluar los hallazgos.\n\nSu estructura clásica consta de cuatro partes esenciales: la introducción (que plantea los antecedentes y objetivos del estudio), el desarrollo o cuerpo (donde se explica detalladamente la metodología aplicada y se exponen los resultados mediante tablas o gráficas), las conclusiones (que sintetizan las deducciones clave y sugieren recomendaciones) y la bibliografía o anexos (que reúnen las referencias utilizadas y soportes documentales). El lenguaje empleado debe ser preciso, evitando ambigüedades e interpretaciones vagas.",
+                "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+informe+academico",
+                "exercises": []
+            },
+            {
+                "topic": "Los orígenes y la monarquía",
+                "subject": "Historia",
+                "concept": "Este tema aborda la etapa fundacional e inicial de la civilización romana, que se extiende convencionalmente desde su mítica fundación en el año 753 a.C. por los hermanos Rómulo y Remo hasta el establecimiento de la República en el 509 a.C. Durante este primer período, Roma estuvo gobernada por un sistema político de monarquía no hereditaria, donde el rey ejercía el poder militar, religioso y judicial, auxiliado por el Senado (una asamblea de ancianos patricios) y los comicios curiados.\n\nLa tradición histórica menciona la existencia de siete reyes (cuatro de origen latino-sabino y los tres últimos de origen etrusco, como Tarquinio el Soberbio), quienes consolidaron las bases del trazado urbano de la ciudad, construyeron defensas, introdujeron el calendario y establecieron las primeras jerarquías sociales de patricios y plebeyos. El abuso de poder de los últimos monarcas de influencia etrusca generó una gran rebelión social encabezada por los patricios, provocando la expulsión de Tarquinio el Soberbio y el fin definitivo del gobierno monárquico.",
+                "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=roma+monarquia+origenes",
+                "exercises": []
+            },
+            {
+                "topic": "La República",
+                "subject": "Historia",
+                "concept": "La República romana es el gran período histórico de la antigua Roma que abarca desde el año 509 a.C., tras la caída de la monarquía, hasta el 27 a.C., momento en que se inicia el Imperio bajo César Augusto. Bajo el lema SPQR (Senatus Populusque Romanus), el poder político se reestructuró para evitar que se concentrara en un solo hombre, creando un sistema basado en la división de funciones del Estado entre tres instituciones clave: las asambleas populares o comicios (donde los ciudadanos votaban), las magistraturas anuales colegiadas (siendo los dos cónsules los gobernantes máximos) y el influyente Senado.\n\nEste período estuvo caracterizado por una continua lucha interna de clases entre los patricios (nobles terratenientes que ostentaban el poder inicial) y los plebeyos (la clase trabajadora mayoritaria), quienes progresivamente consiguieron el reconocimiento de sus derechos políticos, como la creación de los Tribunos de la Plebe y la redacción de las Leyes de las Doce Tablas. A su vez, la estabilidad interna y el eficiente ejército de ciudadanos permitieron a la República iniciar su gran expansión territorial sobre Italia y todo el Mediterráneo Occidental.",
+                "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=roma+republica",
+                "exercises": []
+            },
+            {
+                "topic": "La expansión y la crisis de la República",
+                "subject": "Historia",
+                "concept": "Esta etapa de la historia romana describe el apogeo militar de la República y el surgimiento de las tensiones internas que terminaron colapsando su propio sistema político. A través de conflictos internacionales como las Guerras Púnicas contra Cartago, Roma se adueñó del control del mar Mediterráneo y conquistó vastas regiones de Europa occidental y Oriente Próximo, convirtiéndose en una superpotencia militar y comercial que administraba sus conquistas a través de provincias.\n\nSin embargo, la inmensa afluencia de riquezas, botines y millones de esclavos generó una profunda brecha socioeconómica: los nobles patricios acumularon inmensos latifundios agrícolas trabajados por mano de obra esclava barata, mientras que los pequeños campesinos plebeyos se arruinaron y migraron a Roma en busca de pan y circo. Esta gran crisis social desató violentas revueltas agrarias (como la de los hermanos Graco), rebeliones de esclavos (lideradas por Espartaco) y sangrientas guerras civiles entre caudillos militares aliados a facciones políticas, culminando en la asunción de dictaduras perpetuas como la de Julio César y el ocaso de las instituciones republicanas.",
+                "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=expansion+y+crisis+de+la+republica+romana",
+                "exercises": []
+            },
+            {
+                "topic": "Precisión Semántica",
+                "subject": "Razonamiento Verbal",
+                "concept": "La precisión semántica es la aptitud o habilidad lingüística que consiste en elegir y emplear el término más exacto, riguroso y adecuado según el contexto específico de una oración o texto. Su propósito fundamental es garantizar la máxima claridad y fidelidad en la transmisión de una idea, evitando que el receptor caiga en malentendidos, ambigüedades o dobles interpretaciones provocadas por el uso de palabras vagas, genéricas o incorrectas.\n\nDesarrollar una buena precisión semántica implica ir más allá de los términos comunes (palabras 'baúl' como 'cosa', 'hacer' o 'poner') y utilizar el vocabulario especializado que requiere cada campo. Por ejemplo, en el ámbito jurídico o médico, no es lo mismo 'hacer una operación' que 'realizar una intervención quirúrgica' o 'ejecutar un procedimiento quirúrgico'. Seleccionar la palabra idónea enriquece el discurso y otorga rigor técnico al lenguaje hablado o escrito.",
+                "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=precision+semantica",
+                "exercises": [
+                    {
+                        "problem": "Complete la oración con el término más preciso:\n\n'El tribunal dictó una _______ histórica que absolvió al acusado'.\n\na) opinión\nb) sentencia\nc) idea\nd) carta",
+                        "solution": "1. Analizamos el contexto jurídico: un tribunal emite una decisión oficial que pone fin a un juicio.\n2. La palabra precisa y formal para este acto legal es 'sentencia'.\n3. La opción correcta es la b)."
+                    },
+                    {
+                        "problem": "Complete con precisión semántica:\n\n'El médico procedió a _______ la herida para detener el sangrado'.\n\na) tapar\nb) curar\nc) cauterizar\nd) amarrar",
+                        "solution": "1. El contexto habla de detener el sangrado de una herida mediante un procedimiento médico específico.\n2. Cauterizar (quemar una herida con calor o agentes químicos) es la palabra técnica y más precisa para esta acción médica.\n3. La opción correcta es la c)."
+                    }
+                ]
+            },
+            {
+                "topic": "Sinónimos",
+                "subject": "Razonamiento Verbal",
+                "concept": "Los sinónimos son palabras o expresiones que pertenecen a la misma categoría gramatical y presentan formas de escritura y pronunciación diferentes, pero poseen significados iguales, equivalentes o sumamente similares entre sí. Su uso es un recurso fundamental en la redacción de textos de cualquier tipo, ya que permite evitar la repetición monótona de vocablos, facilitando una mayor riqueza expresiva y fluidez de lectura sin alterar el mensaje original del escrito.\n\nEs importante diferenciar entre la sinonimia absoluta (cuando dos términos significan exactamente lo mismo en cualquier circunstancia, como 'abecedario' y 'alfabeto') y la sinonimia conceptual o de contexto (donde la equivalencia depende de la situación, como 'quebrar' y 'romper', ya que se puede romper un vidrio o quebrar una pierna, pero no siempre son intercambiables). Comprender estas sutiles variaciones semánticas ayuda a elegir la palabra adecuada para cada propósito comunicativo.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=sinonimos",
+                "exercises": [
+                    {
+                        "problem": "Determine el sinónimo de la palabra 'BENEVOLENTE':\n\na) Cruel\nb) Indiferente\nc) Bondadoso\nd) Egoísta",
+                        "solution": "1. El término 'benevolente' se refiere a alguien que tiene buena voluntad, afecto o simpatía hacia los demás.\n2. Por lo tanto, su sinónimo directo es 'bondadoso'.\n3. La respuesta correcta es la c)."
+                    },
+                    {
+                        "problem": "Identifique el sinónimo de la palabra 'CONCISO':\n\na) Extenso\nb) Breve\nc) Detallado\nd) Confuso",
+                        "solution": "1. Algo 'conciso' es aquello que expresa las ideas con pocas palabras, de manera directa y resumida.\n2. Su sinónimo es 'breve'.\n3. La respuesta correcta es la b)."
+                    }
+                ]
+            },
+            {
+                "topic": "Porcentajes",
+                "subject": "Razonamiento Numérico",
+                "concept": "El porcentaje o tanto por ciento es una medida y una herramienta matemática de proporcionalidad que expresa una cantidad determinada como una fracción cuyo denominador es 100. Se representa visualmente con el símbolo '%' y permite realizar comparaciones estandarizadas de datos de diferente magnitud, indicando qué proporción del total (representado siempre por el número 100) corresponde al valor analizado en un contexto específico.\n\nCalcular porcentajes es fundamental en la resolución de problemas cotidianos de razonamiento numérico, financieros y de estadística, tales como la aplicación de descuentos comerciales, el cálculo de recargos e impuestos (como el IVA), o el análisis de tasas de crecimiento demográfico y variaciones porcentuales. Su manejo requiere soltura al convertir porcentajes a su forma decimal (por ejemplo, 10% equivale a 0.10) o de fracción (1/10) para agilizar las operaciones aritméticas de multiplicación y división.",
+                "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=porcentajes+matematicas",
+                "exercises": [
+                    {
+                        "problem": "¿Cuál es el 15% de 200?\n\na) 15\nb) 20\nc) 30\nd) 40",
+                        "solution": "1. Para calcular el 15% de 200, multiplicamos el número por la fracción del porcentaje: 200 * (15/100).\n2. Simplificamos: 200 * 0.15 = 30.\n3. La opción correcta es la c)."
+                    },
+                    {
+                        "problem": "Un abrigo cuesta $120 y tiene un descuento del 20%. ¿Cuánto costará con la rebaja?\n\na) $96\nb) $100\nc) $80\nd) $104",
+                        "solution": "1. Calculamos el monto del descuento: 20% de 120 = 120 * 0.20 = $24.\n2. Restamos el descuento al valor original: 120 - 24 = $96.\n3. La opción correcta es la a)."
+                    }
+                ]
+            },
+            {
+                "topic": "Reglas de tres simples",
+                "subject": "Razonamiento Numérico",
+                "concept": "La regla de tres simple es un procedimiento matemático e intuitivo de resolución de problemas que permite encontrar el valor de un cuarto elemento desconocido a partir del análisis y la comparación de tres valores o magnitudes que guardan una relación de proporcionalidad conocida. Es una de las herramientas de cálculo práctico más antiguas y universales en el razonamiento matemático, siendo sumamente útil tanto en el aula como en situaciones cotidianas de escalas, recetas o presupuestos.\n\nDependiendo del tipo de proporcionalidad que compartan las variables, la regla de tres puede clasificarse en: regla de tres directa (cuando las magnitudes se mueven en la misma dirección; por ejemplo, si compro más manzanas, el precio total a pagar aumentará proporcionalmente) y regla de tres inversa (cuando las magnitudes varían de forma opuesta; por ejemplo, a mayor cantidad de pintores realizando un trabajo, menos horas se requerirán para completarlo). Plantear correctamente la ecuación de igualdad es clave para resolver con éxito.",
+                "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=regla+de+tres+simple",
+                "exercises": [
+                    {
+                        "problem": "Si 4 libretas cuestan $8, ¿cuánto costarán 10 libretas del mismo tipo?\n\na) $15\nb) $20\nc) $12\nd) $18",
+                        "solution": "1. Como es proporcionalidad directa (a más libretas, mayor costo), planteamos la regla de tres: 4 -> 8 y 10 -> x.\n2. Multiplicamos cruzado: x = (10 * 8) / 4 = 80 / 4 = 20.\n3. La respuesta correcta es la b)."
+                    },
+                    {
+                        "problem": "Si 3 pintores tardan 12 horas en pintar una casa, ¿cuánto tiempo tardarán 9 pintores en hacer el mismo trabajo al mismo ritmo?\n\na) 4 horas\nb) 6 horas\nc) 8 horas\nd) 3 horas",
+                        "solution": "1. Es una regla de tres inversa porque a más pintores, menos horas tardarán.\n2. Planteamos la relación: 3 pintores -> 12 horas; 9 pintores -> x horas.\n3. Multiplicamos en línea: x = (3 * 12) / 9 = 36 / 9 = 4 horas.\n4. La respuesta correcta es la a)."
+                    }
+                ]
+            }
+        ],
+        "Domingo": [
+            {
+                "topic": "La referenciación bibliográfica",
+                "subject": "Lengua y Literatura",
+                "concept": "La referenciación bibliográfica es el proceso académico normado mediante el cual se registra y detalla de manera estructurada y formal la procedencia de la información, citas o ideas de otros autores que han sido incorporadas a lo largo de un trabajo escrito. Al proporcionar los datos exactos del documento original (como autor, año, título, editorial o enlace digital), se facilita al lector la verificación de la veracidad del contenido redactado y se otorga reconocimiento formal a la propiedad intelectual, constituyendo un pilar fundamental de la honestidad académica.\n\nExisten múltiples estilos estandarizados de referenciación a nivel internacional, entre los cuales destacan el formato de las normas APA (muy común en ciencias sociales y educación), el formato Chicago y el formato MLA para humanidades. Omitir este proceso o realizarlo de manera incorrecta en trabajos académicos de investigación o monográficos constituye una falta grave conocida como plagio, lo cual puede acarrear sanciones de índole legal o académica debido a la apropiación no autorizada de ideas.",
+                "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=la+referenciacion+bibliografica+normas+apa",
+                "exercises": []
+            },
+            {
+                "topic": "Contradicciones y ambigüedades",
+                "subject": "Lengua y Literatura",
+                "concept": "Las contradicciones y las ambigüedades son vicios de redacción y problemas de coherencia semántica que afectan gravemente la claridad, precisión y legibilidad de cualquier tipo de texto. Una contradicción textual surge cuando el autor plantea dos o más afirmaciones o argumentos que se oponen lógicamente y se niegan de manera absoluta entre sí dentro del mismo escrito, lo que anula la validez del razonamiento y desorienta por completo al lector sobre el verdadero mensaje o postura defendida.\n\nPor otro lado, la ambigüedad (también conocida como anfibología) se produce cuando una palabra, frase u oración completa presenta una estructura defectuosa o un significado vago que permite comprender o interpretar la información de dos o más formas totalmente diferentes. Esto suele ocurrir por una colocación incorrecta de los signos de puntuación, el uso de pronombres confusos o la mala ordenación de las palabras (por ejemplo, 'Se venden cunas para bebés de madera'). Evitar ambos problemas es crucial para redactar informes y documentos científicos fiables.",
+                "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=contradicciones+y+ambiguedades+en+un+texto",
+                "exercises": []
+            },
+            {
+                "topic": "La homonimia, polisemia y paronimia",
+                "subject": "Lengua y Literatura",
+                "concept": "La homonimia, la polisemia y la paronimia son fenómenos y relaciones semánticas fundamentales de la lingüística que describen las coincidencias de pronunciación, escritura o significado entre diferentes vocablos de nuestro idioma. La homonimia agrupa palabras que tienen un origen histórico diferente pero que por evolución fonética se escriben o suenan igual, clasificándose en homógrafas (se escriben igual, como 'banco' de sentarse y de dinero) y homófonas (suenan igual pero se escriben diferente, como 'tubo' y 'tuvo').\n\nEn cambio, la polisemia ocurre cuando un único vocablo de origen común posee múltiples acepciones o significados distintos, los cuales mantienen alguna relación de semejanza o conexión conceptual entre sí (como la 'hoja' de una planta y la 'hoja' de un cuaderno de papel). Por último, la paronimia se presenta entre palabras que tienen una ortografía y sonido muy parecido pero significan cosas totalmente diferentes (como 'actitud' y 'aptitud' o 'afecto' y 'efecto'), lo cual suele generar constantes errores y confusiones en la comunicación escrita.",
+                "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=homonimia+polisemia+paronimia",
+                "exercises": []
+            },
+            {
+                "topic": "El Imperio romano",
+                "subject": "Historia",
+                "concept": "El Imperio romano representa la tercera y definitiva fase histórica de la antigua Roma, abarcando desde el nombramiento de Octavio Augusto como primer emperador en el año 27 a.C. hasta la caída definitiva de su mitad occidental en el 476 d.C. (la mitad oriental perduraría como el Imperio Bizantino hasta 1453). A diferencia del período republicano anterior, caracterizado por el reparto institucional del poder, el Imperio centralizó toda la autoridad civil, militar y religiosa en la figura autocrática del emperador, quien gobernaba por encima de las antiguas magistraturas y del propio Senado.\n\nDurante los siglos I y II d.C., el Imperio experimentó la Pax Romana, una etapa de estabilidad interna, desarrollo comercial, florecimiento de grandes obras de ingeniería civil y máxima expansión territorial, controlando las tierras que rodeaban al mar Mediterráneo al que llamaban Mare Nostrum. Sin embargo, a partir del siglo III d.C., el Imperio enfrentó graves crisis políticas, presiones de invasores bárbaros germánicos en sus fronteras y problemas económicos que obligaron a dividir el territorio en dos partes independientes antes del colapso del lado occidental.",
+                "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+imperio+romano+resumen",
+                "exercises": []
+            },
+            {
+                "topic": "El legado cultural de Roma",
+                "subject": "Historia",
+                "concept": "El legado cultural de Roma representa el inmenso y duradero conjunto de aportaciones de la civilización romana que sentaron las bases de la cultura, la organización jurídica y el desarrollo social de la civilización occidental actual. El aporte más trascendental es, sin duda, el Derecho Romano, un cuerpo de leyes y jurisprudencia que estableció principios fundamentales de justicia civil e igualdad ciudadana que continúan siendo la base de los sistemas legales y códigos civiles de la gran mayoría de los países modernos.\n\nAsimismo, el idioma latín vulgar, hablado a lo largo de las provincias imperiales, evolucionó con el paso de los siglos para dar origen a las lenguas romances que hoy hablan millones de personas, como el español, el portugués, el francés y el italiano. Este rico legado se complementa con el alfabeto latino, los números romanos, y espectaculares obras de arquitectura e ingeniería civil como la invención del hormigón, el uso de arcos y bóvedas en anfiteatros, acueductos, termas públicas y calzadas que facilitaron la comunicación en todo el continente.",
+                "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+legado+cultural+de+roma",
+                "exercises": []
+            },
+            {
+                "topic": "El cristianismo",
+                "subject": "Historia",
+                "concept": "El cristianismo es una religión monoteísta surgida históricamente durante el siglo I d.C. en la provincia romana de Judea (Oriente Próximo), fundamentada en la vida, enseñanzas y resurrección de Jesús de Nazaret. Durante sus primeros tres siglos, la doctrina cristiana fue declarada ilegal por los emperadores debido a su rechazo a adorar al soberano del Imperio y a los dioses paganos tradicionales, lo que obligó a sus seguidores a practicar su fe clandestinamente en catacumbas y enfrentar sangrientas persecuciones y martirios.\n\nEste panorama cambió radicalmente en el año 313 d.C. con la proclamación del Edicto de Milán por parte del emperador Constantino I el Grande, el cual garantizó la tolerancia y libertad de culto religiosa para los cristianos. Posteriormente, en el 380 d.C., mediante el Edicto de Tesalónica promulgado por el emperador Teodosio, el cristianismo niceno se convirtió en la religión oficial, obligatoria y exclusiva de todo el Imperio Romano, transformando el desarrollo cultural y espiritual de Europa.",
+                "image": "https://images.unsplash.com/photo-1438032005730-c779502df39b?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+cristianismo+en+el+imperio+romano",
+                "exercises": []
+            },
+            {
+                "topic": "Antónimos",
+                "subject": "Razonamiento Verbal",
+                "concept": "Los antónimos son palabras que pertenecen a la misma categoría gramatical y presentan significados opuestos, contrarios o inversos entre sí, tales como 'luz' y 'oscuridad' o 'subir' y 'bajar'. Su estudio y uso habitual en la lengua escrita es fundamental para contrastar ideas de manera contundente, enriquecer el léxico y aportar precisión descriptiva a las redacciones sin caer en repeticiones.\n\nSe pueden clasificar los antónimos en diferentes tipos de acuerdo a su naturaleza semántica: antónimos graduales (existe una escala intermedia entre ellos, como 'caliente' y 'frío', con temperaturas templadas en medio), antónimos complementarios (la presencia de uno elimina absolutamente la posibilidad del otro, como 'vivo' y 'muerto' o 'aprobado' y 'reprobado'), y antónimos recíprocos (donde un término implica necesariamente la existencia del otro, como 'comprar' y 'vender' o 'dar' y 'recibir').",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=antonimos+ejemplos",
+                "exercises": [
+                    {
+                        "problem": "Determine el antónimo de la palabra 'EFÍMERO':\n\na) Pasajero\nb) Transitorio\nc) Duradero\nd) Corto",
+                        "solution": "1. El término 'efímero' se refiere a algo pasajero, que tiene una duración muy breve.\n2. Por lo tanto, lo opuesto de efímero es algo que permanece en el tiempo, es decir, 'duradero'.\n3. La respuesta correcta es la c)."
+                    },
+                    {
+                        "problem": "Identifique el antónimo de 'GÉLIDO':\n\na) Frío\nb) Caluroso\nc) Helado\nd) Húmedo",
+                        "solution": "1. 'Gélido' describe algo extremadamente frío o helado.\n2. El antónimo o significado opuesto exacto es 'caluroso'.\n3. La respuesta correcta es la b)."
+                    }
+                ]
+            },
+            {
+                "topic": "Completamiento de oraciones",
+                "subject": "Razonamiento Verbal",
+                "concept": "El completamiento de oraciones es un tipo de ejercicio de razonamiento verbal y lógica lingüística que evalúa la capacidad de comprender el sentido global de una frase y determinar la palabra o conjunto de palabras adecuadas que le otorgan coherencia y concordancia gramatical. Para resolver estos problemas con éxito, no basta con identificar que los términos suenen bien o encajen de forma individual, sino que se debe analizar el contexto lógico y sintáctico de todo el enunciado.\n\nAl abordar estos cuestionamientos, es vital aplicar tres criterios de resolución indispensables: la concordancia gramatical (coincidencia de género, número, persona o tiempo verbal), la coherencia lógica (que la relación causa-efecto o de oposición marcada por los conectores tenga sentido real) y la precisión semántica (elegir el término más formal y exacto acorde al registro lingüístico de la oración). Estos ejercicios fortalecen la fluidez de lectura y la precisión expresiva del estudiante.",
+                "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=completamiento+de+oraciones+ejercicios",
+                "exercises": [
+                    {
+                        "problem": "Complete la oración:\n\n'El director mostró un tono _______ que _______ a todo el personal de la oficina.'\n\na) alegre / entristeció\nb) enérgico / motivó\nc) bajo / asustó\nd) confuso / aclaró",
+                        "solution": "1. Analizamos la coherencia y relación lógica de causa-efecto en la oración.\n2. La opción b) 'enérgico / motivó' mantiene la armonía lógica: un tono con energía produce motivación en el personal.\n3. Las demás alternativas presentan contradicciones de sentido (como alegre/entristeció).\n4. La respuesta correcta es la b)."
+                    },
+                    {
+                        "problem": "Complete la oración:\n\n'A pesar del _______ tráfico, el conductor logró llegar _______ a la conferencia.'\n\na) poco / tarde\nb) nulo / rápido\nc) pesado / a tiempo\nd) veloz / temprano",
+                        "solution": "1. El conector 'A pesar de' introduce una condición adversativa (contraste entre dificultad y logro).\n2. El tráfico pesado suele causar retrasos, pero el conductor logró lo contrario: llegar 'a tiempo'.\n3. Por lo tanto, la opción c) 'pesado / a tiempo' completa coherentemente la idea.\n4. La respuesta correcta es la c)."
+                    }
+                ]
+            },
+            {
+                "topic": "Conjuntos",
+                "subject": "Razonamiento Numérico",
+                "concept": "Un conjunto es una colección y agrupación abstracta de elementos u objetos bien definidos (que pueden ser números, letras, personas o figuras geométricas) que comparten una o más características matemáticas, propiedades o criterios comunes. La teoría de conjuntos es una rama fundacional del razonamiento numérico y algebraico, permitiendo estructurar los diferentes sistemas numéricos y modelar una infinidad de problemas matemáticos del mundo real.\n\nLas operaciones principales con conjuntos incluyen la unión (A ∪ B, que junta todos los elementos de ambos grupos), la intersección (A ∩ B, que extrae únicamente los elementos compartidos que se repiten en ambos), la diferencia (A - B, que identifica los elementos de A que no pertenecen a B) y el complemento (elementos fuera del conjunto dentro de un universo). Además, es fundamental diferenciar entre un subconjunto (cuando un conjunto pequeño está completamente contenido dentro de otro más grande) y un superconjunto.",
+                "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=teoria+de+conjuntos+matematicas",
+                "exercises": [
+                    {
+                        "problem": "Si A = {1, 3, 5} y B = {3, 5, 7}, halle la intersección A ∩ B:\n\na) {1, 7}\nb) {3, 5}\nc) {1, 3, 5, 7}\nd) {3}",
+                        "solution": "1. La intersección consiste en identificar los elementos que están en ambos conjuntos simultáneamente.\n2. Al comparar A y B, vemos que los números 3 y 5 se repiten en ambos.\n3. Por lo tanto, A ∩ B = {3, 5}.\n4. La opción correcta es la b)."
+                    },
+                    {
+                        "problem": "En un grupo de 20 personas, 12 practican fútbol y 10 practican baloncesto. Si todos practican al menos un deporte, ¿cuántos practican ambos?\n\na) 2\nb) 4\nc) 6\nd) 8",
+                        "solution": "1. Sumamos las personas de fútbol y baloncesto: 12 + 10 = 22.\n2. Restamos el total de personas en el grupo: 22 - 20 = 2.\n3. Esas 2 personas representan la intersección (los que practican ambos deportes).\n4. La opción correcta es la a)."
+                    }
+                ]
+            },
+            {
+                "topic": "Fracciones",
+                "subject": "Razonamiento Numérico",
+                "concept": "Las fracciones son expresiones y representaciones matemáticas que indican una cantidad dividida o particionada entre otra, simbolizando la división de una unidad o un todo en partes exactamente iguales. Se escriben de forma numérica utilizando dos partes separadas por una línea horizontal o diagonal: el numerador (el número superior que indica cuántas partes iguales se han tomado de la unidad) y el denominador (el número inferior que define en cuántas partes iguales se dividió dicha unidad).\n\nEn el ámbito de la aritmética y el razonamiento lógico, el manejo fluido de las fracciones es indispensable para efectuar operaciones de suma, resta, multiplicación y división de números racionales. Es clave dominar conceptos asociados como el mínimo común múltiplo (m.c.m.) para homogeneizar fracciones de denominadores distintos, la simplificación de fracciones dividiendo sus términos por divisores comunes para trabajar con números más sencillos, y el cálculo de fracciones de una cantidad entera.",
+                "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=fracciones+matematicas+desde+cero",
+                "exercises": [
+                    {
+                        "problem": "Calcule y simplifique el resultado de: 2/3 - 1/4\n\na) 1/12\nb) 5/12\nc) 3/7\nd) 1/7",
+                        "solution": "1. Hallamos el mínimo común múltiplo (m.c.m.) de los denominadores 3 y 4, el cual es 12.\n2. Convertimos las fracciones: 2/3 = 8/12 y 1/4 = 3/12.\n3. Restamos los numeradores: 8/12 - 3/12 = 5/12.\n4. La opción correcta es la b)."
+                    },
+                    {
+                        "problem": "Si reparto 3/4 de un pastel entre 3 personas en partes iguales, ¿qué fracción del pastel recibe cada una?\n\na) 1/4\nb) 1/3\nc) 1/2\nd) 3/12",
+                        "solution": "1. Dividimos la fracción original por el número de personas: (3/4) / 3.\n2. Esto equivale a multiplicar (3/4) * (1/3) = 3/12.\n3. Al simplificar dividiendo entre 3 arriba y abajo, obtenemos 1/4.\n4. La respuesta correcta es la a)."
+                    }
+                ]
+            }
+        ]
     },
     "Semana 2": {
-        "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
+        "Lunes": [
+            {
+                "topic": "Signos de puntuación",
+                "subject": "Lengua y Literatura",
+                "concept": "Los signos de puntuación son herramientas gráficas indispensables en la escritura que permiten estructurar y dar sentido a los textos. Facilitan la lectura y la comprensión al marcar las pausas y la entonación necesarias al hablar. Entre los más comunes están la coma (para pausas breves y enumeraciones), el punto (seguido, aparte y final, para delimitar oraciones y párrafos), el punto y coma (para pausas intermedias), los dos puntos (para introducir explicaciones o citas) y los signos de interrogación y exclamación (que otorgan una entonación especial). Sin ellos, los textos perderían coherencia y darían pie a malentendidos en la interpretación del mensaje.",
+                "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=signos+de+puntuacion",
+                "exercises": []
+            },
+            {
+                "topic": "El resumen",
+                "subject": "Lengua y Literatura",
+                "concept": "El resumen es un documento breve y conciso en el que se sintetizan las ideas principales de un texto más extenso, manteniendo el sentido y la objetividad del autor original. Su propósito principal es facilitar la comprensión rápida del contenido esencial sin necesidad de leer la obra completa. Para elaborar un buen resumen, es fundamental realizar una lectura atenta, subrayar o identificar las ideas clave, descartar información secundaria o redundante y redactar el nuevo texto con palabras propias (evitando opiniones personales). La objetividad, brevedad, claridad y precisión son sus características esenciales.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=como+hacer+un+resumen",
+                "exercises": []
+            },
+            {
+                "topic": "El párrafo",
+                "subject": "Lengua y Literatura",
+                "concept": "El párrafo es la unidad organizativa y visual de un texto escrito que desarrolla una idea principal o un aspecto particular del tema general. Comienza siempre con mayúscula y sangría opcional, y finaliza obligatoriamente con un punto y aparte para dar paso al siguiente bloque de texto. Estructuralmente, se compone de una oración principal (que contiene la idea central) y varias oraciones secundarias (que explican, ejemplifican o amplían la idea principal). Un párrafo bien construido posee coherencia (conexión lógica de las ideas) y cohesión (uso adecuado de conectores), lo que guía al lector a través de una progresión fluida de la lectura.",
+                "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=el+parrafo+lengua+y+literatura",
+                "exercises": []
+            },
+            {
+                "topic": "La entrevista",
+                "subject": "Lengua y Literatura",
+                "concept": "La entrevista es una técnica de comunicación orientada a obtener información de un interlocutor mediante un diálogo planificado y estructurado. En este proceso participan el entrevistador (quien diseña el guion, formula las preguntas y conduce el ritmo de la conversación) y el entrevistado (quien responde y comparte sus conocimientos, experiencias o posturas). Las entrevistas pueden ser estructuradas (basadas en un guion cerrado preestablecido), semiestructuradas (permiten flexibilidad e improvisación controlada) o libres. Es una herramienta clave en el periodismo, la investigación científica, los procesos de selección laboral y la psicología clínica.",
+                "image": "https://images.unsplash.com/photo-1521791136064-7986c2959443?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=la+entrevista+lengua+y+literatura",
+                "exercises": []
+            },
+            {
+                "topic": "El viejo Continente",
+                "subject": "Historia",
+                "concept": "El término 'Viejo Continente' (o Viejo Mundo) es una denominación histórica y geográfica utilizada para referirse a Europa, y por extensión a la masa terrestre compartida con Asia y África. Esta etiqueta surgió en el contexto europeo tras la llegada de Cristóbal Colón a tierras americanas a finales del siglo XV, las cuales pasaron a llamarse 'Nuevo Mundo'. Históricamente, Europa se considera la cuna del pensamiento occidental, el derecho moderno, el renacimiento y las revoluciones industrial y científica, ejerciendo una influencia determinante sobre el desarrollo de las civilizaciones globales a lo largo de los últimos siglos.",
+                "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=historia+europa+viejo+continente",
+                "exercises": []
+            },
+            {
+                "topic": "Evolución y civilización del hombre",
+                "subject": "Historia",
+                "concept": "La evolución y civilización del hombre abarca el fascinante proceso biológico e histórico mediante el cual los homínidos se transformaron y agruparon en sociedades complejas. Este camino inicia con el proceso de hominización, donde especies como el Australopithecus y el Homo erectus (clave por el control del fuego) se adaptaron al medio ambiente, culminando en la aparición del Homo sapiens. Durante el Paleolítico, los humanos vivían de forma nómada como cazadores y recolectores. Posteriormente, la gran Revolución Neolítica introdujo la agricultura y la domesticación de animales, promoviendo el sedentarismo, el crecimiento de aldeas, la división del trabajo y el surgimiento de las primeras civilizaciones con escritura y complejas estructuras de organización social.",
+                "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=evolucion+del+hombre+hominizacion",
+                "exercises": []
+            },
+            {
+                "topic": "Interpretación de refranes",
+                "subject": "Razonamiento Verbal",
+                "concept": "La interpretación de refranes consiste en descifrar el mensaje moral, didáctico o figurado oculto en estas sentencias populares de transmisión oral. Los refranes son parte de la sabiduría colectiva de un pueblo y reflejan experiencias y valores culturales acumulados a lo largo de generaciones. Comprenderlos requiere ir más allá de la lectura literal de sus palabras para conectar su metáfora con situaciones reales de la vida cotidiana. Por ejemplo, refranes como 'A palabras necias, oídos sordos' nos invitan a ignorar las críticas destructivas, mientras que 'No por mucho madrugar amanece más temprano' enseña sobre la paciencia y el respeto al curso natural de las cosas.",
+                "image": "https://images.unsplash.com/photo-1513001900722-370f803f498d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=interpretacion+de+refranes",
+                "exercises": [
+                    {
+                        "problem": "Identifique el significado del refrán: 'A caballo regalado no se le mira el diente'.\n\na) No debemos criticar los regalos o cosas que recibimos de forma gratuita.\nb) Los caballos viejos tienen dientes débiles.\nc) Debemos revisar muy bien todo lo que compramos.\nd) Es mala educación regalar animales.",
+                        "solution": "1. El refrán alude a que cuando algo es obsequiado, no debemos buscarle defectos o tachas, sino aceptarlo con gratitud y amabilidad.\n2. Al ver las opciones, la opción a) expresa exactamente esta moraleja.\n3. Por tanto, la respuesta correcta es la a)."
+                    },
+                    {
+                        "problem": "Señale la interpretación correcta de: 'Más vale pájaro en mano que ciento volando'.\n\na) Es mejor conformarse con algo seguro aunque sea poco, que arriesgarse por algo mejor pero incierto.\nb) Es muy difícil atrapar aves en el aire.\nc) Debemos cazar muchos pájaros para tener éxito.\nd) La libertad de las aves es más valiosa que su cautiverio.",
+                        "solution": "1. El refrán enseña que vale más asegurar lo que ya se tiene de forma concreta que codiciar cosas hipotéticas que se pueden perder.\n2. La opción a) coincide plenamente con este significado de seguridad frente a incertidumbre.\n3. Por lo tanto, la opción correcta es la a)."
+                    }
+                ]
+            },
+            {
+                "topic": "Analogías verbales",
+                "subject": "Razonamiento Verbal",
+                "concept": "Las analogías verbales son ejercicios lógicos que evalúan la capacidad de identificar relaciones de semejanza o equivalencia entre dos pares de conceptos. Resolver una analogía requiere analizar detenidamente los términos propuestos (el par base), determinar el tipo de vínculo que los une (como causa-efecto, parte-todo, sinonimia, objeto-función o sujeto-lugar) y aplicar esa misma lógica para encontrar el par equivalente entre las opciones disponibles. Son sumamente valoradas en las pruebas de aptitud académica porque miden el razonamiento inductivo, la agilidad mental y la precisión semántica del estudiante.",
+                "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=analogias+verbales+ejercicios",
+                "exercises": [
+                    {
+                        "problem": "PÁJARO es a NIDO como OSO es a:\n\na) Jaula\nb) Cueva\nc) Selva\nd) Bosque",
+                        "solution": "1. Establecemos la relación del par base: Un pájaro habita o duerme en su nido (relación de animal y su hábitat/refugio natural).\n2. Buscamos la misma relación para el oso:\n   - El oso no habita por naturaleza en una jaula (cautiverio).\n   - Una cueva es el refugio o madriguera natural del oso.\n   - Selva y bosque son áreas geográficas muy amplias y no su madriguera específica.\n3. Por lo tanto, la respuesta correcta es b) Cueva."
+                    },
+                    {
+                        "problem": "CALOR es a FRÍO como LUZ es a:\n\na) Oscuridad\nb) Día\nc) Fuego\nd) Lámpara",
+                        "solution": "1. Analizamos la relación base: Calor y Frío son opuestos directos (antónimos).\n2. Buscamos el opuesto directo para Luz:\n   - El antónimo directo de Luz es Oscuridad.\n   - Día es un periodo temporal.\n   - Fuego y Lámpara son fuentes de luz, no su opuesto.\n3. La opción correcta es la a) Oscuridad."
+                    }
+                ]
+            },
+            {
+                "topic": "Operaciones básicas",
+                "subject": "Razonamiento Numérico",
+                "concept": "Las operaciones aritméticas básicas (suma, resta, multiplicación y división) constituyen los cimientos de la matemática y son fundamentales para resolver cualquier problema numérico de la vida diaria y escolar. La suma combina cantidades; la resta determina la diferencia entre ellas; la multiplicación abrevia sumas del mismo número; y la división reparte un todo en partes equivalentes. Al realizar problemas que combinen varias de estas operaciones, es indispensable aplicar la jerarquía matemática o prioridad de operaciones (PEMDAS: resolver primero paréntesis, luego multiplicaciones y divisiones de izquierda a derecha, y por último sumas y restas), evitando errores de cálculo.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=jerarquia+de+operaciones+aritmeticas",
+                "exercises": [
+                    {
+                        "problem": "Resuelva aplicando la jerarquía de operaciones: 15 - (3 * 4) + 8 / 2\n\na) 7\nb) 5\nc) 10\nd) 12",
+                        "solution": "1. Primero resolvemos los paréntesis y las operaciones prioritarias:\n   - Paréntesis: 3 * 4 = 12.\n   - División: 8 / 2 = 4.\n2. Sustituimos estos valores en la expresión original: 15 - 12 + 4.\n3. Resolvemos las sumas y restas de izquierda a derecha:\n   - 15 - 12 = 3.\n   - 3 + 4 = 7.\n4. La respuesta correcta es la a) 7."
+                    },
+                    {
+                        "problem": "Un comerciante compra 5 cajas de lápices a $12 cada una. Si paga con un billete de $100, ¿cuánto dinero le queda?\n\na) $40\nb) $50\nc) $60\nd) $30",
+                        "solution": "1. Calculamos el gasto total de las cajas de lápices multiplicando la cantidad por el precio unitario: 5 * 12 = $60.\n2. Restamos el gasto total del billete con el que pagó para hallar el cambio: 100 - 60 = $40.\n3. Por tanto, al comerciante le quedan $40.\n4. La respuesta correcta es la a)."
+                    }
+                ]
+            },
+            {
+                "topic": "Probabilidad",
+                "subject": "Razonamiento Numérico",
+                "concept": "La probabilidad es la rama de las matemáticas que mide cuantitativamente la posibilidad de que ocurra un suceso aleatorio (bajo la influencia del azar). Su cálculo básico se expresa mediante la Regla de Laplace, que define la probabilidad como la fracción entre el número de casos favorables y el número total de casos posibles. Este resultado se puede representar como una fracción, un número decimal entre 0 y 1, o un porcentaje del 0% (evento imposible) al 100% (evento seguro). Su estudio es fundamental para la toma de decisiones, la estadística y el análisis de juegos de azar clásicos como el lanzamiento de monedas, dados o la extracción de cartas.",
+                "image": "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=probabilidad+basica+ejemplos",
+                "exercises": [
+                    {
+                        "problem": "En una bolsa hay 3 bolas blancas, 2 negras y 5 rojas. Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea blanca?\n\na) 3/10 (o 30%)\nb) 2/10\nc) 5/10\nd) 1/3",
+                        "solution": "1. Sumamos el total de bolas en la bolsa para obtener los casos posibles: 3 + 2 + 5 = 10 bolas.\n2. Los casos favorables son las bolas blancas: 3 bolas.\n3. Aplicamos la fórmula de probabilidad (casos favorables / casos posibles): 3 / 10.\n4. Expresado en porcentaje es 30%.\n5. La respuesta correcta es la a) 3/10 (o 30%)."
+                    },
+                    {
+                        "problem": "Si se lanza una moneda al aire, ¿cuál es la probabilidad de obtener 'cruz'?\n\na) 1/2 (o 50%)\nb) 1/4\nc) 1/1\nd) 0",
+                        "solution": "1. Los casos posibles son 2 (cara o cruz).\n2. El caso favorable es 1 (cruz).\n3. La probabilidad es 1 / 2, que equivale a 0.5 o 50% de probabilidad.\n4. La respuesta correcta es la a) 1/2 (o 50%)."
+                    }
+                ]
+            }
+        ],
+        "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
     },
     "Semana 3": {
         "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []

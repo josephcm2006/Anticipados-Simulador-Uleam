@@ -10,6 +10,7 @@ let currentQuestionIndex = 0;
 let selectedOptionIndex = null;
 let scoreCorrect = 0;
 let hasChecked = false;
+let isWeekExam = false;
 
 // DOM Elements
 const landingView = document.getElementById("landing-view");
@@ -21,6 +22,8 @@ const studyView = document.getElementById("study-view");
 const weekTabs = document.querySelectorAll(".week-tab");
 const daysGrid = document.getElementById("days-grid");
 const selectedWeekTitle = document.getElementById("selected-week-title");
+const weekExamContainer = document.getElementById("week-exam-container");
+const btnWeekExam = document.getElementById("btn-week-exam");
 
 // Mode Selector DOM Elements
 const modeWeekDayTag = document.getElementById("mode-week-day-tag");
@@ -96,7 +99,11 @@ function init() {
 
     // Navigation and Action Buttons
     document.getElementById("btn-back-to-landing").addEventListener("click", () => {
-        showModeSelection(currentWeek, currentDay);
+        if (isWeekExam) {
+            showView("landing-view");
+        } else {
+            showModeSelection(currentWeek, currentDay);
+        }
     });
 
     btnAction.addEventListener("click", () => {
@@ -108,8 +115,18 @@ function init() {
     });
 
     document.getElementById("btn-restart-quiz").addEventListener("click", () => {
-        startQuiz(currentWeek, currentDay);
+        if (isWeekExam) {
+            startWeekExam(currentWeek);
+        } else {
+            startQuiz(currentWeek, currentDay);
+        }
     });
+
+    if (btnWeekExam) {
+        btnWeekExam.addEventListener("click", () => {
+            startWeekExam(currentWeek);
+        });
+    }
 
     document.getElementById("btn-home-from-results").addEventListener("click", () => {
         showView("landing-view");
@@ -158,6 +175,27 @@ function renderDays() {
     const days = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
     const weekKey = `Semana ${currentWeek}`;
     
+    // Count total questions in this week
+    let totalQuestionsInWeek = 0;
+    days.forEach(day => {
+        if (questionsData[weekKey] && questionsData[weekKey][day]) {
+            totalQuestionsInWeek += questionsData[weekKey][day].length;
+        }
+    });
+
+    if (totalQuestionsInWeek > 0) {
+        if (weekExamContainer) {
+            weekExamContainer.style.display = "flex";
+        }
+        if (btnWeekExam) {
+            btnWeekExam.textContent = `EXAMEN SEMANA ${currentWeek}`;
+        }
+    } else {
+        if (weekExamContainer) {
+            weekExamContainer.style.display = "none";
+        }
+    }
+    
     days.forEach((day, index) => {
         const dayCard = document.createElement("div");
         dayCard.className = "day-card";
@@ -194,6 +232,7 @@ function showView(viewId) {
 
 // Start a quiz for a specific week and day
 function startQuiz(week, day) {
+    isWeekExam = false;
     const weekKey = `Semana ${week}`;
     const allQuestions = (questionsData[weekKey] && questionsData[weekKey][day]) ? questionsData[weekKey][day] : [];
     
@@ -334,8 +373,13 @@ function loadQuestion() {
         if (idx === currentQuestionIndex) {
             btn.classList.add("current");
         }
-        if (activeQuestions[idx].userSelected !== null && activeQuestions[idx].userSelected !== undefined) {
-            btn.classList.add("answered");
+        const q = activeQuestions[idx];
+        if (q.userSelected !== null && q.userSelected !== undefined) {
+            if (q.userSelected === q.correct) {
+                btn.classList.add("answered-correct");
+            } else {
+                btn.classList.add("answered-incorrect");
+            }
         }
     });
 }
@@ -374,7 +418,11 @@ function checkAnswer() {
     // Update active button in navigation grid
     const navBtn = document.getElementById(`nav-q-${currentQuestionIndex}`);
     if (navBtn) {
-        navBtn.classList.add("answered");
+        if (isCorrect) {
+            navBtn.classList.add("answered-correct");
+        } else {
+            navBtn.classList.add("answered-incorrect");
+        }
     }
     
     // Update Action Button
@@ -408,19 +456,27 @@ function showResults() {
     
     if (percentage === 100) {
         resultsIcon.textContent = "🏆";
-        resultsSubtext.textContent = "¡Impecable! Has respondido todo de forma correcta.";
+        resultsSubtext.textContent = isWeekExam 
+            ? "¡Impecable! Has aprobado el Examen General con puntuación perfecta."
+            : "¡Impecable! Has respondido todo de forma correcta.";
         scorePercentage.style.color = "var(--success)";
     } else if (percentage >= 70) {
         resultsIcon.textContent = "🎉";
-        resultsSubtext.textContent = "¡Muy bien! Estás listo para tus exámenes.";
+        resultsSubtext.textContent = isWeekExam
+            ? "¡Muy bien! Has aprobado el Examen General de la semana."
+            : "¡Muy bien! Estás listo para tus exámenes.";
         scorePercentage.style.color = "var(--success)";
     } else if (percentage >= 40) {
         resultsIcon.textContent = "📚";
-        resultsSubtext.textContent = "Buen intento, pero te recomendamos repasar los temas de estudio.";
+        resultsSubtext.textContent = isWeekExam
+            ? "Intento regular. Te recomendamos volver a estudiar los conceptos diarios de la semana."
+            : "Buen intento, pero te recomendamos repasar los temas de estudio.";
         scorePercentage.style.color = "var(--primary)";
     } else {
         resultsIcon.textContent = "✍️";
-        resultsSubtext.textContent = "Sigue estudiando. Repasa las tablas del plan y vuelve a intentarlo.";
+        resultsSubtext.textContent = isWeekExam
+            ? "Examen desaprobado. Sigue estudiando los conceptos semanales y vuelve a intentarlo."
+            : "Sigue estudiando. Repasa las tablas del plan y vuelve a intentarlo.";
         scorePercentage.style.color = "var(--error)";
     }
 }
@@ -433,6 +489,7 @@ function showModeSelection(week, day) {
 
 // Start Study Session
 function startStudy(week, day) {
+    isWeekExam = false;
     studyWeekDayTag.textContent = `Semana ${week} - ${day}`;
     showView("study-view");
     loadStudyContent(week, day);
@@ -670,4 +727,88 @@ function formatExerciseSolution(solutionText) {
     
     return html;
 }
+
+// Helpers for shuffling and selecting random items
+function shuffle(array) {
+    let currentIndex = array.length, randomIndex;
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+    return array;
+}
+
+function getRandomItems(array, count) {
+    const shuffled = shuffle([...array]);
+    return shuffled.slice(0, count);
+}
+
+// Start randomized general week exam
+function startWeekExam(week) {
+    isWeekExam = true;
+    currentDay = "Examen General";
+    
+    const weekKey = `Semana ${week}`;
+    const days = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
+    
+    const subjectMap = {
+        lenguaLit: [],
+        historia: [],
+        verbal: [],
+        numerico: []
+    };
+    
+    if (questionsData[weekKey]) {
+        days.forEach(day => {
+            const dayQuestions = questionsData[weekKey][day] || [];
+            dayQuestions.forEach(q => {
+                const subj = (q.subject || "").toLowerCase();
+                if (subj.includes("literatura") || (subj.includes("lengua") && !subj.includes("verbal"))) {
+                    subjectMap.lenguaLit.push(q);
+                } else if (subj.includes("historia")) {
+                    subjectMap.historia.push(q);
+                } else if (subj.includes("verbal") || subj === "lengua") {
+                    subjectMap.verbal.push(q);
+                } else if (subj.includes("num") || subj.includes("mat") || subj.includes("nume")) {
+                    subjectMap.numerico.push(q);
+                }
+            });
+        });
+    }
+    
+    // Select random non-repeating questions
+    const selectedLenguaLit = getRandomItems(subjectMap.lenguaLit, 20);
+    const selectedHistoria = getRandomItems(subjectMap.historia, 20);
+    const selectedVerbal = getRandomItems(subjectMap.verbal, 15);
+    const selectedNumerico = getRandomItems(subjectMap.numerico, 15);
+    
+    // Combine and shuffle the final exam questions
+    const combinedQuestions = [
+        ...selectedLenguaLit,
+        ...selectedHistoria,
+        ...selectedVerbal,
+        ...selectedNumerico
+    ];
+    
+    const examQuestions = shuffle(combinedQuestions);
+    
+    // Initialize activeQuestions with userSelected = null
+    activeQuestions = examQuestions.map(q => ({
+        ...q,
+        userSelected: null
+    }));
+    
+    currentQuestionIndex = 0;
+    scoreCorrect = 0;
+    hasChecked = false;
+    selectedOptionIndex = null;
+    
+    quizWeekDayTag.textContent = `Semana ${week} - Examen General`;
+    showView("simulator-view");
+    renderQuestionNavGrid();
+    loadQuestion();
+}
+
 

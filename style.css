@@ -60,6 +60,16 @@
     box-sizing: border-box;
 }
 
+/* Hide default scrollbars globally while maintaining scroll functionality */
+html, body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}
+
 body {
     background-color: var(--bg-app);
     color: var(--text-primary);
@@ -1269,6 +1279,22 @@ body {
     filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.05));
 }
 
+/* Red and White Week Exam Button for Light Mode */
+[data-theme="light"] .week-exam-btn {
+    background: #ffffff;
+    color: #dc2626 !important;
+    border: 2px solid #dc2626;
+    box-shadow: 0 4px 14px rgba(220, 38, 38, 0.1);
+}
+
+[data-theme="light"] .week-exam-btn:hover {
+    background: #dc2626;
+    color: #ffffff !important;
+    border-color: #dc2626;
+    box-shadow: 0 0 25px rgba(220, 38, 38, 0.8), 0 0 10px rgba(239, 68, 68, 0.6);
+}
+
+
 /* ==========================================================================
    Mascots Image (Sasha & Clover)
    ========================================================================== */
@@ -1291,6 +1317,67 @@ body {
     padding: 4px;
     box-shadow: 0 4px 15px rgba(248, 144, 176, 0.25);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Week Exam Button styling */
+.week-exam-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.week-exam-btn {
+    width: 100%;
+    max-width: 480px;
+    padding: 14px 28px;
+    font-size: 14.5px;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, #a855f7, #06b6d4); /* Purple to Cyan diagonal gradient */
+    box-shadow: 0 4px 14px rgba(168, 85, 247, 0.25);
+    color: #ffffff !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: var(--transition-fast);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.week-exam-btn:hover {
+    border-color: #a5f3fc; /* Bright cyan border */
+    background: linear-gradient(135deg, #b55fe6, #22d3ee); /* Enhanced bright purple to cyan gradient on hover */
+    box-shadow: 0 0 25px rgba(6, 182, 212, 0.8), 0 0 10px rgba(168, 85, 247, 0.8); /* Stronger diagonal glow */
+    opacity: 1;
+}
+
+.week-exam-btn:active {
+    transform: scale(0.98);
+}
+
+/* Nav Button States */
+.nav-q-btn.answered-correct {
+    border-color: var(--success) !important;
+    color: var(--success) !important;
+    background-color: var(--success-bg) !important;
+}
+
+.nav-q-btn.answered-incorrect {
+    border-color: var(--error) !important;
+    color: var(--error) !important;
+    background-color: var(--error-bg) !important;
+}
+
+/* Legend Dot States */
+.legend-dot.answered-correct {
+    background-color: var(--success);
+}
+
+.legend-dot.answered-incorrect {
+    background-color: var(--error);
 }
 
 

@@ -1,0 +1,91 @@
+📚 Lengua y Literatura (10 preguntas)
+1. ¿Cuál es el objetivo principal de una "investigación monográfica"? a) Escribir un poema sobre un tema libre. b) Recopilar información breve sobre muchos temas a la vez. c) Investigar, analizar y profundizar de manera detallada y sistemática sobre un tema específico y delimitado. d) Publicar una noticia rápida en un periódico.
+2. Los textos académicos se caracterizan principalmente por: a) Utilizar lenguaje informal y coloquial. b) Su rigor, objetividad, estructura formal y uso de un lenguaje técnico o especializado. c) Estar escritos siempre en verso. d) Basarse exclusivamente en las emociones del autor sin necesitar pruebas.
+3. ¿Cuál de los siguientes ejemplos NO es un texto académico? a) Un artículo científico. b) Una tesis de grado. c) Un cuento de fantasía. d) Un ensayo argumentativo universitario.
+4. En la estructura básica de un informe académico o monografía, la "Introducción" sirve para: a) Detallar todos los libros que se leyeron. b) Presentar el tema, los objetivos del trabajo y la justificación de la investigación. c) Agradecer a los familiares del autor. d) Escribir el resumen final de los resultados.
+5. Todo texto académico debe respaldar sus afirmaciones y datos para no caer en el plagio. ¿Cómo se logra esto? a) Poniendo el nombre del autor en la portada. b) Utilizando citas y referencias bibliográficas confiables. c) Escribiendo en mayúsculas las partes importantes. d) Usando muchas imágenes en el texto.
+6. El estilo de redacción en un informe académico debe ser: a) Subjetivo y lleno de opiniones personales sin fundamento. b) Humorístico y entretenido. c) Claro, objetivo, preciso y en tercera persona (o primera del plural). d) Literario y poético.
+7. ¿Qué sección de un informe académico presenta los hallazgos y el análisis de la información recopilada? a) El prólogo. b) El cuerpo o desarrollo. c) El índice. d) La dedicatoria.
+8. En una investigación monográfica, la "bibliografía" corresponde a: a) La biografía del autor que escribió la monografía. b) La lista ordenada alfabéticamente de todas las fuentes, libros y documentos consultados. c) El lugar físico donde se guardan los libros. d) Las conclusiones finales del estudio.
+9. Para que un texto sea considerado "académico", generalmente se produce en un entorno: a) Estudiantil, universitario o científico. b) Exclusivamente deportivo. c) Familiar o de amigos. d) De entretenimiento televisivo.
+10. La parte final de un informe académico, donde se sintetizan las ideas principales y se responde a los objetivos planteados al inicio, se llama: a) Anexos b) Conclusión c) Glosario d) Índice
+🏛️ Historia (10 preguntas)
+1. Según la leyenda mitológica, la ciudad de Roma fue fundada por los hermanos: a) Caín y Abel b) Rómulo y Remo c) Zeus y Hades d) Julio y Augusto
+2. ¿Cuál fue el primer sistema de gobierno que tuvo la antigua Roma desde su fundación? a) Imperio b) República c) Monarquía d) Tiranía
+3. El fin de la monarquía romana y el inicio de la República se produjo tras la expulsión del último rey (que era de origen etrusco). ¿Cómo se llamaba? a) Tarquinio el Soberbio b) Julio César c) Octavio Augusto d) Nerón
+4. Durante la República romana, ¿cuál era la institución política más poderosa, formada originalmente por patricios ancianos y sabios? a) La Asamblea de la Plebe b) El Senado c) El Foro d) La Iglesia
+5. En la República, en lugar de un rey, el gobierno y el ejército eran dirigidos por dos magistrados elegidos cada año, llamados: a) Faraones b) Cónsules c) Emperadores d) Dictadores
+6. ¿Qué clase social en Roma luchó durante siglos en la época de la República para lograr igualdad de derechos políticos frente a los patricios? a) Los esclavos b) Los gladiadores c) Los plebeyos d) Los extranjeros
+7. Durante su expansión por el Mar Mediterráneo, la República romana se enfrentó a su mayor rival comercial y militar en las "Guerras Púnicas". ¿Cuál era esa ciudad rival? a) Atenas b) Cartago c) Esparta d) Troya
+8. ¿Cómo se llamaba a los grandes territorios que Roma conquistó fuera de Italia durante la expansión de la República? a) Colonias b) Feudos c) Provincias d) Metrópolis
+9. La expansión de la República trajo muchas riquezas, pero también causó una grave crisis social porque: a) Los patricios se empobrecieron y los esclavos se hicieron ricos. b) Las tierras y riquezas se concentraron en pocas manos, arruinando a los pequeños campesinos. c) Roma prohibió el uso del dinero. d) Se quedaron sin barcos para navegar.
+10. ¿Qué famoso y exitoso general militar romano cruzó el río Rubicón, ganó una guerra civil y se hizo nombrar "dictador perpetuo", lo que llevó a su asesinato y marcó el declive final de la República? a) Julio César b) Alejandro Magno c) Leónidas d) Marco Antonio
+🗣️ Razonamiento Verbal (5 preguntas)
+Tema: Precisión Semántica y Sinónimos
+1. Precisión semántica: Completa la oración con la palabra más exacta según el contexto médico: "El cirujano realizó una _______ muy delicada a corazón abierto". a) tarea b) intervención c) aventura d) charla
+2. Precisión semántica: "Debido a la tormenta, el barco no pudo _______ en el puerto y tuvo que volver a alta mar". a) estacionarse b) parquear c) atracar d) frenar
+3. Sinónimos: Identifica el sinónimo de la palabra "EFÍMERO". a) Duradero b) Eterno c) Pasajero d) Antiguo
+4. Sinónimos: Encuentra el sinónimo de la palabra "OBSOLETO". a) Moderno b) Anticuado c) Brillante d) Novedoso
+5. Sinónimos: ¿Cuál es el sinónimo de "ALTRUISTA"? a) Egoísta b) Tacaño c) Solidario d) Ambicioso
+🧮 Razonamiento Numérico (10 preguntas)
+Tema: Porcentajes y Reglas de tres simples
+1. Porcentajes: ¿Cuál es el 20% de 150? a) 15 b) 20 c) 30 d) 45
+2. Porcentajes: Un videojuego cuesta $80, pero tiene un descuento del 25%. ¿Cuánto pagarás finalmente? a) $60 b) $55 c) $65 d) $70
+3. Porcentajes: En una clase de 40 estudiantes, el día de hoy faltaron 10. ¿Qué porcentaje de la clase faltó? a) 10% b) 20% c) 25% d) 40%
+4. Porcentajes: Si el 15% de un número desconocido es 30, ¿cuál es ese número total? a) 150 b) 200 c) 300 d) 450
+5. Porcentajes: El sueldo mensual de Carlos es de $500. Si le dan un aumento del 10%, ¿cuál será su nuevo sueldo? a) $510 b) $550 c) $600 d) $505
+6. Regla de tres directa: Si 3 kilos de manzanas cuestan $6, ¿cuánto costarán 5 kilos? a) $8 b) $10 c) $12 d) $15
+7. Regla de tres inversa: Si 4 obreros construyen una pared en 6 días, ¿cuánto tardarán 8 obreros trabajando al mismo ritmo? a) 3 días b) 6 días c) 12 días d) 2 días
+8. Regla de tres directa: Un automóvil viajando a velocidad constante recorre 120 kilómetros en 2 horas. ¿Cuántos kilómetros recorrerá en 5 horas? a) 240 km b) 250 km c) 300 km d) 350 km
+9. Regla de tres inversa: Una manguera arroja 10 litros de agua por minuto y llena una piscina en 60 minutos. Si usamos una manguera más grande que arroja 20 litros por minuto, ¿en cuánto tiempo se llenará la piscina? a) 120 minutos b) 45 minutos c) 20 minutos d) 30 minutos
+10. Regla de tres directa: Para preparar un postre para 4 personas se necesitan 200 gramos de harina. ¿Cuántos gramos se necesitarán para 10 personas? a) 400 g b) 500 g c) 600 g d) 800 g
+🔑 Clave de Respuestas
+Lengua y Literatura: 1: c | 2: b | 3: c | 4: b | 5: b | 6: c | 7: b | 8: b | 9: a | 10: b
+Historia: 1: b | 2: c | 3: a | 4: b | 5: b | 6: c | 7: b | 8: c | 9: b | 10: a
+Razonamiento Verbal: 1: b | 2: c | 3: c | 4: b | 5: c
+Razonamiento Numérico: 1: c (Para resolver esto, primero multiplicas 150 por 20, lo que da 3000. Luego divides ese 3000 entre 100, y te da los 30 exactos) | 2: a (Para resolver esto, primero calculas el descuento multiplicando 80 por 0.25, lo que da 20 dólares de rebaja. Luego restas esos 20 al precio original de 80, y pagarás 60) | 3: c (Para resolver esto, divides los 10 estudiantes que faltaron entre el total de 40 estudiantes, lo que te da 0.25. Al multiplicar eso por 100 para sacar el porcentaje, te da 25%) | 4: b (Para resolver esto con una regla de tres, si el 15% es 30, multiplicas 30 por el 100% total que buscas y lo divides entre el 15%. 3000 dividido para 15 te da 200) | 5: b (Para resolver esto, calculas el aumento sacando el 10% de 500, que es 50 dólares. Luego sumas esos 50 al sueldo original, dándote 550) | 6: b (Para resolver esto, como es regla directa, multiplicas cruzado 5 por 6 que da 30, y luego divides entre los 3 kilos iniciales, dándote 10 dólares) | 7: a (Para resolver esto, al ser inversa, multiplicas en línea recta: 4 obreros por 6 días da 24. Luego divides ese 24 entre los 8 nuevos obreros, y te da 3 días) | 8: c (Para resolver esto, como es directa, multiplicas los 5 horas por los 120 km, dando 600. Luego divides esos 600 entre las 2 horas iniciales y te da 300 kilómetros) | 9: d (Para resolver esto, al ser inversa, multiplicas los 10 litros por los 60 minutos, lo que da 600. Luego lo divides entre la nueva capacidad de 20 litros, obteniendo 30 minutos) | 10: b (Para resolver esto, al ser directa, multiplicas las 10 personas por los 200 gramos, lo que da 2000. Al dividir eso entre las 4 personas originales, te quedan los 500 gramos necesarios)📚 Lengua y Literatura (10 preguntas)
+1. ¿Cuál es el objetivo principal de una "investigación monográfica"? a) Escribir un poema sobre un tema libre. b) Recopilar información breve sobre muchos temas a la vez. c) Investigar, analizar y profundizar de manera detallada y sistemática sobre un tema específico y delimitado. d) Publicar una noticia rápida en un periódico.
+2. Los textos académicos se caracterizan principalmente por: a) Utilizar lenguaje informal y coloquial. b) Su rigor, objetividad, estructura formal y uso de un lenguaje técnico o especializado. c) Estar escritos siempre en verso. d) Basarse exclusivamente en las emociones del autor sin necesitar pruebas.
+3. ¿Cuál de los siguientes ejemplos NO es un texto académico? a) Un artículo científico. b) Una tesis de grado. c) Un cuento de fantasía. d) Un ensayo argumentativo universitario.
+4. En la estructura básica de un informe académico o monografía, la "Introducción" sirve para: a) Detallar todos los libros que se leyeron. b) Presentar el tema, los objetivos del trabajo y la justificación de la investigación. c) Agradecer a los familiares del autor. d) Escribir el resumen final de los resultados.
+5. Todo texto académico debe respaldar sus afirmaciones y datos para no caer en el plagio. ¿Cómo se logra esto? a) Poniendo el nombre del autor en la portada. b) Utilizando citas y referencias bibliográficas confiables. c) Escribiendo en mayúsculas las partes importantes. d) Usando muchas imágenes en el texto.
+6. El estilo de redacción en un informe académico debe ser: a) Subjetivo y lleno de opiniones personales sin fundamento. b) Humorístico y entretenido. c) Claro, objetivo, preciso y en tercera persona (o primera del plural). d) Literario y poético.
+7. ¿Qué sección de un informe académico presenta los hallazgos y el análisis de la información recopilada? a) El prólogo. b) El cuerpo o desarrollo. c) El índice. d) La dedicatoria.
+8. En una investigación monográfica, la "bibliografía" corresponde a: a) La biografía del autor que escribió la monografía. b) La lista ordenada alfabéticamente de todas las fuentes, libros y documentos consultados. c) El lugar físico donde se guardan los libros. d) Las conclusiones finales del estudio.
+9. Para que un texto sea considerado "académico", generalmente se produce en un entorno: a) Estudiantil, universitario o científico. b) Exclusivamente deportivo. c) Familiar o de amigos. d) De entretenimiento televisivo.
+10. La parte final de un informe académico, donde se sintetizan las ideas principales y se responde a los objetivos planteados al inicio, se llama: a) Anexos b) Conclusión c) Glosario d) Índice
+🏛️ Historia (10 preguntas)
+1. Según la leyenda mitológica, la ciudad de Roma fue fundada por los hermanos: a) Caín y Abel b) Rómulo y Remo c) Zeus y Hades d) Julio y Augusto
+2. ¿Cuál fue el primer sistema de gobierno que tuvo la antigua Roma desde su fundación? a) Imperio b) República c) Monarquía d) Tiranía
+3. El fin de la monarquía romana y el inicio de la República se produjo tras la expulsión del último rey (que era de origen etrusco). ¿Cómo se llamaba? a) Tarquinio el Soberbio b) Julio César c) Octavio Augusto d) Nerón
+4. Durante la República romana, ¿cuál era la institución política más poderosa, formada originalmente por patricios ancianos y sabios? a) La Asamblea de la Plebe b) El Senado c) El Foro d) La Iglesia
+5. En la República, en lugar de un rey, el gobierno y el ejército eran dirigidos por dos magistrados elegidos cada año, llamados: a) Faraones b) Cónsules c) Emperadores d) Dictadores
+6. ¿Qué clase social en Roma luchó durante siglos en la época de la República para lograr igualdad de derechos políticos frente a los patricios? a) Los esclavos b) Los gladiadores c) Los plebeyos d) Los extranjeros
+7. Durante su expansión por el Mar Mediterráneo, la República romana se enfrentó a su mayor rival comercial y militar en las "Guerras Púnicas". ¿Cuál era esa ciudad rival? a) Atenas b) Cartago c) Esparta d) Troya
+8. ¿Cómo se llamaba a los grandes territorios que Roma conquistó fuera de Italia durante la expansión de la República? a) Colonias b) Feudos c) Provincias d) Metrópolis
+9. La expansión de la República trajo muchas riquezas, pero también causó una grave crisis social porque: a) Los patricios se empobrecieron y los esclavos se hicieron ricos. b) Las tierras y riquezas se concentraron en pocas manos, arruinando a los pequeños campesinos. c) Roma prohibió el uso del dinero. d) Se quedaron sin barcos para navegar.
+10. ¿Qué famoso y exitoso general militar romano cruzó el río Rubicón, ganó una guerra civil y se hizo nombrar "dictador perpetuo", lo que llevó a su asesinato y marcó el declive final de la República? a) Julio César b) Alejandro Magno c) Leónidas d) Marco Antonio
+🗣️ Razonamiento Verbal (5 preguntas)
+Tema: Precisión Semántica y Sinónimos
+1. Precisión semántica: Completa la oración con la palabra más exacta según el contexto médico: "El cirujano realizó una _______ muy delicada a corazón abierto". a) tarea b) intervención c) aventura d) charla
+2. Precisión semántica: "Debido a la tormenta, el barco no pudo _______ en el puerto y tuvo que volver a alta mar". a) estacionarse b) parquear c) atracar d) frenar
+3. Sinónimos: Identifica el sinónimo de la palabra "EFÍMERO". a) Duradero b) Eterno c) Pasajero d) Antiguo
+4. Sinónimos: Encuentra el sinónimo de la palabra "OBSOLETO". a) Moderno b) Anticuado c) Brillante d) Novedoso
+5. Sinónimos: ¿Cuál es el sinónimo de "ALTRUISTA"? a) Egoísta b) Tacaño c) Solidario d) Ambicioso
+🧮 Razonamiento Numérico (10 preguntas)
+Tema: Porcentajes y Reglas de tres simples
+1. Porcentajes: ¿Cuál es el 20% de 150? a) 15 b) 20 c) 30 d) 45
+2. Porcentajes: Un videojuego cuesta $80, pero tiene un descuento del 25%. ¿Cuánto pagarás finalmente? a) $60 b) $55 c) $65 d) $70
+3. Porcentajes: En una clase de 40 estudiantes, el día de hoy faltaron 10. ¿Qué porcentaje de la clase faltó? a) 10% b) 20% c) 25% d) 40%
+4. Porcentajes: Si el 15% de un número desconocido es 30, ¿cuál es ese número total? a) 150 b) 200 c) 300 d) 450
+5. Porcentajes: El sueldo mensual de Carlos es de $500. Si le dan un aumento del 10%, ¿cuál será su nuevo sueldo? a) $510 b) $550 c) $600 d) $505
+6. Regla de tres directa: Si 3 kilos de manzanas cuestan $6, ¿cuánto costarán 5 kilos? a) $8 b) $10 c) $12 d) $15
+7. Regla de tres inversa: Si 4 obreros construyen una pared en 6 días, ¿cuánto tardarán 8 obreros trabajando al mismo ritmo? a) 3 días b) 6 días c) 12 días d) 2 días
+8. Regla de tres directa: Un automóvil viajando a velocidad constante recorre 120 kilómetros en 2 horas. ¿Cuántos kilómetros recorrerá en 5 horas? a) 240 km b) 250 km c) 300 km d) 350 km
+9. Regla de tres inversa: Una manguera arroja 10 litros de agua por minuto y llena una piscina en 60 minutos. Si usamos una manguera más grande que arroja 20 litros por minuto, ¿en cuánto tiempo se llenará la piscina? a) 120 minutos b) 45 minutos c) 20 minutos d) 30 minutos
+10. Regla de tres directa: Para preparar un postre para 4 personas se necesitan 200 gramos de harina. ¿Cuántos gramos se necesitarán para 10 personas? a) 400 g b) 500 g c) 600 g d) 800 g
+🔑 Clave de Respuestas
+Lengua y Literatura: 1: c | 2: b | 3: c | 4: b | 5: b | 6: c | 7: b | 8: b | 9: a | 10: b
+Historia: 1: b | 2: c | 3: a | 4: b | 5: b | 6: c | 7: b | 8: c | 9: b | 10: a
+Razonamiento Verbal: 1: b | 2: c | 3: c | 4: b | 5: c
+Razonamiento Numérico: 1: c (Para resolver esto, primero multiplicas 150 por 20, lo que da 3000. Luego divides ese 3000 entre 100, y te da los 30 exactos) | 2: a (Para resolver esto, primero calculas el descuento multiplicando 80 por 0.25, lo que da 20 dólares de rebaja. Luego restas esos 20 al precio original de 80, y pagarás 60) | 3: c (Para resolver esto, divides los 10 estudiantes que faltaron entre el total de 40 estudiantes, lo que te da 0.25. Al multiplicar eso por 100 para sacar el porcentaje, te da 25%) | 4: b (Para resolver esto con una regla de tres, si el 15% es 30, multiplicas 30 por el 100% total que buscas y lo divides entre el 15%. 3000 dividido para 15 te da 200) | 5: b (Para resolver esto, calculas el aumento sacando el 10% de 500, que es 50 dólares. Luego sumas esos 50 al sueldo original, dándote 550) | 6: b (Para resolver esto, como es regla directa, multiplicas cruzado 5 por 6 que da 30, y luego divides entre los 3 kilos iniciales, dándote 10 dólares) | 7: a (Para resolver esto, al ser inversa, multiplicas en línea recta: 4 obreros por 6 días da 24. Luego divides ese 24 entre los 8 nuevos obreros, y te da 3 días) | 8: c (Para resolver esto, como es directa, multiplicas los 5 horas por los 120 km, dando 600. Luego divides esos 600 entre las 2 horas iniciales y te da 300 kilómetros) | 9: d (Para resolver esto, al ser inversa, multiplicas los 10 litros por los 60 minutos, lo que da 600. Luego lo divides entre la nueva capacidad de 20 litros, obteniendo 30 minutos) | 10: b (Para resolver esto, al ser directa, multiplicas las 10 personas por los 200 gramos, lo que da 2000. Al dividir eso entre las 4 personas originales, te quedan los 500 gramos necesarios)

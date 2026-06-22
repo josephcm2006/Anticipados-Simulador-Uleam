@@ -54,6 +54,11 @@
                 <!-- DAYS CONTAINER (Dynamic depending on active week) -->
                 <div class="days-section">
                     <h3 class="days-title">Días de la <span id="selected-week-title">Semana 1</span></h3>
+                    <div class="week-exam-container" id="week-exam-container" style="display: none;">
+                        <button id="btn-week-exam" class="week-exam-btn">
+                            EXAMEN SEMANA 1
+                        </button>
+                    </div>
                     <div class="days-grid" id="days-grid">
                         <!-- Dynamic days will be rendered here -->
                     </div>
@@ -176,7 +181,8 @@
                             </div>
                             <div class="nav-grid-legend">
                                 <div class="legend-item"><span class="legend-dot current"></span> Actual</div>
-                                <div class="legend-item"><span class="legend-dot answered"></span> Respondida</div>
+                                <div class="legend-item"><span class="legend-dot answered-correct"></span> Correcta</div>
+                                <div class="legend-item"><span class="legend-dot answered-incorrect"></span> Incorrecta</div>
                                 <div class="legend-item"><span class="legend-dot pending"></span> Pendiente</div>
                             </div>
                         </div>
