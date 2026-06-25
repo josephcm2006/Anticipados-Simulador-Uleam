@@ -3202,470 +3202,2541 @@ const questionsData = {
         ]
     },
     "Semana 2": {
-        "Lunes": [
-            {
-                "id": 1,
-                "subject": "Lengua y Literatura",
-                "question": "¿Para qué se utiliza principalmente el punto y seguido en un texto?",
-                "options": [
-                    "Para finalizar por completo un documento.",
-                    "Para separar oraciones que desarrollan la misma idea dentro de un mismo párrafo.",
-                    "Para hacer una pregunta.",
-                    "Para introducir una cita textual."
-                ],
-                "correct": 1,
-                "explanation": "El punto y seguido se utiliza para separar oraciones que pertenecen a un mismo párrafo y que abordan el mismo tema o desarrollan la misma idea principal."
-            },
-            {
-                "id": 2,
-                "subject": "Lengua y Literatura",
-                "question": "¿Qué signo de puntuación se utiliza para separar los elementos de una enumeración o lista (por ejemplo: manzanas, peras, uvas)?",
-                "options": [
-                    "El punto.",
-                    "Los dos puntos.",
-                    "La coma.",
-                    "Las comillas."
-                ],
-                "correct": 2,
-                "explanation": "La coma es el signo de puntuación utilizado para delimitar y separar los componentes de una enumeración o lista simple."
-            },
-            {
-                "id": 3,
-                "subject": "Lengua y Literatura",
-                "question": "¿Cuál es el objetivo principal de elaborar un resumen?",
-                "options": [
-                    "Escribir un texto mucho más largo que el original para explicarlo mejor.",
-                    "Dar la opinión personal y criticar duramente al autor del texto original.",
-                    "Redactar una exposición breve y objetiva que contenga solo las ideas principales de un texto más extenso.",
-                    "Cambiar por completo el significado de lo que el autor quiso decir."
-                ],
-                "correct": 2,
-                "explanation": "Un resumen busca sintetizar de forma clara, breve y objetiva la información esencial de un texto de origen, sin agregar interpretaciones personales ni opiniones."
-            },
-            {
-                "id": 4,
-                "subject": "Lengua y Literatura",
-                "question": "Una característica fundamental que todo buen resumen debe tener es:",
-                "options": [
-                    "La objetividad (no incluir opiniones personales).",
-                    "El uso de rimas en todos sus párrafos.",
-                    "La inclusión de todos los ejemplos y detalles secundarios del texto original.",
-                    "Estar escrito obligatoriamente en otro idioma."
-                ],
-                "correct": 0,
-                "explanation": "La objetividad es clave en el resumen; se deben plasmar las ideas del autor de forma neutral y sin valoraciones del redactor."
-            },
-            {
-                "id": 5,
-                "subject": "Lengua y Literatura",
-                "question": "Estructuralmente, ¿qué es un párrafo?",
-                "options": [
-                    "Una sola palabra que resume todo un libro.",
-                    "Un conjunto de oraciones que desarrollan una misma idea principal.",
-                    "El título grande que va al inicio de una noticia.",
-                    "Un conjunto de rimas y versos musicales."
-                ],
-                "correct": 1,
-                "explanation": "El párrafo es la unidad de texto que agrupa oraciones con sentido completo que giran en torno a una idea central o temática común."
-            },
-            {
-                "id": 6,
-                "subject": "Lengua y Literatura",
-                "question": "Visualmente, ¿cómo puedes identificar rápidamente dónde termina un párrafo en un texto?",
-                "options": [
-                    "Porque siempre termina con una coma.",
-                    "Porque termina con un signo de interrogación.",
-                    "Porque termina con un punto y aparte, pasando a una nueva línea.",
-                    "Porque la última palabra siempre va en mayúsculas."
-                ],
-                "correct": 2,
-                "explanation": "El punto y aparte marca el cierre de un párrafo y el inicio del siguiente en una línea distinta (y comúnmente con sangría)."
-            },
-            {
-                "id": 7,
-                "subject": "Lengua y Literatura",
-                "question": "¿Qué es una entrevista?",
-                "options": [
-                    "Un monólogo donde una persona habla sola frente a un espejo.",
-                    "Un diálogo estructurado donde una persona formula preguntas a otra para conocer sus ideas, saberes o experiencias.",
-                    "Una pelea a gritos entre dos políticos.",
-                    "Un texto donde se describe detalladamente un paisaje."
-                ],
-                "correct": 1,
-                "explanation": "La entrevista es una conversación formal entre dos o más personas en la cual el entrevistador realiza preguntas dirigidas para obtener información del entrevistado."
-            },
-            {
-                "id": 8,
-                "subject": "Lengua y Literatura",
-                "question": "En el formato de una entrevista, ¿quién tiene el rol de dirigir la conversación y formular las preguntas?",
-                "options": [
-                    "El entrevistador.",
-                    "El entrevistado.",
-                    "El camarógrafo.",
-                    "El público."
-                ],
-                "correct": 0,
-                "explanation": "El entrevistador es el responsable de planificar, conducir y guiar el diálogo mediante las preguntas diseñadas."
-            },
-            {
-                "id": 9,
-                "subject": "Lengua y Literatura",
-                "question": "Si a un periodista le asignan hacer una \"entrevista estructurada\", ¿qué debe hacer?",
-                "options": [
-                    "Improvisar todo en el momento sin pensar.",
-                    "Llevar un guion con preguntas preestablecidas y seguir ese orden.",
-                    "Hablar él todo el tiempo sin dejar hablar al invitado.",
-                    "Pedirle al invitado que haga las preguntas."
-                ],
-                "correct": 1,
-                "explanation": "La entrevista estructurada se basa en un cuestionario o guion cerrado previamente elaborado que se sigue de forma estricta."
-            },
-            {
-                "id": 10,
-                "subject": "Lengua y Literatura",
-                "question": "¿Qué signo de puntuación es indispensable para escribir un texto en forma de diálogo o para hacer aclaraciones directas de quién está hablando?",
-                "options": [
-                    "La raya (o guion largo).",
-                    "El punto final.",
-                    "La arroba.",
-                    "El asterisco."
-                ],
-                "correct": 0,
-                "explanation": "La raya (—) se utiliza en los diálogos escritos para indicar la intervención de cada personaje y enmarcar sus aclaraciones o comentarios."
-            },
-            {
-                "id": 11,
-                "subject": "Historia",
-                "question": "Históricamente, ¿a qué región del mundo se le conoce como el \"Viejo Continente\"?",
-                "options": [
-                    "A América.",
-                    "A la Antártida.",
-                    "A Europa.",
-                    "A Oceanía."
-                ],
-                "correct": 2,
-                "explanation": "Europa es denominada tradicionalmente como el 'Viejo Continente', puesto que allí se originaron las civilizaciones occidentales conocidas antes del contacto con América."
-            },
-            {
-                "id": 12,
-                "subject": "Historia",
-                "question": "¿Por qué se empezó a utilizar el término \"Viejo Continente\" o \"Viejo Mundo\"?",
-                "options": [
-                    "Porque allí viven solo personas mayores.",
-                    "Para diferenciarlo del \"Nuevo Mundo\" (América), que fue descubierto más tarde por los europeos.",
-                    "Porque sus continentes se hunden rápidamente en el mar.",
-                    "Porque allí se inventaron los relojes antiguos."
-                ],
-                "correct": 1,
-                "explanation": "El término surgió tras los viajes transoceánicos del siglo XV para distinguir a los territorios ya conocidos por los europeos (Eurasia y África) de las nuevas tierras americanas (Nuevo Mundo)."
-            },
-            {
-                "id": 13,
-                "subject": "Historia",
-                "question": "El largo proceso evolutivo y biológico mediante el cual los primeros primates fueron cambiando hasta convertirse en el ser humano actual se conoce como:",
-                "options": [
-                    "Colonización.",
-                    "Feudalismo.",
-                    "Hominización.",
-                    "Fotosíntesis."
-                ],
-                "correct": 2,
-                "explanation": "La hominización es el proceso de evolución biológica y sociocultural que determinó la aparición y el desarrollo del ser humano actual a partir de homínidos anteriores."
-            },
-            {
-                "id": 14,
-                "subject": "Historia",
-                "question": "¿Cuál fue uno de los logros más importantes del Homo erectus que cambió radicalmente la forma en que los primeros humanos se alimentaban y se protegían del frío?",
-                "options": [
-                    "La invención de la rueda.",
-                    "El dominio y uso del fuego.",
-                    "La creación de la moneda de oro.",
-                    "La invención de la imprenta."
-                ],
-                "correct": 1,
-                "explanation": "El Homo erectus fue la primera especie conocida en domesticar y usar el fuego de forma controlada, lo que le permitió cocinar alimentos, ahuyentar depredadores y calentarse."
-            },
-            {
-                "id": 15,
-                "subject": "Historia",
-                "question": "Biológicamente, todos los seres humanos que habitamos hoy en día el planeta Tierra pertenecemos a la especie:",
-                "options": [
-                    "Homo neanderthalensis",
-                    "Australopithecus",
-                    "Homo erectus",
-                    "Homo sapiens"
-                ],
-                "correct": 3,
-                "explanation": "El Homo sapiens ('hombre sabio') es la especie homínida a la que pertenece la totalidad de la población humana actual."
-            },
-            {
-                "id": 16,
-                "subject": "Historia",
-                "question": "Durante millones de años, en la etapa del Paleolítico, los primeros humanos eran \"nómadas\". ¿Qué significa este término?",
-                "options": [
-                    "Que construían enormes castillos de piedra y nunca salían de ellos.",
-                    "Que se trasladaban constantemente de un lugar a otro en busca de alimento, siguiendo a los animales y recolectando frutos.",
-                    "Que se dedicaban exclusivamente a escribir leyes.",
-                    "Que navegaban en grandes barcos de vapor por los océanos."
-                ],
-                "correct": 1,
-                "explanation": "El nomadismo implica la carencia de un lugar de asentamiento fijo, obligando a los grupos humanos a desplazarse buscando recursos naturales y climas propicios."
-            },
-            {
-                "id": 17,
-                "subject": "Historia",
-                "question": "¿Qué gran revolución permitió al ser humano dejar de ser nómada para volverse sedentario y construir las primeras aldeas?",
-                "options": [
-                    "La invención de la agricultura y la domesticación de animales (ganadería).",
-                    "La caída de los dinosaurios.",
-                    "El descubrimiento de la electricidad.",
-                    "La construcción de las pirámides de Egipto."
-                ],
-                "correct": 0,
-                "explanation": "La Revolución Neolítica introdujo la agricultura y la ganadería, permitiendo producir alimento de forma regular y establecerse permanentemente en un lugar."
-            },
-            {
-                "id": 18,
-                "subject": "Historia",
-                "question": "Este importante cambio tecnológico y social, marcado por la agricultura y el sedentarismo, dio inicio a un nuevo período prehistórico llamado:",
-                "options": [
-                    "Edad Contemporánea.",
-                    "Neolítico.",
-                    "Edad de los Metales.",
-                    "Imperio Romano."
-                ],
-                "correct": 1,
-                "explanation": "El Neolítico ('piedra nueva') es la última etapa de la Edad de Piedra, caracterizada por la adopción de la vida agrícola y sedentaria."
-            },
-            {
-                "id": 19,
-                "subject": "Historia",
-                "question": "Al establecerse de forma sedentaria gracias a la agricultura, las aldeas crecieron hasta convertirse en las primeras:",
-                "options": [
-                    "Agencias espaciales.",
-                    "Civilizaciones y ciudades complejas.",
-                    "Fábricas de autos.",
-                    "Repúblicas democráticas modernas."
-                ],
-                "correct": 1,
-                "explanation": "El sedentarismo y la abundancia de recursos agrícolas propiciaron la división del trabajo, el comercio y la estratificación social, naciendo las primeras ciudades."
-            },
-            {
-                "id": 20,
-                "subject": "Historia",
-                "question": "Tradicionalmente, la Prehistoria (la etapa antes de la civilización humana registrada) termina, y comienza la Historia, con la invención de:",
-                "options": [
-                    "La rueda.",
-                    "La agricultura.",
-                    "La escritura.",
-                    "La televisión."
-                ],
-                "correct": 2,
-                "explanation": "El surgimiento de los primeros sistemas de escritura (en Mesopotamia y Egipto alrededor del 3200 a.C.) divide la Prehistoria de la Historia propiamente dicha."
-            },
-            {
-                "id": 21,
-                "subject": "Razonamiento Verbal",
-                "question": "Interpretación de refranes: ¿Qué significa el dicho popular \"A palabras necias, oídos sordos\"?",
-                "options": [
-                    "Que las personas sordas no pueden escuchar palabras feas.",
-                    "Que debemos ignorar los insultos, críticas sin fundamento o comentarios malintencionados.",
-                    "Que hay que gritar para que nos entiendan.",
-                    "Que debemos taparnos las orejas cuando alguien cuenta un secreto."
-                ],
-                "correct": 1,
-                "explanation": "El refrán enseña que no debemos prestar atención a los comentarios imprudentes, necios o dañinos, evitando engancharnos en discusiones inútiles."
-            },
-            {
-                "id": 22,
-                "subject": "Razonamiento Verbal",
-                "question": "Interpretación de refranes: ¿Cuál es la moraleja de \"No por mucho madrugar amanece más temprano\"?",
-                "options": [
-                    "Que hay que dormir hasta el mediodía para tener buena salud.",
-                    "Que despertarse temprano es malo para la vista.",
-                    "Que algunos procesos llevan su tiempo natural y apresurarse o desesperarse no hará que las cosas sucedan antes.",
-                    "Que el sol sale a distintas horas todos los días."
-                ],
-                "correct": 2,
-                "explanation": "Este refrán advierte sobre la impaciencia, recordándonos que las cosas se toman su tiempo y que no por forzar las situaciones o correr lograremos adelantarlas."
-            },
-            {
-                "id": 23,
-                "subject": "Razonamiento Verbal",
-                "question": "Analogías: PROFESOR es a ESCUELA como:",
-                "options": [
-                    "Pescador es a Río.",
-                    "Médico es a Hospital.",
-                    "Piloto es a Coche.",
-                    "Actor es a Cine."
-                ],
-                "correct": 1,
-                "explanation": "La analogía establece una relación de sujeto-lugar de trabajo: el profesor trabaja habitualmente en la escuela, al igual que el médico en el hospital."
-            },
-            {
-                "id": 24,
-                "subject": "Razonamiento Verbal",
-                "question": "Analogías: MARTILLO es a CLAVAR como:",
-                "options": [
-                    "Escoba es a Barrer.",
-                    "Cuchara es a Tenedor.",
-                    "Zapato es a Caminar.",
-                    "Libro es a Estudiar."
-                ],
-                "correct": 0,
-                "explanation": "La relación es de objeto y su función principal: el martillo sirve para clavar, y de igual forma, la escoba sirve para barrer."
-            },
-            {
-                "id": 25,
-                "subject": "Razonamiento Verbal",
-                "question": "Analogías: LLANTO es a TRISTEZA como:",
-                "options": [
-                    "Grito es a Silencio.",
-                    "Sonrisa es a Alegría.",
-                    "Sudor es a Agua.",
-                    "Noche es a Día."
-                ],
-                "correct": 1,
-                "explanation": "Se presenta una relación de efecto-causa (o manifestación física de un sentimiento): el llanto es la manifestación externa de la tristeza, así como la sonrisa lo es de la alegría."
-            },
-            {
-                "id": 26,
-                "subject": "Razonamiento Numérico",
-                "question": "Operaciones básicas: Resuelve respetando la jerarquía matemática: 12 + 8 × 2 =",
-                "options": [
-                    "40",
-                    "28",
-                    "20",
-                    "36"
-                ],
-                "correct": 1,
-                "explanation": "Para resolver esto, primero hacemos la multiplicación porque tiene prioridad sobre la suma. Multiplicamos 8 x 2 = 16. Luego le sumamos los 12 iniciales, dándonos 28."
-            },
-            {
-                "id": 27,
-                "subject": "Razonamiento Numérico",
-                "question": "Operaciones básicas: Resuelve: (15 − 5) / 2 + 4 =",
-                "options": [
-                    "9",
-                    "7",
-                    "14",
-                    "5"
-                ],
-                "correct": 0,
-                "explanation": "Para resolver esto, los paréntesis mandan. Primero restamos 15 - 5 = 10. A ese 10 lo dividimos entre 2, lo que da 5. Finalmente, le sumamos los 4, y tenemos 9."
-            },
-            {
-                "id": 28,
-                "subject": "Razonamiento Numérico",
-                "question": "Problema básico: Si compras un pantalón que cuesta $25 y una camisa que cuesta $15, y pagas con un billete de $50, ¿cuánto recibes de vuelto?",
-                "options": [
-                    "$5",
-                    "$10",
-                    "$15",
-                    "$20"
-                ],
-                "correct": 1,
-                "explanation": "Para resolver esto, sumamos lo que gastamos: 25 del pantalón + 15 de la camisa = 40. Si pagaste con un billete de 50, restas 50 - 40, y te sobran 10 dólares de vuelto."
-            },
-            {
-                "id": 29,
-                "subject": "Razonamiento Numérico",
-                "question": "Operaciones básicas: Resuelve: 5 × 4 − 10 / 2 =",
-                "options": [
-                    "15",
-                    "5",
-                    "20",
-                    "10"
-                ],
-                "correct": 0,
-                "explanation": "Para resolver esto, primero hacemos las multiplicaciones y divisiones al mismo tiempo: 5 x 4 = 20, y 10 / 2 = 5. Luego restamos los resultados: 20 - 5 = 15."
-            },
-            {
-                "id": 30,
-                "subject": "Razonamiento Numérico",
-                "question": "Problema básico: Tienes una bolsa con 30 caramelos y quieres repartirlos en partes iguales entre 5 niños. ¿Cuántos caramelos le tocan a cada niño?",
-                "options": [
-                    "5",
-                    "6",
-                    "7",
-                    "8"
-                ],
-                "correct": 1,
-                "explanation": "Para resolver esto, es una división muy sencilla. Tomas el total de caramelos que es 30, y lo divides entre los 5 niños. 30 / 5 = 6."
-            },
-            {
-                "id": 31,
-                "subject": "Razonamiento Numérico",
-                "question": "Probabilidad: Si lanzas un dado estándar (de 6 caras), ¿cuál es la probabilidad de sacar un número impar (1, 3 o 5)?",
-                "options": [
-                    "1/6",
-                    "2/6",
-                    "3/6 (o 1/2)",
-                    "4/6"
-                ],
-                "correct": 2,
-                "explanation": "Para resolver esto, contamos los casos que nos sirven: los impares son el 1, el 3 y el 5 (son 3 casos a favor). Como el dado tiene 6 casos totales, la fracción es 3/6, que simplificando es 1/2."
-            },
-            {
-                "id": 32,
-                "subject": "Razonamiento Numérico",
-                "question": "Probabilidad: En una caja hay 4 pelotas rojas y 6 pelotas azules. Si sacas una pelota sin mirar, ¿cuál es la probabilidad de que sea roja?",
-                "options": [
-                    "4/10 (o 2/5)",
-                    "6/10",
-                    "1/4",
-                    "1/10"
-                ],
-                "correct": 0,
-                "explanation": "Para resolver esto, sumamos todas las pelotas de la caja: 4 rojas + 6 azules = 10 pelotas en total. Como queremos sacar una roja, y hay 4, la probabilidad es 4 de 10, es decir 4/10."
-            },
-            {
-                "id": 33,
-                "subject": "Razonamiento Numérico",
-                "question": "Probabilidad: Si lanzas dos monedas al aire al mismo tiempo, ¿cuál es la probabilidad de que AMBAS caigan en \"cara\"?",
-                "options": [
-                    "1/2",
-                    "1/4",
-                    "3/4",
-                    "1/1"
-                ],
-                "correct": 1,
-                "explanation": "Para resolver esto, mira las posibles combinaciones de 2 monedas: Cara-Cara, Cara-Cruz, Cruz-Cara, Cruz-Cruz. Hay 4 escenarios posibles, y solo 1 es Cara-Cara, así que la probabilidad es 1/4."
-            },
-            {
-                "id": 34,
-                "subject": "Razonamiento Numérico",
-                "question": "Probabilidad: Una ruleta tiene los números del 1 al 10. Si la giras, ¿cuál es la probabilidad de que caiga en un número MAYOR que 7?",
-                "options": [
-                    "2/10",
-                    "3/10",
-                    "4/10",
-                    "7/10"
-                ],
-                "correct": 1,
-                "explanation": "Para resolver esto, los números mayores que 7 en esa ruleta son el 8, el 9 y el 10. Son 3 casos que te sirven. Como la ruleta tiene 10 números posibles, la probabilidad es 3/10."
-            },
-            {
-                "id": 35,
-                "subject": "Razonamiento Numérico",
-                "question": "Probabilidad: En una baraja normal de póker de 52 cartas, ¿cuál es la probabilidad de sacar exactamente el \"As de corazones\" en el primer intento?",
-                "options": [
-                    "1/4",
-                    "1/13",
-                    "1/52",
-                    "4/52"
-                ],
-                "correct": 2,
-                "explanation": "Para resolver esto, piensa cuántos Ases de corazones hay en una baraja. Solo hay 1. Como hay 52 cartas en total, tu probabilidad directa es de 1 entre 52."
-            }
-        ],
-        "Martes": [],
-        "Miércoles": [],
-        "Jueves": [],
-        "Viernes": [],
-        "Sábado": [],
-        "Domingo": []
-    },
+    "Lunes": [
+        {
+            "id": 1,
+            "subject": "Lengua y Literatura",
+            "question": "¿Para qué se utiliza principalmente el punto y seguido en un texto?",
+            "options": [
+                "Para finalizar por completo un documento.",
+                "Para separar oraciones que desarrollan la misma idea dentro de un mismo párrafo.",
+                "Para hacer una pregunta.",
+                "Para introducir una cita textual."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Para separar oraciones que desarrollan la misma idea dentro de un mismo párrafo."
+        },
+        {
+            "id": 2,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué signo de puntuación se utiliza para separar los elementos de una enumeración o lista (por ejemplo: manzanas, peras, uvas)?",
+            "options": [
+                "El punto.",
+                "Los dos puntos.",
+                "La coma.",
+                "Las comillas."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque La coma."
+        },
+        {
+            "id": 3,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál es el objetivo principal de elaborar un resumen?",
+            "options": [
+                "Escribir un texto mucho más largo que el original para explicarlo mejor.",
+                "Dar la opinión personal y criticar duramente al autor del texto original.",
+                "Redactar una exposición breve y objetiva que contenga solo las ideas principales de un texto más extenso.",
+                "Cambiar por completo el significado de lo que el autor quiso decir."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Redactar una exposición breve y objetiva que contenga solo las ideas principales de un texto más extenso."
+        },
+        {
+            "id": 4,
+            "subject": "Lengua y Literatura",
+            "question": "Una característica fundamental que todo buen resumen debe tener es:",
+            "options": [
+                "La objetividad (no incluir opiniones personales).",
+                "El uso de rimas en todos sus párrafos.",
+                "La inclusión de todos los ejemplos y detalles secundarios del texto original.",
+                "Estar escrito obligatoriamente en otro idioma."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque La objetividad (no incluir opiniones personales)."
+        },
+        {
+            "id": 5,
+            "subject": "Lengua y Literatura",
+            "question": "Estructuralmente, ¿qué es un párrafo?",
+            "options": [
+                "Una sola palabra que resume todo un libro.",
+                "Un conjunto de oraciones que desarrollan una misma idea principal.",
+                "El título grande que va al inicio de una noticia.",
+                "Un conjunto de rimas y versos musicales."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Un conjunto de oraciones que desarrollan una misma idea principal."
+        },
+        {
+            "id": 6,
+            "subject": "Lengua y Literatura",
+            "question": "Visualmente, ¿cómo puedes identificar rápidamente dónde termina un párrafo en un texto?",
+            "options": [
+                "Porque siempre termina con una coma.",
+                "Porque termina con un signo de interrogación.",
+                "Porque termina con un punto y aparte, pasando a una nueva línea.",
+                "Porque la última palabra siempre va en mayúsculas."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Porque termina con un punto y aparte, pasando a una nueva línea."
+        },
+        {
+            "id": 7,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué es una entrevista?",
+            "options": [
+                "Un monólogo donde una persona habla sola frente a un espejo.",
+                "Un diálogo estructurado donde una persona formula preguntas a otra para conocer sus ideas, saberes o experiencias.",
+                "Una pelea a gritos entre dos políticos.",
+                "Un texto donde se describe detalladamente un paisaje."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Un diálogo estructurado donde una persona formula preguntas a otra para conocer sus ideas, saberes o experiencias."
+        },
+        {
+            "id": 8,
+            "subject": "Lengua y Literatura",
+            "question": "En el formato de una entrevista, ¿quién tiene el rol de dirigir la conversación y formular las preguntas?",
+            "options": [
+                "El entrevistador.",
+                "El entrevistado.",
+                "El camarógrafo.",
+                "El público."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque El entrevistador."
+        },
+        {
+            "id": 9,
+            "subject": "Lengua y Literatura",
+            "question": "Si a un periodista le asignan hacer una \"entrevista estructurada\", ¿qué debe hacer?",
+            "options": [
+                "Improvisar todo en el momento sin pensar.",
+                "Llevar un guion con preguntas preestablecidas y seguir ese orden.",
+                "Hablar él todo el tiempo sin dejar hablar al invitado.",
+                "Pedirle al invitado que haga las preguntas."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Llevar un guion con preguntas preestablecidas y seguir ese orden."
+        },
+        {
+            "id": 10,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué signo de puntuación es indispensable para escribir un texto en forma de diálogo o para hacer aclaraciones directas de quién está hablando?",
+            "options": [
+                "La raya (o guion largo).",
+                "El punto final.",
+                "La arroba.",
+                "El asterisco."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque La raya (o guion largo)."
+        },
+        {
+            "id": 11,
+            "subject": "Historia",
+            "question": "Históricamente, ¿a qué región del mundo se le conoce como el \"Viejo Continente\"?",
+            "options": [
+                "A América.",
+                "A la Antártida.",
+                "A Europa.",
+                "A Oceanía."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque A Europa."
+        },
+        {
+            "id": 12,
+            "subject": "Historia",
+            "question": "¿Por qué se empezó a utilizar el término \"Viejo Continente\" o \"Viejo Mundo\"?",
+            "options": [
+                "Porque allí viven solo personas mayores.",
+                "Para diferenciarlo del \"Nuevo Mundo\" (América), que fue descubierto más tarde por los europeos.",
+                "Porque sus continentes se hunden rápidamente en el mar.",
+                "Porque allí se inventaron los relojes antiguos."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Para diferenciarlo del \"Nuevo Mundo\" (América), que fue descubierto más tarde por los europeos."
+        },
+        {
+            "id": 13,
+            "subject": "Historia",
+            "question": "El largo proceso evolutivo y biológico mediante el cual los primeros primates fueron cambiando hasta convertirse en el ser humano actual se conoce como:",
+            "options": [
+                "Colonización.",
+                "Feudalismo.",
+                "Hominización.",
+                "Fotosíntesis."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Hominización."
+        },
+        {
+            "id": 14,
+            "subject": "Historia",
+            "question": "¿Cuál fue uno de los logros más importantes del Homo erectus que cambió radicalmente la forma en que los primeros humanos se alimentaban y se protegían del frío?",
+            "options": [
+                "La invención de la rueda.",
+                "El dominio y uso del fuego.",
+                "La creación de la moneda de oro.",
+                "La invención de la imprenta."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El dominio y uso del fuego."
+        },
+        {
+            "id": 15,
+            "subject": "Historia",
+            "question": "Biológicamente, todos los seres humanos que habitamos hoy en día el planeta Tierra pertenecemos a la especie:",
+            "options": [
+                "Homo neanderthalensis",
+                "Australopithecus",
+                "Homo erectus",
+                "Homo sapiens"
+            ],
+            "correct": 3,
+            "explanation": "La respuesta correcta es la d) porque Homo sapiens"
+        },
+        {
+            "id": 16,
+            "subject": "Historia",
+            "question": "Durante millones de años, en la etapa del Paleolítico, los primeros humanos eran \"nómadas\". ¿Qué significa este término?",
+            "options": [
+                "Que construían enormes castillos de piedra y nunca salían de ellos.",
+                "Que se trasladaban constantemente de un lugar a otro en busca de alimento, siguiendo a los animales y recolectando frutos.",
+                "Que se dedicaban exclusivamente a escribir leyes.",
+                "Que navegaban en grandes barcos de vapor por los océanos."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Que se trasladaban constantemente de un lugar a otro en busca de alimento, siguiendo a los animales y recolectando frutos."
+        },
+        {
+            "id": 17,
+            "subject": "Historia",
+            "question": "¿Qué gran revolución permitió al ser humano dejar de ser nómada para volverse sedentario y construir las primeras aldeas?",
+            "options": [
+                "La invención de la agricultura y la domesticación de animales (ganadería).",
+                "La caída de los dinosaurios.",
+                "El descubrimiento de la electricidad.",
+                "La construcción de las pirámides de Egipto."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque La invención de la agricultura y la domesticación de animales (ganadería)."
+        },
+        {
+            "id": 18,
+            "subject": "Historia",
+            "question": "Este importante cambio tecnológico y social, marcado por la agricultura y el sedentarismo, dio inicio a un nuevo período prehistórico llamado:",
+            "options": [
+                "Edad Contemporánea.",
+                "Neolítico.",
+                "Edad de los Metales.",
+                "Imperio Romano."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Neolítico."
+        },
+        {
+            "id": 19,
+            "subject": "Historia",
+            "question": "Al establecerse de forma sedentaria gracias a la agricultura, las aldeas crecieron hasta convertirse en las primeras:",
+            "options": [
+                "Agencias espaciales.",
+                "Civilizaciones y ciudades complejas.",
+                "Fábricas de autos.",
+                "Repúblicas democráticas modernas."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Civilizaciones y ciudades complejas."
+        },
+        {
+            "id": 20,
+            "subject": "Razonamiento Verbal",
+            "question": "Interpretación de refranes: ¿Qué significa el dicho popular \"A palabras necias, oídos sordos\"?",
+            "options": [
+                "Que las personas sordas no pueden escuchar palabras feas.",
+                "Que debemos ignorar los insultos, críticas sin fundamento o comentarios malintencionados.",
+                "Que hay que gritar para que nos entiendan.",
+                "Que debemos taparnos las orejas cuando alguien cuenta un secreto."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Que debemos ignorar los insultos, críticas sin fundamento o comentarios malintencionados."
+        },
+        {
+            "id": 21,
+            "subject": "Razonamiento Verbal",
+            "question": "Interpretación de refranes: ¿Cuál es la moraleja de \"No por mucho madrugar amanece más temprano\"?",
+            "options": [
+                "Que hay que dormir hasta el mediodía para tener buena salud.",
+                "Que despertarse temprano es malo para la vista.",
+                "Que algunos procesos llevan su tiempo natural y apresurarse o desesperarse no hará que las cosas sucedan antes.",
+                "Que el sol sale a distintas horas todos los días."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Que algunos procesos llevan su tiempo natural y apresurarse o desesperarse no hará que las cosas sucedan antes."
+        },
+        {
+            "id": 22,
+            "subject": "Razonamiento Verbal",
+            "question": "Analogías: PROFESOR es a ESCUELA como:",
+            "options": [
+                "Pescador es a Río.",
+                "Médico es a Hospital.",
+                "Piloto es a Coche.",
+                "Actor es a Cine."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Médico es a Hospital."
+        },
+        {
+            "id": 23,
+            "subject": "Razonamiento Verbal",
+            "question": "Analogías: MARTILLO es a CLAVAR como:",
+            "options": [
+                "Escoba es a Barrer.",
+                "Cuchara es a Tenedor.",
+                "Zapato es a Caminar.",
+                "Libro es a Estudiar."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque Escoba es a Barrer."
+        },
+        {
+            "id": 24,
+            "subject": "Razonamiento Verbal",
+            "question": "Analogías: LLANTO es a TRISTEZA como:",
+            "options": [
+                "Grito es a Silencio.",
+                "Sonrisa es a Alegría.",
+                "Sudor es a Agua.",
+                "Noche es a Día."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Sonrisa es a Alegría."
+        },
+        {
+            "id": 25,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Resuelve respetando la jerarquía matemática: 12+8×2=",
+            "options": [
+                "40",
+                "28",
+                "20",
+                "36"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, primero hacemos la multiplicación porque tiene prioridad sobre la suma. Multiplicamos 8 x 2 = 16. Luego le sumamos los 12 iniciales, dándonos 28"
+        },
+        {
+            "id": 26,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Resuelve: (15−5)/2+4=",
+            "options": [
+                "9",
+                "7",
+                "14",
+                "5"
+            ],
+            "correct": 0,
+            "explanation": "Para resolver esto, los paréntesis mandan. Primero restamos 15 - 5 = 10. A ese 10 lo dividimos entre 2, lo que da 5. Finalmente, le sumamos los 4, y tenemos 9"
+        },
+        {
+            "id": 27,
+            "subject": "Razonamiento Numérico",
+            "question": "Problema básico: Si compras un pantalón que cuesta $25 y una camisa que cuesta $15, y pagas con un billete de $50, ¿cuánto recibes de vuelto?",
+            "options": [
+                "$5",
+                "$10",
+                "$15",
+                "$20"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, sumamos lo que gastamos: 25 del pantalón + 15 de la camisa = 40. Si pagaste con un billete de 50, restas 50 - 40, y te sobran 10 dólares de vuelto"
+        },
+        {
+            "id": 28,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Resuelve: 5×4−10/2=",
+            "options": [
+                "15",
+                "5",
+                "20",
+                "10"
+            ],
+            "correct": 0,
+            "explanation": "Para resolver esto, primero hacemos las multiplicaciones y divisiones al mismo tiempo: 5 x 4 = 20, y 10 / 2 = 5. Luego restamos los resultados: 20 - 5 = 15"
+        },
+        {
+            "id": 29,
+            "subject": "Razonamiento Numérico",
+            "question": "Problema básico: Tienes una bolsa con 30 caramelos y quieres repartirlos en partes iguales entre 5 niños. ¿Cuántos caramelos le tocan a cada niño?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, es una división muy sencilla. Tomas el total de caramelos que es 30, y lo divides entre los 5 niños. 30 / 5 = 6"
+        },
+        {
+            "id": 30,
+            "subject": "Razonamiento Numérico",
+            "question": "Probabilidad: Si lanzas un dado estándar (de 6 caras), ¿cuál es la probabilidad de sacar un número impar (1, 3 o 5)?",
+            "options": [
+                "1/6",
+                "2/6",
+                "3/6 (o 1/2)",
+                "4/6"
+            ],
+            "correct": 2,
+            "explanation": "Para resolver esto, contamos los casos que nos sirven: los impares son el 1, el 3 y el 5 (son 3 casos a favor). Como el dado tiene 6 casos totales, la fracción es 3/6, que simplificando es 1/2"
+        },
+        {
+            "id": 31,
+            "subject": "Razonamiento Numérico",
+            "question": "Probabilidad: En una caja hay 4 pelotas rojas y 6 pelotas azules. Si sacas una pelota sin mirar, ¿cuál es la probabilidad de que sea roja?",
+            "options": [
+                "4/10 (o 2/5)",
+                "6/10",
+                "1/4",
+                "1/10"
+            ],
+            "correct": 0,
+            "explanation": "Para resolver esto, sumamos todas las pelotas de la caja: 4 rojas + 6 azules = 10 pelotas en total. Como queremos sacar una roja, y hay 4, la probabilidad es 4 de 10, es decir 4/10"
+        },
+        {
+            "id": 32,
+            "subject": "Razonamiento Numérico",
+            "question": "Probabilidad: Si lanzas dos monedas al aire al mismo tiempo, ¿cuál es la probabilidad de que AMBAS caigan en \"cara\"?",
+            "options": [
+                "1/2",
+                "1/4",
+                "3/4",
+                "1/1"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, mira las posibles combinaciones de 2 monedas: Cara-Cara, Cara-Cruz, Cruz-Cara, Cruz-Cruz. Hay 4 escenarios posibles, y solo 1 es Cara-Cara, así que la probabilidad es 1/4"
+        },
+        {
+            "id": 33,
+            "subject": "Razonamiento Numérico",
+            "question": "Probabilidad: Una ruleta tiene los números del 1 al 10. Si la giras, ¿cuál es la probabilidad de que caiga en un número MAYOR que 7?",
+            "options": [
+                "2/10",
+                "3/10",
+                "4/10",
+                "7/10"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, los números mayores que 7 en esa ruleta son el 8, el 9 y el 10. Son 3 casos que te sirven. Como la ruleta tiene 10 números posibles, la probabilidad es 3/10"
+        },
+        {
+            "id": 34,
+            "subject": "Razonamiento Numérico",
+            "question": "Probabilidad: En una baraja normal de póker de 52 cartas, ¿cuál es la probabilidad de sacar exactamente el \"As de corazones\" en el primer intento?",
+            "options": [
+                "1/4",
+                "1/13",
+                "1/52",
+                "4/52"
+            ],
+            "correct": 2,
+            "explanation": "Para resolver esto, piensa cuántos Ases de corazones hay en una baraja. Solo hay 1. Como hay 52 cartas en total, tu probabilidad directa es de 1 entre 52"
+        }
+    ],
+    "Martes": [
+        {
+            "id": 1,
+            "subject": "Lengua y Literatura",
+            "question": "Al realizar una búsqueda de información académica, ¿cuál de las siguientes fuentes se considera la más confiable y segura?",
+            "options": [
+                "Un foro de discusión anónimo en internet.",
+                "Una publicación en una red social personal.",
+                "Un artículo científico publicado en una revista con revisión por pares.",
+                "Un blog de opinión sin referencias."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Un artículo científico publicado en una revista con revisión por pares."
+        },
+        {
+            "id": 2,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué herramienta de búsqueda es de gran utilidad para filtrar y delimitar información en bases de datos mediante palabras clave unidas por operadores lógicos (AND, OR, NOT)?",
+            "options": [
+                "Operadores booleanos.",
+                "Hipervínculos rotos.",
+                "Eslóganes publicitarios.",
+                "Tipos de letra."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque Operadores booleanos."
+        },
+        {
+            "id": 3,
+            "subject": "Lengua y Literatura",
+            "question": "En la búsqueda de información, el proceso de evaluar la \"actualidad\" de una fuente se refiere a:",
+            "options": [
+                "Verificar que el autor sea una persona famosa.",
+                "Comprobar la fecha de publicación o actualización del documento para garantizar su vigencia.",
+                "Medir la cantidad de imágenes que tiene la página web.",
+                "Revisar si el texto está escrito en prosa o en verso."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Comprobar la fecha de publicación o actualización del documento para garantizar su vigencia."
+        },
+        {
+            "id": 4,
+            "subject": "Lengua y Literatura",
+            "question": "Para realizar una búsqueda de información sistemática y eficiente sobre un tema de estudio, el primer paso recomendado es:",
+            "options": [
+                "Escribir el primer párrafo de nuestro informe.",
+                "Definir con claridad el tema y seleccionar las palabras clave o términos de búsqueda.",
+                "Diseñar un folleto publicitario sobre el tema.",
+                "Imprimir los primeros cien artículos que aparezcan en el buscador."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Definir con claridad el tema y seleccionar las palabras clave o términos de búsqueda."
+        },
+        {
+            "id": 5,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál es el objetivo principal de los textos publicitarios?",
+            "options": [
+                "Narrar de forma cronológica la vida de una persona célebre.",
+                "Persuadir o convencer al público para que consuma un producto, use un servicio o adopte una conducta.",
+                "Presentar argumentos lógicos y objetivos en un debate de corte científico.",
+                "Describir de forma neutral y científica el funcionamiento de una máquina."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Persuadir o convencer al público para que consuma un producto, use un servicio o adopte una conducta."
+        },
+        {
+            "id": 6,
+            "subject": "Lengua y Literatura",
+            "question": "En un anuncio publicitario, el \"eslogan\" se define como:",
+            "options": [
+                "El nombre científico de la marca o empresa.",
+                "Una frase breve, atractiva y fácil de recordar que resume los valores o beneficios de un producto.",
+                "La lista detallada de ingredientes o componentes técnicos en letras pequeñas.",
+                "El contrato legal que firma la agencia con el cliente."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Una frase breve, atractiva y fácil de recordar que resume los valores o beneficios de un producto."
+        },
+        {
+            "id": 7,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué tipo de lenguaje se utiliza predominantemente en los textos publicitarios para conectar con el público objetivo?",
+            "options": [
+                "Lenguaje excesivamente formal y técnico, comprensible solo por científicos.",
+                "Lenguaje persuasivo, apelativo y visual, que conecta con las emociones e intereses de las personas.",
+                "Lenguaje puramente poético del Siglo de Oro español.",
+                "Lenguaje coloquial grosero y desordenado."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Lenguaje persuasivo, apelativo y visual, que conecta con las emociones e intereses de las personas."
+        },
+        {
+            "id": 8,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué es una crónica periodística?",
+            "options": [
+                "Un informe de laboratorio con datos numéricos únicamente.",
+                "Un género que narra hechos reales de manera detallada y cronológica, combinando información objetiva con recursos literarios.",
+                "Una obra de ficción sobre viajes en el tiempo en un futuro lejano.",
+                "Una lista desordenada de opiniones personales sin justificación alguna."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Un género que narra hechos reales de manera detallada y cronológica, combinando información objetiva con recursos literarios."
+        },
+        {
+            "id": 9,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál es una diferencia clave entre la noticia y la crónica?",
+            "options": [
+                "La noticia es ficticia y la crónica es real.",
+                "La noticia narra los hechos de forma inmediata y objetiva, mientras que la crónica es más detallada y permite la valoración subjetiva del autor.",
+                "La noticia siempre se escribe en verso y la crónica en prosa.",
+                "La noticia solo se publica en internet y la crónica solo en libros."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La noticia narra los hechos de forma inmediata y objetiva, mientras que la crónica es más detallada y permite la valoración subjetiva del autor."
+        },
+        {
+            "id": 10,
+            "subject": "Lengua y Literatura",
+            "question": "El cronista es principalmente un:",
+            "options": [
+                "Actor de teatro que representa personajes históricos.",
+                "Testigo o investigador de los hechos que los relata con una visión personal y estética del suceso.",
+                "Diseñador gráfico que crea los folletos publicitarios.",
+                "Matemático especializado en medir el tiempo exacto."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Testigo o investigador de los hechos que los relata con una visión personal y estética del suceso."
+        },
+        {
+            "id": 11,
+            "subject": "Historia",
+            "question": "¿En qué período histórico se sitúa convencionalmente el desarrollo del Renacimiento en Europa Occidental?",
+            "options": [
+                "Entre los siglos V y X (Alta Edad Media).",
+                "Durante los siglos XV y XVI, marcando la transición de la Edad Media a la Edad Moderna.",
+                "Durante el siglo XX (Edad Contemporánea).",
+                "En el período clásico de la Antigua Grecia (siglo V a.C.)."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Durante los siglos XV y XVI, marcando la transición de la Edad Media a la Edad Moderna."
+        },
+        {
+            "id": 12,
+            "subject": "Historia",
+            "question": "¿Qué invención revolucionaria del año 1440, atribuida a Johannes Gutenberg, permitió la rápida difusión del conocimiento y de las ideas renacentistas?",
+            "options": [
+                "La máquina de vapor.",
+                "El telescopio.",
+                "La imprenta de tipos móviles.",
+                "La brújula magnética."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque La imprenta de tipos móviles."
+        },
+        {
+            "id": 13,
+            "subject": "Historia",
+            "question": "¿Cuál es la principal característica del \"Humanismo\", la corriente de pensamiento que guio al Renacimiento?",
+            "options": [
+                "El teocentrismo absoluto, donde Dios es el único foco de atención científica y social.",
+                "El antropocentrismo, que sitúa al ser humano como centro del universo y valora sus capacidades.",
+                "El rechazo total a la educación y a las artes plásticas.",
+                "La prohibición del estudio de las lenguas clásicas como el latín y el griego."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El antropocentrismo, que sitúa al ser humano como centro del universo y valora sus capacidades."
+        },
+        {
+            "id": 14,
+            "subject": "Historia",
+            "question": "En el ámbito del arte renacentista, ¿qué gran obra maestra fue pintada por Leonardo da Vinci entre los años 1503 y 1506 (aunque siguió retocándola posteriormente)?",
+            "options": [
+                "La Capilla Sixtina.",
+                "El nacimiento de Venus.",
+                "La Gioconda (o Mona Lisa).",
+                "Las meninas."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque La Gioconda (o Mona Lisa)."
+        },
+        {
+            "id": 15,
+            "subject": "Historia",
+            "question": "¿Qué hito astronómico del año 1543 marcó el inicio de la Revolución Científica al proponer la teoría heliocéntrica en el libro de Nicolás Copérnico?",
+            "options": [
+                "El descubrimiento de la gravedad por Isaac Newton.",
+                "La publicación de la teoría de que el Sol es el centro del sistema y la Tierra gira a su alrededor.",
+                "La primera llegada del ser humano al planeta Marte.",
+                "El descubrimiento de la redondez de la Tierra por Colón en 1492."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La publicación de la teoría de que el Sol es el centro del sistema y la Tierra gira a su alrededor."
+        },
+        {
+            "id": 16,
+            "subject": "Historia",
+            "question": "¿Qué astrónomo italiano, en el año 1609, perfeccionó el telescopio permitiéndole observar las lunas de Júpiter y apoyar la teoría heliocéntrica?",
+            "options": [
+                "Galileo Galilei.",
+                "Johannes Kepler.",
+                "René Descartes.",
+                "Albert Einstein."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque Galileo Galilei."
+        },
+        {
+            "id": 17,
+            "subject": "Historia",
+            "question": "Durante la era de los grandes descubrimientos geográficos (siglos XV y XVI), ¿qué instrumento técnico adaptado por los europeos facilitaba la orientación y la navegación marítima?",
+            "options": [
+                "La calculadora de engranajes.",
+                "El telescopio reflector.",
+                "La brújula.",
+                "La imprenta de tipos móviles."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque La brújula."
+        },
+        {
+            "id": 18,
+            "subject": "Historia",
+            "question": "¿Qué célebre pintor y escultor renacentista esculpió la icónica estatua de mármol de \"David\" entre los años 1501 y 1504?",
+            "options": [
+                "Donatello.",
+                "Miguel Ángel Buonarroti.",
+                "Rafael Sanzio.",
+                "Leonardo da Vinci."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Miguel Ángel Buonarroti."
+        },
+        {
+            "id": 19,
+            "subject": "Historia",
+            "question": "¿En qué año llegó Cristóbal Colón a tierras americanas, un hito que impulsó enormes avances de cartografía y navegación técnica en Europa?",
+            "options": [
+                "En 1453.",
+                "En 1492.",
+                "En 1517.",
+                "En 1588."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque En 1492."
+        },
+        {
+            "id": 20,
+            "subject": "Historia",
+            "question": "El método científico experimental moderno, fundamentado en la observación y experimentación sistemática, comenzó a consolidarse principalmente a partir de la publicación de obras de Francis Bacon y René Descartes a principios del siglo:",
+            "options": [
+                "Siglo XII.",
+                "Siglo XVII (años 1600 en adelante).",
+                "Siglo XX.",
+                "Siglo VIII."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Siglo XVII (años 1600 en adelante)."
+        },
+        {
+            "id": 21,
+            "subject": "Razonamiento Verbal",
+            "question": "Selección lógica: Identifique el elemento indispensable para el concepto **LIBRO**.",
+            "options": [
+                "Imágenes",
+                "Capítulos",
+                "Páginas",
+                "Prólogo"
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Páginas"
+        },
+        {
+            "id": 22,
+            "subject": "Razonamiento Verbal",
+            "question": "Selección lógica: Indique el componente esencial e indispensable para la existencia de un **BOSQUE**.",
+            "options": [
+                "Animales",
+                "Senderos",
+                "Árboles",
+                "Guardabosques"
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Árboles"
+        },
+        {
+            "id": 23,
+            "subject": "Razonamiento Verbal",
+            "question": "Selección lógica: Determine cuál de los siguientes elementos es biológica y constitutivamente indispensable para que exista la **FOTOSÍNTESIS**.",
+            "options": [
+                "Tierra fértil",
+                "Oxígeno",
+                "Luz solar",
+                "Insectos"
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Luz solar"
+        },
+        {
+            "id": 24,
+            "subject": "Razonamiento Verbal",
+            "question": "Selección lógica: Señale el elemento que resulta indispensable para que se produzca una **CONVERSACIÓN**.",
+            "options": [
+                "Teléfono",
+                "Interlocutores",
+                "Computadora",
+                "Grabadora"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Interlocutores"
+        },
+        {
+            "id": 25,
+            "subject": "Razonamiento Verbal",
+            "question": "Selección lógica: Seleccione la condición indispensable para que un hecho sea considerado **HISTORIA**.",
+            "options": [
+                "Fotografías",
+                "Personajes célebres",
+                "Tiempo transcurrido (pasado)",
+                "Libros impresos"
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Tiempo transcurrido (pasado)"
+        },
+        {
+            "id": 26,
+            "subject": "Razonamiento Verbal",
+            "question": "Término excluido: Identifique el término que no pertenece al campo semántico de **NOBLEZA**.",
+            "options": [
+                "Altruismo",
+                "Generosidad",
+                "Egoísmo",
+                "Magnanimidad"
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Egoísmo"
+        },
+        {
+            "id": 27,
+            "subject": "Razonamiento Verbal",
+            "question": "Término excluido: Señale la palabra que se aparta del grupo de **INSTRUMENTOS MUSICALES DE CUERDA**.",
+            "options": [
+                "Guitarra",
+                "Violín",
+                "Flauta",
+                "Arpa"
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Flauta"
+        },
+        {
+            "id": 28,
+            "subject": "Razonamiento Verbal",
+            "question": "Término excluido: Encuentre el término excluido para el concepto **RENACIMIENTO**.",
+            "options": [
+                "Humanismo",
+                "Antropocentrismo",
+                "Feudalismo",
+                "Ciencia"
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Feudalismo"
+        },
+        {
+            "id": 29,
+            "subject": "Razonamiento Verbal",
+            "question": "Término excluido: Identifique el elemento que no comparte la relación semántica con los demás en el grupo de **VÍAS DE TRANSPORTE**.",
+            "options": [
+                "Autopista",
+                "Carretera",
+                "Sendero",
+                "Semáforo"
+            ],
+            "correct": 3,
+            "explanation": "La respuesta correcta es la d) porque Semáforo"
+        },
+        {
+            "id": 30,
+            "subject": "Razonamiento Verbal",
+            "question": "Término excluido: Señale la palabra que no pertenece a la misma categoría de **ESTRUCTURAS DE UN TEXTO ESCRITO**.",
+            "options": [
+                "Introducción",
+                "Conclusión",
+                "Desarrollo",
+                "Impresión"
+            ],
+            "correct": 3,
+            "explanation": "La respuesta correcta es la d) porque Impresión"
+        },
+        {
+            "id": 31,
+            "subject": "Razonamiento Numérico",
+            "question": "Proporcionalidad compuesta: Si 6 tejedores fabrican 30 suéteres en 10 días, ¿cuántos días tardarán 3 tejedores en fabricar 15 suéteres?",
+            "options": [
+                "5 días",
+                "10 días",
+                "15 días",
+                "20 días"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, planteamos la relación de proporcionalidad compuesta: a menos tejedores, más días (inversa), y a menos suéteres, menos días (directa). Al operar (10 * 6/3 * 15/30) obtenemos 10 días"
+        },
+        {
+            "id": 32,
+            "subject": "Razonamiento Numérico",
+            "question": "Proporcionalidad compuesta: Si 8 grifos tardan 12 horas en llenar 4 depósitos de agua, ¿cuántas horas tardarán 4 grifos iguales en llenar 2 depósitos?",
+            "options": [
+                "6 horas",
+                "12 horas",
+                "18 horas",
+                "24 horas"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, analizamos que a menos grifos, más horas (inversa), y a menos depósitos, menos horas (directa). Al calcular (12 * 8/4 * 2/4) resulta en 12 horas"
+        },
+        {
+            "id": 33,
+            "subject": "Razonamiento Numérico",
+            "question": "Proporcionalidad compuesta: Si 5 obreros trabajando 6 horas diarias construyen una zanja de 100 metros en 4 días, ¿cuántos días tardarán 10 obreros trabajando 3 horas diarias en hacer la misma zanja de 100 metros?",
+            "options": [
+                "2 días",
+                "4 días",
+                "6 días",
+                "8 días"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, como la zanja es del mismo tamaño, vemos que a más obreros, menos días (inversa), y a menos horas diarias, más días (inversa). Operando (4 * 5/10 * 6/3) obtenemos 4 días"
+        },
+        {
+            "id": 34,
+            "subject": "Razonamiento Numérico",
+            "question": "Proporcionalidad compuesta: En una fábrica, 4 máquinas envasan 2000 botellas trabajando durante 5 horas. ¿Cuántas botellas envasarán 6 máquinas similares trabajando durante 10 horas?",
+            "options": [
+                "4000 botellas",
+                "6000 botellas",
+                "8000 botellas",
+                "3000 botellas"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, planteamos la proporcionalidad directa en ambas magnitudes: a más máquinas, más botellas, y a más horas, más botellas. Multiplicamos (2000 * 6/4 * 10/5) y obtenemos 6000 botellas"
+        },
+        {
+            "id": 35,
+            "subject": "Razonamiento Numérico",
+            "question": "Proporcionalidad compuesta: Si 3 camiones transportan 120 toneladas de mercadería en 4 viajes, ¿cuántos viajes necesitarán 2 camiones de igual capacidad para transportar 80 toneladas?",
+            "options": [
+                "3 viajes",
+                "4 viajes",
+                "5 viajes",
+                "6 viajes"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, a menos camiones, más viajes (inversa), y a menos toneladas, menos viajes (directa). Calculando (4 * 3/2 * 80/120) nos da 4 viajes"
+        },
+        {
+            "id": 36,
+            "subject": "Razonamiento Numérico",
+            "question": "Secuencias lógicas: Determine qué número continúa en la siguiente serie numérica: **3, 6, 12, 24, 48, ...**",
+            "options": [
+                "60",
+                "96",
+                "72",
+                "80"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, observamos la secuencia: cada número se multiplica por 2 (3*2=6, 6*2=12, 12*2=24, 24*2=48). El siguiente número es 48*2 = 96"
+        },
+        {
+            "id": 37,
+            "subject": "Razonamiento Numérico",
+            "question": "Secuencias lógicas: ¿Cuál es el valor que completa la secuencia: **5, 8, 12, 17, 23, ...**",
+            "options": [
+                "28",
+                "30",
+                "32",
+                "35"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, calculamos el incremento entre términos: +3, +4, +5, +6. El siguiente término sumará +7 a 23, dando como resultado 30"
+        },
+        {
+            "id": 38,
+            "subject": "Razonamiento Numérico",
+            "question": "Secuencias lógicas: Encuentre el término que continúa la serie de letras: **A, C, F, J, Ñ, ...**",
+            "options": [
+                "P",
+                "U",
+                "T",
+                "S"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, analizamos la distancia entre letras en el alfabeto: A (+1) C (+2) F (+3) J (+4) Ñ (+5) U. Se salta un número creciente de letras cada vez, dando la letra U"
+        },
+        {
+            "id": 39,
+            "subject": "Razonamiento Numérico",
+            "question": "Secuencias lógicas: ¿Qué número continúa la secuencia alternada: **2, 10, 4, 8, 6, 6, ...**",
+            "options": [
+                "4",
+                "8",
+                "6",
+                "10"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, identificamos las dos secuencias alternadas: los impares aumentan de 2 en 2 (2, 4, 6, 8...) y los pares disminuyen de 2 en 2 (10, 8, 6, 4...). El siguiente término es el séptimo de la serie, es decir, 6 + 2 = 8"
+        },
+        {
+            "id": 40,
+            "subject": "Razonamiento Numérico",
+            "question": "Secuencias lógicas: Indique el número que sigue en la serie: **1, 4, 9, 16, 25, ...**",
+            "options": [
+                "30",
+                "36",
+                "49",
+                "40"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, reconocemos que la secuencia corresponde a los cuadrados perfectos de los números naturales: 1^2=1, 2^2=4, 3^2=9, 4^2=16, 5^2=25. El siguiente término es 6^2 = 36"
+        }
+    ],
+    "Miércoles": [
+        {
+            "id": 1,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué recurso del cómic se utiliza para representar de forma gráfica los sonidos de la realidad (como un golpe o una explosión)?",
+            "options": [
+                "Globos de diálogo.",
+                "Onomatopeyas.",
+                "Cartelas o cartuchos.",
+                "Viñetas."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Onomatopeyas."
+        },
+        {
+            "id": 2,
+            "subject": "Lengua y Literatura",
+            "question": "En el cómic, el espacio delimitado por líneas donde se dibuja cada escena y se organiza el tiempo de la narración se denomina:",
+            "options": [
+                "Tipografía.",
+                "Viñeta.",
+                "Bocadillo.",
+                "Código icónico."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Viñeta."
+        },
+        {
+            "id": 3,
+            "subject": "Lengua y Literatura",
+            "question": "Los textos escritos dentro de una viñeta que expresan la voz del narrador (y no la de los personajes) suelen colocarse en:",
+            "options": [
+                "Globos de diálogo.",
+                "Cartelas o cartuchos (generalmente rectangulares en la parte superior).",
+                "Globos de pensamiento en forma de nube.",
+                "El margen de la página."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Cartelas o cartuchos (generalmente rectangulares en la parte superior)."
+        },
+        {
+            "id": 4,
+            "subject": "Lengua y Literatura",
+            "question": "La parte externa de un libro que une las tapas anterior y posterior, y donde suele imprimirse el título de la obra y el autor, se llama:",
+            "options": [
+                "Portada.",
+                "Lomo.",
+                "Prólogo.",
+                "Glosario."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Lomo."
+        },
+        {
+            "id": 5,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué parte del libro contiene una introducción o comentario previo escrito por el propio autor o por un experto para presentar la obra al lector?",
+            "options": [
+                "El índice.",
+                "El prólogo.",
+                "La bibliografía.",
+                "El colofón."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El prólogo."
+        },
+        {
+            "id": 6,
+            "subject": "Lengua y Literatura",
+            "question": "Para que un texto sea comprensible y cumpla su función comunicativa en una situación concreta, debe ajustarse al receptor, al canal y al registro de habla. Esta propiedad se conoce como:",
+            "options": [
+                "Cohesión.",
+                "Adecuación.",
+                "Coherencia.",
+                "Ambigüedad."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Adecuación."
+        },
+        {
+            "id": 7,
+            "subject": "Lengua y Literatura",
+            "question": "La propiedad textual que garantiza la conexión lógica, la unidad temática y la progresión clara de las ideas a lo largo del texto es:",
+            "options": [
+                "Cohesión.",
+                "Coherencia.",
+                "Adecuación.",
+                "Polisemia."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Coherencia."
+        },
+        {
+            "id": 8,
+            "subject": "Lengua y Literatura",
+            "question": "La propiedad textual de la \"cohesión\" se logra principalmente mediante el uso correcto de:",
+            "options": [
+                "Reglas matemáticas de lógica formal.",
+                "Conectores textuales, pronombres, sinónimos y signos de puntuación que enlazan las oraciones.",
+                "Dibujos, viñetas y onomatopeyas explicativas.",
+                "Eslóganes de tipo publicitario y marcas."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Conectores textuales, pronombres, sinónimos y signos de puntuación que enlazan las oraciones."
+        },
+        {
+            "id": 9,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál de los siguientes enunciados carece de **coherencia** textual?",
+            "options": [
+                "El libro estaba interesante, así que lo leí completo en una sola tarde.",
+                "Tenía un calor insoportable, por lo tanto me puse el abrigo más grueso que encontré.",
+                "El cómic utiliza viñetas para ordenar cronológicamente las escenas de la historia.",
+                "La adecuada búsqueda de información académica exige recurrir a fuentes confiables."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Tenía un calor insoportable, por lo tanto me puse el abrigo más grueso que encontré."
+        },
+        {
+            "id": 10,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál es el soporte digital del libro que ha cobrado gran popularidad en el siglo XXI, permitiendo almacenar miles de obras en un solo dispositivo?",
+            "options": [
+                "El libro de pergamino.",
+                "El libro electrónico (e-book).",
+                "La cartela periodística.",
+                "El cómic de tipo fanzine."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El libro electrónico (e-book)."
+        },
+        {
+            "id": 11,
+            "subject": "Historia",
+            "question": "¿En qué año estalló formalmente la Revolución francesa con la autoproclamación del Tercer Estado como Asamblea Nacional y la toma de la Bastilla?",
+            "options": [
+                "En 1776.",
+                "En 1789.",
+                "En 1815.",
+                "En 1793."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque En 1789."
+        },
+        {
+            "id": 12,
+            "subject": "Historia",
+            "question": "¿Cuál era la principal causa de carácter social que alimentaba el descontento popular antes de la Revolución francesa?",
+            "options": [
+                "El derecho a voto universal de todos los ciudadanos.",
+                "La división desigual de la sociedad en tres estamentos, donde los dos privilegiados (nobleza y clero) no pagaban impuestos directos.",
+                "La excesiva libertad de prensa otorgada por la corona.",
+                "La abundancia económica de los campesinos frente a los nobles."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La división desigual de la sociedad en tres estamentos, donde los dos privilegiados (nobleza y clero) no pagaban impuestos directos."
+        },
+        {
+            "id": 13,
+            "subject": "Historia",
+            "question": "¿Qué movimiento intelectual y cultural del siglo XVIII sentó las bases ideológicas de la Revolución francesa defendiendo la razón, la igualdad y la división de poderes?",
+            "options": [
+                "El Renacimiento.",
+                "La Ilustración.",
+                "El Feudalismo.",
+                "El Romanticismo."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La Ilustración."
+        },
+        {
+            "id": 14,
+            "subject": "Historia",
+            "question": "En la sociedad estamental del Antiguo Régimen en Francia, el llamado \"Tercer Estado\" o Estado Llano representaba aproximadamente a qué porcentaje de la población total:",
+            "options": [
+                "Menos del 10%.",
+                "Alrededor del 97%.",
+                "Exactamente el 50%.",
+                "Menos del 5%."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Alrededor del 97%."
+        },
+        {
+            "id": 15,
+            "subject": "Historia",
+            "question": "¿Qué rey gobernaba Francia bajo un régimen de monarquía absoluta cuando estalló la Revolución en 1789?",
+            "options": [
+                "Luis XIV.",
+                "Luis XVI.",
+                "Napoleón Bonaparte.",
+                "Carlos V."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Luis XVI."
+        },
+        {
+            "id": 16,
+            "subject": "Historia",
+            "question": "Durante el proceso revolucionario, ¿en qué fecha histórica se aprobó la Declaración de los Derechos del Hombre y del Ciudadano por parte de la Asamblea Constituyente?",
+            "options": [
+                "El 14 de julio de 1789.",
+                "El 26 de agosto de 1789.",
+                "El 21 de enero de 1793.",
+                "El 9 de noviembre de 1799."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El 26 de agosto de 1789."
+        },
+        {
+            "id": 17,
+            "subject": "Historia",
+            "question": "¿Qué símbolo de la opresión monárquica fue tomado por el pueblo de París el 14 de julio de 1789, marcando el inicio popular de la Revolución?",
+            "options": [
+                "El Palacio de Versalles.",
+                "La fortaleza de la Bastilla.",
+                "El Arco del Triunfo.",
+                "La Catedral de Notre Dame."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La fortaleza de la Bastilla."
+        },
+        {
+            "id": 18,
+            "subject": "Historia",
+            "question": "En el año 1793, durante la fase más radical de la Revolución (el Terror), ¿qué trágico destino sufrieron el rey Luis XVI y su esposa María Antonieta?",
+            "options": [
+                "Fueron desterrados de por vida a Inglaterra.",
+                "Fueron ejecutados en la guillotina.",
+                "Se les restituyó como monarcas con plenos poderes.",
+                "Huyeron con éxito a Austria."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Fueron ejecutados en la guillotina."
+        },
+        {
+            "id": 19,
+            "subject": "Historia",
+            "question": "¿Qué líder jacobino encabezó el Comité de Salvación Pública durante el período más radical y sangriento de la Revolución conocido como \"El Terror\" (1793-1794)?",
+            "options": [
+                "Jean-Paul Marat.",
+                "Maximilien Robespierre.",
+                "Georges Danton.",
+                "Napoleón Bonaparte."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Maximilien Robespierre."
+        },
+        {
+            "id": 20,
+            "subject": "Historia",
+            "question": "¿Qué acontecimiento militar e histórico del 9 de noviembre de 1799 (18 de brumario) puso fin al Directorio y al proceso revolucionario francés, abriendo paso a la era napoleónica?",
+            "options": [
+                "La batalla de Waterloo.",
+                "El golpe de Estado de Napoleón Bonaparte.",
+                "La coronación de Luis XVIII.",
+                "La firma del Tratado de Versalles."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El golpe de Estado de Napoleón Bonaparte."
+        },
+        {
+            "id": 21,
+            "subject": "Razonamiento Verbal",
+            "question": "Ordenar oraciones: Ordene los siguientes enunciados para formar un texto coherente. I. Sin embargo, su consolidación definitiva se dio con la invención de la imprenta en el siglo XV. II. El libro ha sido el soporte más importante para conservar y transmitir la cultura humana. III. En la antigüedad, los primeros libros se escribían a mano sobre papiro o pergamino.",
+            "options": [
+                "II - I - III",
+                "II - III - I",
+                "III - II - I",
+                "I - III - II"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque II - III - I"
+        },
+        {
+            "id": 22,
+            "subject": "Razonamiento Verbal",
+            "question": "Ordenar oraciones: Ordene las frases de forma lógica. I. Por último, redacta el nuevo texto con objetividad. II. Para hacer un buen resumen, primero lee con atención el documento original. III. A continuación, subraya las ideas principales descartando los detalles secundarios.",
+            "options": [
+                "II - I - III",
+                "II - III - I",
+                "I - III - II",
+                "III - II - I"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque II - III - I"
+        },
+        {
+            "id": 23,
+            "subject": "Razonamiento Verbal",
+            "question": "Ordenar oraciones: Ordene cronológica y lógicamente. I. En el siglo XV, el Renacimiento revolucionó las artes y las ciencias. II. La Edad Media estuvo dominada por una visión teocéntrica del mundo. III. Finalmente, la Revolución francesa de 1789 dio inicio a la época contemporánea.",
+            "options": [
+                "I - II - III",
+                "II - I - III",
+                "II - III - I",
+                "III - I - II"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque II - I - III"
+        },
+        {
+            "id": 24,
+            "subject": "Razonamiento Verbal",
+            "question": "Ordenar oraciones: Reorganice lógicamente. I. De este modo, el lector comprende la trama sin dificultad. II. El cómic narra historias mediante una secuencia ordenada de viñetas. III. En ellas se combinan ilustraciones y globos de texto para dar sentido a la acción.",
+            "options": [
+                "II - I - III",
+                "II - III - I",
+                "I - III - II",
+                "III - II - I"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque II - III - I"
+        },
+        {
+            "id": 25,
+            "subject": "Razonamiento Verbal",
+            "question": "Ordenar oraciones: Reorganice. I. Este descontento desembocó en el estallido revolucionario de 1789. II. La Francia del Antiguo Régimen sufría una grave crisis económica. III. Además, el Tercer Estado soportaba una carga fiscal sumamente injusta.",
+            "options": [
+                "II - I - III",
+                "II - III - I",
+                "III - II - I",
+                "I - III - II"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque II - III - I"
+        },
+        {
+            "id": 26,
+            "subject": "Razonamiento Verbal",
+            "question": "Comprensión lectora: Lea el texto y responda. *Texto:* \"La Revolución francesa no solo transformó las estructuras de poder en Francia, sino que propagó por toda Europa las ideas de soberanía popular y libertad civil, desafiando el derecho divino de los reyes.\" ¿Cuál es la idea principal del texto?",
+            "options": [
+                "Francia era el único país que tenía reyes absolutistas en el siglo XVIII.",
+                "El impacto de la Revolución francesa trascendió sus fronteras difundiendo ideales de soberanía popular.",
+                "La religión cristiana perdió todo el poder en Europa después del año 1789.",
+                "Los reyes europeos apoyaron con agrado las reformas civiles francesas."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El impacto de la Revolución francesa trascendió sus fronteras difundiendo ideales de soberanía popular."
+        },
+        {
+            "id": 27,
+            "subject": "Razonamiento Verbal",
+            "question": "Comprensión lectora: Del texto anterior, se puede **inferir** que:",
+            "options": [
+                "Antes de la Revolución francesa, el absolutismo justificaba su poder en motivos religiosos (derecho divino).",
+                "Europa occidental ya era democrática antes del estallido de 1789.",
+                "La soberanía popular era un concepto ampliamente practicado por los reyes.",
+                "Francia cerró sus fronteras para evitar que sus ideales se conocieran fuera del país."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque Antes de la Revolución francesa, el absolutismo justificaba su poder en motivos religiosos (derecho divino)."
+        },
+        {
+            "id": 28,
+            "subject": "Razonamiento Verbal",
+            "question": "Comprensión lectora: Lea el texto y responda. *Texto:* \"El cómic combina de manera inseparable dos lenguajes: el icónico (las imágenes) y el verbal (los textos). Aunque a veces se le ha considerado erróneamente un género puramente infantil, su riqueza narrativa y capacidad de crítica social demuestran su valor como arte contemporáneo.\" Según el texto, el cómic:",
+            "options": [
+                "Debe ser leído exclusivamente por niños pequeños para su entretenimiento.",
+                "Combina de forma indisociable las imágenes con las palabras y posee valor artístico y crítico.",
+                "Tiene menos valor que la literatura tradicional porque carece de lomo e índice.",
+                "Utiliza la imprenta de tipos móviles creada en 1440 para su distribución exclusiva."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Combina de forma indisociable las imágenes con las palabras y posee valor artístico y crítico."
+        },
+        {
+            "id": 29,
+            "subject": "Razonamiento Verbal",
+            "question": "Comprensión lectora: Del texto del cómic anterior, ¿qué error de juicio social se menciona sobre este medio?",
+            "options": [
+                "Pensar que las onomatopeyas no se deben escribir en los globos de diálogo.",
+                "Catalogarlo únicamente como un entretenimiento de tipo infantil.",
+                "Creer que los dibujos no aportan nada a la trama de las viñetas.",
+                "Afirmar que es un invento derivado directamente de la Revolución francesa."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Catalogarlo únicamente como un entretenimiento de tipo infantil."
+        },
+        {
+            "id": 30,
+            "subject": "Razonamiento Verbal",
+            "question": "Comprensión lectora: Lea el texto y responda. *Texto:* \"La adecuación es la propiedad que ajusta el texto a su contexto de emisión. Un científico que use tecnicismos frente a niños pequeños fracasa en la adecuación, pues el mensaje no se adapta al receptor.\" ¿Qué elemento es central para cumplir con la adecuación según el ejemplo presentado?",
+            "options": [
+                "La longitud del texto.",
+                "Adaptar el vocabulario y registro al tipo de receptor que escucha.",
+                "Imprimir el texto con una tipografía atractiva.",
+                "Organizar el texto en al menos diez párrafos con sangría."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Adaptar el vocabulario y registro al tipo de receptor que escucha."
+        },
+        {
+            "id": 31,
+            "subject": "Razonamiento Numérico",
+            "question": "Ecuaciones lineales: Si al doble de un número le sumamos 15, obtenemos 35. ¿Cuál es dicho número?",
+            "options": [
+                "5",
+                "10",
+                "15",
+                "20"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, planteamos la ecuación 2x + 15 = 35. Restamos 15 en ambos lados para obtener 2x = 20, y al dividir entre 2, concluimos que x = 10"
+        },
+        {
+            "id": 32,
+            "subject": "Razonamiento Numérico",
+            "question": "Ecuaciones lineales: El triple de la edad de Juan aumentado en 8 años es igual a 38 años. ¿Qué edad tiene Juan?",
+            "options": [
+                "8 años",
+                "10 años",
+                "12 años",
+                "15 años"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, planteamos la ecuación 3x + 8 = 38. Despejamos restando 8, resultando en 3x = 30, y luego dividiendo entre 3, el resultado es 10"
+        },
+        {
+            "id": 33,
+            "subject": "Razonamiento Numérico",
+            "question": "Ecuaciones lineales: Ana tiene el doble de dinero que Carlos. Si entre los dos suman $45, ¿cuánto dinero tiene Carlos?",
+            "options": [
+                "$10",
+                "$15",
+                "$20",
+                "$30"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, si Carlos tiene x, Ana tiene 2x. Planteamos x + 2x = 45, lo que da 3x = 45, y dividiendo por 3, Carlos tiene $15"
+        },
+        {
+            "id": 34,
+            "subject": "Razonamiento Numérico",
+            "question": "Ecuaciones lineales: La suma de tres números enteros consecutivos es igual a 24. ¿Cuál es el número intermedio de la serie?",
+            "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, sean los tres números x-1, x, y x+1. Sumándolos: 3x = 24. Dividimos entre 3 para hallar el número del medio, que es 8"
+        },
+        {
+            "id": 35,
+            "subject": "Razonamiento Numérico",
+            "question": "Ecuaciones lineales: Si compro 4 cuadernos del mismo precio y pago con un billete de $20, recibiendo $4 de vuelto, ¿cuál es el precio de cada cuaderno?",
+            "options": [
+                "$3",
+                "$4",
+                "$5",
+                "$2"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, si los cuadernos costaron 20 - 4 = $16, planteamos 4x = 16. Dividiendo 16 entre 4 cuadernos, el precio de cada uno es $4"
+        },
+        {
+            "id": 36,
+            "subject": "Razonamiento Numérico",
+            "question": "Porcentajes: Un abrigo que originalmente costaba $80 tiene un descuento de fin de temporada del 25%. ¿Cuánto se ahorrará el comprador?",
+            "options": [
+                "$15",
+                "$20",
+                "$25",
+                "$60"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos el valor original del abrigo por el porcentaje en decimal: 80 * 0.25, lo que equivale a ahorrar una cuarta parte, es decir, $20"
+        },
+        {
+            "id": 37,
+            "subject": "Razonamiento Numérico",
+            "question": "Porcentajes: Si una camisa de $40 tiene un descuento del 15%, ¿cuánto pagará el cliente en total tras aplicarse la rebaja?",
+            "options": [
+                "$6",
+                "$34",
+                "$30",
+                "$36"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, calculamos el 15% de 40: 40 * 0.15 = $6 de descuento. Al restar del precio original de la camisa, el cliente pagará $34"
+        },
+        {
+            "id": 38,
+            "subject": "Razonamiento Numérico",
+            "question": "Porcentajes: En una tienda de tecnología, un televisor cuesta $500 sin impuestos. Si se le debe agregar un 12% de IVA, ¿cuál será el precio final de venta?",
+            "options": [
+                "$512",
+                "$560",
+                "$600",
+                "$550"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, calculamos el 12% de 500: 500 * 0.12 = $60 de IVA. Sumando el valor sin impuestos, el precio total es $560"
+        },
+        {
+            "id": 39,
+            "subject": "Razonamiento Numérico",
+            "question": "Porcentajes: En una clase de 40 estudiantes, el 60% son mujeres. ¿Cuántos hombres hay en dicha clase?",
+            "options": [
+                "24 hombres",
+                "16 hombres",
+                "20 hombres",
+                "12 hombres"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, si el 60% son mujeres, el 40% restante son hombres. Calculamos el 40% de 40: 40 * 0.40 = 16 hombres en la clase"
+        },
+        {
+            "id": 40,
+            "subject": "Razonamiento Numérico",
+            "question": "Porcentajes: Si el 20% de un número es igual a 8, ¿cuál es el valor del número completo (100%)?",
+            "options": [
+                "16",
+                "40",
+                "32",
+                "80"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, planteamos que 0.20 * x = 8. Despejamos dividiendo 8 entre 0.20, lo cual nos da como resultado final que el número completo es 40"
+        }
+    ],
+    "Jueves": [
+        {
+            "id": 1,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué organizador gráfico es ideal para representar de manera jerárquica conceptos unidos por palabras de enlace para formar proposiciones?",
+            "options": [
+                "Línea de tiempo.",
+                "Mapa conceptual.",
+                "Diagrama de flujo.",
+                "Cuadro sinóptico."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Mapa conceptual."
+        },
+        {
+            "id": 2,
+            "subject": "Lengua y Literatura",
+            "question": "Si deseamos mostrar visualmente la secuencia cronológica y sucesión temporal de hechos históricos, el organizador gráfico más adecuado es:",
+            "options": [
+                "Un mapa mental.",
+                "Una línea de tiempo.",
+                "Un diagrama de Venn.",
+                "Un mapa conceptual."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Una línea de tiempo."
+        },
+        {
+            "id": 3,
+            "subject": "Lengua y Literatura",
+            "question": "En la técnica del subrayado, ¿qué tipo de información se debe destacar principalmente?",
+            "options": [
+                "Todos los adjetivos y conectores textuales de relleno.",
+                "Las ideas principales, conceptos clave y datos fundamentales del texto.",
+                "Las opiniones subjetivas que el lector tenga sobre la obra.",
+                "Únicamente las palabras que tengan más de cinco sílabas."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Las ideas principales, conceptos clave y datos fundamentales del texto."
+        },
+        {
+            "id": 4,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál es la principal ventaja de realizar un correcto subrayado durante la lectura activa de un texto?",
+            "options": [
+                "Que el libro se verá más colorido y decorado.",
+                "Facilita la retención y ahorra tiempo en los posteriores repasos y síntesis de la información.",
+                "Convierte automáticamente el texto en una crónica de opinión.",
+                "Reemplaza por completo la necesidad de leer el libro por primera vez."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Facilita la retención y ahorra tiempo en los posteriores repasos y síntesis de la información."
+        },
+        {
+            "id": 5,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué género periodístico se caracteriza por expresar la opinión formal, institucional y colectiva de un diario o medio de comunicación sobre un hecho relevante?",
+            "options": [
+                "La crónica literaria.",
+                "El editorial.",
+                "La noticia de sucesos.",
+                "El reportaje gráfico."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El editorial."
+        },
+        {
+            "id": 6,
+            "subject": "Lengua y Literatura",
+            "question": "El \"editorial\" de un periódico tradicionalmente posee la característica de ser:",
+            "options": [
+                "Firmado con el seudónimo del cronista del día.",
+                "Un texto no firmado (o anónimo) que representa la voz del medio en su conjunto.",
+                "Escrito en forma de verso con rimas asonantes.",
+                "Exclusivamente publicitario para vender un producto de la marca."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Un texto no firmado (o anónimo) que representa la voz del medio en su conjunto."
+        },
+        {
+            "id": 7,
+            "subject": "Lengua y Literatura",
+            "question": "Un \"comentario periodístico\" se diferencia del editorial principalmente en que:",
+            "options": [
+                "El comentario es ficticio y el editorial es completamente real.",
+                "El comentario expresa la opinión y juicio personal de un autor individual firmado, mientras que el editorial es la postura de la institución.",
+                "El comentario solo se transmite por radio y el editorial en papel.",
+                "El comentario carece de adecuación gramatical y coherencia."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El comentario expresa la opinión y juicio personal de un autor individual firmado, mientras que el editorial es la postura de la institución."
+        },
+        {
+            "id": 8,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué organizador gráfico utiliza llaves ({) para agrupar y clasificar la información de lo general a lo particular?",
+            "options": [
+                "Diagrama de flujo.",
+                "Cuadro sinóptico.",
+                "Mapa mental.",
+                "Línea de tiempo."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Cuadro sinóptico."
+        },
+        {
+            "id": 9,
+            "subject": "Lengua y Literatura",
+            "question": "Al subrayar, se recomienda evitar:",
+            "options": [
+                "Subrayar con colores contrastantes.",
+                "Destacar textos completos o párrafos enteros de forma indiscriminada sin analizar qué es lo principal.",
+                "Anotar comentarios cortos al margen del texto.",
+                "Leer el texto antes de proceder a marcar los conceptos."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Destacar textos completos o párrafos enteros de forma indiscriminada sin analizar qué es lo principal."
+        },
+        {
+            "id": 10,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál de los siguientes textos es un ejemplo de texto periodístico de opinión de carácter personal?",
+            "options": [
+                "Una noticia objetiva sobre un accidente vial.",
+                "Un comentario firmado que analiza la nueva ley de educación.",
+                "Un manual de instrucciones para instalar un electrodoméstico.",
+                "El prólogo de una novela de misterio."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Un comentario firmado que analiza la nueva ley de educación."
+        },
+        {
+            "id": 11,
+            "subject": "Historia",
+            "question": "¿En qué año fue derrotado definitivamente Napoleón Bonaparte en la batalla de Waterloo, poniendo fin a la era napoleónica en Europa?",
+            "options": [
+                "En 1789.",
+                "En 1815.",
+                "En 1804.",
+                "En 1848."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque En 1815."
+        },
+        {
+            "id": 12,
+            "subject": "Historia",
+            "question": "¿Cuál de las siguientes es una consecuencia directa de la Revolución francesa que transformó la estructura política europea?",
+            "options": [
+                "La expansión del sistema feudal y de los privilegios señoriales.",
+                "La abolición de la monarquía absoluta y la proclamación de los derechos humanos y la soberanía popular.",
+                "La prohibición de los sistemas de escritura moderna.",
+                "El fortalecimiento definitivo de la Iglesia católica como poder supremo del Estado."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La abolición de la monarquía absoluta y la proclamación de los derechos humanos y la soberanía popular."
+        },
+        {
+            "id": 13,
+            "subject": "Historia",
+            "question": "¿En qué año se autoproclamó Napoleón Bonaparte como \"Emperador de los franceses\", consolidando su poder en Francia e iniciando el Imperio napoleónico?",
+            "options": [
+                "En 1799.",
+                "En 1804.",
+                "En 1812.",
+                "En 1815."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque En 1804."
+        },
+        {
+            "id": 14,
+            "subject": "Historia",
+            "question": "¿Qué código legal, promulgado en 1804 por Napoleón, unificó las leyes e impuso la igualdad civil, la libertad de cultos y el fin de los privilegios feudales?",
+            "options": [
+                "El Código de Hammurabi.",
+                "El Código Napoleónico (o Código Civil de los franceses).",
+                "Las Doce Tablas de Roma.",
+                "La Carta Magna británica."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El Código Napoleónico (o Código Civil de los franceses)."
+        },
+        {
+            "id": 15,
+            "subject": "Historia",
+            "question": "Se considera que la Revolución francesa de 1789 es el acontecimiento que delimita el fin de la Edad Moderna y el comienzo de qué período histórico?",
+            "options": [
+                "Edad Media.",
+                "Época Contemporánea.",
+                "Edad de Piedra.",
+                "Renacimiento."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Época Contemporánea."
+        },
+        {
+            "id": 16,
+            "subject": "Historia",
+            "question": "¿Qué principio político, derivado de la Revolución francesa, sostiene que el poder reside en el pueblo y se ejerce a través de sus representantes electos?",
+            "options": [
+                "Absolutismo real.",
+                "Soberanía nacional o popular.",
+                "Teocracia estatal.",
+                "Feudalismo terrateniente."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Soberanía nacional o popular."
+        },
+        {
+            "id": 17,
+            "subject": "Historia",
+            "question": "A raíz de la Revolución francesa, se separaron de forma progresiva las funciones de dos instituciones fundamentales en la vida civil, que antes estaban unidas. Estas fueron:",
+            "options": [
+                "El Ejército y la Marina de guerra.",
+                "El Estado y la Iglesia.",
+                "La Nobleza y la Monarquía.",
+                "El Comercio y la Agricultura."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El Estado y la Iglesia."
+        },
+        {
+            "id": 18,
+            "subject": "Historia",
+            "question": "¿Qué trágico proceso bélico en el invierno del año 1812 significó el principio del fin para la supremacía militar de Napoleón Bonaparte, al perder gran parte de su Grande Armée?",
+            "options": [
+                "La invasión de España.",
+                "La desastrosa campaña e invasión de Rusia.",
+                "La batalla de Trafalgar.",
+                "La invasión del continente americano."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La desastrosa campaña e invasión de Rusia."
+        },
+        {
+            "id": 19,
+            "subject": "Historia",
+            "question": "Tras la derrota definitiva de Napoleón en 1815, las potencias europeas vencedoras se reunieron con el objetivo de restaurar el absolutismo en el mapa político en el llamado:",
+            "options": [
+                "Tratado de Tordesillas.",
+                "Congreso de Viena.",
+                "Pacto de Varsovia.",
+                "Tratado de Versalles."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Congreso de Viena."
+        },
+        {
+            "id": 20,
+            "subject": "Historia",
+            "question": "¿Qué importante documento de carácter humanitario y civil fue redactado y aprobado en París en 1789, sirviendo como base universal para los derechos individuales modernos?",
+            "options": [
+                "La Constitución de los Estados Unidos.",
+                "La Declaración de los Derechos del Hombre y del Ciudadano.",
+                "El Manifiesto Comunista.",
+                "El Edicto de Milán."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La Declaración de los Derechos del Hombre y del Ciudadano."
+        },
+        {
+            "id": 21,
+            "subject": "Razonamiento Verbal",
+            "question": "Concordancia verbal: Identifique la oración que presenta un uso **correcto** de la concordancia gramatical.",
+            "options": [
+                "La mayoría de los estudiantes aprobó el examen sin problemas.",
+                "El grupo de profesores decidieron suspender la reunión del martes.",
+                "Haban muchos libros antiguos sobre el Renacimiento en la biblioteca.",
+                "La jauría de perros corrieron detrás del automóvil del vecino."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque La mayoría de los estudiantes aprobó el examen sin problemas."
+        },
+        {
+            "id": 22,
+            "subject": "Razonamiento Verbal",
+            "question": "Concordancia verbal: Señale la oración que presenta un error de concordancia.",
+            "options": [
+                "Cada uno de los participantes recibirá un diploma firmado por el moderador.",
+                "La entrada y la salida de los alumnos deben realizarse por puertas separadas.",
+                "El equipo de investigadores descubrieron una nueva fuente de información.",
+                "Se venden libros usados a muy bajo precio."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque El equipo de investigadores descubrieron una nueva fuente de información."
+        },
+        {
+            "id": 23,
+            "subject": "Razonamiento Verbal",
+            "question": "Concordancia verbal: Complete la frase respetando las reglas de concordancia: \"La gente _______ alegremente en la fiesta mientras el grupo de músicos _______ sus mejores temas\".",
+            "options": [
+                "bailaban / tocaban",
+                "bailaba / tocaba",
+                "bailaban / tocaba",
+                "bailaba / tocaban"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque bailaba / tocaba"
+        },
+        {
+            "id": 24,
+            "subject": "Razonamiento Verbal",
+            "question": "Concordancia verbal: ¿Cuál de las siguientes construcciones gramaticales es la correcta?",
+            "options": [
+                "Hubieron muchos reclamos tras el discurso del editorialista.",
+                "Hubo muchos reclamos tras el discurso del editorialista.",
+                "Habían bastantes personas leyendo los cómics en la sala.",
+                "Hacen varios meses que se fundó la biblioteca del pueblo."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Hubo muchos reclamos tras el discurso del editorialista."
+        },
+        {
+            "id": 25,
+            "subject": "Razonamiento Verbal",
+            "question": "Concordancia verbal: Señale la oración correcta.",
+            "options": [
+                "Tú y yo haremos el mapa conceptual del capítulo.",
+                "Tú y yo harán el mapa conceptual del capítulo.",
+                "La mitad de los obreros terminaron la zanja a tiempo.",
+                "El maestro junto a sus alumnos organizaron un debate interesante."
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque Tú y yo haremos el mapa conceptual del capítulo."
+        },
+        {
+            "id": 26,
+            "subject": "Razonamiento Verbal",
+            "question": "Precisión Semántica: Seleccione la palabra adecuada para completar la oración de forma exacta: \"El científico logró _______ la veracidad de su hipótesis tras realizar múltiples experimentos de laboratorio\".",
+            "options": [
+                "opinar",
+                "corroborar",
+                "adivinar",
+                "suponer"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque corroborar"
+        },
+        {
+            "id": 27,
+            "subject": "Razonamiento Verbal",
+            "question": "Precisión Semántica: El historiador hizo un análisis muy _______ sobre las causas socioeconómicas que desencadenaron la Revolución francesa, sin omitir ningún detalle relevante.",
+            "options": [
+                "superfluo",
+                "exhaustivo",
+                "somero",
+                "rápido"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque exhaustivo"
+        },
+        {
+            "id": 28,
+            "subject": "Razonamiento Verbal",
+            "question": "Precisión Semántica: El editorialista debe expresarse con suma _______ para evitar malentendidos sobre la postura del diario.",
+            "options": [
+                "vaguedad",
+                "claridad",
+                "retórica",
+                "prisa"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque claridad"
+        },
+        {
+            "id": 29,
+            "subject": "Razonamiento Verbal",
+            "question": "Precisión Semántica: El uso discriminado e indiscriminado de información falsa en internet puede _______ la reputación de los investigadores.",
+            "options": [
+                "mejorar",
+                "menoscabar",
+                "promover",
+                "olvidar"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque menoscabar"
+        },
+        {
+            "id": 30,
+            "subject": "Razonamiento Verbal",
+            "question": "Precisión Semántica: El subrayado de ideas principales debe ser _______ para que sirva de apoyo real en los posteriores repasos del estudiante.",
+            "options": [
+                "selectivo",
+                "aleatorio",
+                "desordenado",
+                "completo"
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque selectivo"
+        },
+        {
+            "id": 31,
+            "subject": "Razonamiento Numérico",
+            "question": "Regla de tres simple: Si 6 grifos de agua tardan 10 horas en llenar un depósito de agua, ¿cuántas horas tardarán 12 grifos iguales en llenar el mismo depósito?",
+            "options": [
+                "20 horas",
+                "5 horas",
+                "15 horas",
+                "8 horas"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos los grifos iniciales por las horas originales: 6 * 10 = 60. Luego, dividimos este resultado entre el número de nuevos grifos: 60 / 12 = 5 horas, ya que es inversa"
+        },
+        {
+            "id": 32,
+            "subject": "Razonamiento Numérico",
+            "question": "Regla de tres simple: Un automóvil recorre 240 kilómetros en 3 horas a una velocidad constante. ¿Cuántos kilómetros recorrerá en 5 horas si mantiene la misma velocidad?",
+            "options": [
+                "300 kilómetros",
+                "400 kilómetros",
+                "480 kilómetros",
+                "500 kilómetros"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos cruzado la distancia por las nuevas horas: 240 * 5 = 1200. Después, dividimos entre el tiempo inicial de 3 horas para obtener 400 kilómetros"
+        },
+        {
+            "id": 33,
+            "subject": "Razonamiento Numérico",
+            "question": "Regla de tres simple: Para alimentar a 8 mascotas se necesitan 24 kg de alimento al mes. ¿Cuántos kilogramos de alimento se requerirán para alimentar a 12 mascotas de la misma especie durante un mes?",
+            "options": [
+                "30 kg",
+                "36 kg",
+                "40 kg",
+                "48 kg"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos en cruz los kilogramos de alimento por el número nuevo de mascotas: 24 * 12 = 288. Al final dividimos entre las 8 mascotas iniciales, dándonos 36 kg"
+        },
+        {
+            "id": 34,
+            "subject": "Razonamiento Numérico",
+            "question": "Regla de tres simple: Si 3 obreros construyen una cerca de madera en 12 horas, ¿cuántos obreros se necesitarán para terminar el mismo trabajo en solo 4 horas?",
+            "options": [
+                "6 obreros",
+                "9 obreros",
+                "12 obreros",
+                "15 obreros"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos en línea recta el número inicial de obreros por sus horas: 3 * 12 = 36. Dividimos el resultado entre las 4 horas deseadas y nos da 9 obreros necesarios"
+        },
+        {
+            "id": 35,
+            "subject": "Razonamiento Numérico",
+            "question": "Regla de tres simple: Si una fotocopiadora tarda 2 minutos en realizar 120 copias de un folleto, ¿cuántas copias realizará en 5 minutos si trabaja al mismo ritmo?",
+            "options": [
+                "240 copias",
+                "300 copias",
+                "360 copias",
+                "400 copias"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos las copias iniciales por los nuevos minutos: 120 * 5 = 600. Seguidamente dividimos entre los 2 minutos originales, arrojando 300 copias"
+        },
+        {
+            "id": 36,
+            "subject": "Razonamiento Numérico",
+            "question": "Conjuntos: Sean los conjuntos A = {1, 3, 5, 7, 9} y B = {3, 6, 9, 12}. Determine el resultado de la intersección A ∩ B.",
+            "options": [
+                "{1, 5, 7}",
+                "{3, 9}",
+                "{1, 3, 5, 6, 7, 9, 12}",
+                "{6, 12}"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, buscamos los números que forman parte de ambos conjuntos a la misma vez. Al observar los dos grupos vemos que los números que se repiten son el 3 y el 9"
+        },
+        {
+            "id": 37,
+            "subject": "Razonamiento Numérico",
+            "question": "Conjuntos: Si el conjunto M = {a, b, c} y el conjunto N = {b, c, d, e}, determine la unión M ∪ N.",
+            "options": [
+                "{b, c}",
+                "{a, b, c, d, e}",
+                "{a, d, e}",
+                "{b, c, d, e}"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, reunimos todos los elementos pertenecientes a ambos conjuntos de manera ordenada y sin repetir ninguno, obteniendo la lista {a, b, c, d, e}"
+        },
+        {
+            "id": 38,
+            "subject": "Razonamiento Numérico",
+            "question": "Conjuntos: En un salón de clases de 50 alumnos, 30 de ellos prefieren leer cómics y 25 prefieren leer libros tradicionales. Si a todos los alumnos les gusta al menos una de las dos opciones, ¿a cuántos de ellos les gustan ambas opciones?",
+            "options": [
+                "10 alumnos",
+                "5 alumnos",
+                "15 alumnos",
+                "20 alumnos"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, sumamos las preferencias de ambas opciones: 30 + 25 = 55. Al comparar con los 50 alumnos reales de la clase, restamos 55 - 50, dándonos 5 alumnos en la intersección"
+        },
+        {
+            "id": 39,
+            "subject": "Razonamiento Numérico",
+            "question": "Conjuntos: Dados los conjuntos P = {2, 4, 6} y Q = {4, 6, 8, 10}, halle la diferencia P − Q (elementos que pertenecen a P pero no a Q).",
+            "options": [
+                "{4, 6}",
+                "{2}",
+                "{8, 10}",
+                "{2, 8, 10}"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, seleccionamos los elementos que están en P pero no se encuentran en Q. El único número que cumple con esta condición de exclusividad es el 2"
+        },
+        {
+            "id": 40,
+            "subject": "Razonamiento Numérico",
+            "question": "Conjuntos: El conjunto universal U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} y el subconjunto A = {2, 4, 6, 8, 10}. Halle el complemento de A (A').",
+            "options": [
+                "{2, 4, 6, 8, 10}",
+                "{1, 3, 5, 7, 9}",
+                "{1, 2, 3, 4, 5}",
+                "{6, 7, 8, 9, 10}"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, identificamos los elementos que le hacen falta al conjunto A para ser igual al conjunto universal U. Los números faltantes son los impares: {1, 3, 5, 7, 9}"
+        }
+    ],
+    "Viernes": [
+        {
+            "id": 1,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué es la lectura inferencial?",
+            "options": [
+                "Buscar el significado de palabras difíciles en el diccionario.",
+                "Deducir o extraer información e ideas implícitas que no aparecen de forma literal en el texto.",
+                "Leer en voz alta dándole la entonación y paralingüística correcta.",
+                "Contar las palabras y párrafos del escrito de forma exacta."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Deducir o extraer información e ideas implícitas que no aparecen de forma literal en el texto."
+        },
+        {
+            "id": 2,
+            "subject": "Lengua y Literatura",
+            "question": "Si un texto dice: \"La calle estaba mojada y las personas caminaban con paraguas abiertos\", ¿qué se puede inferir con seguridad?",
+            "options": [
+                "Que es un día soleado de verano.",
+                "Que ha estado lloviendo o está lloviendo en ese momento.",
+                "Que se ha roto una tubería principal de agua.",
+                "Que las personas están modelando paraguas nuevos."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Que ha estado lloviendo o está lloviendo en ese momento."
+        },
+        {
+            "id": 3,
+            "subject": "Lengua y Literatura",
+            "question": "En lógica, el razonamiento que parte de premisas o leyes generales para llegar a una conclusión particular e indudable se conoce como:",
+            "options": [
+                "Inducción.",
+                "Deducción.",
+                "Contradicción.",
+                "Hipérbole."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Deducción."
+        },
+        {
+            "id": 4,
+            "subject": "Lengua y Literatura",
+            "question": "Si observo que el metal cobre se dilata con el calor, el hierro se dilata con el calor y el aluminio se dilata con el calor, y por tanto concluyo que \"todos los metales se dilatan con el calor\", ¿qué tipo de razonamiento he aplicado?",
+            "options": [
+                "Razonamiento deductivo.",
+                "Razonamiento inductivo.",
+                "Razonamiento ambiguo.",
+                "Razonamiento analógico."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Razonamiento inductivo."
+        },
+        {
+            "id": 5,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál es el objetivo principal del proceso de revisión de un borrador de texto?",
+            "options": [
+                "Cambiar por completo las ideas originales del autor por otras de moda.",
+                "Detectar y corregir errores ortográficos, gramaticales, de estilo y de cohesión antes de publicar.",
+                "Traducir el documento a varios idiomas mediante un software automático.",
+                "Añadir la mayor cantidad posible de imágenes de internet."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Detectar y corregir errores ortográficos, gramaticales, de estilo y de cohesión antes de publicar."
+        },
+        {
+            "id": 6,
+            "subject": "Lengua y Literatura",
+            "question": "Al revisar la concordancia de un texto, se debe verificar que:",
+            "options": [
+                "Cada párrafo tenga exactamente diez líneas escritas en mayúscula.",
+                "Coincidan el sujeto y el verbo en número y persona, y el sustantivo y adjetivo en género y número.",
+                "Se hayan utilizado al menos tres tipos de tipografía distintos.",
+                "El texto carezca de adecuación lingüística."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Coincidan el sujeto y el verbo en número y persona, y el sustantivo y adjetivo en género y número."
+        },
+        {
+            "id": 7,
+            "subject": "Lengua y Literatura",
+            "question": "En una lectura inferencial de un texto, es fundamental relacionar los datos del texto con:",
+            "options": [
+                "La cantidad de páginas que tiene el libro.",
+                "Los conocimientos previos y experiencias del propio lector.",
+                "El costo económico de la publicación.",
+                "El eslogan comercial de la portada del libro."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Los conocimientos previos y experiencias del propio lector."
+        },
+        {
+            "id": 8,
+            "subject": "Lengua y Literatura",
+            "question": "¿Qué método de razonamiento se utiliza cuando un detective analiza pistas particulares en la escena del crimen para formular una hipótesis general de lo ocurrido?",
+            "options": [
+                "Deducción pura.",
+                "Inducción.",
+                "Descontextualización.",
+                "Comparación silábica."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Inducción."
+        },
+        {
+            "id": 9,
+            "subject": "Lengua y Literatura",
+            "question": "Durante la fase de revisión del texto, si identificamos la oración: \"Los estudiantes de la universidad asiste a la biblioteca\", ¿qué tipo de error debemos corregir?",
+            "options": [
+                "Un error de concordancia de género.",
+                "Un error de concordancia verbal de número (sujeto plural y verbo en singular).",
+                "Un error semántico de descontextualización.",
+                "Un error ortográfico de acentuación."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Un error de concordancia verbal de número (sujeto plural y verbo en singular)."
+        },
+        {
+            "id": 10,
+            "subject": "Lengua y Literatura",
+            "question": "¿Cuál de las siguientes acciones NO forma parte de las técnicas básicas de revisión textual?",
+            "options": [
+                "Comprobar la ortografía de palabras difíciles y la acentuación.",
+                "Revisar que las oraciones estén conectadas lógicamente con conectores adecuados.",
+                "Escribir un nuevo artículo de opinión sobre un tema completamente diferente al borrador.",
+                "Verificar que no existan contradicciones o ideas repetidas innecesariamente."
+            ],
+            "correct": 2,
+            "explanation": "La respuesta correcta es la c) porque Escribir un nuevo artículo de opinión sobre un tema completamente diferente al borrador."
+        },
+        {
+            "id": 11,
+            "subject": "Historia",
+            "question": "¿En qué período histórico europeo se desarrolló e implementó con mayor fuerza la teoría y práctica del mercantilismo?",
+            "options": [
+                "Durante el Imperio romano clásico.",
+                "En la Edad Moderna, entre los siglos XVI y XVIII.",
+                "A finales del siglo XX con la globalización digital.",
+                "En la época del Paleolítico prehistórico."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque En la Edad Moderna, entre los siglos XVI y XVIII."
+        },
+        {
+            "id": 12,
+            "subject": "Historia",
+            "question": "Según la doctrina del mercantilismo, la riqueza y el poder económico de una nación se medían principalmente por:",
+            "options": [
+                "La cantidad de tierras dedicadas al cultivo de trigo.",
+                "La acumulación de metales preciosos (oro y plata) y una balanza comercial favorable.",
+                "El bienestar social y la educación gratuita de su población.",
+                "El número de industrias tecnológicas en sus ciudades."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La acumulación de metales preciosos (oro y plata) y una balanza comercial favorable."
+        },
+        {
+            "id": 13,
+            "subject": "Historia",
+            "question": "¿Qué significaba mantener una \"balanza comercial favorable\" en la era del mercantilismo?",
+            "options": [
+                "Importar más mercancías extranjeras de las que se exportaban.",
+                "Exportar más productos al exterior de los que se importaban (vender más de lo que se compra).",
+                "Mantener una igualdad exacta de precios entre metales preciosos y productos agrícolas.",
+                "Prohibir por completo cualquier intercambio comercial marítimo."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Exportar más productos al exterior de los que se importaban (vender más de lo que se compra)."
+        },
+        {
+            "id": 14,
+            "subject": "Historia",
+            "question": "¿Qué sistema socioeconómico moderno, basado en el mercado libre y la propiedad privada, comenzó a consolidarse a partir de la Revolución Industrial a finales del siglo XVIII?",
+            "options": [
+                "El Feudalismo.",
+                "El Capitalismo.",
+                "El Mercantilismo imperial.",
+                "El Socialismo científico."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El Capitalismo."
+        },
+        {
+            "id": 15,
+            "subject": "Historia",
+            "question": "¿Qué célebre economista escocés publicó en el año 1776 la obra \"La riqueza de las naciones\", sentando las bases teóricas del liberalismo económico y del capitalismo moderno?",
+            "options": [
+                "Karl Marx.",
+                "Adam Smith.",
+                "John Maynard Keynes.",
+                "Jean-Baptiste Colbert."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Adam Smith."
+        },
+        {
+            "id": 16,
+            "subject": "Historia",
+            "question": "Bajo el sistema mercantilista, los monarcas absolutos europeos promovieron fuertemente el colonialismo principalmente para:",
+            "options": [
+                "Garantizar la igualdad social en todo el planeta.",
+                "Obtener materias primas baratas y metales preciosos, y asegurar mercados exclusivos para sus productos.",
+                "Permitir la emigración libre de los campesinos descontentos.",
+                "Difundir los ideales democráticos de la Revolución francesa."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Obtener materias primas baratas y metales preciosos, y asegurar mercados exclusivos para sus productos."
+        },
+        {
+            "id": 17,
+            "subject": "Historia",
+            "question": "En el capitalismo, el precio de los bienes, servicios y salarios se regula y establece principalmente a través de:",
+            "options": [
+                "Decretos reales dictados por el monarca absoluto.",
+                "La ley de la oferta y la demanda en un mercado libre.",
+                "La cantidad de oro acumulada en las bóvedas de la Iglesia.",
+                "Acuerdos internacionales firmados por el Congreso de Viena."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La ley de la oferta y la demanda en un mercado libre."
+        },
+        {
+            "id": 18,
+            "subject": "Historia",
+            "question": "¿Qué hito histórico e industrial de mediados del siglo XVIII (alrededor de 1760 en Inglaterra) aceleró la transición del mercantilismo al capitalismo industrial?",
+            "options": [
+                "La caída del Imperio Romano.",
+                "La invención de la máquina de vapor y el inicio de la Revolución Industrial.",
+                "La llegada de Colón a tierras americanas en 1492.",
+                "El estallido de la Revolución Francesa de 1789."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque La invención de la máquina de vapor y el inicio de la Revolución Industrial."
+        },
+        {
+            "id": 19,
+            "subject": "Historia",
+            "question": "¿Cuál es la principal diferencia entre el mercantilismo y el capitalismo liberal?",
+            "options": [
+                "El mercantilismo promueve el libre mercado y el capitalismo la intervención estatal absoluta.",
+                "El mercantilismo defiende la fuerte intervención del Estado y la acumulación de metales, mientras que el capitalismo liberal aboga por el libre mercado y la propiedad privada con mínima intervención del Estado.",
+                "El mercantilismo abolió el feudalismo en el siglo V d.C. y el capitalismo lo reinstauró.",
+                "El mercantilismo prohíbe el comercio internacional y el capitalismo lo limita a las colonias."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque El mercantilismo defiende la fuerte intervención del Estado y la acumulación de metales, mientras que el capitalismo liberal aboga por el libre mercado y la propiedad privada con mínima intervención del Estado."
+        },
+        {
+            "id": 20,
+            "subject": "Historia",
+            "question": "¿Qué ministro de finanzas del rey Luis XIV de Francia implementó a mediados del siglo XVII un modelo mercantilista tan estricto basado en manufacturas estatales que llevó su nombre (colbertismo)?",
+            "options": [
+                "Adam Smith.",
+                "Jean-Baptiste Colbert.",
+                "Maximilien Robespierre.",
+                "Napoleón Bonaparte."
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Jean-Baptiste Colbert."
+        },
+        {
+            "id": 21,
+            "subject": "Razonamiento Verbal",
+            "question": "Sinónimos: Identifique el sinónimo de la palabra **EXHAUSTIVO**.",
+            "options": [
+                "Somero",
+                "Completo",
+                "Rápido",
+                "Superficial"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Completo"
+        },
+        {
+            "id": 22,
+            "subject": "Razonamiento Verbal",
+            "question": "Sinónimos: Señale el sinónimo de **PERSUADIR**.",
+            "options": [
+                "Disuadir",
+                "Convencer",
+                "Engañar",
+                "Obligar"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Convencer"
+        },
+        {
+            "id": 23,
+            "subject": "Razonamiento Verbal",
+            "question": "Sinónimos: Seleccione el sinónimo contextual de **CORROBORAR**.",
+            "options": [
+                "Cuestionar",
+                "Confirmar",
+                "Suponer",
+                "Criticar"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Confirmar"
+        },
+        {
+            "id": 24,
+            "subject": "Razonamiento Verbal",
+            "question": "Sinónimos: Halle la palabra con significado similar a **INDISPENSABLE**.",
+            "options": [
+                "Opcional",
+                "Esencial",
+                "Accesorio",
+                "Útil"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Esencial"
+        },
+        {
+            "id": 25,
+            "subject": "Razonamiento Verbal",
+            "question": "Sinónimos: Identifique el sinónimo de **CONCISO**.",
+            "options": [
+                "Extenso",
+                "Breve",
+                "Detallado",
+                "Confuso"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Breve"
+        },
+        {
+            "id": 26,
+            "subject": "Razonamiento Verbal",
+            "question": "Antónimos: Identifique el antónimo directo de **SUBJETIVO**.",
+            "options": [
+                "Personal",
+                "Objetivo",
+                "Subalterno",
+                "Teórico"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Objetivo"
+        },
+        {
+            "id": 27,
+            "subject": "Razonamiento Verbal",
+            "question": "Antónimos: Señale el antónimo de la palabra **NÓMADA**.",
+            "options": [
+                "Viajero",
+                "Sedentario",
+                "Peregrino",
+                "Errante"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Sedentario"
+        },
+        {
+            "id": 28,
+            "subject": "Razonamiento Verbal",
+            "question": "Antónimos: Halle el antónimo de **DEDUCCIÓN**.",
+            "options": [
+                "Inducción",
+                "Inferencia",
+                "Conclusión",
+                "Silogismo"
+            ],
+            "correct": 0,
+            "explanation": "La respuesta correcta es la a) porque Inducción"
+        },
+        {
+            "id": 29,
+            "subject": "Razonamiento Verbal",
+            "question": "Antónimos: Determine la palabra opuesta a **COHERENCIA**.",
+            "options": [
+                "Conexión",
+                "Incongruencia",
+                "Lógica",
+                "Claridad"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Incongruencia"
+        },
+        {
+            "id": 30,
+            "subject": "Razonamiento Verbal",
+            "question": "Antónimos: Seleccione el antónimo de **MERCANTILISMO** en el contexto de políticas económicas de control del mercado frente a la libertad de comercio.",
+            "options": [
+                "Proteccionismo",
+                "Liberalismo",
+                "Monopolio",
+                "Intervencionismo"
+            ],
+            "correct": 1,
+            "explanation": "La respuesta correcta es la b) porque Liberalismo"
+        },
+        {
+            "id": 31,
+            "subject": "Razonamiento Numérico",
+            "question": "Fracciones: Si reparto 3/4 de una pizza equitativamente entre 3 amigos, ¿qué fracción de la pizza entera recibe cada uno?",
+            "options": [
+                "1/3",
+                "1/4",
+                "3/12",
+                "1/2"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, dividimos la fracción original por el número de personas: (3/4) / 3 = (3/4) * (1/3) = 3/12. Al simplificar dividiendo entre 3 arriba y abajo, obtenemos 1/4"
+        },
+        {
+            "id": 32,
+            "subject": "Razonamiento Numérico",
+            "question": "Fracciones: Resuelva la suma de fracciones: 1/2 + 1/4 =",
+            "options": [
+                "2/6",
+                "3/4",
+                "2/4",
+                "1/6"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, convertimos 1/2 a cuartos multiplicando por 2 arriba y abajo, dando 2/4. Luego sumamos: 2/4 + 1/4 = 3/4"
+        },
+        {
+            "id": 33,
+            "subject": "Razonamiento Numérico",
+            "question": "Fracciones: Un estudiante dedica 1/3 del día a estudiar y 1/6 del día a hacer deportes. ¿Qué fracción del día total le queda libre si el resto del día lo dedica a dormir y otras actividades?",
+            "options": [
+                "1/2",
+                "1/2 (o 3/6)",
+                "1/3",
+                "5/6"
+            ],
+            "correct": 0,
+            "explanation": "Para resolver esto, sumamos las fracciones empleadas: 1/3 + 1/6. Común denominador 6: 2/6 + 1/6 = 3/6 = 1/2. Restamos del total 1 - 1/2 = 1/2 libre"
+        },
+        {
+            "id": 34,
+            "subject": "Razonamiento Numérico",
+            "question": "Fracciones: Resuelva la multiplicación de fracciones: (2/3) × (5/4) =",
+            "options": [
+                "8/15",
+                "5/6",
+                "7/12",
+                "10/12"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos numeradores entre sí y denominadores entre sí: 2*5 = 10 y 3*4 = 12, dando 10/12. Al simplificar entre 2, resulta 5/6"
+        },
+        {
+            "id": 35,
+            "subject": "Razonamiento Numérico",
+            "question": "Fracciones: ¿Cuál es el resultado de dividir 3/5 entre 2/3?",
+            "options": [
+                "6/15",
+                "9/10",
+                "2/5",
+                "5/9"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, multiplicamos la primera fracción por la inversa de la segunda: (3/5) * (3/2) = (3*3) / (5*2) = 9/10"
+        },
+        {
+            "id": 36,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Resuelva respetando la jerarquía de las operaciones: 20 − 4 × (3 + 1) =",
+            "options": [
+                "64",
+                "4",
+                "16",
+                "12"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, resolvemos primero lo que está dentro del paréntesis: 3 + 1 = 4. Luego multiplicamos 4 * 4 = 16. Por último restamos: 20 - 16 = 4"
+        },
+        {
+            "id": 37,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Resuelve: 8 + 12 / 2 × 3 =",
+            "options": [
+                "30",
+                "26",
+                "14",
+                "10"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, de acuerdo con la jerarquía, primero hacemos la división de izquierda a derecha: 12 / 2 = 6. Luego multiplicamos 6 * 3 = 18. Al final sumamos 8 + 18 = 26"
+        },
+        {
+            "id": 38,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Resuelve: (18 − 6) / 3 + 2 × 5 =",
+            "options": [
+                "20",
+                "14",
+                "12",
+                "30"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, operamos el paréntesis primero: 18 - 6 = 12. Luego la división 12 / 3 = 4, y la multiplicación 2 * 5 = 10. Sumamos los resultados 4 + 10 = 14"
+        },
+        {
+            "id": 39,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Si compro 3 libretas de $2.50 cada una y 2 bolígrafos de $1.25 cada uno, y pago con un billete de $20, ¿cuánto recibiré de vuelto?",
+            "options": [
+                "$8.00",
+                "$10.00",
+                "$12.00",
+                "$15.00"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, sumamos el gasto: 3 * 2.50 = 7.50, y 2 * 1.25 = 2.50. Total gasto: 7.50 + 2.50 = 10.00. El vuelto de un billete de 20 es 20 - 10 = $10.00"
+        },
+        {
+            "id": 40,
+            "subject": "Razonamiento Numérico",
+            "question": "Operaciones básicas: Resuelve: 100 / (5 × 2) − 3 =",
+            "options": [
+                "17",
+                "7",
+                "97",
+                "10"
+            ],
+            "correct": 1,
+            "explanation": "Para resolver esto, operamos el paréntesis en el denominador: 5 * 2 = 10. Luego hacemos la división: 100 / 10 = 10. Al final restamos: 10 - 3 = 7"
+        }
+    ],
+    "Sábado": [],
+    "Domingo": []
+},
     "Semana 3": {
         "Lunes": [],
         "Martes": [],
@@ -4485,127 +6556,541 @@ const studyData = {
         ]
     },
     "Semana 2": {
-        "Lunes": [
-            {
-                "topic": "Signos de puntuación",
-                "subject": "Lengua y Literatura",
-                "concept": "Los signos de puntuación son herramientas gráficas indispensables en la escritura que permiten estructurar y dar sentido a los textos. Facilitan la lectura y la comprensión al marcar las pausas y la entonación necesarias al hablar. Entre los más comunes están la coma (para pausas breves y enumeraciones), el punto (seguido, aparte y final, para delimitar oraciones y párrafos), el punto y coma (para pausas intermedias), los dos puntos (para introducir explicaciones o citas) y los signos de interrogación y exclamación (que otorgan una entonación especial). Sin ellos, los textos perderían coherencia y darían pie a malentendidos en la interpretación del mensaje.",
-                "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=signos+de+puntuacion",
-                "exercises": []
-            },
-            {
-                "topic": "El resumen",
-                "subject": "Lengua y Literatura",
-                "concept": "El resumen es un documento breve y conciso en el que se sintetizan las ideas principales de un texto más extenso, manteniendo el sentido y la objetividad del autor original. Su propósito principal es facilitar la comprensión rápida del contenido esencial sin necesidad de leer la obra completa. Para elaborar un buen resumen, es fundamental realizar una lectura atenta, subrayar o identificar las ideas clave, descartar información secundaria o redundante y redactar el nuevo texto con palabras propias (evitando opiniones personales). La objetividad, brevedad, claridad y precisión son sus características esenciales.",
-                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=como+hacer+un+resumen",
-                "exercises": []
-            },
-            {
-                "topic": "El párrafo",
-                "subject": "Lengua y Literatura",
-                "concept": "El párrafo es la unidad organizativa y visual de un texto escrito que desarrolla una idea principal o un aspecto particular del tema general. Comienza siempre con mayúscula y sangría opcional, y finaliza obligatoriamente con un punto y aparte para dar paso al siguiente bloque de texto. Estructuralmente, se compone de una oración principal (que contiene la idea central) y varias oraciones secundarias (que explican, ejemplifican o amplían la idea principal). Un párrafo bien construido posee coherencia (conexión lógica de las ideas) y cohesión (uso adecuado de conectores), lo que guía al lector a través de una progresión fluida de la lectura.",
-                "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=el+parrafo+lengua+y+literatura",
-                "exercises": []
-            },
-            {
-                "topic": "La entrevista",
-                "subject": "Lengua y Literatura",
-                "concept": "La entrevista es una técnica de comunicación orientada a obtener información de un interlocutor mediante un diálogo planificado y estructurado. En este proceso participan el entrevistador (quien diseña el guion, formula las preguntas y conduce el ritmo de la conversación) y el entrevistado (quien responde y comparte sus conocimientos, experiencias o posturas). Las entrevistas pueden ser estructuradas (basadas en un guion cerrado preestablecido), semiestructuradas (permiten flexibilidad e improvisación controlada) o libres. Es una herramienta clave en el periodismo, la investigación científica, los procesos de selección laboral y la psicología clínica.",
-                "image": "https://images.unsplash.com/photo-1521791136064-7986c2959443?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=la+entrevista+lengua+y+literatura",
-                "exercises": []
-            },
-            {
-                "topic": "El viejo Continente",
-                "subject": "Historia",
-                "concept": "El término 'Viejo Continente' (o Viejo Mundo) es una denominación histórica y geográfica utilizada para referirse a Europa, y por extensión a la masa terrestre compartida con Asia y África. Esta etiqueta surgió en el contexto europeo tras la llegada de Cristóbal Colón a tierras americanas a finales del siglo XV, las cuales pasaron a llamarse 'Nuevo Mundo'. Históricamente, Europa se considera la cuna del pensamiento occidental, el derecho moderno, el renacimiento y las revoluciones industrial y científica, ejerciendo una influencia determinante sobre el desarrollo de las civilizaciones globales a lo largo de los últimos siglos.",
-                "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=historia+europa+viejo+continente",
-                "exercises": []
-            },
-            {
-                "topic": "Evolución y civilización del hombre",
-                "subject": "Historia",
-                "concept": "La evolución y civilización del hombre abarca el fascinante proceso biológico e histórico mediante el cual los homínidos se transformaron y agruparon en sociedades complejas. Este camino inicia con el proceso de hominización, donde especies como el Australopithecus y el Homo erectus (clave por el control del fuego) se adaptaron al medio ambiente, culminando en la aparición del Homo sapiens. Durante el Paleolítico, los humanos vivían de forma nómada como cazadores y recolectores. Posteriormente, la gran Revolución Neolítica introdujo la agricultura y la domesticación de animales, promoviendo el sedentarismo, el crecimiento de aldeas, la división del trabajo y el surgimiento de las primeras civilizaciones con escritura y complejas estructuras de organización social.",
-                "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=evolucion+del+hombre+hominizacion",
-                "exercises": []
-            },
-            {
-                "topic": "Interpretación de refranes",
-                "subject": "Razonamiento Verbal",
-                "concept": "La interpretación de refranes consiste en descifrar el mensaje moral, didáctico o figurado oculto en estas sentencias populares de transmisión oral. Los refranes son parte de la sabiduría colectiva de un pueblo y reflejan experiencias y valores culturales acumulados a lo largo de generaciones. Comprenderlos requiere ir más allá de la lectura literal de sus palabras para conectar su metáfora con situaciones reales de la vida cotidiana. Por ejemplo, refranes como 'A palabras necias, oídos sordos' nos invitan a ignorar las críticas destructivas, mientras que 'No por mucho madrugar amanece más temprano' enseña sobre la paciencia y el respeto al curso natural de las cosas.",
-                "image": "https://images.unsplash.com/photo-1513001900722-370f803f498d?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=interpretacion+de+refranes",
-                "exercises": [
-                    {
-                        "problem": "Identifique el significado del refrán: 'A caballo regalado no se le mira el diente'.\n\na) No debemos criticar los regalos o cosas que recibimos de forma gratuita.\nb) Los caballos viejos tienen dientes débiles.\nc) Debemos revisar muy bien todo lo que compramos.\nd) Es mala educación regalar animales.",
-                        "solution": "1. El refrán alude a que cuando algo es obsequiado, no debemos buscarle defectos o tachas, sino aceptarlo con gratitud y amabilidad.\n2. Al ver las opciones, la opción a) expresa exactamente esta moraleja.\n3. Por tanto, la respuesta correcta es la a)."
-                    },
-                    {
-                        "problem": "Señale la interpretación correcta de: 'Más vale pájaro en mano que ciento volando'.\n\na) Es mejor conformarse con algo seguro aunque sea poco, que arriesgarse por algo mejor pero incierto.\nb) Es muy difícil atrapar aves en el aire.\nc) Debemos cazar muchos pájaros para tener éxito.\nd) La libertad de las aves es más valiosa que su cautiverio.",
-                        "solution": "1. El refrán enseña que vale más asegurar lo que ya se tiene de forma concreta que codiciar cosas hipotéticas que se pueden perder.\n2. La opción a) coincide plenamente con este significado de seguridad frente a incertidumbre.\n3. Por lo tanto, la opción correcta es la a)."
-                    }
-                ]
-            },
-            {
-                "topic": "Analogías verbales",
-                "subject": "Razonamiento Verbal",
-                "concept": "Las analogías verbales son ejercicios lógicos que evalúan la capacidad de identificar relaciones de semejanza o equivalencia entre dos pares de conceptos. Resolver una analogía requiere analizar detenidamente los términos propuestos (el par base), determinar el tipo de vínculo que los une (como causa-efecto, parte-todo, sinonimia, objeto-función o sujeto-lugar) y aplicar esa misma lógica para encontrar el par equivalente entre las opciones disponibles. Son sumamente valoradas en las pruebas de aptitud académica porque miden el razonamiento inductivo, la agilidad mental y la precisión semántica del estudiante.",
-                "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=analogias+verbales+ejercicios",
-                "exercises": [
-                    {
-                        "problem": "PÁJARO es a NIDO como OSO es a:\n\na) Jaula\nb) Cueva\nc) Selva\nd) Bosque",
-                        "solution": "1. Establecemos la relación del par base: Un pájaro habita o duerme en su nido (relación de animal y su hábitat/refugio natural).\n2. Buscamos la misma relación para el oso:\n   - El oso no habita por naturaleza en una jaula (cautiverio).\n   - Una cueva es el refugio o madriguera natural del oso.\n   - Selva y bosque son áreas geográficas muy amplias y no su madriguera específica.\n3. Por lo tanto, la respuesta correcta es b) Cueva."
-                    },
-                    {
-                        "problem": "CALOR es a FRÍO como LUZ es a:\n\na) Oscuridad\nb) Día\nc) Fuego\nd) Lámpara",
-                        "solution": "1. Analizamos la relación base: Calor y Frío son opuestos directos (antónimos).\n2. Buscamos el opuesto directo para Luz:\n   - El antónimo directo de Luz es Oscuridad.\n   - Día es un periodo temporal.\n   - Fuego y Lámpara son fuentes de luz, no su opuesto.\n3. La opción correcta es la a) Oscuridad."
-                    }
-                ]
-            },
-            {
-                "topic": "Operaciones básicas",
-                "subject": "Razonamiento Numérico",
-                "concept": "Las operaciones aritméticas básicas (suma, resta, multiplicación y división) constituyen los cimientos de la matemática y son fundamentales para resolver cualquier problema numérico de la vida diaria y escolar. La suma combina cantidades; la resta determina la diferencia entre ellas; la multiplicación abrevia sumas del mismo número; y la división reparte un todo en partes equivalentes. Al realizar problemas que combinen varias de estas operaciones, es indispensable aplicar la jerarquía matemática o prioridad de operaciones (PEMDAS: resolver primero paréntesis, luego multiplicaciones y divisiones de izquierda a derecha, y por último sumas y restas), evitando errores de cálculo.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=jerarquia+de+operaciones+aritmeticas",
-                "exercises": [
-                    {
-                        "problem": "Resuelva aplicando la jerarquía de operaciones: 15 - (3 * 4) + 8 / 2\n\na) 7\nb) 5\nc) 10\nd) 12",
-                        "solution": "1. Primero resolvemos los paréntesis y las operaciones prioritarias:\n   - Paréntesis: 3 * 4 = 12.\n   - División: 8 / 2 = 4.\n2. Sustituimos estos valores en la expresión original: 15 - 12 + 4.\n3. Resolvemos las sumas y restas de izquierda a derecha:\n   - 15 - 12 = 3.\n   - 3 + 4 = 7.\n4. La respuesta correcta es la a) 7."
-                    },
-                    {
-                        "problem": "Un comerciante compra 5 cajas de lápices a $12 cada una. Si paga con un billete de $100, ¿cuánto dinero le queda?\n\na) $40\nb) $50\nc) $60\nd) $30",
-                        "solution": "1. Calculamos el gasto total de las cajas de lápices multiplicando la cantidad por el precio unitario: 5 * 12 = $60.\n2. Restamos el gasto total del billete con el que pagó para hallar el cambio: 100 - 60 = $40.\n3. Por tanto, al comerciante le quedan $40.\n4. La respuesta correcta es la a)."
-                    }
-                ]
-            },
-            {
-                "topic": "Probabilidad",
-                "subject": "Razonamiento Numérico",
-                "concept": "La probabilidad es la rama de las matemáticas que mide cuantitativamente la posibilidad de que ocurra un suceso aleatorio (bajo la influencia del azar). Su cálculo básico se expresa mediante la Regla de Laplace, que define la probabilidad como la fracción entre el número de casos favorables y el número total de casos posibles. Este resultado se puede representar como una fracción, un número decimal entre 0 y 1, o un porcentaje del 0% (evento imposible) al 100% (evento seguro). Su estudio es fundamental para la toma de decisiones, la estadística y el análisis de juegos de azar clásicos como el lanzamiento de monedas, dados o la extracción de cartas.",
-                "image": "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=600&auto=format&fit=crop&q=60",
-                "videoUrl": "https://www.youtube.com/results?search_query=probabilidad+basica+ejemplos",
-                "exercises": [
-                    {
-                        "problem": "En una bolsa hay 3 bolas blancas, 2 negras y 5 rojas. Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea blanca?\n\na) 3/10 (o 30%)\nb) 2/10\nc) 5/10\nd) 1/3",
-                        "solution": "1. Sumamos el total de bolas en la bolsa para obtener los casos posibles: 3 + 2 + 5 = 10 bolas.\n2. Los casos favorables son las bolas blancas: 3 bolas.\n3. Aplicamos la fórmula de probabilidad (casos favorables / casos posibles): 3 / 10.\n4. Expresado en porcentaje es 30%.\n5. La respuesta correcta es la a) 3/10 (o 30%)."
-                    },
-                    {
-                        "problem": "Si se lanza una moneda al aire, ¿cuál es la probabilidad de obtener 'cruz'?\n\na) 1/2 (o 50%)\nb) 1/4\nc) 1/1\nd) 0",
-                        "solution": "1. Los casos posibles son 2 (cara o cruz).\n2. El caso favorable es 1 (cruz).\n3. La probabilidad es 1 / 2, que equivale a 0.5 o 50% de probabilidad.\n4. La respuesta correcta es la a) 1/2 (o 50%)."
-                    }
-                ]
-            }
-        ],
-        "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
-    },
-    "Semana 3": {
+    "Lunes": [
+        {
+            "topic": "Signos de puntuación",
+            "subject": "Lengua y Literatura",
+            "concept": "Los signos de puntuación son herramientas gráficas indispensables en la escritura que permiten estructurar y dar sentido a los textos. Facilitan la lectura y la comprensión al marcar las pausas y la entonación necesarias al hablar. Entre los más comunes están la coma (para pausas breves y enumeraciones), el punto (seguido, aparte y final, para delimitar oraciones y párrafos), el punto y coma (para pausas intermedias), los dos puntos (para introducir explicaciones o citas) y los signos de interrogación y exclamación (que otorgan una entonación especial). Sin ellos, los textos perderían coherencia y darían pie a malentendidos en la interpretación del mensaje.",
+            "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=signos+de+puntuación",
+            "exercises": []
+        },
+        {
+            "topic": "El resumen",
+            "subject": "Lengua y Literatura",
+            "concept": "El resumen es un documento breve y conciso en el que se sintetizan las ideas principales de un texto más extenso, manteniendo el sentido y la objetividad del autor original. Su propósito principal es facilitar la comprensión rápida del contenido esencial sin necesidad de leer la obra completa. Para elaborar un buen resumen, es fundamental realizar una lectura atenta, subrayar o identificar las ideas clave, descartar información secundaria o redundante y redactar el nuevo texto con palabras propias (evitando opiniones personales). La objetividad, brevedad, claridad y precisión son sus características esenciales.",
+            "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+resumen",
+            "exercises": []
+        },
+        {
+            "topic": "El párrafo",
+            "subject": "Lengua y Literatura",
+            "concept": "El párrafo es la unidad organizativa y visual de un texto escrito que desarrolla una idea principal o un aspecto particular del tema general. Comienza siempre con mayúscula y sangría opcional, y finaliza obligatoriamente con un punto y aparte para dar paso al siguiente bloque de texto. Estructuralmente, se compone de una oración principal (que contiene la idea central) y varias oraciones secundarias (que explican, ejemplifican o amplían la idea principal). Un párrafo bien construido posee coherencia (conexión lógica de las ideas) y cohesión (uso adecuado de conectores), lo que guía al lector a través de una progresión fluida de la lectura.",
+            "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+párrafo",
+            "exercises": []
+        },
+        {
+            "topic": "La entrevista",
+            "subject": "Lengua y Literatura",
+            "concept": "La entrevista es una técnica de comunicación orientada a obtener información de un interlocutor mediante un diálogo planificado y estructurado. En este proceso participan el entrevistador (quien diseña el guion, formula las preguntas y conduce el ritmo de la conversación) y el entrevistado (quien responde y comparte sus conocimientos, experiencias o posturas). Las entrevistas pueden ser estructuradas (basadas en un guion cerrado preestablecido), semiestructuradas (permiten flexibilidad e improvisación controlada) o libres. Es una herramienta clave en el periodismo, la investigación científica, los procesos de selección laboral y la psicología clínica.",
+            "image": "https://images.unsplash.com/photo-1521791136064-7986c2959443?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=la+entrevista",
+            "exercises": []
+        },
+        {
+            "topic": "El viejo Continente",
+            "subject": "Historia",
+            "concept": "El término 'Viejo Continente' (o Viejo Mundo) es una denominación histórica y geográfica utilizada para referirse a Europa, y por extensión a la masa terrestre compartida con Asia y África. Esta etiqueta surgió en el contexto europeo tras la llegada de Cristóbal Colón a tierras americanas a finales del siglo XV, las cuales pasaron a llamarse 'Nuevo Mundo'. Históricamente, Europa se considera la cuna del pensamiento occidental, el derecho moderno, el renacimiento y las revoluciones industrial y científica, ejerciendo una influencia determinante sobre el desarrollo de las civilizaciones globales a lo largo de los últimos siglos.",
+            "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+viejo+continente",
+            "exercises": []
+        },
+        {
+            "topic": "Evolución y civilización del hombre",
+            "subject": "Historia",
+            "concept": "La evolución y civilización del hombre abarca el fascinante proceso biológico e histórico mediante el cual los homínidos se transformaron y agruparon en sociedades complejas. Este camino inicia con el proceso de hominización, donde especies como el Australopithecus y el Homo erectus (clave por el control del fuego) se adaptaron al medio ambiente, culminando en la aparición del Homo sapiens. Durante el Paleolítico, los humanos vivían de forma nómada como cazadores y recolectores. Posteriormente, la gran Revolución Neolítica introdujo la agricultura y la domesticación de animales, promoviendo el sedentarismo, el crecimiento de aldeas, la división del trabajo y el surgimiento de las primeras civilizaciones con escritura y complejas estructuras de organización social.",
+            "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=evolución+y+civilización+del+hombre",
+            "exercises": []
+        },
+        {
+            "topic": "Interpretación de refranes",
+            "subject": "Razonamiento Verbal",
+            "concept": "La interpretación de refranes consiste en descifrar el mensaje moral, didáctico o figurado oculto en estas sentencias populares de transmisión oral. Los refranes son parte de la sabiduría colectiva de un pueblo y reflejan experiencias y valores culturales acumulados a lo largo de generaciones. Comprenderlos requiere ir más allá de la lectura literal de sus palabras para conectar su metáfora con situaciones reales de la vida cotidiana. Por ejemplo, refranes como 'A palabras necias, oídos sordos' nos invitan a ignorar las críticas destructivas, mientras que 'No por mucho madrugar amanece más temprano' enseña sobre la paciencia y el respeto al curso natural de las cosas.",
+            "image": "https://images.unsplash.com/photo-1513001900722-370f803f498d?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=interpretación+de+refranes",
+            "exercises": [
+                {
+                    "problem": "¿Qué significa el dicho popular \"A palabras necias, oídos sordos\"?\n\na) Que las personas sordas no pueden escuchar palabras feas.\nb) Que debemos ignorar los insultos, críticas sin fundamento o comentarios malintencionados.\nc) Que hay que gritar para que nos entiendan.\nd) Que debemos taparnos las orejas cuando alguien cuenta un secreto.",
+                    "solution": "La respuesta correcta es la b) porque Que debemos ignorar los insultos, críticas sin fundamento o comentarios malintencionados."
+                },
+                {
+                    "problem": "¿Cuál es la moraleja de \"No por mucho madrugar amanece más temprano\"?\n\na) Que hay que dormir hasta el mediodía para tener buena salud.\nb) Que despertarse temprano es malo para la vista.\nc) Que algunos procesos llevan su tiempo natural y apresurarse o desesperarse no hará que las cosas sucedan antes.\nd) Que el sol sale a distintas horas todos los días.",
+                    "solution": "La respuesta correcta es la c) porque Que algunos procesos llevan su tiempo natural y apresurarse o desesperarse no hará que las cosas sucedan antes."
+                }
+            ]
+        },
+        {
+            "topic": "Analogías verbales",
+            "subject": "Razonamiento Verbal",
+            "concept": "Las analogías verbales son ejercicios lógicos que evalúan la capacidad de identificar relaciones de semejanza o equivalencia entre dos pares de conceptos. Resolver una analogía requiere analizar detenidamente los términos propuestos (el par base), determinar el tipo de vínculo que los une (como causa-efecto, parte-todo, sinonimia, objeto-función o sujeto-lugar) y aplicar esa misma lógica para encontrar el par equivalente entre las opciones disponibles. Son sumamente valoradas en las pruebas de aptitud académica porque miden el razonamiento inductivo, la agilidad mental y la precisión semántica del estudiante.",
+            "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=analogías+verbales",
+            "exercises": []
+        },
+        {
+            "topic": "Operaciones básicas",
+            "subject": "Razonamiento Numérico",
+            "concept": "Las operaciones aritméticas básicas (suma, resta, multiplicación y división) constituyen los cimientos de la matemática y son fundamentales para resolver cualquier problema numérico de la vida diaria y escolar. La suma combina cantidades; la resta determina la diferencia entre ellas; la multiplicación abrevia sumas del mismo número; y la división reparte un todo en partes equivalentes. Al realizar problemas que combinen varias de estas operaciones, es indispensable aplicar la jerarquía matemática o prioridad de operaciones (PEMDAS: resolver primero paréntesis, luego multiplicaciones y divisiones de izquierda a derecha, y por último sumas y restas), evitando errores de cálculo.",
+            "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=operaciones+básicas",
+            "exercises": [
+                {
+                    "problem": "Resuelve respetando la jerarquía matemática: 12+8×2=\n\na) 40\nb) 28\nc) 20\nd) 36",
+                    "solution": "Para resolver esto, primero hacemos la multiplicación porque tiene prioridad sobre la suma. Multiplicamos 8 x 2 = 16. Luego le sumamos los 12 iniciales, dándonos 28"
+                },
+                {
+                    "problem": "Resuelve: (15−5)/2+4=\n\na) 9\nb) 7\nc) 14\nd) 5",
+                    "solution": "Para resolver esto, los paréntesis mandan. Primero restamos 15 - 5 = 10. A ese 10 lo dividimos entre 2, lo que da 5. Finalmente, le sumamos los 4, y tenemos 9"
+                }
+            ]
+        },
+        {
+            "topic": "Probabilidad",
+            "subject": "Razonamiento Numérico",
+            "concept": "La probabilidad es la rama de las matemáticas que mide cuantitativamente la posibilidad de que ocurra un suceso aleatorio (bajo la influencia del azar). Su cálculo básico se expresa mediante la Regla de Laplace, que define la probabilidad como la fracción entre el número de casos favorables y el número total de casos posibles. Este resultado se puede representar como una fracción, un número decimal entre 0 y 1, o un porcentaje del 0% (evento imposible) al 100% (evento seguro). Su estudio es fundamental para la toma de decisiones, la estadística y el análisis de juegos de azar clásicos como el lanzamiento de monedas, dados o la extracción de cartas.",
+            "image": "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=probabilidad",
+            "exercises": [
+                {
+                    "problem": "Si lanzas un dado estándar (de 6 caras), ¿cuál es la probabilidad de sacar un número impar (1, 3 o 5)?\n\na) 1/6\nb) 2/6\nc) 3/6 (o 1/2)\nd) 4/6",
+                    "solution": "Para resolver esto, contamos los casos que nos sirven: los impares son el 1, el 3 y el 5 (son 3 casos a favor). Como el dado tiene 6 casos totales, la fracción es 3/6, que simplificando es 1/2"
+                },
+                {
+                    "problem": "En una caja hay 4 pelotas rojas y 6 pelotas azules. Si sacas una pelota sin mirar, ¿cuál es la probabilidad de que sea roja?\n\na) 4/10 (o 2/5)\nb) 6/10\nc) 1/4\nd) 1/10",
+                    "solution": "Para resolver esto, sumamos todas las pelotas de la caja: 4 rojas + 6 azules = 10 pelotas en total. Como queremos sacar una roja, y hay 4, la probabilidad es 4 de 10, es decir 4/10"
+                }
+            ]
+        }
+    ],
+    "Martes": [
+        {
+            "topic": "La búsqueda de información",
+            "subject": "Lengua y Literatura",
+            "concept": "Es el proceso sistemático de localizar, seleccionar y organizar datos relevantes provenientes de fuentes confiables (libros, artículos, bases de datos académicas o páginas web verificadas) para resolver una duda o profundizar en un tema de estudio. Exige definir con precisión las palabras clave de la investigación, emplear operadores lógicos o booleanos (como AND, OR y NOT) para delimitar los resultados de manera efectiva y evaluar críticamente la veracidad, el rigor metodológico y la actualidad de cada fuente encontrada. Este análisis de fuentes confiables ayuda a descartar información sesgada o falsa en internet.",
+            "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=la+búsqueda+de+información",
+            "exercises": []
+        },
+        {
+            "topic": "Los textos publicitarios",
+            "subject": "Lengua y Literatura",
+            "concept": "Son escritos orientados a persuadir, convencer o influir en el receptor para que adquiera un producto, contrate un servicio o adopte una conducta determinada. Para lograr su objetivo, combinan estratégicamente el lenguaje verbal y el no verbal (como tipografías dinámicas, colores contrastantes y recursos icónicos). Además, recurren al uso de eslóganes cortos y memorables que apelan a las emociones, necesidades o aspiraciones profundas del público objetivo, destacando las ventajas y beneficios de lo ofrecido para asegurar que el mensaje perdure en la memoria colectiva.",
+            "image": "https://images.unsplash.com/photo-1542744094-3a31f103e35f?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=los+textos+publicitarios",
+            "exercises": []
+        },
+        {
+            "topic": "La crónica",
+            "subject": "Lengua y Literatura",
+            "concept": "Es un género híbrido que une el periodismo y la literatura. Consiste en la narración detallada y rigurosamente cronológica de un hecho real o de interés general, relatada por un testigo directo o por un investigador que reconstruye la escena. Su rasgo fundamental es que combina la objetividad informativa propia de la noticia con la subjetividad, el estilo personal y los recursos expresivos del autor. De este modo, la crónica no solo informa sobre lo que ocurrió, sino que recrea la atmósfera del suceso aportando descripciones vívidas, diálogos y comentarios valorativos de la realidad.",
+            "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=la+crónica",
+            "exercises": []
+        },
+        {
+            "topic": "El Renacimiento",
+            "subject": "Historia",
+            "concept": "Fue un amplio movimiento cultural, artístico y científico que se desarrolló en Europa Occidental (especialmente en ciudades-estado italianas como Florencia) durante los siglos XV y XVI, marcando la transición entre la Edad Media y los inicios de la Edad Moderna. Se caracterizó por el renacer del interés por la cultura, la filosofía y el arte clásico grecorromana, impulsando la corriente del Humanismo (que situaba al ser humano como centro de reflexión, antropocentrismo, rompiendo con el teocentrismo medieval) y promoviendo un esplendor sin precedentes en la pintura, la escultura y la arquitectura.",
+            "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+renacimiento",
+            "exercises": []
+        },
+        {
+            "topic": "Avances científicos y técnicos",
+            "subject": "Historia",
+            "concept": "Comprenden el conjunto de inventos y descubrimientos desarrollados durante la transición a la Modernidad (siglos XV-XVII) que transformaron radicalmente la sociedad global. Entre los logros más destacados sobresalen la imprenta de tipos móviles de Gutenberg (que permitió la masificación de los libros y el conocimiento), la brújula y el astrolabio (indispensables para los viajes transoceánicos de descubrimiento), el telescopio que reformuló la astronomía y las bases del método científico experimental, lo que sentó los cimientos del progreso tecnológico industrial de los siglos posteriores.",
+            "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=avances+científicos+y+técnicos",
+            "exercises": []
+        },
+        {
+            "topic": "Selección lógica",
+            "subject": "Razonamiento Verbal",
+            "concept": "Son ejercicios de aptitud verbal y razonamiento lógico orientados a identificar la característica o el elemento que resulta estrictamente indispensable para la validez de un concepto u oración. A diferencia de otros ejercicios verbales, evalúa la habilidad del estudiante para diferenciar entre propiedades accesorias (secundarias) y propiedades constitutivas u obligatorias para la existencia del término de referencia. Por ejemplo, en el caso del concepto 'libro', las páginas son un elemento esencial, mientras que el prólogo o la portada dura son elementos opcionales.",
+            "image": "https://images.unsplash.com/photo-1516087596041-3d75c87e85c1?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=selección+lógica",
+            "exercises": [
+                {
+                    "problem": "Identifique el elemento indispensable para el concepto **LIBRO**.\n\na) Imágenes\nb) Capítulos\nc) Páginas\nd) Prólogo",
+                    "solution": "La respuesta correcta es la c) porque Páginas"
+                },
+                {
+                    "problem": "Indique el componente esencial e indispensable para la existencia de un **BOSQUE**.\n\na) Animales\nb) Senderos\nc) Árboles\nd) Guardabosques",
+                    "solution": "La respuesta correcta es la c) porque Árboles"
+                }
+            ]
+        },
+        {
+            "topic": "Término excluido",
+            "subject": "Razonamiento Verbal",
+            "concept": "Consiste en identificar, dentro de un grupo de vocablos proporcionados, aquella palabra que no guarda relación de significado, afinidad lógica o asociación con las demás. Resolver de manera correcta un de término excluido demanda definir con precisión el campo semántico de cada una de las palabras de la lista para hallar el nexo o la característica común que une a la mayoría de los términos, permitiendo aislar y excluir con total seguridad el elemento discordante que no comparte dicha lógica.",
+            "image": "https://images.unsplash.com/photo-1518133680790-398535021118?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=término+excluido",
+            "exercises": [
+                {
+                    "problem": "Identifique el término que no pertenece al campo semántico de **NOBLEZA**.\n\na) Altruismo\nb) Generosidad\nc) Egoísmo\nd) Magnanimidad",
+                    "solution": "La respuesta correcta es la c) porque Egoísmo"
+                },
+                {
+                    "problem": "Señale la palabra que se aparta del grupo de **INSTRUMENTOS MUSICALES DE CUERDA**.\n\na) Guitarra\nb) Violín\nc) Flauta\nd) Arpa",
+                    "solution": "La respuesta correcta es la c) porque Flauta"
+                }
+            ]
+        },
+        {
+            "topic": "Proporcionalidad compuesta",
+            "subject": "Razonamiento Numérico",
+            "concept": "Es una herramienta matemática y aritmética que permite resolver problemas donde intervienen tres o más magnitudes proporcionales (las cuales pueden relacionarse de forma directa o inversa). Su procedimiento básico consiste en comparar de forma individual la magnitud donde se encuentra la incógnita con cada una de las otras magnitudes del problema para establecer si guardan una relación directa o inversa. A partir de este análisis, se plantea una ecuación de razones y proporciones cruzadas que posibilita hallar de manera precisa el valor de la variable incógnita.",
+            "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=proporcionalidad+compuesta",
+            "exercises": [
+                {
+                    "problem": "Si 6 tejedores fabrican 30 suéteres en 10 días, ¿cuántos días tardarán 3 tejedores en fabricar 15 suéteres?\n\na) 5 días\nb) 10 días\nc) 15 días\nd) 20 días",
+                    "solution": "Para resolver esto, planteamos la relación de proporcionalidad compuesta: a menos tejedores, más días (inversa), y a menos suéteres, menos días (directa). Al operar (10 * 6/3 * 15/30) obtenemos 10 días"
+                },
+                {
+                    "problem": "Si 8 grifos tardan 12 horas en llenar 4 depósitos de agua, ¿cuántas horas tardarán 4 grifos iguales en llenar 2 depósitos?\n\na) 6 horas\nb) 12 horas\nc) 18 horas\nd) 24 horas",
+                    "solution": "Para resolver esto, analizamos que a menos grifos, más horas (inversa), y a menos depósitos, menos horas (directa). Al calcular (12 * 8/4 * 2/4) resulta en 12 horas"
+                }
+            ]
+        },
+        {
+            "topic": "Secuencias lógicas",
+            "subject": "Razonamiento Numérico",
+            "concept": "Son sucesiones ordenadas de elementos (que pueden ser números, letras, figuras geométricas o representaciones espaciales) que siguen una ley de formación o patrón lógico constante. Para resolverlas de forma exitosa, se requiere realizar un análisis minucioso de la relación entre los elementos consecutivos de la serie para descubrir el patrón subyacente. Dicho patrón puede implicar operaciones matemáticas básicas sucesivas, combinaciones de sumas y multiplicaciones, progresiones complejas, alternancias o giros de orientación en el espacio.",
+            "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=secuencias+lógicas",
+            "exercises": [
+                {
+                    "problem": "Determine qué número continúa en la siguiente serie numérica: **3, 6, 12, 24, 48, ...**\n\na) 60\nb) 96\nc) 72\nd) 80",
+                    "solution": "Para resolver esto, observamos la secuencia: cada número se multiplica por 2 (3*2=6, 6*2=12, 12*2=24, 24*2=48). El siguiente número es 48*2 = 96"
+                },
+                {
+                    "problem": "¿Cuál es el valor que completa la secuencia: **5, 8, 12, 17, 23, ...**\n\na) 28\nb) 30\nc) 32\nd) 35",
+                    "solution": "Para resolver esto, calculamos el incremento entre términos: +3, +4, +5, +6. El siguiente término sumará +7 a 23, dando como resultado 30"
+                }
+            ]
+        }
+    ],
+    "Miércoles": [
+        {
+            "topic": "El cómic",
+            "subject": "Lengua y Literatura",
+            "concept": "Es un medio de comunicación y género narrativo eminentemente visual que relata una historia mediante una secuencia de dibujos e ilustraciones ordenadas (viñetas). Combina de manera inseparable el lenguaje icónico (imágenes y colores) con el lenguaje verbal (los textos colocados en bocadillos, cartelas informativas u onomatopeyas). Se lee siguiendo un orden secuencial lógico (de izquierda a derecha y de arriba a abajo) y destaca por su enorme capacidad para dinamizar la acción narrativa y conectar emocionalmente con el lector a través del dinamismo gráfico.",
+            "image": "https://images.unsplash.com/photo-1618519764620-7403abdbfee9?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+cómic",
+            "exercises": []
+        },
+        {
+            "topic": "El libro",
+            "subject": "Lengua y Literatura",
+            "concept": "Es una obra impresa, manuscrita o digital, de extensión considerable, que recopila información, textos o imágenes organizados bajo una estructura temática unificada. Ha constituido históricamente el soporte primordial para la transmisión de las artes y el desarrollo del conocimiento científico global. Estructuralmente, se compone de partes internas y externas tradicionales como la portada, el lomo, las solapas, el prólogo, el índice, el cuerpo de la obra y la bibliografía de referencia.",
+            "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+libro",
+            "exercises": []
+        },
+        {
+            "topic": "El texto y sus características",
+            "subject": "Lengua y Literatura",
+            "concept": "Es cualquier unidad comunicativa coherente y completa de carácter verbal o escrito que se emite con una intención determinada en una situación específica. Para que un conjunto de enunciados sea considerado un texto formal, debe cumplir con tres propiedades básicas esenciales: adecuación (ajustarse al contexto, al canal y al registro lingüístico del receptor), coherencia (unidad temática y ordenación lógica de las ideas) y cohesión (uso adecuado de enlaces, conectores gramaticales y puntuación.",
+            "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+texto+y+sus+características",
+            "exercises": []
+        },
+        {
+            "topic": "Causas de la Revolución francesa",
+            "subject": "Historia",
+            "concept": "Comprende el conjunto de tensiones económicas, sociales, políticas e ideológicas que desencadenaron la caída de la monarquía absolutista en 1789. Entre las causas principales destacan la quiebra fiscal del Estado francés debido a las guerras y el derroche de la corte, la injusta división de la sociedad estamental (donde la nobleza y el clero evadían impuestos y gozaban de privilegios feudales mientras el Tercer Estado cargaba con todos los tributos) y la influencia crítica de las ideas ilustradas sobre la igualdad.",
+            "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=causas+de+la+revolución+francesa",
+            "exercises": []
+        },
+        {
+            "topic": "El proceso revolucionario",
+            "subject": "Historia",
+            "concept": "Abarca el dinámico y convulso transcurso de etapas políticas y sociales de la Revolución Francesa entre los años 1789 y 1799. Este acontecimiento histórico se inició con la autoproclamación de la Asamblea Nacional y la toma de la Bastilla. Posteriormente, transitó por una monarquía constitucional, una fase republicana marcada por la radicalización jacobina y el régimen del Terror bajo Robespierre, el periodo del Directorio y concluyó finalmente con el golpe de Estado del 18 de brumario de Napoleón Bonaparte.",
+            "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+proceso+revolucionario",
+            "exercises": []
+        },
+        {
+            "topic": "Ordenar oraciones",
+            "subject": "Razonamiento Verbal",
+            "concept": "Son ejercicios de razonamiento lingüístico que consisten en reorganizar una serie de enunciados sueltos y desordenados para constituir un texto o párrafo que posea sentido lógico y fluidez gramatical. Su resolución requiere identificar el tema central, reconocer la secuencia temporal y lógica (inicio, nudo y desenlace), y apoyarse de forma crítica en los conectores textuales, la concordancia gramatical y los referentes pronominales que cohesionan la estructura.",
+            "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=ordenar+oraciones",
+            "exercises": [
+                {
+                    "problem": "Ordene los siguientes enunciados para formar un texto coherente. I. Sin embargo, su consolidación definitiva se dio con la invención de la imprenta en el siglo XV. II. El libro ha sido el soporte más importante para conservar y transmitir la cultura humana. III. En la antigüedad, los primeros libros se escribían a mano sobre papiro o pergamino.\n\na) II - I - III\nb) II - III - I\nc) III - II - I\nd) I - III - II",
+                    "solution": "La respuesta correcta es la b) porque II - III - I"
+                },
+                {
+                    "problem": "Ordene las frases de forma lógica. I. Por último, redacta el nuevo texto con objetividad. II. Para hacer un buen resumen, primero lee con atención el documento original. III. A continuación, subraya las ideas principales descartando los detalles secundarios.\n\na) II - I - III\nb) II - III - I\nc) I - III - II\nd) III - II - I",
+                    "solution": "La respuesta correcta es la b) porque II - III - I"
+                }
+            ]
+        },
+        {
+            "topic": "Comprensión lectora",
+            "subject": "Razonamiento Verbal",
+            "concept": "Es una competencia cognitiva fundamental que consiste en procesar y entender la información de un texto escrito, captando tanto sus ideas explícitas como sus mensajes implícitos para valorarlos críticamente. Requiere abordar la lectura a tres niveles de profundidad: nivel literal (identificación de datos explícitos del texto), nivel inferencial (deducción y construcción de significados no escritos) y nivel crítico (análisis de la intención, validez de argumentos y postura del autor).",
+            "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=comprensión+lectora",
+            "exercises": [
+                {
+                    "problem": "Lea el texto y responda. *Texto:* \"La Revolución francesa no solo transformó las estructuras de poder en Francia, sino que propagó por toda Europa las ideas de soberanía popular y libertad civil, desafiando el derecho divino de los reyes.\" ¿Cuál es la idea principal del texto?\n\na) Francia era el único país que tenía reyes absolutistas en el siglo XVIII.\nb) El impacto de la Revolución francesa trascendió sus fronteras difundiendo ideales de soberanía popular.\nc) La religión cristiana perdió todo el poder en Europa después del año 1789.\nd) Los reyes europeos apoyaron con agrado las reformas civiles francesas.",
+                    "solution": "La respuesta correcta es la b) porque El impacto de la Revolución francesa trascendió sus fronteras difundiendo ideales de soberanía popular."
+                },
+                {
+                    "problem": "Del texto anterior, se puede **inferir** que:\n\na) Antes de la Revolución francesa, el absolutismo justificaba su poder en motivos religiosos (derecho divino).\nb) Europa occidental ya era democrática antes del estallido de 1789.\nc) La soberanía popular era un concepto ampliamente practicado por los reyes.\nd) Francia cerró sus fronteras para evitar que sus ideales se conocieran fuera del país.",
+                    "solution": "La respuesta correcta es la a) porque Antes de la Revolución francesa, el absolutismo justificaba su poder en motivos religiosos (derecho divino)."
+                }
+            ]
+        },
+        {
+            "topic": "Solución de problemas de ecuaciones lineales",
+            "subject": "Razonamiento Numérico",
+            "concept": "Consiste en la formulación y resolución de problemas prácticos de la vida cotidiana o científica mediante el planteamiento de igualdades algebraicas de primer grado (donde las incógnitas están elevadas a la potencia 1). El proceso demanda definir y asignar variables a los datos desconocidos, traducir las relaciones descritas en el enunciado al lenguaje de las matemáticas y despejar de forma ordenada las incógnitas usando operaciones aritméticas inversas.",
+            "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=solución+de+problemas+de+ecuaciones+lineales",
+            "exercises": []
+        },
+        {
+            "topic": "Porcentajes",
+            "subject": "Razonamiento Numérico",
+            "concept": "Es una forma matemática de expresar una cantidad o proporción tomando como base una unidad de 100 partes iguales. Su cálculo se representa con el símbolo '%' y es de vital importancia en el razonamiento numérico para efectuar comparaciones directas, calcular de forma rápida descuentos en el comercio, recargos de impuestos (como el IVA), tasas de interés en operaciones financieras y variaciones de proporciones en estadísticas.",
+            "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=porcentajes",
+            "exercises": [
+                {
+                    "problem": "Un abrigo que originalmente costaba $80 tiene un descuento de fin de temporada del 25%. ¿Cuánto se ahorrará el comprador?\n\na) $15\nb) $20\nc) $25\nd) $60",
+                    "solution": "Para resolver esto, multiplicamos el valor original del abrigo por el porcentaje en decimal: 80 * 0.25, lo que equivale a ahorrar una cuarta parte, es decir, $20"
+                },
+                {
+                    "problem": "Si una camisa de $40 tiene un descuento del 15%, ¿cuánto pagará el cliente en total tras aplicarse la rebaja?\n\na) $6\nb) $34\nc) $30\nd) $36",
+                    "solution": "Para resolver esto, calculamos el 15% de 40: 40 * 0.15 = $6 de descuento. Al restar del precio original de la camisa, el cliente pagará $34"
+                }
+            ]
+        }
+    ],
+    "Jueves": [
+        {
+            "topic": "Los organizadores gráficos",
+            "subject": "Lengua y Literatura",
+            "concept": "Son herramientas de aprendizaje visual que permiten estructurar, resumir e interpretar de manera esquemática la información sustancial de un texto o tema de estudio. Facilitan la comprensión inmediata al organizar las ideas jerárquica y lógicamente en un diagrama gráfico. Entre los tipos más comunes y eficaces se encuentran los mapas conceptuales, los mapas mentales, los cuadros sinópticos con llaves, los diagramas de Venn y las líneas de tiempo cronológicas.",
+            "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=los+organizadores+gráficos",
+            "exercises": []
+        },
+        {
+            "topic": "El subrayado",
+            "subject": "Lengua y Literatura",
+            "concept": "Es una técnica activa de lectura y estudio que consiste en trazar líneas o destacar visualmente mediante marcadores de color los vocablos clave, conceptos fundamentales e ideas principales de un texto. Su práctica correcta ayuda a enfocar la concentración durante la lectura y reduce considerablemente el tiempo posterior de repaso y estudio, sirviendo además como el insumo primordial para construir resúmenes o esquemas visuales sintéticos.",
+            "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+subrayado",
+            "exercises": []
+        },
+        {
+            "topic": "El comentario y el editorial",
+            "subject": "Lengua y Literatura",
+            "concept": "Son géneros periodísticos de opinión muy valorados en la comunicación social. El comentario es un texto analítico firmado por un autor particular que juzga de forma subjetiva y estilizada un suceso de actualidad. El editorial, en cambio, representa la postura e ideología oficial e institucional del medio de comunicación en su conjunto, por lo que suele publicarse sin firma individual y analiza temas de gran relevancia política y social nacional.",
+            "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+comentario+y+el+editorial",
+            "exercises": []
+        },
+        {
+            "topic": "Consecuencias de la Revolución francesa",
+            "subject": "Historia",
+            "concept": "Abarcan los profundos e irreversibles cambios que transformaron las estructuras políticas y sociales en el mundo a partir del estallido de 1789. Entre las principales consecuencias destacan la destrucción final del feudalismo y la monarquía absoluta en Francia, el nacimiento de regímenes constitucionales basados en la soberanía popular, la separación oficial entre la Iglesia y el Estado, la redacción de los derechos del ciudadano y el impulso global de la democracia.",
+            "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=consecuencias+de+la+revolución+francesa",
+            "exercises": []
+        },
+        {
+            "topic": "La Europa napoleónica",
+            "subject": "Historia",
+            "concept": "Fue el período histórico (1799-1815) marcado por el liderazgo político y militar de Napoleón Bonaparte en Francia y su expansión territorial mediante campañas militares por toda Europa Continental. A través de su imperio, Napoleón propagó las reformas revolucionarias francesas, suprimió el régimen feudal en los países ocupados y promulgó el Código Civil Napoleónico en 1804, el cual sentó las bases de la legislación moderna mundial.",
+            "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=la+europa+napoleónica",
+            "exercises": []
+        },
+        {
+            "topic": "Concordancia verbal",
+            "subject": "Razonamiento Verbal",
+            "concept": "Es la regla sintáctica de la gramática que impone la coincidencia obligatoria en número (singular o plural) y persona (primera, segunda o tercera) entre el verbo principal y el núcleo del sujeto en una oración. Respetar la concordancia verbal es de gran importancia para asegurar la claridad lógica del mensaje y la cohesión textual, previniendo errores sintácticos habituales que entorpecen la lectura de un documento escrito.",
+            "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=concordancia+verbal",
+            "exercises": [
+                {
+                    "problem": "Identifique la oración que presenta un uso **correcto** de la concordancia gramatical.\n\na) La mayoría de los estudiantes aprobó el examen sin problemas.\nb) El grupo de profesores decidieron suspender la reunión del martes.\nc) Haban muchos libros antiguos sobre el Renacimiento en la biblioteca.\nd) La jauría de perros corrieron detrás del automóvil del vecino.",
+                    "solution": "La respuesta correcta es la a) porque La mayoría de los estudiantes aprobó el examen sin problemas."
+                },
+                {
+                    "problem": "Señale la oración que presenta un error de concordancia.\n\na) Cada uno de los participantes recibirá un diploma firmado por el moderador.\nb) La entrada y la salida de los alumnos deben realizarse por puertas separadas.\nc) El equipo de investigadores descubrieron una nueva fuente de información.\nd) Se venden libros usados a muy bajo precio.",
+                    "solution": "La respuesta correcta es la c) porque El equipo de investigadores descubrieron una nueva fuente de información."
+                }
+            ]
+        },
+        {
+            "topic": "Precisión Semántica",
+            "subject": "Razonamiento Verbal",
+            "concept": "Consiste en el empleo riguroso, adecuado y exacto de los vocablos de acuerdo con su significado preciso dentro de un contexto comunicativo determinado. Esta aptitud evalúa la habilidad del redactor para seleccionar, de un grupo de palabras sinónimas o semánticamente cercanas, aquella que represente con mayor fidelidad la idea que se desea expresar, eliminando ambigüedades, vaguedades y el uso inapropiado de términos.",
+            "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=precisión+semántica",
+            "exercises": [
+                {
+                    "problem": "Seleccione la palabra adecuada para completar la oración de forma exacta: \"El científico logró _______ la veracidad de su hipótesis tras realizar múltiples experimentos de laboratorio\".\n\na) opinar\nb) corroborar\nc) adivinar\nd) suponer",
+                    "solution": "La respuesta correcta es la b) porque corroborar"
+                },
+                {
+                    "problem": "El historiador hizo un análisis muy _______ sobre las causas socioeconómicas que desencadenaron la Revolución francesa, sin omitir ningún detalle relevante.\n\na) superfluo\nb) exhaustivo\nc) somero\nd) rápido",
+                    "solution": "La respuesta correcta es la b) porque exhaustivo"
+                }
+            ]
+        },
+        {
+            "topic": "Reglas de tres simples",
+            "subject": "Razonamiento Numérico",
+            "concept": "Es un procedimiento matemático fundamental que sirve para calcular de manera ágil el valor de una magnitud desconocida relacionando tres valores conocidos que son proporcionales entre sí. Puede ser de tipo directa (si las magnitudes varían en la misma dirección) o de tipo inversa (si varían en direcciones opuestas), y se resuelve planteando relaciones aritméticas de multiplicación y división entre las magnitudes asociadas.",
+            "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=reglas+de+tres+simples",
+            "exercises": []
+        },
+        {
+            "topic": "Conjuntos",
+            "subject": "Razonamiento Numérico",
+            "concept": "Son agrupaciones lógicas de elementos bien definidos que comparten una propiedad o característica matemática en común. Se pueden definir por extensión (listando todos sus elementos) o por comprensión (estableciendo la propiedad común) y se representan gráficamente en diagramas de Venn. Su estudio abarca el análisis de pertenencia, inclusión y operaciones básicas como la unión, la intersección, la diferencia y el complemento.",
+            "image": "https://images.unsplash.com/photo-1518133680790-398535021118?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=conjuntos",
+            "exercises": [
+                {
+                    "problem": "Sean los conjuntos A = {1, 3, 5, 7, 9} y B = {3, 6, 9, 12}. Determine el resultado de la intersección A ∩ B.\n\na) {1, 5, 7}\nb) {3, 9}\nc) {1, 3, 5, 6, 7, 9, 12}\nd) {6, 12}",
+                    "solution": "Para resolver esto, buscamos los números que forman parte de ambos conjuntos a la misma vez. Al observar los dos grupos vemos que los números que se repiten son el 3 y el 9"
+                },
+                {
+                    "problem": "Si el conjunto M = {a, b, c} y el conjunto N = {b, c, d, e}, determine la unión M ∪ N.\n\na) {b, c}\nb) {a, b, c, d, e}\nc) {a, d, e}\nd) {b, c, d, e}",
+                    "solution": "Para resolver esto, reunimos todos los elementos pertenecientes a ambos conjuntos de manera ordenada y sin repetir ninguno, obteniendo la lista {a, b, c, d, e}"
+                }
+            ]
+        }
+    ],
+    "Viernes": [
+        {
+            "topic": "La lectura Inferencial",
+            "subject": "Lengua y Literatura",
+            "concept": "Es el proceso cognitivo avanzado mediante el cual el lector va más allá del nivel de información explícita del texto para deducir e interpretar mensajes implícitos, intenciones del autor o conclusiones lógicas no escritas de forma literal. Requiere que el lector asocie de forma activa los datos explícitos que le brinda el texto con sus conocimientos previos y vivencias personales para formular hipótesis lógicas fundamentadas.",
+            "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=la+lectura+inferencial",
+            "exercises": []
+        },
+        {
+            "topic": "Inducción y Deducción",
+            "subject": "Lengua y Literatura",
+            "concept": "Son los dos caminos o métodos principales del razonamiento lógico aplicados a la adquisición del conocimiento y al análisis textual. La inducción es el razonamiento que parte de observaciones particulares y datos repetidos para formular una regla o conclusión de carácter general. Por el contrario, la deducción parte de leyes, premisas o axiomas generales para aplicarlos a un caso particular y extraer conclusiones lógicas e indudables.",
+            "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=inducción+y+deducción",
+            "exercises": []
+        },
+        {
+            "topic": "Técnicas de revisión",
+            "subject": "Lengua y Literatura",
+            "concept": "Comprenden el conjunto sistemático de estrategias y lecturas analíticas dirigidas a evaluar, corregir y perfeccionar un borrador de texto antes de su publicación definitiva. Su aplicación se enfoca en auditar la ortografía y acentuación de las palabras, corregir fallos en la concordancia gramatical, verificar el uso lógico de conectores para asegurar la cohesión y pulir la coherencia temática del texto completo.",
+            "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=técnicas+de+revisión",
+            "exercises": []
+        },
+        {
+            "topic": "El mercantilismo",
+            "subject": "Historia",
+            "concept": "Fue la teoría y práctica económica predominante en los imperios europeos durante los siglos XVI al XVIII (Edad Moderna), caracterizada por un fuerte intervencionismo del Estado absolutista en el comercio. Sostenía que la riqueza y prosperidad de una nación dependían de la acumulación de metales preciosos (oro y plata), de incentivar la producción nacional y de mantener una balanza comercial favorable mediante la restricción de importaciones.",
+            "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+mercantilismo",
+            "exercises": []
+        },
+        {
+            "topic": "El capitalismo",
+            "subject": "Historia",
+            "concept": "Es el sistema económico y social fundado en la propiedad privada de los medios de producción, en la importancia del capital como generador de riqueza y en la libre asignación de recursos a través de la ley de oferta y demanda en un mercado libre. Se consolidó tras la abolición del mercantilismo en los siglos XVIII y XIX impulsado por el progreso industrial, limitando en gran medida la intervención económica directa por parte de los estados.",
+            "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=el+capitalismo",
+            "exercises": []
+        },
+        {
+            "topic": "Sinónimos",
+            "subject": "Razonamiento Verbal",
+            "concept": "Son palabras con una ortografía y pronunciación distintas pero que comparten un significado equivalente, idéntico o muy cercano dentro de un determinado contexto. Son recursos fundamentales para la riqueza léxica de la redacción, dividiéndose en sinónimos absolutos (intercambiables en toda situación, como 'alfabeto' y 'abecedario') y sinónimos relativos (cuyo intercambio de términos depende del sentido particular del contexto).",
+            "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=sinónimos",
+            "exercises": [
+                {
+                    "problem": "Identifique el sinónimo de la palabra **EXHAUSTIVO**.\n\na) Somero\nb) Completo\nc) Rápido\nd) Superficial",
+                    "solution": "La respuesta correcta es la b) porque Completo"
+                },
+                {
+                    "problem": "Señale el sinónimo de **PERSUADIR**.\n\na) Disuadir\nb) Convencer\nc) Engañar\nd) Obligar",
+                    "solution": "La respuesta correcta es la b) porque Convencer"
+                }
+            ]
+        },
+        {
+            "topic": "Antónimos",
+            "subject": "Razonamiento Verbal",
+            "concept": "Son vocablos que pertenecen a la misma categoría gramatical pero cuyos significados expresan ideas contrapuestas, opuestas o contrarias entre sí. Son de gran utilidad para el razonamiento verbal y el contraste de conceptos, clasificándose principalmente en antónimos graduales (existe una escala intermedia), complementarios (un término excluye al otro de forma total) y recíprocos (la existencia de uno presupone la del otro).",
+            "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=antónimos",
+            "exercises": [
+                {
+                    "problem": "Identifique el antónimo directo de **SUBJETIVO**.\n\na) Personal\nb) Objetivo\nc) Subalterno\nd) Teórico",
+                    "solution": "La respuesta correcta es la b) porque Objetivo"
+                },
+                {
+                    "problem": "Señale el antónimo de la palabra **NÓMADA**.\n\na) Viajero\nb) Sedentario\nc) Peregrino\nd) Errante",
+                    "solution": "La respuesta correcta es la b) porque Sedentario"
+                }
+            ]
+        },
+        {
+            "topic": "Fracciones",
+            "subject": "Razonamiento Numérico",
+            "concept": "Representan la división de una cantidad entera o unidad en partes equivalentes, conformada aritméticamente por un numerador (indica las porciones que se toman) y un denominador (indica el total de porciones iguales en las que se dividió el todo). Su comprensión es clave para efectuar operaciones de suma, resta, multiplicación y división de proporciones y para resolver problemas complejos de distribución de partes.",
+            "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=fracciones",
+            "exercises": [
+                {
+                    "problem": "Si reparto 3/4 de una pizza equitativamente entre 3 amigos, ¿qué fracción de la pizza entera recibe cada uno?\n\na) 1/3\nb) 1/4\nc) 3/12\nd) 1/2",
+                    "solution": "Para resolver esto, dividimos la fracción original por el número de personas: (3/4) / 3 = (3/4) * (1/3) = 3/12. Al simplificar dividiendo entre 3 arriba y abajo, obtenemos 1/4"
+                },
+                {
+                    "problem": "Resuelva la suma de fracciones: 1/2 + 1/4 =\n\na) 2/6\nb) 3/4\nc) 2/4\nd) 1/6",
+                    "solution": "Para resolver esto, convertimos 1/2 a cuartos multiplicando por 2 arriba y abajo, dando 2/4. Luego sumamos: 2/4 + 1/4 = 3/4"
+                }
+            ]
+        },
+        {
+            "topic": "Operaciones básicas",
+            "subject": "Razonamiento Numérico",
+            "concept": "Son los cálculos aritméticos primordiales de adición, sustracción, multiplicación y división de números enteros, decimales y fraccionarios. Resolver con acierto problemas aritméticos combinados exige respetar rigurosamente la jerarquía de operadores (efectuar primero paréntesis y agrupaciones, después multiplicaciones y divisiones de izquierda a derecha, y al final sumas y restas).",
+            "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+            "videoUrl": "https://www.youtube.com/results?search_query=operaciones+básicas",
+            "exercises": [
+                {
+                    "problem": "Resuelva respetando la jerarquía de las operaciones: 20 − 4 × (3 + 1) =\n\na) 64\nb) 4\nc) 16\nd) 12",
+                    "solution": "Para resolver esto, resolvemos primero lo que está dentro del paréntesis: 3 + 1 = 4. Luego multiplicamos 4 * 4 = 16. Por último restamos: 20 - 16 = 4"
+                },
+                {
+                    "problem": "Resuelve: 8 + 12 / 2 × 3 =\n\na) 30\nb) 26\nc) 14\nd) 10",
+                    "solution": "Para resolver esto, de acuerdo con la jerarquía, primero hacemos la división de izquierda a derecha: 12 / 2 = 6. Luego multiplicamos 6 * 3 = 18. Al final sumamos 8 + 18 = 26"
+                }
+            ]
+        }
+    ],
+    "Sábado": [],
+    "Domingo": []
+},
+"Semana 3": {
         "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [], "Viernes": [], "Sábado": [], "Domingo": []
     },
     "Semana 4": {

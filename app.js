@@ -183,7 +183,7 @@ function renderDays() {
         }
     });
 
-    if (totalQuestionsInWeek > 0) {
+    if (totalQuestionsInWeek > 0 && currentWeek !== "2") {
         if (weekExamContainer) {
             weekExamContainer.style.display = "flex";
         }

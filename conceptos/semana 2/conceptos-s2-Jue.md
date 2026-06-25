@@ -1,0 +1,24 @@
+MATERIA - LENGUA Y LITERATURA
+
+ TEMA - Los organizadores gráficos, (Son herramientas de aprendizaje visual que permiten estructurar, resumir e interpretar de manera esquemática la información sustancial de un texto o tema de estudio. Facilitan la comprensión inmediata al organizar las ideas jerárquica y lógicamente en un diagrama gráfico. Entre los tipos más comunes y eficaces se encuentran los mapas conceptuales, los mapas mentales, los cuadros sinópticos con llaves, los diagramas de Venn y las líneas de tiempo cronológicas.)
+. TEMA - El subrayado, (Es una técnica activa de lectura y estudio que consiste en trazar líneas o destacar visualmente mediante marcadores de color los vocablos clave, conceptos fundamentales e ideas principales de un texto. Su práctica correcta ayuda a enfocar la concentración durante la lectura y reduce considerablemente el tiempo posterior de repaso y estudio, sirviendo además como el insumo primordial para construir resúmenes o esquemas visuales sintéticos.)
+. TEMA - El comentario y el editorial, (Son géneros periodísticos de opinión muy valorados en la comunicación social. El comentario es un texto analítico firmado por un autor particular que juzga de forma subjetiva y estilizada un suceso de actualidad. El editorial, en cambio, representa la postura e ideología oficial e institucional del medio de comunicación en su conjunto, por lo que suele publicarse sin firma individual y analiza temas de gran relevancia política y social nacional.)
+
+
+MATERIA - HISTORIA
+
+ TEMA - Consecuencias de la Revolución francesa, (Abarcan los profundos e irreversibles cambios que transformaron las estructuras políticas y sociales en el mundo a partir del estallido de 1789. Entre las principales consecuencias destacan la destrucción final del feudalismo y la monarquía absoluta en Francia, el nacimiento de regímenes constitucionales basados en la soberanía popular, la separación oficial entre la Iglesia y el Estado, la redacción de los derechos del ciudadano y el impulso global de la democracia.)
+. TEMA - La Revolución francesa, hito de la Modernidad, (Se considera a la Revolución Francesa como el hito histórico decisivo que marcó la conclusión de la Edad Moderna y dio inicio a la Edad Contemporánea. Al romper con el Antiguo Régimen de vasallaje y derecho divino real, sentó los principios jurídicos modernos de igualdad de los ciudadanos ante la ley y libertad individual. Asimismo, extendió el concepto de soberanía popular y los modelos republicanos que rigen el pensamiento democrático actual.)
+. TEMA - La Europa napoleónica, (Fue el período histórico (1799-1815) marcado por el liderazgo político y militar de Napoleón Bonaparte en Francia y su expansión territorial mediante campañas militares por toda Europa Continental. A través de su imperio, Napoleón propagó las reformas revolucionarias francesas, suprimió el régimen feudal en los países ocupados y promulgó el Código Civil Napoleónico en 1804, el cual sentó las bases de la legislación moderna mundial.)
+
+
+MATERIA - RAZONAMIENTO VERBAL
+
+ TEMA - Concordancia verbal, (Es la regla sintáctica de la gramática que impone la coincidencia obligatoria en número (singular o plural) y persona (primera, segunda o tercera) entre el verbo principal y el núcleo del sujeto en una oración. Respetar la concordancia verbal es de gran importancia para asegurar la claridad lógica del mensaje y la cohesión textual, previniendo errores sintácticos habituales que entorpecen la lectura de un documento escrito.)
+. TEMA - Precisión Semántica, (Consiste en el empleo riguroso, adecuado y exacto de los vocablos de acuerdo con su significado preciso dentro de un contexto comunicativo determinado. Esta aptitud evalúa la habilidad del redactor para seleccionar, de un grupo de palabras sinónimas o semánticamente cercanas, aquella que represente con mayor fidelidad la idea que se desea expresar, eliminando ambigüedades, vaguedades y el uso inapropiado de términos.)
+
+
+MATERIA - RAZONAMIENTO NUMÉRICO
+
+ TEMA - Reglas de tres simples, (Es un procedimiento matemático fundamental que sirve para calcular de manera ágil el valor de una magnitud desconocida relacionando tres valores conocidos que son proporcionales entre sí. Puede ser de tipo directa (si las magnitudes varían en la misma dirección) o de tipo inversa (si varían en direcciones opuestas), y se resuelve planteando relaciones aritméticas de multiplicación y división entre las magnitudes asociadas.)
+. TEMA - Conjuntos, (Son agrupaciones lógicas de elementos bien definidos que comparten una propiedad o característica matemática en común. Se pueden definir por extensión (listando todos sus elementos) o por comprensión (estableciendo la propiedad común) y se representan gráficamente en diagramas de Venn. Su estudio abarca el análisis de pertenencia, inclusión y operaciones básicas como la unión, la intersección, la diferencia y el complemento.)
