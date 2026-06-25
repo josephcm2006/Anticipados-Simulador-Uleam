@@ -1171,15 +1171,27 @@ body {
    Nuevos Estilos para el Tema Claro/Oscuro y Elementos de Interfaz
    ========================================================================== */
 
+/* Contenedor de esferas de luz con rotación orbital */
+.glow-spheres-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    animation: orbit-clockwise 80s linear infinite;
+    transform-origin: center center;
+}
+
 /* Esferas de luz difuminadas (Modo Oscuro) */
 .glow-sphere {
-    position: fixed;
+    position: absolute;
     width: 45vw;
     height: 45vw;
     min-width: 320px;
     min-height: 320px;
     border-radius: 50%;
-    z-index: -1;
     filter: blur(95px); /* Ajustado para un difuminado más suave y elegante */
     opacity: 0.35; /* Opacidad balanceada para que sea visible pero sutil */
     pointer-events: none;
@@ -1190,17 +1202,56 @@ body {
     top: -10%;
     left: -10%;
     background: radial-gradient(circle, rgba(168, 85, 247, 0.85) 0%, rgba(168, 85, 247, 0.3) 50%, rgba(168, 85, 247, 0) 75%);
+    animation: pulse-purple 25s ease-in-out infinite;
 }
 
 .glow-sphere-cyan {
     bottom: -10%;
     right: -10%;
     background: radial-gradient(circle, rgba(6, 182, 212, 0.85) 0%, rgba(6, 182, 212, 0.3) 50%, rgba(6, 182, 212, 0) 75%);
+    animation: pulse-cyan 30s ease-in-out infinite;
 }
 
-/* Ocultar esferas en Modo Claro */
+/* Ocultar y desactivar animaciones en Modo Claro para optimizar rendimiento */
 [data-theme="light"] .glow-sphere {
     opacity: 0;
+    animation: none;
+}
+
+[data-theme="light"] .glow-spheres-container {
+    animation: none;
+}
+
+/* Animaciones Keyframes para efectos orbitales y de respiración */
+@keyframes orbit-clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse-purple {
+    0%, 100% {
+        transform: scale(0.85) translate(0, 0);
+        opacity: 0.15;
+    }
+    50% {
+        transform: scale(1.15) translate(3%, 3%);
+        opacity: 0.38;
+    }
+}
+
+@keyframes pulse-cyan {
+    0%, 100% {
+        transform: scale(0.85) translate(0, 0);
+        opacity: 0.15;
+    }
+    50% {
+        transform: scale(1.18) translate(-3%, -3%);
+        opacity: 0.38;
+    }
 }
 
 /* Acciones en el Header (Theme Switcher y Tag) */
