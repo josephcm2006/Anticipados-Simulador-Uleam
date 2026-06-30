@@ -183,7 +183,7 @@ function renderDays() {
         }
     });
 
-    if (totalQuestionsInWeek > 0 && currentWeek !== "2") {
+    if (totalQuestionsInWeek > 0) {
         if (weekExamContainer) {
             weekExamContainer.style.display = "flex";
         }
@@ -206,7 +206,7 @@ function renderDays() {
         dayCard.innerHTML = `
             <div class="day-name">${day}</div>
             <div class="day-status ${hasQuestions ? 'has-questions' : ''}">
-                ${hasQuestions ? `⚡ ${qList.length} Preguntas` : 'Próximamente'}
+                ${hasQuestions ? `${qList.length} Preguntas` : 'Próximamente'}
             </div>
         `;
         

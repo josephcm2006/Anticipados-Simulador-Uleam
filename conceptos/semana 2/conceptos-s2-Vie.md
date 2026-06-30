@@ -1,23 +1,53 @@
 MATERIA - LENGUA Y LITERATURA
 
- TEMA - La lectura Inferencial, (Es el proceso cognitivo avanzado mediante el cual el lector va más allá del nivel de información explícita del texto para deducir e interpretar mensajes implícitos, intenciones del autor o conclusiones lógicas no escritas de forma literal. Requiere que el lector asocie de forma activa los datos explícitos que le brinda el texto con sus conocimientos previos y vivencias personales para formular hipótesis lógicas fundamentadas.)
-. TEMA - Inducción y Deducción, (Son los dos caminos o métodos principales del razonamiento lógico aplicados a la adquisición del conocimiento y al análisis textual. La inducción es el razonamiento que parte de observaciones particulares y datos repetidos para formular una regla o conclusión de carácter general. Por el contrario, la deducción parte de leyes, premisas o axiomas generales para aplicarlos a un caso particular y extraer conclusiones lógicas e indudables.)
-. TEMA - Técnicas de revisión, (Comprenden el conjunto sistemático de estrategias y lecturas analíticas dirigidas a evaluar, corregir y perfeccionar un borrador de texto antes de su publicación definitiva. Su aplicación se enfoca en auditar la ortografía y acentuación de las palabras, corregir fallos en la concordancia gramatical, verificar el uso lógico de conectores para asegurar la cohesión y pulir la coherencia temática del texto completo.)
+ TEMA - La lectura Inferencial, (La lectura Inferencial es un nivel avanzado de comprensión lectora en el cual el receptor descubre las intenciones, significados y mensajes implícitos que el autor no ha expresado de forma directa en el texto. Este proceso exige una participación cognitiva activa por parte del lector para unir cabos y sacar conclusiones lógicas.
+
+Para realizar inferencias válidas, el lector debe asociar las pistas explícitas de la lectura con sus propios conocimientos previos y experiencia de vida, deduciendo la información sugerida por el escritor de manera indirecta. Esto permite interpretar el tono irónico, la intencionalidad del autor y los dobles sentidos lógicos.
+
+Por ejemplo, la comprensión inferencial es indispensable para descifrar el significado de metáforas poéticas, mensajes entre líneas en editoriales políticos y el desenlace probable de narraciones literarias, convirtiendo al estudiante de un receptor pasivo a un evaluador crítico de la información.)
+. TEMA - Inducción y Deducción, (La inducción y la deducción son los dos métodos fundamentales de razonamiento lógico y científico empleados para construir el conocimiento y formular explicaciones válidas sobre la realidad. Ambos procesos difieren en la dirección que sigue el pensamiento para llegar a una conclusión general o particular.
+
+El razonamiento deductivo parte de premisas generales y leyes universales aceptadas para llegar a conclusiones sobre casos específicos de forma necesaria. Si las leyes generales de partida son verdaderas y la lógica del razonamiento es correcta, el resultado es indudable, como en las matemáticas y el silogismo clásico.
+
+El razonamiento inductivo sigue el camino inverso, partiendo de la observación sistemática de casos particulares y hechos repetidos para generalizar una ley común o hipótesis científica. Este método no ofrece una certeza absoluta, sino una probabilidad empírica que debe ser comprobada mediante la experimentación.)
+. TEMA - Técnicas de revisión, (Las técnicas de revisión constituyen la fase de control de calidad ortotipográfica, gramatical y estilística que se aplica a un borrador escrito antes de su publicación formal. Esta etapa es crítica para garantizar que el texto cumpla con su propósito comunicativo de manera clara, limpia y profesional.
+
+Durante la revisión se deben verificar múltiples niveles del escrito. En el nivel ortográfico se corrigen los errores de acentuación y puntuación. En el nivel gramatical se cuida la concordancia entre los sujetos y los verbos, eliminando el mal uso de tiempos verbales, gerundios y preposiciones incorrectas.
+
+En el nivel de estilo se busca la precisión semántica, sustituyendo términos vagos por vocablos precisos, eliminando repeticiones de palabras y simplificando oraciones confusas. Esto asegura que las transiciones entre párrafos sean coherentes y que la lectura resulte fluida para la audiencia.)
 
 
 MATERIA - HISTORIA
 
- TEMA - El mercantilismo, (Fue la teoría y práctica económica predominante en los imperios europeos durante los siglos XVI al XVIII (Edad Moderna), caracterizada por un fuerte intervencionismo del Estado absolutista en el comercio. Sostenía que la riqueza y prosperidad de una nación dependían de la acumulación de metales preciosos (oro y plata), de incentivar la producción nacional y de mantener una balanza comercial favorable mediante la restricción de importaciones.)
-. TEMA - El capitalismo, (Es el sistema económico y social fundado en la propiedad privada de los medios de producción, en la importancia del capital como generador de riqueza y en la libre asignación de recursos a través de la ley de oferta y demanda en un mercado libre. Se consolidó tras la abolición del mercantilismo en los siglos XVIII y XIX impulsado por el progreso industrial, limitando en gran medida la intervención económica directa por parte de los estados.)
+ TEMA - El mercantilismo, (El mercantilismo fue la doctrina y práctica económica dominante en Europa entre los siglos XVI y XVIII, íntimamente ligada al absolutismo monárquico y al colonialismo. Su despegue estuvo ligado al descubrimiento y colonización de América a partir de 1492, evento histórico que abrió flujos masivos de metales preciosos hacia Europa y desencadenó una intensa competencia comercial.
+
+Bajo las políticas mercantilistas, las potencias europeas buscaban mantener una balanza comercial favorable. Para lograrlo, incentivaban la producción industrial nacional y las exportaciones de manufacturas caras, al tiempo que imponían aranceles de importación prohibitivos para evitar la fuga de metales preciosos hacia otros reinos.
+
+El colonialismo constituyó un pilar fundamental del mercantilismo. Las colonias americanas y asiáticas eran sometidas a monopolios comerciales estrictos, funcionando como fuentes exclusivas de materias primas baratas para la metrópoli y como compradoras obligatorias de sus productos manufacturados, prohibiéndose el comercio entre colonias.)
+. TEMA - El capitalismo, (El capitalismo es el sistema socioeconómico basado en la propiedad privada de los medios de producción, la importancia del capital como generador de riqueza y el libre mercado como el mecanismo óptimo para la asignación y distribución de los recursos de una sociedad.
+
+Este sistema cobró fuerza a partir de 1760 con el inicio de la Revolución Industrial en Inglaterra, impulsado por las teorías del libre mercado desarrolladas por Adam Smith en su célebre obra La riqueza de las naciones publicada en el año 1776. Smith propuso la teoría del laissez-faire y la metáfora de la mano invisible del mercado para regular los precios.
+
+A diferencia de las etapas absolutistas previas dominadas por reyes o figuras revolucionarias posteriores como Maximilien Robespierre o Napoleón Bonaparte durante la Revolución Francesa de 1789, el capitalismo industrial se concentró en la producción de fábricas y el comercio libre. Sus dinámicas fueron duramente analizadas en el siglo diecinueve por pensadores como Karl Marx, quien criticó la división de clases entre la burguesía propietaria y el proletariado asalariado.)
 
 
 MATERIA - RAZONAMIENTO VERBAL
 
- TEMA - Sinónimos, (Son palabras con una ortografía y pronunciación distintas pero que comparten un significado equivalente, idéntico o muy cercano dentro de un determinado contexto. Son recursos fundamentales para la riqueza léxica de la redacción, dividiéndose en sinónimos absolutos (intercambiables en toda situación, como 'alfabeto' y 'abecedario') y sinónimos relativos (cuyo intercambio de términos depende del sentido particular del contexto).)
-. TEMA - Antónimos, (Son vocablos que pertenecen a la misma categoría gramatical pero cuyos significados expresan ideas contrapuestas, opuestas o contrarias entre sí. Son de gran utilidad para el razonamiento verbal y el contraste de conceptos, clasificándose principalmente en antónimos graduales (existe una escala intermedia), complementarios (un término excluye al otro de forma total) y recíprocos (la existencia de uno presupone la del otro).)
+ TEMA - Sinónimos, (Los sinónimos son palabras que presentan ortografía y pronunciación distintas pero que comparten un significado equivalente o muy similar dentro de una misma categoría gramatical. Su conocimiento amplía el vocabulario y enriquece la expresión escrita.
+
+Se clasifican conceptualmente en dos tipos según su nivel de equivalencia. Los sinónimos absolutos pueden intercambiarse en cualquier situación comunicativa sin alterar el sentido de la oración (ej. 'alfabeto' y 'abecedario'). Los sinónimos relativos o contextuales dependen del sentido de la frase para ser equivalentes (ej. 'pesado' y 'difícil').)
+. TEMA - Antónimos, (Los antónimos son vocablos pertenecientes a la misma categoría gramatical cuyos significados expresan ideas contrapuestas o contrarias entre sí. Son de gran utilidad para contrastar conceptos y medir el razonamiento semántico del estudiante.
+
+Se clasifican en tres tipos según la naturaleza de su oposición. Los antónimos graduales admiten una escala de matices intermedios entre los extremos (ej. 'frío' y 'caliente', con el término 'tibio'). Los antónimos complementarios se excluyen de forma absoluta (ej. 'vivo' y 'muerto'). Los antónimos recíprocos exigen la presencia del otro para existir (ej. 'dar' y 'recibir').)
 
 
 MATERIA - RAZONAMIENTO NUMÉRICO
 
- TEMA - Fracciones, (Representan la división de una cantidad entera o unidad en partes equivalentes, conformada aritméticamente por un numerador (indica las porciones que se toman) y un denominador (indica el total de porciones iguales en las que se dividió el todo). Su comprensión es clave para efectuar operaciones de suma, resta, multiplicación y división de proporciones y para resolver problemas complejos de distribución de partes.)
-. TEMA - Operaciones básicas, (Son los cálculos aritméticos primordiales de adición, sustracción, multiplicación y división de números enteros, decimales y fraccionarios. Resolver con acierto problemas aritméticos combinados exige respetar rigurosamente la jerarquía de operadores (efectuar primero paréntesis y agrupaciones, después multiplicaciones y divisiones de izquierda a derecha, y al final sumas y restas).)
+ TEMA - Fracciones, (Las fracciones son expresiones aritméticas que representan el cociente o la división indicada de una cantidad entera en porciones equivalentes. Su comprensión es clave para efectuar operaciones de reparto proporcional y para resolver problemas de álgebra en el simulador.
+
+Una fracción consta de un numerador que indica las partes que se toman y un denominador que señala el número total de partes en que se divide la unidad. Para operar sumas y restas de fracciones con distinto denominador, se debe calcular el mínimo común múltiplo para homogeneizarlas, sumando luego los numeradores directos.)
+. TEMA - Operaciones básicas, (Las operaciones básicas de adición, sustracción, multiplicación y división constituyen la base de todo cálculo numérico y de la resolución de problemas algebraicos complejos en el simulador. Su ejecución precisa exige del estudiante el conocimiento de las propiedades aritméticas elementales.
+
+Para resolver expresiones aritméticas con operaciones combinadas, se debe seguir de forma estricta la jerarquía de operadores (regla PEMDAS). Esta regla establece que primero se resuelven las operaciones dentro de los paréntesis; después se calculan los exponentes y raíces; a continuación las multiplicaciones y divisiones de izquierda a derecha; y al final las sumas y restas.
+
+Ignorar la jerarquía de operaciones es la causa más común de errores en las pruebas de razonamiento numérico, por lo que el estudiante debe automatizar el orden de prioridad antes de realizar cálculos rápidos.)
