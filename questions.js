@@ -10449,13 +10449,3582 @@ const questionsData = {
         ]
     },
     "Semana 4": {
-        "Lunes": [],
-        "Martes": [],
-        "Miércoles": [],
-        "Jueves": [],
-        "Viernes": [],
-        "Sábado": [],
-        "Domingo": []
+        "Lunes": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es la rama de la gramática que estudia la estructura interna de las palabras y sus unidades constitutivas?",
+                "options": [
+                    "Fonética",
+                    "Morfología",
+                    "Sintaxis",
+                    "Semántica"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Morfología"
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cómo se denominan las unidades mínimas con significado que constituyen la estructura de una palabra?",
+                "options": [
+                    "Fonemas",
+                    "Grafemas",
+                    "Morfemas",
+                    "Sílabas"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Morfemas"
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "El morfema que aporta el significado léxico o básico de una palabra se conoce como:",
+                "options": [
+                    "Sufijo",
+                    "Prefijo",
+                    "Lexema",
+                    "Desinencia"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Lexema"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué siglo comenzó a desarrollarse formalmente el estudio morfológico sistemático de las lenguas romances por la escuela neogramática?",
+                "options": [
+                    "Siglo quince",
+                    "Siglo diecisiete",
+                    "Siglo diechocho",
+                    "Siglo diecinueve"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Siglo diecinueve"
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "Morfológicamente, ¿cuáles son las variaciones gramaticales que admite el sustantivo y que determinan su concordancia?",
+                "options": [
+                    "Persona y tiempo",
+                    "Modo y aspecto",
+                    "Género y número",
+                    "Tiempo y modo"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Género y número"
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "¿A qué obra clásica del siglo II a.C. escrita por Dionisio de Tracia se remonta la clasificación formal de los nombres?",
+                "options": [
+                    "Arte Gramática",
+                    "Poética",
+                    "Retórica",
+                    "Elocuencia"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Arte Gramática"
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué tipo de palabra funciona invariablemente como el núcleo del sintagma predicativo o verbal de la oración?",
+                "options": [
+                    "Adjetivo",
+                    "Verbo",
+                    "Sustantivo",
+                    "Adverbio"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Verbo"
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuáles son los accidentes gramaticales que componen la desinencia verbal de un verbo conjugado?",
+                "options": [
+                    "Género, número y caso",
+                    "Persona, número, tiempo, modo y aspecto",
+                    "Grado, tiempo y persona",
+                    "Definitud, género y número"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Persona, número, tiempo, modo y aspecto"
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuántos modelos básicos de conjugación regular existen en español según la terminación de su infinitivo?",
+                "options": [
+                    "Dos",
+                    "Tres",
+                    "Cuatro",
+                    "Cinco"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Tres"
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de las siguientes categorías semánticas del sustantivo sirve para designar seres o cosas en forma colectiva o grupal?",
+                "options": [
+                    "Abstracto",
+                    "Propio",
+                    "Colectivo",
+                    "No contable"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Colectivo"
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿Qué metal precioso fue el pilar del mercantilismo español y el principal recurso extraído de las minas coloniales americanas?",
+                "options": [
+                    "Cobre",
+                    "Hierro",
+                    "Bronce",
+                    "Plata"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Plata"
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿En qué año fue descubierto el Cerro Rico de Potosí, el mayor yacimiento de plata de Sudamérica en la época colonial?",
+                "options": [
+                    "En 1532",
+                    "En 1545",
+                    "En 1552",
+                    "En 1598"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque En 1545"
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Cómo se denominaba el sistema de trabajo rotativo forzado al que eran sometidos los indígenas en las minas coloniales?",
+                "options": [
+                    "Encomienda",
+                    "Concertaje",
+                    "Mita",
+                    "Latifundio"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Mita"
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Qué rey español gobernaba el Imperio durante la consolidación de la explotación minera a mediados del siglo XVI?",
+                "options": [
+                    "Carlos I",
+                    "Felipe V",
+                    "Fernando VII",
+                    "Carlos IV"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Carlos I"
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿Qué dinastía real gobernaba España durante los siglos XVI y XVII mientras se extraían toneladas de metales preciosos de América?",
+                "options": [
+                    "Los Borbones",
+                    "Los Austrias",
+                    "Los Trastámara",
+                    "Los Saboya"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Los Austrias"
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Qué institución socioeconómica colonial concedía al encomendero el derecho a percibir los tributos e indígenas?",
+                "options": [
+                    "El obraje",
+                    "La encomienda",
+                    "El latifundio",
+                    "El concertaje"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque La encomienda"
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Qué obligación moral y legal tenía el encomendero con los indígenas encomendados bajo su cargo?",
+                "options": [
+                    "Enseñarles la lengua francesa",
+                    "Otorgarles tierras en propiedad",
+                    "Protegerlos y evangelizarlos en la doctrina católica",
+                    "Pagarles salarios semanales en moneda de oro"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Protegerlos y evangelizarlos en la doctrina católica"
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Qué fraile dominico denunció los abusos de la encomienda en su obra \"Brevísima relación de la destrucción de las Indias\" de 1552?",
+                "options": [
+                    "Bartolomé de las Casas",
+                    "Francisco de Vitoria",
+                    "Antonio de Montesinos",
+                    "Toribio de Benavente"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Bartolomé de las Casas"
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿En qué año se promulgaron las Leyes Nuevas destinadas a limitar el poder de los encomenderos y abolir la esclavitud indígena?",
+                "options": [
+                    "En 1535",
+                    "En 1542",
+                    "En 1572",
+                    "En 1600"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque En 1542"
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿En qué virreinato colonial causaron las Leyes Nuevas de 1542 graves rebeliones armadas de los encomenderos españoles?",
+                "options": [
+                    "Virreinato de Nueva España",
+                    "Virreinato del Río de la Plata",
+                    "Virreinato de Nueva Granada",
+                    "Virreinato del Perú"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Virreinato del Perú"
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete la oración: Para que exista una adecuada ______, el verbo de la oración debe coincidir en número y persona con el ______.",
+                "options": [
+                    "derivación - objeto",
+                    "concordancia - sujeto",
+                    "cohesión - pronombre",
+                    "declinación - adjetivo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque concordancia - sujeto"
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "¿Qué nombre recibe la concordancia que se establece por el sentido o significado de las palabras y no por su forma gramatical?",
+                "options": [
+                    "Ad sensum",
+                    "Sintáctica",
+                    "Morfológica",
+                    "Nominal"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Ad sensum"
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Identifique el vocablo que no pertenece al campo semántico de **SUSTANTIVO**.",
+                "options": [
+                    "Sustantivo propio",
+                    "Sustantivo abstracto",
+                    "Sustantivo colectivo",
+                    "Sustantivo conjugado"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Sustantivo conjugado"
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Seleccione el término que no pertenece al concepto de **MORFEMA**.",
+                "options": [
+                    "Lexema",
+                    "Desinencia",
+                    "Prefijo",
+                    "Adverbio"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Adverbio"
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete la oración: La precisión ______ exige emplear el término ______ y riguroso para cada idea en un escrito.",
+                "options": [
+                    "gramatical - más extenso",
+                    "semántica - exacto",
+                    "fonética - común",
+                    "sintáctica - general"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque semántica - exacto"
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Identifique el vocablo que debe ser excluido por falta de **PRECISIÓN SEMÁNTICA** al redactar.",
+                "options": [
+                    "Especificar",
+                    "Detallar",
+                    "Hacer",
+                    "Definir"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Hacer"
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete con la opción que guarde concordancia verbal: La mayoría de los ciudadanos ______ por el cambio de políticas económicas.",
+                "options": [
+                    "votó",
+                    "votaron",
+                    "votó o votaron",
+                    "votó y votarán"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque votó o votaron"
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Seleccione la opción con correcta concordancia verbal:",
+                "options": [
+                    "El grupo de estudiantes aprobaron el examen de admisión.",
+                    "El grupo de estudiantes aprobó el examen de admisión.",
+                    "La gente caminaban apuradas por la calle.",
+                    "El padre con su hijo llegaron temprano al evento."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque El grupo de estudiantes aprobó el examen de admisión."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Reemplace la palabra \"hacer\" por una de mayor precisión semántica: \"El carpintero va a hacer una mesa de madera\".",
+                "options": [
+                    "Fabricar",
+                    "Realizar",
+                    "Operar",
+                    "Efectuar"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Fabricar"
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Verbal",
+                "question": "Reemplace la palabra \"tener\" por una más precisa: \"El rey llegó a tener un gran imperio\".",
+                "options": [
+                    "Ocupar",
+                    "Poseer",
+                    "Ejecutar",
+                    "Contener"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Poseer"
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Si se lanza un dado de seis caras numeradas del 1 al 6, ¿cuál es la probabilidad de obtener un número primo (2, 3, 5)?",
+                "options": [
+                    "1/6",
+                    "1/3",
+                    "1/2",
+                    "2/3"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: En una caja hay 4 bolas rojas, 3 bolas azules y 3 bolas verdes. Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea roja?",
+                "options": [
+                    "20%",
+                    "30%",
+                    "40%",
+                    "50%"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Si se saca una carta al azar de una baraja estándar de 52 cartas, ¿cuál es la probabilidad de obtener un as (sabiendo que hay 4 ases)?",
+                "options": [
+                    "1/13",
+                    "1/52",
+                    "4/13",
+                    "2/13"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: En un aula hay 12 hombres y 18 mujeres. Si se selecciona un estudiante al azar, ¿cuál es la probabilidad de seleccionar un hombre?",
+                "options": [
+                    "30%",
+                    "40%",
+                    "50%",
+                    "60%"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Si se lanzan dos monedas al aire, ¿cuál es la probabilidad de que ambas caigan en cara?",
+                "options": [
+                    "1/4",
+                    "1/2",
+                    "3/4",
+                    "1/8"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 36,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 6 obreros construyen una cerca de 30 metros en 5 días, ¿cuántos días tardarán 10 obreros en construir una cerca de 50 metros?",
+                "options": [
+                    "3 días",
+                    "5 días",
+                    "6 días",
+                    "8 días"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 37,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 4 grifos de agua llenan 2 tanques iguales en 6 horas, ¿cuántas horas tardarán 8 grifos en llenar 4 tanques del mismo tipo?",
+                "options": [
+                    "4 horas",
+                    "6 horas",
+                    "8 horas",
+                    "12 horas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 38,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 3 camiones transportan 12 toneladas de carga en 4 viajes, ¿cuántos viajes necesitarán 6 camiones del mismo tipo para transportar 36 toneladas de carga?",
+                "options": [
+                    "3 viajes",
+                    "6 viajes",
+                    "8 viajes",
+                    "12 viajes"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 39,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 8 máquinas producen 1600 botellas en 5 horas, ¿cuántas botellas producirán 10 máquinas en 4 horas?",
+                "options": [
+                    "1200 botellas",
+                    "1600 botellas",
+                    "2000 botellas",
+                    "2400 botellas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 40,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 12 tejedores fabrican 24 abrigos en 6 días, ¿cuántos abrigos fabricarán 15 tejedores en 8 días?",
+                "options": [
+                    "30 abrigos",
+                    "36 abrigos",
+                    "40 abrigos",
+                    "48 abrigos"
+                ],
+                "correct": 0,
+                "explanation": ""
+            }
+        ],
+        "Martes": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "En la oración \"Los esforzados mineros extraían mineral en el cerro\", ¿cuál es el núcleo del sujeto?",
+                "options": [
+                    "esforzados",
+                    "mineros",
+                    "extraían",
+                    "cerro"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque mineros"
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué pregunta permite localizar al sujeto al interrogar al verbo de la oración?",
+                "options": [
+                    "¿Cómo?",
+                    "¿Dónde?",
+                    "¿Quién o quiénes?",
+                    "¿Para qué?"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque ¿Quién o quiénes?"
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es el método más seguro para verificar la correcta delimitación del sujeto mediante el cambio de número del verbo?",
+                "options": [
+                    "Prueba de la coherencia",
+                    "Prueba de la concordancia",
+                    "Prueba sintáctica",
+                    "Análisis de la desinencia"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Prueba de la concordancia"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "Sintácticamente, ¿cómo funciona el adjetivo dentro del sintagma nominal?",
+                "options": [
+                    "Como núcleo del sujeto",
+                    "Como modificador directo del sustantivo",
+                    "Como núcleo del predicado",
+                    "Como modificador indirecto del verbo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Como modificador directo del sustantivo"
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "Los adjetivos que limitan el alcance del sustantivo, tales como demostrativos, posesivos o numerales, se denominan:",
+                "options": [
+                    "Calificativos",
+                    "Explicativos",
+                    "Determinativos",
+                    "Gentilicios"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Determinativos"
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "¿Con qué elementos debe concordar obligatoriamente el adjetivo en una oración?",
+                "options": [
+                    "Con el verbo en persona",
+                    "Con el sustantivo en género y número",
+                    "Con el adverbio en grado",
+                    "Con el artículo en caso"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Con el sustantivo en género y número"
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cómo se define morfológicamente el artículo en la gramática castellana?",
+                "options": [
+                    "Palabra variable y átona que se antepone al sustantivo",
+                    "Palabra invariable que modifica al verbo",
+                    "Núcleo del sintagma verbal",
+                    "Conector lógico subordinante"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Palabra variable y átona que se antepone al sustantivo"
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes términos representa un artículo indefinido o indeterminado en plural?",
+                "options": [
+                    "Los",
+                    "Las",
+                    "Unos",
+                    "Lo"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Unos"
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "¿De qué demostrativos latinos se derivan históricamente los artículos en español?",
+                "options": [
+                    "hic, haec, hoc",
+                    "ille, illa, illud",
+                    "iste, ista, istud",
+                    "is, ea, id"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque ille, illa, illud"
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué año publicó Antonio de Nebrija la primera gramática castellana, donde se se sistematizó el uso del artículo?",
+                "options": [
+                    "En 1453",
+                    "En 1492",
+                    "En 1542",
+                    "En 1552"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque En 1492"
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿A partir de qué siglo comenzó la Corona española a establecer obrajes textiles en el territorio colonial americano?",
+                "options": [
+                    "Siglo quince",
+                    "Siglo dieciséis",
+                    "Siglo diecisiete",
+                    "Siglo diechocho"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Siglo dieciséis"
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿En qué región de la Real Audiencia de Quito se concentró principalmente la actividad económica de los obrajes?",
+                "options": [
+                    "En la costa sur",
+                    "En la cuenca del Amazonas",
+                    "En la sierra centro-norte",
+                    "En las islas Galápagos"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque En la sierra centro-norte"
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Cuáles eran las condiciones laborales características de los trabajadores indígenas en los obrajes coloniales?",
+                "options": [
+                    "Jornadas de 8 horas y salarios altos",
+                    "Jornadas extenuantes de más de 12 horas diarias en ambientes insalubres",
+                    "Trabajo voluntario remunerado con bonos",
+                    "Trabajo de oficina con descanso dominical obligatorio"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Jornadas extenuantes de más de 12 horas diarias en ambientes insalubres"
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Hasta qué reformas imperiales se extendió con fuerza la actividad comercial e industrial de los obrajes textiles?",
+                "options": [
+                    "Reformas borbónicas",
+                    "Leyes Nuevas",
+                    "Capitulaciones de Santa Fe",
+                    "Reformas toledanas"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Reformas borbónicas"
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿Qué nombre recibía el lote de tierra de cultivo que el terrateniente prestaba al indígena bajo el sistema del concertaje?",
+                "options": [
+                    "Latifundio",
+                    "Encomienda",
+                    "Mita",
+                    "Huasipungo"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Huasipungo"
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Cómo se transformaba el concertaje, teóricamente voluntario, en una servidumbre virtual y hereditaria?",
+                "options": [
+                    "Por la firma de un contrato ante el rey",
+                    "Por la acumulación de deudas impagables",
+                    "Por sorteo público",
+                    "Por mandato papal directo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Por la acumulación de deudas impagables"
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿A quiénes se transmitían legalmente las deudas acumuladas del indígena concertado al morir este?",
+                "options": [
+                    "A la Corona española",
+                    "A la Iglesia Católica",
+                    "De padres a hijos",
+                    "A los caciques locales"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque De padres a hijos"
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Qué actividad económica dominaba la Real Audiencia de Quito debido al desarrollo de los obrajes en la sierra?",
+                "options": [
+                    "La minería de oro",
+                    "La producción y comercio textil",
+                    "La exportación de cacao",
+                    "La construcción de barcos"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque La producción y comercio textil"
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿Qué relación laboral establecía el concertaje entre el indígena y el terrateniente?",
+                "options": [
+                    "Un contrato de libre mercado",
+                    "Una servidumbre por deudas en la hacienda",
+                    "Un trabajo cooperativo",
+                    "Una beca de estudio agrícola"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Una servidumbre por deudas en la hacienda"
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿En qué siglo se intensificaron los obrajes y el concertaje como principales formas de dominación colonial en la sierra ecuatoriana?",
+                "options": [
+                    "Siglo XV",
+                    "Siglo XVI",
+                    "Siglo XVII",
+                    "Siglo XIX"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Siglo XVII"
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Identifique el sinónimo conceptual o total del término **ABECEDARIO**.",
+                "options": [
+                    "Gramática",
+                    "Diccionario",
+                    "Alfabeto",
+                    "Escritura"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Alfabeto"
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Señale el sinónimo contextual de **PESADO** en la frase: \"El debate de historia resultó pesado\".",
+                "options": [
+                    "Rígido",
+                    "Aburrido",
+                    "Corpulento",
+                    "Difícil"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Aburrido"
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Identifique el término que es sinónimo de **OBRAJE**.",
+                "options": [
+                    "Hacienda",
+                    "Taller",
+                    "Mina",
+                    "Encomienda"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Taller"
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Señale la opción que contiene un sinónimo de **CONCERTAJE**.",
+                "options": [
+                    "Contrato",
+                    "Rebeldía",
+                    "Despido",
+                    "Préstamo"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Contrato"
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Antónimos: Identifique el antónimo complementario de la palabra **VIVO**.",
+                "options": [
+                    "Enfermo",
+                    "Muerto",
+                    "Moribundo",
+                    "Sano"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Muerto"
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Antónimos: ¿Cuál es el antónimo gradual de la palabra **CALIENTE**?",
+                "options": [
+                    "Helado",
+                    "Frío",
+                    "Tibio",
+                    "Quemante"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Frío"
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Antónimos: Señale el antónimo recíproco de la palabra **COMPRAR**.",
+                "options": [
+                    "Adquirir",
+                    "Vender",
+                    "Entregar",
+                    "Donar"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Vender"
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Antónimos: Identifique el antónimo de **CALIFICAR** en el contexto de adjetivos.",
+                "options": [
+                    "Clasificar",
+                    "Determinar",
+                    "Describir",
+                    "Omitar"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Omitar"
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Seleccione el sinónimo de la palabra **ADJETIVO** en su sentido gramatical.",
+                "options": [
+                    "Modificador",
+                    "Núcleo",
+                    "Verbo",
+                    "Nexo"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Modificador"
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Verbal",
+                "question": "Antónimos: ¿Cuál es el antónimo de **DETERMINATIVO**?",
+                "options": [
+                    "Demostrativo",
+                    "Indefinido",
+                    "Calificativo",
+                    "Posesivo"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Calificativo"
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: ¿Cuál es el término que continúa en la secuencia: 3, 7, 11, 15, ...?",
+                "options": [
+                    "17",
+                    "18",
+                    "19",
+                    "20"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: Encuentre el número que falta en la serie: 2, 4, 8, 16, 32, ...?",
+                "options": [
+                    "40",
+                    "48",
+                    "64",
+                    "128"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: Determine el siguiente término en la secuencia: 1, 3, 6, 10, 15, ...?",
+                "options": [
+                    "18",
+                    "20",
+                    "21",
+                    "25"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: ¿Qué número continúa en la serie: 50, 45, 40, 35, ...?",
+                "options": [
+                    "25",
+                    "30",
+                    "32",
+                    "34"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: Complete la secuencia: 2, 3, 5, 8, 12, ...?",
+                "options": [
+                    "15",
+                    "16",
+                    "17",
+                    "18"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 36,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: Si al triple de un número le restamos 8, obtenemos 22. ¿Cuál es el número?",
+                "options": [
+                    "8",
+                    "10",
+                    "12",
+                    "14"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 37,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: La suma de las edades de un padre y su hijo es 60 años. Si la edad del padre es el triple de la del hijo, ¿cuál es la edad del hijo?",
+                "options": [
+                    "10 años",
+                    "12 años",
+                    "15 años",
+                    "20 años"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 38,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: Un Hacendado compra herramientas por un total de $120. Si compró machetes a $10 cada uno y azadones a $15 cada uno, y compró el doble de machetes que de azadones, ¿cuántos azadones compró?",
+                "options": [
+                    "2 azadones",
+                    "3 azadones",
+                    "4 azadones",
+                    "6 azadones"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 39,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: Si a la mitad de un número le sumamos 15, obtenemos 40. ¿Cuál es el número?",
+                "options": [
+                    "25",
+                    "50",
+                    "60",
+                    "80"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 40,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: En un taller textil se produjeron 80 prendas entre pantalones y camisas. Si se produjeron 20 pantalones más que camisas, ¿cuántas camisas se fabricaron?",
+                "options": [
+                    "20 camisas",
+                    "30 camisas",
+                    "40 camisas",
+                    "50 camisas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            }
+        ],
+        "Miércoles": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué signo de puntuación se utiliza para marcar pausas breves en la lectura e indicar aclaraciones o listas?",
+                "options": [
+                    "Punto",
+                    "Dos puntos",
+                    "Coma",
+                    "Guion"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Coma"
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué documento publicado en el siglo XVIII por la RAE consolidó las reglas de puntuación en el ámbito hispánico?",
+                "options": [
+                    "Gramática castellana",
+                    "Prontuario de ortografía",
+                    "Diccionario de autoridades",
+                    "Tesoro de la lengua castellana"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Prontuario de ortografía"
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es el año de fundación de la Real Academia Española, entidad que regula la ortografía del español?",
+                "options": [
+                    "1492",
+                    "1542",
+                    "1713",
+                    "1812"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque 1713"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cómo se define el conjunto de normas que rigen la correcta escritura y representación gráfica de una lengua?",
+                "options": [
+                    "Sintaxis",
+                    "Semántica",
+                    "Ortografía",
+                    "Morfología"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Ortografía"
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué elemento sintáctico es indispensable en el predicado para que un enunciado constituya una oración bimembre?",
+                "options": [
+                    "Un sustantivo propio",
+                    "Un verbo conjugado",
+                    "Un adjetivo calificativo",
+                    "Un artículo determinado"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Un verbo conjugado"
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cómo se clasifican las oraciones bajo el criterio de la cantidad de verbos conjugados que presenten?",
+                "options": [
+                    "Declarativas y dubitativas",
+                    "Unimembres y bimembres",
+                    "Simples y compuestas",
+                    "Activas y pasivas"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Simples y compuestas"
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál es la clasificación de la oración \"Ojalá los mitayos hubieran regresado a sus hogares\"?",
+                "options": [
+                    "Declarativa",
+                    "Desiderativa",
+                    "Interrogativa",
+                    "Imperativa"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Desiderativa"
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué signo de puntuación se prefiere para separar proposiciones coordinadas que ya contienen comas internas?",
+                "options": [
+                    "Punto",
+                    "Punto y coma",
+                    "Dos puntos",
+                    "Puntos suspensivos"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Punto y coma"
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "Complete la frase sobre ortografía: Las palabras agudas llevan tilde cuando terminan en:",
+                "options": [
+                    "Cualquier consonante",
+                    "Vocal, N o S",
+                    "Consonante excepto N o S",
+                    "Diptongo o triptongo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Vocal, N o S"
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de las siguientes es una oración compuesta?",
+                "options": [
+                    "El latifundista controlaba miles de hectáreas.",
+                    "Los indígenas trabajaban en la mita y los capataces los vigilaban.",
+                    "El Prontuario de ortografía fue un éxito comercial.",
+                    "Mañana estudiaremos la historia colonial de América."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Los indígenas trabajaban en la mita y los capataces los vigilaban."
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿Qué civilización precolombina implementó inicialmente el sistema de la mita antes de la llegada de los españoles?",
+                "options": [
+                    "Azteca",
+                    "Maya",
+                    "Inca",
+                    "Chibcha"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Inca"
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿En qué siglo reestructuró el Imperio español la mita para adaptarla a sus fines comerciales y mineros?",
+                "options": [
+                    "Siglo quince",
+                    "Siglo dieciséis",
+                    "Siglo diecisiete",
+                    "Siglo dieciocho"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Siglo dieciséis"
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Qué virrey del Perú organizó la mita minera de Potosí a gran escala en la década de 1570?",
+                "options": [
+                    "Blasco Núñez de Vela",
+                    "Francisco de Toledo",
+                    "Antonio de Mendoza",
+                    "Francisco Pizarro"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Francisco de Toledo"
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿En qué asamblea constitucional española se abolió definitivamente la mita colonial en el año 1812?",
+                "options": [
+                    "Cortes de Cádiz",
+                    "Junta de Sevilla",
+                    "Concilio de Trento",
+                    "Cortes de Valladolid"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Cortes de Cádiz"
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿Cómo se define el latifundio colonial desde el punto de vista socioeconómico?",
+                "options": [
+                    "Un pequeño huerto familiar de subsistencia",
+                    "Una gran extensión de tierra agrícola controlada por un solo terrateniente",
+                    "Un taller industrial del Estado",
+                    "Un puerto marítimo libre de impuestos"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Una gran extensión de tierra agrícola controlada por un solo terrateniente"
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Cómo obtenían comúnmente los conquistadores españoles las tierras que dieron origen a los latifundios?",
+                "options": [
+                    "Comprándolas en subastas en Madrid",
+                    "Mediante mercedes de tierras de la Corona y usurpación de territorios indígenas",
+                    "Por donaciones de los caciques incas",
+                    "Mediante sorteos del cabildo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Mediante mercedes de tierras de la Corona y usurpación de territorios indígenas"
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Qué sistema de servidumbre por deudas ataba a los campesinos a la tierra dentro del latifundio?",
+                "options": [
+                    "Encomienda",
+                    "Mita",
+                    "Concertaje",
+                    "Rescate"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Concertaje"
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Hasta qué siglo perduró la estructura agraria del latifundio en la república del Ecuador?",
+                "options": [
+                    "Siglo XVII",
+                    "Siglo XVIII",
+                    "Siglo XIX",
+                    "Siglo XX"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Siglo XX"
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "El trabajo forzado de los indígenas en las minas de Potosí causó principalmente:",
+                "options": [
+                    "Una acumulación de reservas bancarias en Quito",
+                    "Una grave crisis demográfica en las poblaciones nativas",
+                    "La paz perpetua con los reinos europeos",
+                    "El desarrollo tecnológico de la agricultura de la sierra"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Una grave crisis demográfica en las poblaciones nativas"
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿Cuál era el objetivo central de la mita minera española establecida en Potosí?",
+                "options": [
+                    "Educar a la población en la ciencia",
+                    "Extraer metales preciosos para el Imperio español",
+                    "Construir iglesias en Europa",
+                    "Establecer granjas ganaderas en la sierra"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Extraer metales preciosos para el Imperio español"
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete la oración: A pesar de la dura jornada laboral, los mitayos ______ cumpliendo sus ______ tareas.",
+                "options": [
+                    "protestaron - sencillas",
+                    "continuaron - penosas",
+                    "desistieron - breves",
+                    "olvidaron - alegres"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque continuaron - penosas"
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete la oración: La acumulación de ______ obligaba al indígena a ______ de por vida en el latifundio.",
+                "options": [
+                    "deudas - trabajar",
+                    "honores - huir",
+                    "cultivos - descansar",
+                    "salarios - comprar"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque honores - huir"
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Interprete el refrán: \"A buen entendedor, pocas palabras\".",
+                "options": [
+                    "Quien habla mucho no piensa bien.",
+                    "Una persona inteligente comprende rápidamente lo que se quiere decir sin necesidad de explicaciones detalladas.",
+                    "Es mejor callar para evitar problemas legales.",
+                    "Los diccionarios deben tener explicaciones cortas."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Una persona inteligente comprende rápidamente lo que se quiere decir sin necesidad de explicaciones detalladas."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Interprete el refrán: \"Al que madruga, Dios le ayuda\".",
+                "options": [
+                    "El trabajo matutino garantiza la salvación espiritual.",
+                    "El esfuerzo temprano y la diligencia son claves para tener éxito en los proyectos.",
+                    "Quien se levanta tarde recibe multas fiscales.",
+                    "Es saludable dormir pocas horas en la noche."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque El esfuerzo temprano y la diligencia son claves para tener éxito en los proyectos."
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete la oración: El uso correcto de los ______ de puntuación asegura la ______ de un texto académico.",
+                "options": [
+                    "morfemas - extensión",
+                    "signos - claridad",
+                    "artículos - belleza",
+                    "verbos - brevedad"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque signos - claridad"
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Interprete el refrán: \"No todo lo que brilla es oro\".",
+                "options": [
+                    "El oro es el metal más precioso de las minas.",
+                    "Las apariencias pueden ser engañosas, por lo que no se debe juzgar el valor de las cosas solo por su aspecto externo.",
+                    "Las minas de Potosí estaban llenas de pirita.",
+                    "Las joyas falsas son baratas en el mercado colonial."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Las apariencias pueden ser engañosas, por lo que no se debe juzgar el valor de las cosas solo por su aspecto externo."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete la oración: La mita colonial era un sistema de trabajo ______ que provocó una ______ demográfica indígena.",
+                "options": [
+                    "voluntario - bonanza",
+                    "forzado - catástrofe",
+                    "libre - estabilidad",
+                    "temporal - riqueza"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque forzado - catástrofe"
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Interprete el refrán: \"Más vale pájaro en mano que ciento volando\".",
+                "options": [
+                    "Es mejor tener poco pero seguro, que mucho pero incierto o inalcanzable.",
+                    "La cacería de aves era común en las haciendas.",
+                    "Quien tiene muchos bienes los pierde en el mercado.",
+                    "Es peligroso criar animales salvajes en el hogar."
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Es mejor tener poco pero seguro, que mucho pero incierto o inalcanzable."
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Complete la oración: El terrateniente basaba sus ______ en la explotación de la mano de obra ______ del concertaje.",
+                "options": [
+                    "deudas - costosa",
+                    "ganancias - barata",
+                    "pérdidas - calificada",
+                    "cultivos - ausente"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque ganancias - barata"
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Verbal",
+                "question": "Interprete el refrán: \"En boca cerrada no entran moscas\".",
+                "options": [
+                    "Es recomendable comer con la boca cerrada para mantener buenos modales.",
+                    "Es prudente callar y ser discreto para evitar cometer errores o meterse en problemas innecesarios.",
+                    "Las plagas de insectos abundaban en los obrajes coloniales.",
+                    "Hablar en voz alta atrae la mala suerte en el trabajo."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Es prudente callar y ser discreto para evitar cometer errores o meterse en problemas innecesarios."
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Si un latifundio tiene una extensión de 2400 hectáreas y el 15% de ellas se dedica al cultivo de trigo, ¿cuántas hectáreas están destinadas al trigo?",
+                "options": [
+                    "240 hectáreas",
+                    "360 hectáreas",
+                    "400 hectáreas",
+                    "480 hectáreas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: El salario diario de un concertado era de $20, pero se le retuvo el 10% por concepto de deudas. ¿Cuánto dinero se le retuvo?",
+                "options": [
+                    "$1.00",
+                    "$2.00",
+                    "$3.00",
+                    "$4.00"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: En una mina, el 40% de las 150 herramientas de trabajo estaban oxidadas. ¿Cuántas herramientas se encontraban en buen estado?",
+                "options": [
+                    "60 herramientas",
+                    "80 herramientas",
+                    "90 herramientas",
+                    "100 herramientas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Si una manta textil que costaba $80 se vende con un recargo del 5% por impuestos de la Corona, ¿cuál es el precio final de la manta?",
+                "options": [
+                    "$82.00",
+                    "$84.00",
+                    "$85.00",
+                    "$86.00"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: ¿Qué porcentaje representa 12 mitayos enfermos en un contingente de 60 hombres?",
+                "options": [
+                    "15%",
+                    "20%",
+                    "25%",
+                    "30%"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 36,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres simple: Si 4 mitayos extraen 8 kg de plata en un día, ¿cuántos kg de plata extraerán 10 mitayos en el mismo tiempo al mismo ritmo?",
+                "options": [
+                    "15 kg",
+                    "20 kg",
+                    "25 kg",
+                    "30 kg"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 37,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres simple: Si un terrateniente necesita 12 obreros para cosechar un campo de trigo en 6 días, ¿cuántos días tardarán 18 obreros en cosechar el mismo campo?",
+                "options": [
+                    "3 días",
+                    "4 días",
+                    "8 días",
+                    "9 días"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 38,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres simple: Si 5 camisas textiles cuestan $25 en el obraje, ¿cuántas camisas del mismo tipo se podrán comprar con $75?",
+                "options": [
+                    "10 camisas",
+                    "12 camisas",
+                    "15 camisas",
+                    "20 camisas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 39,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres simple: Si un grupo de tejedores gasta 8 kg de lana para tejer 4 mantas, ¿cuántos kg de lana se requerirán para fabricar 14 mantas similares?",
+                "options": [
+                    "20 kg",
+                    "24 kg",
+                    "28 kg",
+                    "32 kg"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 40,
+                "subject": "Razonamiento Numérico",
+                "question": "Regla de tres simple: Si 6 caballos transportan carga de la hacienda al puerto en 4 horas a una velocidad constante, ¿cuántas horas tardarán 8 caballos en transportar la misma carga en forma de proporción inversa?",
+                "options": [
+                    "2 horas",
+                    "3 horas",
+                    "5 horas",
+                    "6 horas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            }
+        ],
+        "Jueves": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "Morfológicamente, ¿por qué elementos constitutivos mínimos con carga conceptual está compuesta una palabra?",
+                "options": [
+                    "Sílabas y letras",
+                    "Morfemas y lexemas",
+                    "Fonemas y grafías",
+                    "Acentos y tildes"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Morfemas y lexemas"
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de las siguientes es una clase de palabra invariable en la gramática castellana?",
+                "options": [
+                    "Sustantivo",
+                    "Adjetivo",
+                    "Adverbio",
+                    "Verbo"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Adverbio"
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué década surgió en el Ecuador la corriente literaria del realismo social conocida como la Generación del Treinta?",
+                "options": [
+                    "Década de 1910",
+                    "Década de 1930",
+                    "Década de 1950",
+                    "Década de 1970"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Década de 1930"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes escritores no perteneció al Grupo de Guayaquil de la Generación del Treinta?",
+                "options": [
+                    "José de la Cuadra",
+                    "Medardo Ángel Silva",
+                    "Joaquín Gallegos Lara",
+                    "Demetrio Aguilera Malta"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Medardo Ángel Silva"
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué novela social publicada en 1934 por Jorge Icaza se convirtió en el referente del realismo serrano y la denuncia indigenista?",
+                "options": [
+                    "Plata y bronce",
+                    "Huasipungo",
+                    "Las cruces sobre el agua",
+                    "El chulla Romero y Flores"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Huasipungo"
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "¿Quién escribió la novela indigenista serrana \"Plata y bronce\", denunciando el abuso de los latifundistas?",
+                "options": [
+                    "Fernando Chaves",
+                    "José de la Cuadra",
+                    "Enrique Gil Gilbert",
+                    "Humberto Fierro"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Fernando Chaves"
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿Por qué se denomina \"Generación Decapitada\" al grupo de poetas modernistas del Ecuador de inicios del siglo XX?",
+                "options": [
+                    "Porque fueron ejecutados en la plaza pública",
+                    "Por su trágica muerte prematura, la mayoría por suicidio",
+                    "Porque escribían poemas sin título",
+                    "Por su rechazo al uso de metáforas"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Por su trágica muerte prematura, la mayoría por suicidio"
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué poeta modernista ecuatoriano de la Generación Decapitada escribió el célebre poema \"El alma en los labios\" en 1919?",
+                "options": [
+                    "Arturo Borja",
+                    "Humberto Fierro",
+                    "Ernesto Noboa y Caamaño",
+                    "Medardo Ángel Silva"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Medardo Ángel Silva"
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué corriente poética europea influyó profundamente en los temas de melancolía existencial de la Generación Decapitada?",
+                "options": [
+                    "Neoclasicismo español",
+                    "Simbolismo francés",
+                    "Realismo social",
+                    "Vanguardismo italiano"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Simbolismo francés"
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes poetas es un integrante de la Generación Decapitada?",
+                "options": [
+                    "Joaquín Gallegos Lara",
+                    "Fernando Chaves",
+                    "Ernesto Noboa y Caamaño",
+                    "Jorge Icaza"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Ernesto Noboa y Caamaño"
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿En qué siglo fueron introducidos los primeros africanos como esclavos en el Valle del Chota por la orden jesuita?",
+                "options": [
+                    "Siglo quince",
+                    "Siglo dieciséis",
+                    "Siglo diecisiete",
+                    "Siglo dieciocho"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Siglo diecisiete"
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿En qué cuenca fluvial se asienta la comunidad afrodescendiente del Valle del Chota, entre Imbabura y Carchi?",
+                "options": [
+                    "Cuenca del río Guayas",
+                    "Cuenca del río Napo",
+                    "Cuenca del río Chota",
+                    "Cuenca del río Pastaza"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Cuenca del río Chota"
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Para qué cultivos principales introdujeron los jesuitas mano de obra esclava en sus haciendas del Valle del Chota?",
+                "options": [
+                    "Cacao y café",
+                    "Trigo y cebada",
+                    "Caña de azúcar y viñedos",
+                    "Papas y maíz"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Caña de azúcar y viñedos"
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Qué ritmo y danza tradicional alegre define la identidad de la herencia cultural del Valle del Chota?",
+                "options": [
+                    "La marimba",
+                    "El pasillo",
+                    "La Bomba del Chota",
+                    "El sanjuanito"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque La Bomba del Chota"
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿En qué año naufragó frente a las costas de Esmeraldas un barco de esclavos proveniente de Panamá, iniciando su historia de libertad?",
+                "options": [
+                    "En 1534",
+                    "En 1545",
+                    "En 1553",
+                    "En 1570"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque En 1553"
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Qué líder cimarrón encabezó el establecimiento de la población afrodescendiente en Esmeraldas tras el naufragio de 1553?",
+                "options": [
+                    "Alonso de Illescas",
+                    "Francisco de Toledo",
+                    "Bartolomé de las Casas",
+                    "Gaspar de Carvajal"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Alonso de Illescas"
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Cómo se denominó al territorio autónomo de Esmeraldas fundado tras la alianza entre africanos libres e indígenas locales?",
+                "options": [
+                    "Virreinato de Esmeraldas",
+                    "República de los Zambos",
+                    "Gobernación de Quito",
+                    "Encomienda del Chota"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque República de los Zambos"
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Qué instrumento tradicional y su música representan la máxima herencia cultural de Esmeraldas declarada Patrimonio por la UNESCO en 2015?",
+                "options": [
+                    "La guitarra española",
+                    "El tambor bomba",
+                    "La marimba de chonta",
+                    "El rondador de caña"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque La marimba de chonta"
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿Cuál de las siguientes composiciones cantadas forma parte del patrimonio oral de la comunidad de Esmeraldas?",
+                "options": [
+                    "La bomba",
+                    "Los arrullos y chigualos",
+                    "El pasillo melancólico",
+                    "La declamación modernista"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Los arrullos y chigualos"
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿Qué orden religiosa controlaba las haciendas azucareras del Valle del Chota antes de ser expulsada de América en 1767?",
+                "options": [
+                    "Los franciscanos",
+                    "Los dominicos",
+                    "Los jesuitas",
+                    "Los agustinos"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Los jesuitas"
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: **MINERO** es a **PICO** como **ESCRITOR** es a:",
+                "options": [
+                    "Papel",
+                    "Pluma",
+                    "Novela",
+                    "Tinta"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Pluma"
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: **MODERNISMO** es a **MELANCOLÍA** como **REALISMO SOCIAL** es a:",
+                "options": [
+                    "Fantasía",
+                    "Denuncia",
+                    "Amor",
+                    "Humor"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Denuncia"
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: **VALLE DEL CHOTA** es a **BOMBA** como **ESMERALDAS** es a:",
+                "options": [
+                    "Pasillo",
+                    "Marimba",
+                    "Vals",
+                    "Albazo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Marimba"
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Un **CONJUNTO** requiere indispensablemente de:",
+                "options": [
+                    "Diagrama de Venn",
+                    "Llaves",
+                    "Elementos",
+                    "Números"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Elementos"
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Una **FRACCIÓN** requiere necesariamente de:",
+                "options": [
+                    "Numerador y denominador",
+                    "Mínimo común múltiplo",
+                    "Porcentaje",
+                    "Entero positivo"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Numerador y denominador"
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Para que exista una **PALABRA** escrita, esta debe contar esencialmente con:",
+                "options": [
+                    "Tilde",
+                    "Espacios",
+                    "Significado",
+                    "Consonantes"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Significado"
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: **POETA** es a **POEMA** como **NOVELISTA** es a:",
+                "options": [
+                    "Rima",
+                    "Novela",
+                    "Verso",
+                    "Editorial"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Novela"
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: La **GENERACIÓN DECAPITADA** requiere por definición que sus miembros hayan compartido:",
+                "options": [
+                    "El mismo lugar de nacimiento",
+                    "Una muerte trágica prematura",
+                    "La profesión de pintores",
+                    "La militancia política socialista"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Una muerte trágica prematura"
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Analogías: **JESUITAS** es a **VALLE DEL CHOTA** como **ALONSO DE ILLESCAS** es a:",
+                "options": [
+                    "Guayaquil",
+                    "Esmeraldas",
+                    "Quito",
+                    "Ibarra"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Esmeraldas"
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Verbal",
+                "question": "Selección lógica: Un **REFRÁN** posee de manera indispensable:",
+                "options": [
+                    "Rima asonante",
+                    "Formato de diálogo",
+                    "Una enseñanza o moraleja implícita",
+                    "Datos históricos precisos"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Una enseñanza o moraleja implícita"
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos: En una encuesta a 100 estudiantes sobre autores de la Generación Decapitada, 60 prefieren a Medardo Ángel Silva y 45 prefieren a Arturo Borja. Si 20 estudiantes prefieren a ambos poetas, ¿cuántos estudiantes no prefieren a ninguno de los dos?",
+                "options": [
+                    "5 estudiantes",
+                    "10 estudiantes",
+                    "15 estudiantes",
+                    "20 estudiantes"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos: En un grupo de 80 afrodescendientes del Valle del Chota, 50 tocan el tambor bomba y 40 tocan la hoja de naranjo. Si 25 tocan ambos instrumentos, ¿cuántos tocan únicamente el tambor bomba?",
+                "options": [
+                    "15 personas",
+                    "25 personas",
+                    "30 personas",
+                    "35 personas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos: Si el conjunto A tiene 15 elementos, el conjunto B tiene 20 elementos y su intersección tiene 5 elementos, ¿cuántos elementos tiene la unión de A y B?",
+                "options": [
+                    "20 elementos",
+                    "30 elementos",
+                    "35 elementos",
+                    "40 elementos"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos: Si A = {1, 2, 3, 4, 5} and B = {4, 5, 6, 7}, determine los elementos de la diferencia A - B:",
+                "options": [
+                    "{6, 7}",
+                    "{4, 5}",
+                    "{1, 2, 3}",
+                    "{1, 2, 3, 4, 5, 6, 7}"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Conjuntos: Si A = {a, b, c} y B = {d, e}, determine el número de elementos de la intersección de A y B:",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 36,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: Un escritor de la Generación del Treinta escribe 2/5 de su novela en enero y 1/3 en febrero. ¿Qué fracción de la novela ha escrito en total?",
+                "options": [
+                    "3/8",
+                    "11/15",
+                    "7/15",
+                    "13/15"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 37,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: Si una hacienda azucarera del Chota destina 3/4 de sus tierras al cultivo de caña y el resto a viñedos, ¿qué fracción de las tierras se dedica a los viñedos?",
+                "options": [
+                    "1/2",
+                    "1/3",
+                    "1/4",
+                    "2/3"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 38,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: Resuelva la siguiente multiplicación de fracciones: (3/5) × (10/9) =",
+                "options": [
+                    "27/50",
+                    "2/3",
+                    "5/6",
+                    "4/3"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 39,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: Divida la fracción 4/7 para 2/3:",
+                "options": [
+                    "8/21",
+                    "6/7",
+                    "12/14",
+                    "7/8"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 40,
+                "subject": "Razonamiento Numérico",
+                "question": "Fracciones: Si un mitayo gasta 1/4 de su jornada en excavar y 3/8 en transportar mineral, ¿qué fracción de la jornada le queda libre para el descanso?",
+                "options": [
+                    "3/8",
+                    "1/2",
+                    "5/8",
+                    "1/4"
+                ],
+                "correct": 0,
+                "explanation": ""
+            }
+        ],
+        "Viernes": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué dramaturgo mexicano destacó en 1938 con su obra teatral \"El gesticulador\", renovando el teatro del continente?",
+                "options": [
+                    "Francisco Tobar García",
+                    "Rodolfo Usigli",
+                    "Egon Wolff",
+                    "Griselda Gambaro"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Rodolfo Usigli"
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué dramaturgo ecuatoriano fundó importantes colectivos teatrales e impulsó el teatro clásico y contemporáneo en las décadas centrales del siglo XX?",
+                "options": [
+                    "Joaquín Gallegos Lara",
+                    "Francisco Tobar García",
+                    "Jorge Icaza",
+                    "Fernando Chaves"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Francisco Tobar García"
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes es un recurso escénico de vanguardia europea incorporado al teatro hispanoamericano del siglo XX?",
+                "options": [
+                    "Costumbrismo decimonónico",
+                    "Teatro del absurdo y distanciamiento brechtiano",
+                    "Monólogo clásico en verso",
+                    "Coro de tragedia griega"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Teatro del absurdo y distanciamiento brechtiano"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué novela de 1929 escrita por el venezolano Rómulo Gallegos describe la vida en los llanos y el conflicto entre civilización y barbarie?",
+                "options": [
+                    "La vorágine",
+                    "Don Segundo Sombra",
+                    "Doña Bárbara",
+                    "Plata y bronce"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Doña Bárbara"
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué infierno verde de las plantaciones de caucho describe la novela realista colombiana \"La vorágine\" de 1924?",
+                "options": [
+                    "La selva amazónica",
+                    "Los llanos orientales",
+                    "El desierto de Atacama",
+                    "La pampa argentina"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque La selva amazónica"
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "¿Quién escribió la novela de la tierra argentina \"Don Segundo Sombra\" en el año 1926?",
+                "options": [
+                    "Ricardo Güiraldes",
+                    "José Eustasio Rivera",
+                    "Rómulo Gallegos",
+                    "Jorge Icaza"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Ricardo Güiraldes"
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué año se publicó el libro \"Azul...\" de Rubén Darío, hito que marcó el nacimiento formal del Modernismo?",
+                "options": [
+                    "En 1888",
+                    "En 1919",
+                    "En 1924",
+                    "En 1930"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque En 1888"
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué ciudad chilena se publicó por primera vez el libro \"Azul...\" del nicaragüense Rubén Darío?",
+                "options": [
+                    "Santiago",
+                    "Valparaíso",
+                    "Concepción",
+                    "Antofagasta"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Valparaíso"
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes es el líder indiscutible y máximo exponente del movimiento modernista en Hispanoamérica?",
+                "options": [
+                    "Rubén Darío",
+                    "Medardo Ángel Silva",
+                    "Paul Verlaine",
+                    "Arthur Rimbaud"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Rubén Darío"
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de las siguientes novelas realistas hispanoamericanas fue escrita por el colombiano José Eustasio Rivera?",
+                "options": [
+                    "Doña Bárbara",
+                    "Don Segundo Sombra",
+                    "La vorágine",
+                    "Huasipungo"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque La vorágine"
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿Qué otro nombre recibe comúnmente el estilo artístico mestizo desarrollado en la región andina durante los siglos XVII y XVIII?",
+                "options": [
+                    "Gótico colonial",
+                    "Neoclasicismo americano",
+                    "Barroco andino",
+                    "Realismo social"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Barroco andino"
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿Qué elementos de la fauna local americana aparecen incorporados en los relieves de piedra de las iglesias barrocas andinas?",
+                "options": [
+                    "Leones y elefantes",
+                    "Monos y jaguares",
+                    "Caballos y ovejas",
+                    "Cisnes y águilas"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Monos y jaguares"
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Cómo se define el sincretismo religioso surgido en el periodo colonial americano?",
+                "options": [
+                    "La prohibición de todos los rituales cristianos",
+                    "La fusión e hibridación espiritual entre el catolicismo y las creencias de los pueblos originarios",
+                    "La conversión de los españoles a las deidades indígenas",
+                    "La erradicación total del politeísmo andino"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque La fusión e hibridación espiritual entre el catolicismo y las creencias de los pueblos originarios"
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Qué deidad ancestral andina de la Madre Tierra se asoció sincretizadamente con la figura de la Virgen María?",
+                "options": [
+                    "Pachamama",
+                    "Mama Ocllo",
+                    "Coya",
+                    "Quilla"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Pachamama"
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿Qué celebración cristiana se fusionó con la fiesta solar indígena del Inti Raymi en los andes coloniales?",
+                "options": [
+                    "Navidad",
+                    "Corpus Christi",
+                    "Semana Santa",
+                    "Pentecostés"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Corpus Christi"
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Cuál era el propósito didáctico y social del arte colonial promovido por la Iglesia y la Corona?",
+                "options": [
+                    "Fomentar la libre expresión artística indígena",
+                    "Servir como herramienta de evangelización y conversión de poblaciones analfabetas",
+                    "Decorar galerías de arte en Europa",
+                    "Promover la ciencia experimental"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Servir como herramienta de evangelización y conversión de poblaciones analfabetas"
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Qué recurso escultórico se empleaba en las imágenes religiosas del barroco colonial para lograr un intenso realismo que conmoviera al fiel?",
+                "options": [
+                    "Pintura abstracta de colores vivos",
+                    "Ojos de vidrio y cabello natural",
+                    "Revestimientos de metales industriales",
+                    "Estructuras geométricas de piedra"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Ojos de vidrio y cabello natural"
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Qué características arquitectónicas se diseñaron en los templos coloniales para congregar a los indígenas acostumbrados a rituales al aire libre?",
+                "options": [
+                    "Capillas cerradas sin ventanas",
+                    "Amplias capillas abiertas o atrios exteriores",
+                    "Campanarios subterráneos",
+                    "Torres de vigilancia militar"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Amplias capillas abiertas o atrios exteriores"
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿En qué virreinatos americanos se desarrolló principalmente el esplendor de las fachadas y portadas del arte barroco andino o mestizo?",
+                "options": [
+                    "De Nueva España y del Perú",
+                    "Del Río de la Plata y de Nueva Granada",
+                    "De Chile y de la Patagonia",
+                    "De las Antillas y de Florida"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque De Nueva España y del Perú"
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿Qué estilo arquitectónico y decorativo característico de Europa se transformó en América para dar origen al arte mestizo?",
+                "options": [
+                    "Gótico",
+                    "Románico",
+                    "Barroco",
+                    "Renacimiento"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Barroco"
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Término excluido: Identifique el vocablo que no pertenece al campo semántico de **NOVELA REALISTA HISPANOAMERICANA**.",
+                "options": [
+                    "Doña Bárbara",
+                    "La vorágine",
+                    "Don Segundo Sombra",
+                    "Azul..."
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Azul..."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Término excluido: Señale la palabra que se aparta del concepto de **SINCRETISMO**.",
+                "options": [
+                    "Hibridación",
+                    "Aislamiento",
+                    "Fusión",
+                    "Mezcla"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Aislamiento"
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Término excluido: ¿Cuál de las siguientes opciones se excluye del grupo semántico de **ARTE MESTIZO**?",
+                "options": [
+                    "Relieves de jaguares",
+                    "Columnas salomónicas",
+                    "Símbolos de la Pachamama",
+                    "Arte abstracto contemporáneo"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Arte abstracto contemporáneo"
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Término excluido: Seleccione el vocablo excluido en la serie de **TEATRO HISPANOAMERICANO DEL SIGLO XX**.",
+                "options": [
+                    "Rodolfo Usigli",
+                    "Francisco Tobar García",
+                    "Griselda Gambaro",
+                    "Rubén Darío"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Rubén Darío"
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Término excluido: Señale la palabra que se excluye del concepto de **EVANGELIZACIÓN MEDIANTE EL ARTE**.",
+                "options": [
+                    "Catequización",
+                    "Conversión",
+                    "Adoctrinamiento",
+                    "Secularización"
+                ],
+                "correct": 3,
+                "explanation": "La respuesta correcta es la d) porque Secularización"
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve aplicando la jerarquía de las operaciones: 12 + 4 × 5 − 8 / 2 =",
+                "options": [
+                    "36",
+                    "28",
+                    "24",
+                    "20"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve: (24 − 6) / 3 + 5 × 2 =",
+                "options": [
+                    "16",
+                    "12",
+                    "10",
+                    "8"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve: 15 / (3 + 2) × 6 − 4 =",
+                "options": [
+                    "14",
+                    "18",
+                    "20",
+                    "24"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve: 8 × 3 + (16 / 4) − 10 =",
+                "options": [
+                    "18",
+                    "16",
+                    "14",
+                    "12"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Numérico",
+                "question": "Operaciones básicas: Resuelve: 50 / 5 + 3 × (8 − 4) =",
+                "options": [
+                    "22",
+                    "32",
+                    "40",
+                    "52"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Se extrae una carta al azar de una baraja de 52 cartas. ¿Cuál es la probabilidad de que la carta sea de color rojo (corazones y diamantes, sabiendo que representan la mitad de la baraja)?",
+                "options": [
+                    "25%",
+                    "50%",
+                    "75%",
+                    "100%"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Si se lanza una moneda tres veces al aire, ¿cuál es la probabilidad de obtener exactamente tres caras?",
+                "options": [
+                    "1/8",
+                    "1/4",
+                    "3/8",
+                    "1/2"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: En una bolsa hay 5 canicas rojas, 3 canicas verdes y 2 canicas amarillas. Si se extrae una canica al azar, ¿cuál es la probabilidad de que sea roja o amarilla?",
+                "options": [
+                    "50%",
+                    "70%",
+                    "80%",
+                    "90%"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: Si se lanza un dado de seis caras, ¿cuál es la probabilidad de obtener un número menor que 5 (es decir, 1, 2, 3, 4)?",
+                "options": [
+                    "1/3",
+                    "1/2",
+                    "2/3",
+                    "5/6"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Probabilidad: En un sorteo de la hacienda, se venden 100 boletos de rifa. Si un indígena compra 15 boletos, ¿cuál es su probabilidad de ganar el sorteo?",
+                "options": [
+                    "1.5%",
+                    "15%",
+                    "30%",
+                    "50%"
+                ],
+                "correct": 0,
+                "explanation": ""
+            }
+        ],
+        "Sábado": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué escritora ecuatoriana contemporánea destacó a nivel internacional en 2018 con su novela \"Mandíbula\"?",
+                "options": [
+                    "Alicia Yánez Cossío",
+                    "Mónica Ojeda",
+                    "María Fernanda Ampuero",
+                    "Gabriela Alemán"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Mónica Ojeda"
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿Quién es la autora del aclamado libro de cuentos \"Pelea de gallos\", publicado en el año 2018?",
+                "options": [
+                    "Mónica Ojeda",
+                    "María Fernanda Ampuero",
+                    "Alicia Yánez Cossío",
+                    "Lupe Rumazo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque María Fernanda Ampuero"
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué novela histórica escrita por Eliécer Cárdenas en 1979 relata y mitifica la vida del bandolero Naún Briones?",
+                "options": [
+                    "Bruna, soroche y tíos",
+                    "Polvo y ceniza",
+                    "El chulla Romero y Flores",
+                    "Las cruces sobre el agua"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Polvo y ceniza"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué año se publicó la novela \"Bruna, soroche y tíos\" de la escritora ecuatoriana Alicia Yánez Cossío?",
+                "options": [
+                    "En 1958",
+                    "En 1973",
+                    "En 1979",
+                    "En 1982"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque En 1973"
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué acontecimiento histórico de 1922 conmemora la novela \"Las cruces sobre el agua\" de Joaquín Gallegos Lara?",
+                "options": [
+                    "La masacre de obreros del 15 de noviembre",
+                    "La revolución liberal de Eloy Alfaro",
+                    "El descubrimiento del petróleo en la amazonía",
+                    "La firma del protocolo de Río de Janeiro"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque La masacre de obreros del 15 de noviembre"
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué año publicó Joaquín Gallegos Lara su novela de realismo urbano \"Las cruces sobre el agua\"?",
+                "options": [
+                    "En 1934",
+                    "En 1946",
+                    "En 1958",
+                    "En 1973"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque En 1946"
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué obra literaria de Jorge Icaza, publicada en 1958, satiriza la burocracia andina a través del personaje de clase media Romero y Flores?",
+                "options": [
+                    "Huasipungo",
+                    "El chulla Romero y Flores",
+                    "Plata y bronce",
+                    "Polvo y ceniza"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque El chulla Romero y Flores"
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué autor contemporáneo ecuatoriano es conocido por novelas urbanas y de misterio como las que relata en su obra sobre el personaje del doctor Vásconez?",
+                "options": [
+                    "Javier Vásconez",
+                    "Eliécer Cárdenas",
+                    "Iván Égüez",
+                    "Miguel Donoso Pareja"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Javier Vásconez"
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes es el autor de la novela \"El poder del gran señor\" e impulsor del taller de narrativa ecuatoriana contemporánea?",
+                "options": [
+                    "Miguel Donoso Pareja",
+                    "Jorge Icaza",
+                    "Joaquín Gallegos Lara",
+                    "Humberto Fierro"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Miguel Donoso Pareja"
+            },
+            {
+                "id": 10,
+                "subject": "Lengua y Literatura",
+                "question": "¿Cuál de los siguientes libros de cuentos retrata la crudeza social contemporánea y fue escrito por María Fernanda Ampuero en 2018?",
+                "options": [
+                    "Mandíbula",
+                    "Pelea de gallos",
+                    "Bruna, soroche y tíos",
+                    "Polvo y ceniza"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Pelea de gallos"
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿Qué siglo vio el nacimiento y auge del arte barroco en Europa, caracterizado por el dinamismo y el claroscuro?",
+                "options": [
+                    "Siglo quince",
+                    "Siglo dieciséis",
+                    "Siglo diecisiete",
+                    "Siglo diecinueve"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Siglo diecisiete"
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿Qué técnica pictórica barroca se caracteriza por el uso de fuertes contrastes entre luces y sombras para generar volumen y tensión?",
+                "options": [
+                    "Perspectiva lineal",
+                    "Puntillismo",
+                    "Claroscuro",
+                    "Cubismo"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Claroscuro"
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿Qué forma helicoidal o espiralada presenta la columna salomónica típica de la arquitectura barroca?",
+                "options": [
+                    "Recta",
+                    "Cuadrada",
+                    "Helicoidal o espiralada",
+                    "Triangular"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Helicoidal o espiralada"
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿Qué elemento arquitectónico característico del barroco se presenta partido u ornamentado en las portadas de los templos?",
+                "options": [
+                    "Cúpula",
+                    "Frontón partido",
+                    "Dintel",
+                    "Arco apuntado"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Frontón partido"
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿Qué característica distingue principalmente al barroco americano del barroco europeo?",
+                "options": [
+                    "El rechazo a la decoración en las iglesias",
+                    "La mayor sobriedad y sencillez de las formas",
+                    "La exuberancia decorativa y la incorporación de iconografía y flora autóctona",
+                    "La ausencia de imágenes religiosas"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque La exuberancia decorativa y la incorporación de iconografía y flora autóctona"
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Cómo se conoce al conjunto de manifestaciones artísticas coloniales desarrolladas en la Real Audiencia de Quito?",
+                "options": [
+                    "Escuela Quiteña",
+                    "Barroco mexicano",
+                    "Pintura cuzqueña",
+                    "Escuela limeña"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Escuela Quiteña"
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Qué notable escultor indígena colonial, conocido como \"Caspicara\", destacó por sus tallados en madera policromada?",
+                "options": [
+                    "Miguel de Santiago",
+                    "Manuel Chili",
+                    "Alonso de Illescas",
+                    "Bernardo de Legarda"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Manuel Chili"
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Qué renombrado pintor mestizo de la Escuela Quiteña del siglo XVII es autor del ciclo de pinturas sobre los milagros de San Agustín?",
+                "options": [
+                    "Caspicara",
+                    "Miguel de Santiago",
+                    "Bernardo de Legarda",
+                    "Manuel Chili"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Miguel de Santiago"
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿Qué monumental templo barroco de la ciudad de Quito destaca por sus columnas salomónicas y su fachada de piedra gris tallada?",
+                "options": [
+                    "Iglesia de San Francisco",
+                    "Iglesia de la Compañía de Jesús",
+                    "Catedral Metropolitana",
+                    "Basílica del Voto Nacional"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Iglesia de la Compañía de Jesús"
+            },
+            {
+                "id": 20,
+                "subject": "Historia",
+                "question": "¿Qué técnica decorativa consistente en recubrir con finas láminas de oro los retablos de madera caracterizó a las iglesias de la Escuela Quiteña?",
+                "options": [
+                    "Policromía",
+                    "Estofado",
+                    "Pan de oro",
+                    "Esmaltado"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Pan de oro"
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Comprensión lectora: \"La literatura es una forma de resistencia al olvido. Al narrar la masacre de 1922, Gallegos Lara no solo escribió una novela, sino que salvó de la desmemoria a los obreros asesinados. La ficción se convierte así en un registro histórico más duradero que los informes oficiales\". Según el texto, ¿cuál es la función principal de la novela \"Las cruces sobre el agua\"?",
+                "options": [
+                    "Entretener con una historia romántica en la costa.",
+                    "Servir de informe económico sobre el auge del cacao.",
+                    "Resistir al olvido y salvar de la desmemoria a los obreros asesinados en 1922.",
+                    "Criticar el estilo modernista de Rubén Darío."
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Resistir al olvido y salvar de la desmemoria a los obreros asesinados en 1922."
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Comprensión lectora: A partir del texto anterior, se infiere que:",
+                "options": [
+                    "Los informes oficiales siempre dicen la verdad.",
+                    "La literatura de ficción puede cumplir un papel de registro y memoria histórica.",
+                    "Gallegos Lara odiaba a los obreros de Guayaquil.",
+                    "El modernismo fue superior al realismo social."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque La literatura de ficción puede cumplir un papel de registro y memoria histórica."
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Concordancia verbal: Seleccione la opción con correcta concordancia verbal:",
+                "options": [
+                    "El grupo de artistas quiteños expusieron sus cuadros de pan de oro.",
+                    "La Escuela Quiteña y sus pintores revolucionaron el arte colonial.",
+                    "Caspicara junto con sus ayudantes esculpió el retablo mayor.",
+                    "Tanto el pintor como el escultor trabajaban con lodo."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque La Escuela Quiteña y sus pintores revolucionaron el arte colonial."
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Concordancia verbal: Complete: La colección de novelas contemporáneas ______ por la crítica internacional.",
+                "options": [
+                    "fueron aclamadas",
+                    "fue aclamada",
+                    "fueron aclamados",
+                    "fue aclamado"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque fue aclamada"
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Concordancia verbal: Seleccione la opción incorrecta gramaticalmente:",
+                "options": [
+                    "La mitad de los poetas de la Generación Decapitada se suicidó.",
+                    "La mitad de los poetas de la Generación Decapitada se suicidaron.",
+                    "Una jauría de perros corrieron por la calle.",
+                    "El rebaño de ovejas cruzó la cerca de la hacienda."
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Una jauría de perros corrieron por la calle."
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Comprensión lectora: \"El barroco andino no es una copia del europeo. Los artesanos indígenas asimilaron el lenguaje formal de los colonizadores, pero imprimieron en él su propia cosmovisión. Al tallar monos, jaguares y soles en las fachadas católicas, los nativos mantuvieron vivo su lazo con la naturaleza\". De acuerdo con el fragmento, el barroco andino se caracteriza por ser:",
+                "options": [
+                    "Una réplica exacta del arte barroco de Madrid.",
+                    "Una asimilación del lenguaje formal europeo integrada con la cosmovisión y símbolos de los artesanos indígenas.",
+                    "Un estilo sobrio que prohíbe las figuras de animales en los templos.",
+                    "Una invención del pintor Miguel de Santiago."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Una asimilación del lenguaje formal europeo integrada con la cosmovisión y símbolos de los artesanos indígenas."
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Comprensión lectora: Según el texto anterior, la talla de monos y jaguares en las fachadas católicas representa:",
+                "options": [
+                    "Un error técnico de los albañiles.",
+                    "Una muestra de la influencia francesa contemporánea.",
+                    "Un lazo vivo que los nativos mantuvieron con la naturaleza y su cosmovisión.",
+                    "La fauna europea introducida en el siglo diecisiete."
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Un lazo vivo que los nativos mantuvieron con la naturaleza y su cosmovisión."
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Concordancia verbal: Complete la frase: El rector con su cuerpo de profesores ______ la inauguración de la biblioteca.",
+                "options": [
+                    "asistieron a",
+                    "asistió a",
+                    "asistirán a",
+                    "asisten a"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque asistió a"
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Concordancia verbal: Seleccione la opción correcta:",
+                "options": [
+                    "Se vende libros de literatura ecuatoriana.",
+                    "Se venden libros de literatura ecuatoriana.",
+                    "Hacen muchos años de la masacre de Guayaquil.",
+                    "Hubieron muchas personas en el templo barroco."
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Se venden libros de literatura ecuatoriana."
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Verbal",
+                "question": "Concordancia verbal: Complete: Ni Mónica Ojeda ni María Fernanda Ampuero ______ la invitación a la feria del libro del año pasado.",
+                "options": [
+                    "rechazaron",
+                    "rechazó",
+                    "rechazaron o rechazó",
+                    "rechazarán"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque rechazaron"
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 5 escultores de la Escuela Quiteña tallan 10 imágenes religiosas en 6 días, ¿cuántos días tardarán 3 escultores en tallar 12 imágenes del mismo tipo?",
+                "options": [
+                    "8 días",
+                    "10 días",
+                    "12 días",
+                    "15 días"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 4 costureras del obraje producen 40 mantas en 8 días, ¿cuántas mantas producirán 6 costureras en 12 días si trabajan al mismo ritmo?",
+                "options": [
+                    "60 mantas",
+                    "80 mantas",
+                    "90 mantas",
+                    "120 mantas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 3 camiones transportan 18 toneladas de material de construcción en 6 viajes, ¿cuántos viajes requerirán 5 camiones del mismo tipo para transportar 40 toneladas de material?",
+                "options": [
+                    "6 viajes",
+                    "8 viajes",
+                    "10 viajes",
+                    "12 viajes"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 6 tejedores fabrican 12 ponchos en 4 días, ¿cuántos tejedores se necesitarán para fabricar 30 ponchos en 5 días?",
+                "options": [
+                    "8 tejedores",
+                    "10 tejedores",
+                    "12 tejedores",
+                    "15 tejedores"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Proporcionalidad compuesta: Si 8 operarios de una imprenta editan 1600 libros en 5 days, ¿cuántos libros editarán 6 operarios en 4 días trabajando al mismo ritmo?",
+                "options": [
+                    "960 libros",
+                    "1000 libros",
+                    "1200 libros",
+                    "1400 libros"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 36,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: ¿Cuál es el término que continúa en la secuencia: 12, 15, 19, 24, 30, ...?",
+                "options": [
+                    "35",
+                    "37",
+                    "39",
+                    "41"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 37,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: Encuentre el número que falta en la serie: 3, 9, 27, 81, ...?",
+                "options": [
+                    "120",
+                    "162",
+                    "243",
+                    "324"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 38,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: Determine el siguiente término en la secuencia: 2, 6, 12, 20, 30, ...?",
+                "options": [
+                    "36",
+                    "40",
+                    "42",
+                    "48"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 39,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: ¿Qué número continúa en la serie: 100, 90, 81, 73, 66, ...?",
+                "options": [
+                    "58",
+                    "60",
+                    "62",
+                    "64"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 40,
+                "subject": "Razonamiento Numérico",
+                "question": "Secuencias lógicas: Complete la secuencia: 1, 4, 9, 16, 25, ...?",
+                "options": [
+                    "30",
+                    "36",
+                    "40",
+                    "49"
+                ],
+                "correct": 0,
+                "explanation": ""
+            }
+        ],
+        "Domingo": [
+            {
+                "id": 1,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué poeta ecuatoriano del siglo XX es el autor del célebre y telúrico poema social \"Boletín y elegía de las mitas\" publicado en 1959?",
+                "options": [
+                    "Medardo Ángel Silva",
+                    "César Dávila Andrade",
+                    "Jorge Enrique Adoum",
+                    "Arturo Borja"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque César Dávila Andrade"
+            },
+            {
+                "id": 2,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué año publicó el poeta Jorge Enrique Adoum su monumental poemario social e histórico \"Ecuador amargo\"?",
+                "options": [
+                    "En 1919",
+                    "En 1934",
+                    "En 1949",
+                    "En 1959"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque En 1949"
+            },
+            {
+                "id": 3,
+                "subject": "Lengua y Literatura",
+                "question": "¿A qué poeta de la antigua Grecia del siglo VIII a.C. se le atribuyen los poemas épicos de la Ilíada y la Odisea?",
+                "options": [
+                    "Virgilio",
+                    "Homero",
+                    "Sófocles",
+                    "Eurípides"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Homero"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué estadista y poeta guayaquileño escribió en 1825 el célebre poema épico \"La victoria de Junín: Canto a Bolívar\"?",
+                "options": [
+                    "José Joaquín de Olmedo",
+                    "Medardo Ángel Silva",
+                    "Eliécer Cárdenas",
+                    "Gabriel García Moreno"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque José Joaquín de Olmedo"
+            },
+            {
+                "id": 5,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué año compuso José Joaquín de Olmedo su poema épico de la gesta libertaria \"La victoria de Junín: Canto a Bolívar\"?",
+                "options": [
+                    "En 1812",
+                    "En 1825",
+                    "En 1888",
+                    "En 1919"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque En 1825"
+            },
+            {
+                "id": 6,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué dramaturgo del Siglo de Oro español es el autor de la célebre obra de teatro clásico \"Fuenteovejuna\" de 1619?",
+                "options": [
+                    "Pedro Calderón de la Barca",
+                    "Lope de Vega",
+                    "Tirso de Molina",
+                    "Miguel de Cervantes"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Lope de Vega"
+            },
+            {
+                "id": 7,
+                "subject": "Lengua y Literatura",
+                "question": "¿En qué año publicó el dramaturgo madrileño Pedro Calderón de la Barca su obra maestra filosófica \"La vida es sueño\"?",
+                "options": [
+                    "En 1598",
+                    "En 1619",
+                    "En 1635",
+                    "En 1650"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque En 1635"
+            },
+            {
+                "id": 8,
+                "subject": "Lengua y Literatura",
+                "question": "¿Qué obra del teatro clásico español, atribuida a Tirso de Molina, popularizó universalmente el personaje mítico de Don Juan?",
+                "options": [
+                    "La vida es sueño",
+                    "El burlador de Sevilla",
+                    "Fuenteovejuna",
+                    "La Celestina"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque El burlador de Sevilla"
+            },
+            {
+                "id": 9,
+                "subject": "Lengua y Literatura",
+                "question": "¿Durante qué siglos se desarrolló el Siglo de Oro español, época de esplendor de las obras de teatro clásico y la poesía barroca?",
+                "options": [
+                    "Siglos XIV y XV",
+                    "Siglos XV y XVI",
+                    "Siglos XVI y XVII",
+                    "Siglos XVII y XVIII"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Siglos XVI y XVII"
+            },
+            {
+                "id": 10,
+                "subject": "Historia",
+                "question": "¿Cuál era el motivo principal de las sublevaciones indígenas y populares desatadas durante el periodo colonial en América?",
+                "options": [
+                    "La demanda de exportar más cacao",
+                    "La protesta activa contra la opresión colonial española, los tributos abusivos y la mita",
+                    "El apoyo a las guerras imperiales en Europa",
+                    "La evangelización de los españoles"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque La protesta activa contra la opresión colonial española, los tributos abusivos y la mita"
+            },
+            {
+                "id": 11,
+                "subject": "Historia",
+                "question": "¿Cómo respondían comúnmente las autoridades de la Corona española ante las sublevaciones de las comunidades indígenas?",
+                "options": [
+                    "Otorgando autonomía política",
+                    "Mediante negociaciones de libre comercio",
+                    "Con una feroz represión militar y la ejecución de los líderes cabecillas",
+                    "Con la abolición inmediata de todos los impuestos"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Con una feroz represión militar y la ejecución de los líderes cabecillas"
+            },
+            {
+                "id": 12,
+                "subject": "Historia",
+                "question": "¿Qué dinastía real gobernaba España en el siglo XVIII e implementó reformas fiscales que exacerbaron los levantamientos en América?",
+                "options": [
+                    "Los Austrias",
+                    "Los Borbones",
+                    "Los Trastámara",
+                    "Los Saboya"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Los Borbones"
+            },
+            {
+                "id": 13,
+                "subject": "Historia",
+                "question": "¿En qué año se desató a nivel continental la masiva rebelión indígena liderada por Túpac Amaru II en el virreinato del Perú?",
+                "options": [
+                    "En 1760",
+                    "En 1764",
+                    "En 1780",
+                    "En 1789"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque En 1780"
+            },
+            {
+                "id": 14,
+                "subject": "Historia",
+                "question": "¿En qué año se produjo una importante sublevación indígena local en la población de Alausí en la Real Audiencia de Quito?",
+                "options": [
+                    "En 1745",
+                    "En 1760",
+                    "En 1764",
+                    "En 1780"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque En 1760"
+            },
+            {
+                "id": 15,
+                "subject": "Historia",
+                "question": "¿En qué localidad de la sierra ecuatoriana estalló un gran levantamiento indígena contra el cobro de diezmos y tributos en el año 1764?",
+                "options": [
+                    "Quito",
+                    "Guayaquil",
+                    "Riobamba",
+                    "Cuenca"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Riobamba"
+            },
+            {
+                "id": 16,
+                "subject": "Historia",
+                "question": "¿Qué conjunto de cambios administrativos y fiscales impulsó la monarquía española en el siglo XVIII, provocando las revueltas indígenas?",
+                "options": [
+                    "Reformas borbónicas",
+                    "Leyes de Indias",
+                    "Leyes Nuevas",
+                    "Capitulaciones de Santa Fe"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Reformas borbónicas"
+            },
+            {
+                "id": 17,
+                "subject": "Historia",
+                "question": "¿Qué impuesto eclesiástico obligatorio sobre la producción agrícola desató la ira de los indígenas en las revueltas del siglo XVIII?",
+                "options": [
+                    "El almojarifazgo",
+                    "La alcabala",
+                    "El diezmo",
+                    "El quinto real"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque El diezmo"
+            },
+            {
+                "id": 18,
+                "subject": "Historia",
+                "question": "¿Quién lideró la mayor rebelión indígena del siglo XVIII en el virreinato del Perú contra los abusos de los corregidores españoles?",
+                "options": [
+                    "Alonso de Illescas",
+                    "Túpac Amaru II",
+                    "Atahualpa",
+                    "Rumiñahui"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Túpac Amaru II"
+            },
+            {
+                "id": 19,
+                "subject": "Historia",
+                "question": "¿Cuál era uno de los principales objetivos de los levantamientos indígenas del siglo XVIII en la Real Audiencia de Quito?",
+                "options": [
+                    "Exigir la construcción de más iglesias",
+                    "Demandar el fin de la explotación forzada en la mita y el concertaje",
+                    "Apoyar la expulsión de los jesuitas",
+                    "Solicitar el aumento de impuestos"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Demandar el fin de la explotación forzada en la mita y el concertaje"
+            },
+            {
+                "id": 20,
+                "subject": "Razonamiento Verbal",
+                "question": "Precisión Semántica: Reemplace el término \"hacer\" por uno más preciso en: \"Los líderes indígenas decidieron hacer un levantamiento\".",
+                "options": [
+                    "Elaborar",
+                    "Organizar",
+                    "Operar",
+                    "Realizar"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Organizar"
+            },
+            {
+                "id": 21,
+                "subject": "Razonamiento Verbal",
+                "question": "Precisión Semántica: Seleccione la palabra con mayor precisión semántica para sustituir a \"tener\" en: \"El poema Boletín y elegía de las mitas llega a tener un tono trágico\".",
+                "options": [
+                    "Poseer",
+                    "Ocupar",
+                    "Sostener",
+                    "Gozar"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque Poseer"
+            },
+            {
+                "id": 22,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Identifique el sinónimo de **SUBLEVACIÓN**.",
+                "options": [
+                    "Sumisión",
+                    "Rebelión",
+                    "Paz",
+                    "Acuerdo"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Rebelión"
+            },
+            {
+                "id": 23,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Señale la palabra que es sinónimo de **ÉPICO**.",
+                "options": [
+                    "Cómico",
+                    "Heroico",
+                    "Lírico",
+                    "Trágico"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Heroico"
+            },
+            {
+                "id": 24,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: ¿Cuál de las siguientes palabras es un sinónimo de **EXALTAR** en el contexto de un poema épico?",
+                "options": [
+                    "Humillar",
+                    "Alabar",
+                    "Criticar",
+                    "Omitir"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Alabar"
+            },
+            {
+                "id": 25,
+                "subject": "Razonamiento Verbal",
+                "question": "Precisión Semántica: Reemplace \"cosa\" por un sustantivo preciso: \"La opresión fiscal era la cosa que más molestaba a los indígenas\".",
+                "options": [
+                    "El asunto",
+                    "El factor",
+                    "El objeto",
+                    "El suceso"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque El factor"
+            },
+            {
+                "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Identifique el sinónimo de **LÍRICO**.",
+                "options": [
+                    "Narrativo",
+                    "Poético",
+                    "Dramático",
+                    "Épico"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Poético"
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Precisión Semántica: Reemplace la palabra \"decir\" por un verbo preciso en: \"Olmedo decidió decir las hazañas de Bolívar en su poema\".",
+                "options": [
+                    "Conversar",
+                    "Expresar",
+                    "Narrar",
+                    "Hablar"
+                ],
+                "correct": 2,
+                "explanation": "La respuesta correcta es la c) porque Narrar"
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Sinónimos: Señale el sinónimo de la palabra **REPRESIÓN**.",
+                "options": [
+                    "Tolerancia",
+                    "Opresión",
+                    "Libertad",
+                    "Alianza"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Opresión"
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Precisión Semántica: Reemplace el verbo \"poner\" por uno más preciso en: \"El virrey decidió poner un nuevo impuesto\".",
+                "options": [
+                    "Situar",
+                    "Imponer",
+                    "Colocar",
+                    "Guardar"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Imponer"
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: Si a la edad en la que Medardo Ángel Silva escribió su célebre poema (21 años) le sumamos el doble de una edad X, obtenemos 61. ¿Cuál es el valor de X?",
+                "options": [
+                    "15",
+                    "20",
+                    "25",
+                    "30"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 31,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: La suma de dos números es 180. Si uno de ellos es el doble del otro, ¿cuál es el número menor?",
+                "options": [
+                    "50",
+                    "60",
+                    "80",
+                    "120"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 32,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: Si al triple del impuesto del diezmo le restamos $10, obtenemos $80. ¿A cuánto ascendía dicho impuesto?",
+                "options": [
+                    "$20",
+                    "$30",
+                    "$40",
+                    "$50"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 33,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: La suma de las edades de dos líderes de una sublevación es 75 años. Si uno de ellos es 15 años mayor que el otro, ¿cuál es la edad del menor?",
+                "options": [
+                    "20 años",
+                    "25 años",
+                    "30 años",
+                    "40 años"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 34,
+                "subject": "Razonamiento Numérico",
+                "question": "Ecuaciones lineales: Si la mitad del precio de un libro de teatro clásico es $12, ¿cuánto cuestan 3 libros del mismo precio?",
+                "options": [
+                    "$36",
+                    "$48",
+                    "$60",
+                    "$72"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 35,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Si una comunidad indígena de 400 habitantes organizó una sublevación y el 25% de ellos marchó al cabildo, ¿cuántos indígenas participaron en la marcha?",
+                "options": [
+                    "80 indígenas",
+                    "100 indígenas",
+                    "120 indígenas",
+                    "150 indígenas"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 36,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Un hacendado cobraba un diezmo del 10% sobre una cosecha de 500 quintales de maíz. ¿A cuántos quintales equivalía el diezmo?",
+                "options": [
+                    "25 quintales",
+                    "50 quintales",
+                    "75 quintales",
+                    "100 quintales"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 37,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Si un libro de poesía costaba $30 y se le aplica un descuento del 20%, ¿cuál es el nuevo precio del libro?",
+                "options": [
+                    "$22.00",
+                    "$24.00",
+                    "$25.00",
+                    "$26.00"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 38,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: Si el 12% de las 50 sublevaciones registradas en el siglo XVIII terminaron en amnistía, ¿cuántas sublevaciones tuvieron este desenlace?",
+                "options": [
+                    "5 sublevaciones",
+                    "6 sublevaciones",
+                    "8 sublevaciones",
+                    "10 sublevaciones"
+                ],
+                "correct": 0,
+                "explanation": ""
+            },
+            {
+                "id": 39,
+                "subject": "Razonamiento Numérico",
+                "question": "Porcentajes: ¿Qué porcentaje de un grupo de 80 actores teatrales representan 16 de ellos que interpretan teatro clásico?",
+                "options": [
+                    "15%",
+                    "20%",
+                    "25%",
+                    "30%"
+                ],
+                "correct": 0,
+                "explanation": ""
+            }
+        ]
     }
 };
 
@@ -12573,12 +16142,782 @@ const studyData = {
         ]
     },
     "Semana 4": {
-        "Lunes": [],
-        "Martes": [],
-        "Miércoles": [],
-        "Jueves": [],
-        "Viernes": [],
-        "Sábado": [],
-        "Domingo": []
+        "Lunes": [
+            {
+                "topic": "Morfología lingüística",
+                "subject": "Lengua y Literatura",
+                "concept": "La morfología lingüística es la rama de la gramática que estudia la estructura interna de las palabras para delimitar, definir y clasificar sus unidades, las clases de palabras a las que da lugar y la formación de nuevas palabras. Esta disciplina es esencial para comprender cómo los hablantes organizan y codifican el significado léxico y gramatical a través de morfemas, que son las unidades mínimas con significado de la lengua.\n\nExisten dos clases principales de morfemas. Los morfemas léxicos o lexemas aportan el significado básico de la palabra, mientras que los morfemas gramaticales añaden información gramatical de género, número, persona, tiempo o modo, o bien permiten derivar nuevas palabras mediante prefijos y sufijos. El estudio morfológico sistemático de las lenguas romances comenzó a desarrollarse formalmente a finales del siglo diecinueve por lingüistas de la escuela neogramática.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Morfología+lingüística",
+                "exercises": []
+            },
+            {
+                "topic": "Sustantivo",
+                "subject": "Lengua y Literatura",
+                "concept": "El sustantivo o nombre es la categoría gramatical de palabra variable que funciona como el núcleo del sintagma nominal y sirve para nombrar o designar seres, objetos, lugares, ideas o conceptos. Morfológicamente, los sustantivos admiten variaciones de género y número, los cuales determinan la concordancia con los determinantes y adjetivos que los acompañan en la oración.\n\nSemánticamente, los sustantivos se clasifican en comunes o propios, concretos o abstractos, individuales o colectivos, y contables o no contables. Estas clasificaciones permiten organizar el universo lingüístico del hablante y estructurar el pensamiento conceptual, lo que resulta fundamental para la claridad expresiva. Históricamente, la clasificación de los nombres se remonta a los trabajos gramaticales de Dionisio de Tracia en su obra Arte Gramática, escrita en el siglo dos antes de Cristo.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Sustantivo",
+                "exercises": []
+            },
+            {
+                "topic": "Verbo",
+                "subject": "Historia",
+                "concept": "El verbo es la clase de palabra variable que expresa acción, proceso, estado o existencia que afecta o realiza el sujeto. Funciona invariablemente como el núcleo del sintagma predicativo o verbal de la oración. Desde el punto de vista morfológico, es la categoría más compleja de la lengua castellana, ya que se compone de un lexema y de una desinencia verbal que aporta información de persona, número, tiempo, modo y aspecto.\n\nLa conjugación verbal en español se estructura en tres modelos básicos según la terminación de su infinitivo: primera conjugación en -ar, segunda conjugación en -er y tercera conjugación en -ir. Además, la distinción de modos y de tiempos posibilita matizar la actitud del hablante y situar con absoluta precisión cronológica los acontecimientos en el discurso histórico y cotidiano.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Verbo",
+                "exercises": []
+            },
+            {
+                "topic": "Minas",
+                "subject": "Historia",
+                "concept": "Las minas en la época colonial americana constituyeron el pilar fundamental del sistema económico mercantilista impuesto por el Imperio español, centrado en la extracción masiva de metales preciosos, principalmente plata y oro. El yacimiento minero más importante de Sudamérica fue el cerro rico de Potosí, descubierto en 1545 en el Alto Perú, el cual se convirtió en el principal centro de producción de plata del mundo hispánico.\n\nEl trabajo en las minas se realizaba bajo condiciones de extrema explotación, donde miles de indígenas sometidos al sistema de la mita morían debido a las penosas jornadas, la inhalación de gases tóxicos y el mercurio utilizado para purificar el metal. Esta inmensa riqueza extraída cruzaba el océano Atlántico en la Flota de Indias para financiar las guerras europeas del rey Carlos I de España y sus sucesores de la dinastía de los Austrias durante los siglos dieciséis y diecisiete.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Minas",
+                "exercises": []
+            },
+            {
+                "topic": "La encomienda",
+                "subject": "Razonamiento Verbal",
+                "concept": "La encomienda fue una institución socioeconómica colonial mediante la cual la Corona española concedía a un colonizador el derecho de percibir los tributos y los servicios personales de un grupo de indígenas. A cambio, el encomendero tenía la obligación legal y moral de proteger a los nativos, proveerles de vivienda y evangelizarlos en la doctrina católica mediante la contratación de sacerdotes doctrineros.\n\nEn la práctica, esta institución degeneró en una forma cruel de explotación y servidumbre virtual, lo que motivó las denuncias del fraile dominico Bartolomé de las Casas en su Brevísima relación de la destrucción de las Indias de 1552. A raíz de estas denuncias, la Corona promulgó las Leyes Nuevas de 1542, destinadas a limitar el poder hereditario de los encomenderos y abolir la esclavitud indígena, provocando graves rebeliones armadas de los colonos en el virreinato del Perú.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=La+encomienda",
+                "exercises": []
+            },
+            {
+                "topic": "Concordancia verbal",
+                "subject": "Razonamiento Verbal",
+                "concept": "La concordancia verbal es la regla gramatical que establece la coincidencia obligatoria de número y persona entre el núcleo del sujeto y el verbo principal de la oración. Esta concordancia asegura la cohesión sintáctica del enunciado y evita ambigüedades en la interpretación del mensaje, permitiendo al receptor identificar con claridad quién realiza o experimenta la acción expresada por el verbo.\n\nExisten casos especiales de concordancia que los estudiantes deben dominar con precisión. Cuando el sujeto es compuesto, el verbo debe concordar en plural. Si los núcleos son de diferentes personas gramaticales, se prefiere la segunda persona a la tercera, y la primera persona a todas las demás. En sujetos colectivos acompañados por un complemento en plural, el verbo puede concordar en singular o plural, siendo esta última llamada concordancia ad sensum.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Concordancia+verbal",
+                "exercises": [
+                    {
+                        "problem": "Morfológicamente, ¿cuáles son las variaciones gramaticales que admite el sustantivo y que determinan su concordancia?",
+                        "solution": "La respuesta correcta es la c) porque Género y número"
+                    },
+                    {
+                        "problem": "Complete la oración: Para que exista una adecuada ______, el verbo de la oración debe coincidir en número y persona con el ______.",
+                        "solution": "La respuesta correcta es la b) porque concordancia - sujeto"
+                    }
+                ]
+            },
+            {
+                "topic": "Precisión Semántica",
+                "subject": "Razonamiento Numérico",
+                "concept": "La precisión semántica es la propiedad de los textos que consiste en emplear el término exacto y riguroso que corresponde a una idea o contexto determinado, evitando palabras comodín, vaguedades o sinónimos inexactos que alteren el significado del mensaje. El dominio de esta destreza es crucial para la redacción científica, literaria y académica, donde la claridad y la exactitud conceptual son indispensables.\n\nPara lograr una adecuada precisión, el emisor debe conocer a fondo el significado denotativo y las connotaciones de los vocablos de su léxico. El uso de diccionarios especializados, la lectura crítica y la revisión de borradores son técnicas recomendadas para sustituir términos generales como hacer, tener o cosa por verbos y sustantivos más específicos como construir, poseer o cualidad.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Precisión+Semántica",
+                "exercises": [
+                    {
+                        "problem": "Complete la oración: La precisión ______ exige emplear el término ______ y riguroso para cada idea en un escrito.",
+                        "solution": "La respuesta correcta es la b) porque semántica - exacto"
+                    },
+                    {
+                        "problem": "Identifique el vocablo que debe ser excluido por falta de **PRECISIÓN SEMÁNTICA** al redactar.",
+                        "solution": "La respuesta correcta es la c) porque Hacer"
+                    }
+                ]
+            },
+            {
+                "topic": "Probabilidad",
+                "subject": "Razonamiento Numérico",
+                "concept": "La probabilidad es la rama de las matemáticas que se ocupa de medir cuantitativamente la posibilidad de que ocurra un evento determinado en un experimento aleatorio. El cálculo de la probabilidad básica se define mediante la regla de Laplace, la cual establece que la probabilidad de un suceso es igual al cociente entre el número de casos favorables y el número de casos posibles, siempre que todos los resultados sean igualmente probables.\n\nEl valor de la probabilidad oscila rigurosamente entre cero y uno, pudiendo expresarse también en forma de fracción, decimal o porcentaje multiplicando el resultado por cien. Comprender la teoría de la probabilidad permite evaluar riesgos en situaciones cotidianas, tomar decisiones financieras y resolver problemas científicos complejos de estadística aplicada en simuladores académicos.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Probabilidad",
+                "exercises": [
+                    {
+                        "problem": "Probabilidad: Si se lanza un dado de seis caras numeradas del 1 al 6, ¿cuál es la probabilidad de obtener un número primo (2, 3, 5)?",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Probabilidad: En una caja hay 4 bolas rojas, 3 bolas azules y 3 bolas verdes. Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea roja?",
+                        "solution": ""
+                    }
+                ]
+            },
+            {
+                "topic": "Proporcionalidad compuesta",
+                "subject": "Razonamiento Numérico",
+                "concept": "La proporcionalidad compuesta es una operación aritmética que se emplea cuando intervienen tres o más magnitudes proporcionales y se requiere calcular el valor desconocido de una de ellas a partir de los valores conocidos de las demás. Este procedimiento combina relaciones de proporcionalidad directa o inversa entre la magnitud que contiene la incógnita y cada una de las magnitudes restantes consideradas individualmente.\n\nPara resolver problemas de proporcionalidad compuesta, se debe determinar si la relación entre la incógnita y las variables es directa o inversa. Si la relación es directa, la magnitud incógnita aumenta cuando la otra aumenta; si es inversa, la magnitud incógnita disminuye al aumentar la otra. Tras establecer estas relaciones, se plantea una ecuación de fracciones equivalentes, lo que permite despejar la variable de forma rápida y exacta.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Proporcionalidad+compuesta",
+                "exercises": [
+                    {
+                        "problem": "Proporcionalidad compuesta: Si 6 obreros construyen una cerca de 30 metros en 5 días, ¿cuántos días tardarán 10 obreros en construir una cerca de 50 metros?",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Proporcionalidad compuesta: Si 4 grifos de agua llenan 2 tanques iguales en 6 horas, ¿cuántas horas tardarán 8 grifos en llenar 4 tanques del mismo tipo?",
+                        "solution": ""
+                    }
+                ]
+            }
+        ],
+        "Martes": [
+            {
+                "topic": "Identificación sujeto y predicado",
+                "subject": "Lengua y Literatura",
+                "concept": "La identificación del sujeto y del predicado es el análisis sintáctico básico que divide a la oración bimembre en sus dos componentes esenciales. El sujeto indica la persona, animal o cosa que realiza la acción o de la que se dice algo, mientras que el predicado expresa la acción que realiza el sujeto o lo que se dice de él, teniendo como núcleo un verbo conjugado.\n\nPara identificar el sujeto, se localiza primero el verbo principal y se le formula la pregunta quién o quiénes realiza la acción. La prueba infalible es la de la concordancia: si se cambia el número del verbo, el núcleo del sujeto cambiará obligatoriamente de número. La estructuración formal de estas partes de la oración fue inicialmente delimitada por los filósofos griegos de la Academia platónica en el siglo cuatro antes de Cristo.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Identificación+sujeto+y+predicado",
+                "exercises": []
+            },
+            {
+                "topic": "Adjetivo",
+                "subject": "Lengua y Literatura",
+                "concept": "El adjetivo es una clase de palabra variable que acompaña al sustantivo para calificarlo o determinarlo, aportando cualidades, características o límites a su significado. Sintácticamente, funciona como modificador directo del sustantivo y debe concordar obligatoriamente en género y número con el nombre al que acompaña y modifica dentro del sintagma nominal.\n\nLos adjetivos se dividen fundamentalmente en calificativos y determinativos. Los adjetivos calificativos expresan propiedades del sustantivo, mientras que los determinativos limitan su alcance, clasificándose en demostrativos, posesivos, numerales e indefinidos. El estudio y clasificación sistemática del adjetivo se consolidó en la tradición gramatical europea durante el Renacimiento, en el siglo dieciséis.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Adjetivo",
+                "exercises": []
+            },
+            {
+                "topic": "Artículo",
+                "subject": "Historia",
+                "concept": "El artículo es la palabra variable y átona que se antepone al sustantivo para anunciar su presencia, indicar su género y número, y señalar si el referente es conocido o desconocido por el receptor. Constituye un tipo de determinante que carece de significado propio, adquiriéndolo en combinación sintáctica con el sustantivo al que precede.\n\nSe clasifican en artículos definidos o determinados y artículos indefinidos o indeterminados, además del artículo neutro lo que sustantiva adjetivos. Su origen proviene de la evolución de los demostrativos latinos ille, illa, illud, transformándose paulatinamente a lo largo de la Edad Media hasta establecerse firmemente en la primera gramática castellana publicada por Antonio de Nebrija en 1492.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Artículo",
+                "exercises": []
+            },
+            {
+                "topic": "El obraje",
+                "subject": "Historia",
+                "concept": "Los obrajes coloniales fueron talleres de manufactura textil establecidos por la Corona española en América desde el siglo dieciséis para abastecer de tejidos, paños y mantas a la población local y a los centros mineros. En la Real Audiencia de Quito, el obraje se convirtió en la actividad económica dominante de la sierra centro-norte debido a la abundante mano de obra indígena y las excelentes lanas locales.\n\nLas condiciones laborales en los obrajes eran extremadamente duras, con jornadas extenuantes que superaban las doce horas diarias, donde hombres, mujeres y niños trabajaban en ambientes insalubres, hacinados y vigilados por capataces. Esta sobreexplotación textil generó inmensas fortunas para los propietarios españoles de los obrajes, quienes controlaban las redes comerciales andinas, y se extendió con fuerza hasta las reformas borbónicas del siglo diechocho.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=El+obraje",
+                "exercises": []
+            },
+            {
+                "topic": "El concertaje",
+                "subject": "Razonamiento Verbal",
+                "concept": "El concertaje fue una institución socioeconómica colonial de carácter agrícola mediante la cual un indígena se comprometía a trabajar en la hacienda de un terrateniente a cambio de un salario mínimo y un pequeño lote de tierra de cultivo llamado huasipungo. En teoría, era un acuerdo voluntario de trabajo remunerado regulado por las autoridades de la Corona.\n\nEn la práctica colonial, el concertaje se convirtió en un mecanismo de servidumbre hereditaria por deudas, ya que los hacendados cobraban precios abusivos por los alimentos, el vestuario, las celebraciones religiosas y los tributos de los indígenas. Como el salario nunca alcanzaba para cubrir los costos, la deuda se acumulaba indefinidamente y se transmitía de padres a hijos, atando a las familias campesinas a la tierra de por vida.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=El+concertaje",
+                "exercises": []
+            },
+            {
+                "topic": "Sinónimos",
+                "subject": "Razonamiento Verbal",
+                "concept": "Los sinónimos son vocablos que pertenecen a la misma categoría gramatical y comparten un significado igual o sumamente semejante entre sí, aunque posean distinta escritura y pronunciación. El estudio de la sinonimia enriquece el vocabulario, evita repeticiones monótonas en la redacción de textos y permite adecuar el registro lingüístico según el contexto comunicativo o formalidad del escrito.\n\nSe distinguen dos tipos principales de sinonimia. La sinonimia conceptual o total ocurre cuando los términos son intercambiables en cualquier contexto sin alterar en absoluto el significado del enunciado. La sinonimia contextual o parcial se da cuando los vocablos comparten significado únicamente en determinados contextos discursivos, como pesado y aburrido en relación con una película.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Sinónimos",
+                "exercises": [
+                    {
+                        "problem": "Sinónimos: Identifique el sinónimo conceptual o total del término **ABECEDARIO**.",
+                        "solution": "La respuesta correcta es la c) porque Alfabeto"
+                    },
+                    {
+                        "problem": "Sinónimos: Señale el sinónimo contextual de **PESADO** en la frase: \"El debate de historia resultó pesado\".",
+                        "solution": "La respuesta correcta es la b) porque Aburrido"
+                    }
+                ]
+            },
+            {
+                "topic": "Antónimos",
+                "subject": "Razonamiento Numérico",
+                "concept": "Los antónimos son palabras que presentan significados opuestos o contrarios entre sí, debiendo pertenecer obligatoriamente a la misma categoría gramatical y compartir el mismo campo semántico. El dominio de la antonimia facilita la expresión de contrastes, enriquece la argumentación de ideas opuestas y mejora la precisión léxica y la madurez discursiva del redactor.\n\nLos antónimos se clasifican en tres tipos. Los antónimos graduales admiten grados intermedios de significación entre los dos extremos, como frío y caliente. Los antónimos complementarios se excluyen mutuamente, de modo que la afirmación de uno implica la negación del otro. Los antónimos recíprocos requieren la existencia de la acción contraria para darse, como comprar y vender.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Antónimos",
+                "exercises": [
+                    {
+                        "problem": "Antónimos: Identifique el antónimo complementario de la palabra **VIVO**.",
+                        "solution": "La respuesta correcta es la b) porque Muerto"
+                    },
+                    {
+                        "problem": "Antónimos: ¿Cuál es el antónimo gradual de la palabra **CALIENTE**?",
+                        "solution": "La respuesta correcta es la b) porque Frío"
+                    }
+                ]
+            },
+            {
+                "topic": "Secuencias lógicas",
+                "subject": "Razonamiento Numérico",
+                "concept": "Las secuencias lógicas son sucesiones ordenadas de elementos que siguen una regla de formación, patrón o criterio lógico predeterminado que permite deducir el siguiente elemento de la serie. La resolución de estos ejercicios evalúa la capacidad de abstracción, el razonamiento inductivo y la velocidad de procesamiento del estudiante.\n\nLas secuencias pueden ser de tipo aritmético, geométrico o combinar múltiples operaciones. Identificar con rapidez la ley de formación mediante el análisis de las diferencias entre términos sucesivos es clave para resolver los ítems de secuencias en los exámenes de admisión y pruebas de aptitud.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Secuencias+lógicas",
+                "exercises": [
+                    {
+                        "problem": "Secuencias lógicas: ¿Cuál es el término que continúa en la secuencia: 3, 7, 11, 15, ...?",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 2, 4, 8, 16, 32, ...?",
+                        "solution": ""
+                    }
+                ]
+            },
+            {
+                "topic": "Solución de problemas de ecuaciones lineales",
+                "subject": "Razonamiento Numérico",
+                "concept": "La solución de problemas de ecuaciones lineales consiste en plantear y resolver ecuaciones de primer grado con una o más incógnitas para hallar valores numéricos desconocidos a partir de situaciones descritas en lenguaje verbal. Esta destreza aritmética es fundamental para modelar problemas cotidianos de compras, edades, mezclas y repartos proporcionales.\n\nEl procedimiento formal requiere traducir el enunciado en lenguaje algebraico, agrupar los términos semejantes con la variable en un lado de la igualdad y los números en el otro, y despejar la incógnita realizando las operaciones inversas correspondientes. La comprobación final del valor obtenido en el enunciado original garantiza que la solución sea correcta y coherente con las condiciones planteadas en el problema.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Solución+de+problemas+de+ecuaciones+lineales",
+                "exercises": [
+                    {
+                        "problem": "¿Cuál es el método más seguro para verificar la correcta delimitación del sujeto mediante el cambio de número del verbo?",
+                        "solution": "La respuesta correcta es la b) porque Prueba de la concordancia"
+                    },
+                    {
+                        "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 2, 4, 8, 16, 32, ...?",
+                        "solution": ""
+                    }
+                ]
+            }
+        ],
+        "Miércoles": [
+            {
+                "topic": "Signos de puntuación",
+                "subject": "Lengua y Literatura",
+                "concept": "Los signos de puntuación son las marcas gráficas que se emplean en los textos escritos para estructurar el discurso, delimitar las unidades sintácticas y facilitar la lectura y comprensión del mensaje. Estos signos evitan ambigüedades en la interpretación de los enunciados y señalan las pausas y la entonación que caracterizan al lenguaje hablado.\n\nEntre los signos de puntuación más comunes destacan el punto, que señala el final de una oración o de un texto; la coma, que indica pausas breves y separa elementos de una enumeración o aclaraciones; y el punto y coma, que une proposiciones coordinadas complejas. La estandarización de las reglas de puntuación se consolidó formalmente en el ámbito hispánico con la publicación del Prontuario de ortografía de la Real Academia Española en el siglo dieciocho.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Signos+de+puntuación",
+                "exercises": []
+            },
+            {
+                "topic": "Ortografía",
+                "subject": "Lengua y Literatura",
+                "concept": "La ortografía es el conjunto de normas y reglas que regulan la escritura correcta de una lengua, asegurando la uniformidad gráfica y la inteligibilidad mutua entre todos sus hablantes. Su estudio abarca el uso correcto de las grafías o letras, las reglas de acentuación gráfica mediante la tilde, el uso de las mayúsculas y la correcta separación silábica de las palabras.\n\nEl dominio de la ortografía es una competencia fundamental para la comunicación formal, ya que los errores ortográficos devalúan la calidad y el rigor académico de cualquier texto escrito. En el idioma español, la Real Academia Española, fundada en 1713, es la institución encargada de dictar y actualizar de forma sistemática las normas ortográficas contenidas en sus publicaciones periódicas oficiales.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Ortografía",
+                "exercises": []
+            },
+            {
+                "topic": "Oración",
+                "subject": "Historia",
+                "concept": "La oración es la unidad mínima de comunicación lingüística con sentido completo, independencia sintáctica y una curva de entonación determinada. Sintácticamente, se caracteriza por presentar por lo menos un verbo conjugado que funciona como el núcleo del predicado, entablando una relación de concordancia obligatoria en número y persona con el núcleo del sujeto.\n\nLas oraciones se clasifican de forma tradicional bajo dos criterios fundamentales. Por su estructura sintáctica, se dividen en oraciones simples y oraciones compuestas. Por la actitud del emisor, se clasifican en declarativas, interrogativas, exclamativas, imperativas, dubitativas y desiderativas, permitiendo expresar de manera directa la intención del hablante.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Oración",
+                "exercises": []
+            },
+            {
+                "topic": "La mita",
+                "subject": "Historia",
+                "concept": "La mita colonial fue un sistema institucionalizado de trabajo forzado y rotativo que el Imperio español adoptó del imperio incaico y reestructuró para adaptarlo a sus intereses mercantilistas en el siglo dieciséis. Este sistema obligaba a las comunidades indígenas a enviar periódicamente un contingente de hombres adultos para realizar labores en las minas, la construcción de obras públicas y la agricultura.\n\nEl organizador clave de este sistema a gran escala fue el virrey Francisco de Toledo en la década de 1570 en el virreinato del Perú. Bajo su administración, la mita minera de Potosí se convirtió en una trampa mortal debido a las insalubres y peligrosas condiciones de trabajo subterráneo, provocando una masiva catástrofe demográfica en las poblaciones originarias que se extendió hasta su abolición definitiva en las Cortes de Cádiz en 1812.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=La+mita",
+                "exercises": []
+            },
+            {
+                "topic": "Latifundio",
+                "subject": "Razonamiento Verbal",
+                "concept": "El latifundio colonial fue una gran extensión de tierra agrícola de propiedad privada controlada por un solo terrateniente o hacendado español, la cual constituía la unidad económica y social dominante en las áreas rurales americanas. Estas inmensas propiedades rurales se originaron a partir de las mercedes de tierras concedidas por la Corona a los conquistadores y de la posterior usurpación violenta de los territorios de las comunidades indígenas.\n\nEl latifundio se caracterizó por su baja productividad y por el uso ineficiente de los recursos debido a que el terrateniente basaba sus ganancias en la explotación feudal de la mano de obra barata de indígenas y afrodescendientes mediante sistemas como el concertaje. Esta desigual estructura de la propiedad agraria concentrada en pocas manos perduró en la sociedad republicana del Ecuador hasta bien entrado el siglo veinte.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Latifundio",
+                "exercises": []
+            },
+            {
+                "topic": "Completamiento de oraciones",
+                "subject": "Razonamiento Verbal",
+                "concept": "El completamiento de oraciones es un ejercicio de aptitud verbal diseñado para evaluar la capacidad del estudiante para identificar la palabra o palabras que devuelven la coherencia, cohesión y precisión semántica a un enunciado al que se le han extraído determinados elementos. La resolución de este ejercicio exige analizar detalladamente el contexto sintáctico y semántico de la oración.\n\nPara seleccionar la respuesta correcta, el estudiante debe aplicar criterios fundamentales de resolución. El primer criterio es la coherencia textual, que asegura que las palabras elegidas mantengan el sentido lógico del mensaje. El segundo es la corrección gramatical, que vigila la concordancia en género, número y persona entre las palabras del enunciado. El tercer criterio es la precisión semántica, que elige el término exacto para el registro formal del texto.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Completamiento+de+oraciones",
+                "exercises": [
+                    {
+                        "problem": "Complete la frase sobre ortografía: Las palabras agudas llevan tilde cuando terminan en:",
+                        "solution": "La respuesta correcta es la b) porque Vocal, N o S"
+                    },
+                    {
+                        "problem": "Complete la oración: A pesar de la dura jornada laboral, los mitayos ______ cumpliendo sus ______ tareas.",
+                        "solution": "La respuesta correcta es la b) porque continuaron - penosas"
+                    }
+                ]
+            },
+            {
+                "topic": "Interpretación de refranes",
+                "subject": "Razonamiento Numérico",
+                "concept": "La interpretación de refranes es un ejercicio de razonamiento lógico y verbal que consiste en descifrar el significado implícito, la enseñanza moral o el consejo práctico que encierran los dichos populares transmitidos tradicionalmente por vía oral de generación en generación. Estas composiciones breves suelen utilizar el lenguaje figurado y la metáfora para transmitir sabiduría colectiva.\n\nEl proceso de resolución requiere que el estudiante analice el enunciado en su sentido figurado y lo asocie a una situación de la vida real o a un principio ético de conducta. Identificar la moraleja o el sentido analógico del refrán, y diferenciarlo de su lectura literal, permite al estudiante demostrar madurez en la comprensión de textos y agudeza en el razonamiento conceptual.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Interpretación+de+refranes",
+                "exercises": [
+                    {
+                        "problem": "Interprete el refrán: \"A buen entendedor, pocas palabras\".",
+                        "solution": "La respuesta correcta es la b) porque Una persona inteligente comprende rápidamente lo que se quiere decir sin necesidad de explicaciones detalladas."
+                    },
+                    {
+                        "problem": "Interprete el refrán: \"Al que madruga, Dios le ayuda\".",
+                        "solution": "La respuesta correcta es la b) porque El esfuerzo temprano y la diligencia son claves para tener éxito en los proyectos."
+                    }
+                ]
+            },
+            {
+                "topic": "Porcentajes",
+                "subject": "Razonamiento Numérico",
+                "concept": "Los porcentajes representan una fracción o proporción que toma como base el número cien, permitiendo comparar magnitudes cuantitativas de forma estandarizada en cálculos matemáticos, comerciales y científicos. Es una de las herramientas de cálculo más útiles y transversales tanto en la vida cotidiana como en el desarrollo de simulaciones y problemas matemáticos.\n\nPara calcular el porcentaje de una cantidad, se multiplica la cantidad base por el tanto por ciento solicitado y se divide para cien. En problemas más avanzados, es esencial dominar la relación entre porcentajes y números decimales y aplicar reglas de tres directas para resolver problemas que involucren aumentos de impuestos o descuentos de precios.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Porcentajes",
+                "exercises": [
+                    {
+                        "problem": "Porcentajes: Si un latifundio tiene una extensión de 2400 hectáreas y el 15% de ellas se dedica al cultivo de trigo, ¿cuántas hectáreas están destinadas al trigo?",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Porcentajes: El salario diario de un concertado era de $20, pero se le retuvo el 10% por concepto de deudas. ¿Cuánto dinero se le retuvo?",
+                        "solution": ""
+                    }
+                ]
+            },
+            {
+                "topic": "Reglas de tres simples",
+                "subject": "Razonamiento Numérico",
+                "concept": "La regla de tres simple es un procedimiento aritmético rápido empleado para hallar un valor numérico desconocido mediante la comparación de dos magnitudes proporcionales entre sí a partir de tres valores conocidos. Es una de las herramientas más comunes para la resolución rápida de problemas matemáticos en exámenes y pruebas psicotécnicas de admisión.\n\nSe divide en dos clases según la naturaleza de la relación. La regla de tres simple directa se aplica cuando las magnitudes aumentan o disminuyen juntas de forma directamente proporcional y se resuelve mediante una multiplicación en cruz. La regla de tres simple inversa se aplica cuando una magnitud aumenta y la otra disminuye de forma proporcional y se resuelve realizando una multiplicación de forma horizontal.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Reglas+de+tres+simples",
+                "exercises": [
+                    {
+                        "problem": "¿Cuál es la clasificación de la oración \"Ojalá los mitayos hubieran regresado a sus hogares\"?",
+                        "solution": "La respuesta correcta es la b) porque Desiderativa"
+                    },
+                    {
+                        "problem": "Complete la oración: A pesar de la dura jornada laboral, los mitayos ______ cumpliendo sus ______ tareas.",
+                        "solution": "La respuesta correcta es la b) porque continuaron - penosas"
+                    }
+                ]
+            }
+        ],
+        "Jueves": [
+            {
+                "topic": "Palabra",
+                "subject": "Lengua y Literatura",
+                "concept": "La palabra es la unidad lingüística segmentable y dotada de significado léxico o gramatical que se escribe separada de las demás por espacios en blanco en los textos escritos. Desde una perspectiva morfológica, está compuesta por uno o más morfemas, que son sus elementos constitutivos mínimos con carga conceptual.\n\nLas palabras se clasifican según su origen, estructura interna e importancia sintáctica dentro de la oración. Gramaticalmente se dividen en variables, como sustantivos, adjetivos, determinantes, pronombres y verbos, e invariables, como adverbios, preposiciones, conjunciones e interjecciones. El análisis de la estructura y formación de palabras es clave para el aprendizaje de las raíces etimológicas en los exámenes.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Palabra",
+                "exercises": []
+            },
+            {
+                "topic": "Realismo social ecuatoriano: Generación del treinta",
+                "subject": "Lengua y Literatura",
+                "concept": "El realismo social ecuatoriano o Generación del Treinta fue una corriente artística y literaria surgida en la década de 1930 enfocada en retratar de manera descarnada y realista las precarias condiciones de vida, explotación e injusticia social sufridas por los sectores populares, montuvios, indígenas y obreros urbanos del país.\n\nEste colectivo literario estuvo integrado por autores destacados organizados geográficamente. El Grupo de Guayaquil estuvo compuesto por Joaquín Gallegos Lara, Demetrio Aguilera Malta, Enrique Gil Gilbert, José de la Cuadra y Alfredo Pareja Diezcanseco. En la sierra descollaron Jorge Icaza con su célebre novela Huasipungo en 1934 y Fernando Chaves con Plata y bronce, quienes denunciaron el abuso latifundista y abrieron el debate sobre la cuestión indígena.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Realismo+social+ecuatoriano:+Generación+del+treinta",
+                "exercises": []
+            },
+            {
+                "topic": "El modernismo ecuatoriano: Generación decapitada",
+                "subject": "Historia",
+                "concept": "La Generación Decapitada fue una agrupación literaria modernista del Ecuador de inicios del siglo veinte integrada por los poetas Medardo Ángel Silva, Ernesto Noboa y Caamaño, Arturo Borja y Humberto Fierro. El término decapitada alude al trágico y prematuro deceso por suicidio de todos sus miembros a muy temprana edad.\n\nBajo la influencia del simbolismo francés, estos jóvenes poetas introdujeron el modernismo en el país. Sus poemas se caracterizaron por la melancolía existencial, la evasión de la cruda realidad nacional mediante ambientes exóticos y un depurado rigor formal. Entre sus creaciones destaca el poema El alma en los labios de Medardo Ángel Silva, escrito poco antes de su trágica muerte en 1919.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=El+modernismo+ecuatoriano:+Generación+decapitada",
+                "exercises": []
+            },
+            {
+                "topic": "Comunidad del Valle del Chota (Herencia cultural del valle del Chota)",
+                "subject": "Historia",
+                "concept": "La comunidad afrodescendiente del Valle del Chota, asentada en la cuenca del río Chota entre las provincias de Imbabura y Carchi, tiene sus raíces históricas en el siglo diecisiete cuando fueron introducidos como esclavos por los jesuitas para trabajar en las plantaciones de caña de azúcar y viñedos de sus haciendas antes de la expulsión de esta orden en 1767.\n\nA pesar del violento desarraigo colonial, esta población preservó su identidad cultural manifestada en la música y la danza de la Bomba del Chota, un género musical caracterizado por el ritmo alegre del tambor bomba y el uso de instrumentos autóctonos como la hoja de naranjo. Esta rica herencia cultural ha sido transmitida oralmente de generación en generación, resistiendo al olvido histórico y enriqueciendo la diversidad plurinacional del Ecuador contemporáneo.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Comunidad+del+Valle+del+Chota+(Herencia+cultural+del+valle+del+Chota)",
+                "exercises": []
+            },
+            {
+                "topic": "Comunidad de Esmeraldas (Herencia cultural esmeraldeña)",
+                "subject": "Razonamiento Verbal",
+                "concept": "La comunidad afrodescendiente de Esmeraldas, ubicada en el litoral norte de la república del Ecuador, tiene un origen histórico singular que se remonta a 1553, cuando un barco de esclavos proveniente de Panamá naufragó frente a sus costas. Liderados por el cimarrón Alonso de Illescas, los supervivientes se establecieron en libertad, aliándose y mezclándose con las poblaciones indígenas locales.\n\nEsta alianza dio origen a la República de los Zambos, un territorio autónomo que resistió durante décadas el control militar de la Real Audiencia de Quito. La herencia cultural esmeraldeña se caracteriza por la música de marimba, los cantos tradicionales de arrullos y chigualos, y una rica literatura oral. En 2015, la música de marimba y los cantos tradicionales de Esmeraldas fueron declarados Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Comunidad+de+Esmeraldas+(Herencia+cultural+esmeraldeña)",
+                "exercises": []
+            },
+            {
+                "topic": "Analogías verbales",
+                "subject": "Razonamiento Verbal",
+                "concept": "Las analogías verbales son ejercicios de razonamiento conceptual que consisten en identificar la relación lógica o de afinidad existente entre dos parejas de palabras propuestas. La resolución de estas analogías evalúa la capacidad del estudiante para discernir relaciones abstractas, el dominio del vocabulario y el pensamiento inductivo aplicado a la estructura lingüística.\n\nLas relaciones analógicas más comunes incluyen sinonimia, antonimia, causa y efecto, parte a todo, elemento a conjunto, y de trabajador a herramienta de trabajo. Para resolverlos correctamente, el estudiante debe establecer primero de forma precisa la relación en la pareja base y luego verificar cuál de las opciones reproduce con exactitud la misma lógica conceptual.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Analogías+verbales",
+                "exercises": [
+                    {
+                        "problem": "Analogías: **MINERO** es a **PICO** como **ESCRITOR** es a:",
+                        "solution": "La respuesta correcta es la b) porque Pluma"
+                    },
+                    {
+                        "problem": "Analogías: **MODERNISMO** es a **MELANCOLÍA** como **REALISMO SOCIAL** es a:",
+                        "solution": "La respuesta correcta es la b) porque Denuncia"
+                    }
+                ]
+            },
+            {
+                "topic": "Selección lógica",
+                "subject": "Razonamiento Numérico",
+                "concept": "La selección lógica es un ejercicio de razonamiento verbal y conceptual que consiste en identificar cuál de las opciones de respuesta es el elemento esencial, indispensable o intrínsecamente necesario para la definición o existencia del término o concepto propuesto en la pregunta, descartando aquellas opciones que representan elementos accesorios o secundarios.\n\nPara resolver estos ítems, el estudiante debe analizar el núcleo conceptual del término. Por ejemplo, para que exista un libro, es absolutamente indispensable que tenga hojas o contenido escrito, mientras que la pasta dura, los dibujos o el prólogo son accesorios. Esta destreza mental fortalece la capacidad de síntesis, la abstracción y la precisión conceptual requerida en la argumentación científica.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Selección+lógica",
+                "exercises": [
+                    {
+                        "problem": "Selección lógica: Un **CONJUNTO** requiere indispensablemente de:",
+                        "solution": "La respuesta correcta es la c) porque Elementos"
+                    },
+                    {
+                        "problem": "Selección lógica: Una **FRACCIÓN** requiere necesariamente de:",
+                        "solution": "La respuesta correcta es la a) porque Numerador y denominador"
+                    }
+                ]
+            },
+            {
+                "topic": "Conjuntos",
+                "subject": "Razonamiento Numérico",
+                "concept": "Un conjunto es la agrupación o colección bien definida de objetos, números, letras o conceptos llamados elementos que comparten propiedades comunes y se estudian en matemáticas mediante la teoría de conjuntos, desarrollada formalmente por Georg Cantor a finales del siglo diecinueve. Los conjuntos se denotan habitualmente con letras mayúsculas y sus elementos se encierran entre llaves.\n\nLas operaciones fundamentales entre conjuntos incluyen la unión, que agrupa todos los elementos de ambos conjuntos; la intersección, que contiene únicamente los elementos comunes; y la diferencia, que reúne los elementos que pertenecen al primer conjunto pero no al segundo. Estas operaciones se representan visualmente de forma gráfica mediante los diagramas de Venn, facilitando la resolución de problemas combinados.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Conjuntos",
+                "exercises": [
+                    {
+                        "problem": "Selección lógica: Un **CONJUNTO** requiere indispensablemente de:",
+                        "solution": "La respuesta correcta es la c) porque Elementos"
+                    },
+                    {
+                        "problem": "Conjuntos: En una encuesta a 100 estudiantes sobre autores de la Generación Decapitada, 60 prefieren a Medardo Ángel Silva y 45 prefieren a Arturo Borja. Si 20 estudiantes prefieren a ambos poetas, ¿cuántos estudiantes no prefieren a ninguno de los dos?",
+                        "solution": ""
+                    }
+                ]
+            },
+            {
+                "topic": "Fracciones",
+                "subject": "Razonamiento Numérico",
+                "concept": "Las fracciones son expresiones matemáticas que representan la división de una cantidad entera en partes iguales, constando de un numerador que indica las partes tomadas y un denominador que señala el total de partes iguales en las que se divide la unidad. Su estudio constituye la base aritmética para operar números racionales en el simulador.\n\nLas fracciones se clasifican en propias, cuando el numerador es menor que el denominador, e impropias, cuando el numerador es mayor o igual que el denominador. Operar con fracciones exige dominar la obtención del mínimo común múltiplo para sumas y restas, así como los métodos directos de multiplicación lineal y división cruzada, indispensables para resolver problemas complejos de proporcionalidad y razonamiento algebraico.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Fracciones",
+                "exercises": [
+                    {
+                        "problem": "Selección lógica: Una **FRACCIÓN** requiere necesariamente de:",
+                        "solution": "La respuesta correcta es la a) porque Numerador y denominador"
+                    },
+                    {
+                        "problem": "Fracciones: Un escritor de la Generación del Treinta escribe 2/5 de su novela en enero y 1/3 en febrero. ¿Qué fracción de la novela ha escrito en total?",
+                        "solution": ""
+                    }
+                ]
+            }
+        ],
+        "Viernes": [
+            {
+                "topic": "El teatro hispanoamericano",
+                "subject": "Lengua y Literatura",
+                "concept": "El teatro hispanoamericano del siglo veinte experimentó una profunda renovación estética e ideológica, distanciándose del costumbrismo del siglo diecinueve para incorporar las técnicas de vanguardia europeas como el teatro del absurdo y el distanciamiento brechtiano. Esta evolución permitió utilizar el escenario como un espacio de denuncia social frente a las dictaduras y la marginación.\n\nEn este proceso de renovación surgieron dramaturgos fundamentales en el continente. En México sobresalió Rodolfo Usigli con obras como El gesticulador en 1938, mientras que en Argentina descolló Griselda Gambaro y en Chile, Egon Wolff. En Ecuador, la figura señera fue Francisco Tobar García, quien fundó colectivos teatrales e impulsó el teatro clásico y contemporáneo en las décadas centrales del siglo.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=El+teatro+hispanoamericano",
+                "exercises": []
+            },
+            {
+                "topic": "Novela realista hispanoamericana",
+                "subject": "Lengua y Literatura",
+                "concept": "La novela realista hispanoamericana o novela de la tierra se consolidó en las primeras décadas del siglo veinte, caracterizándose por plasmar el conflicto indomable entre la naturaleza salvaje del continente y los intentos de civilización del ser humano, así como la cruda realidad de la explotación social en el campo y en las plantaciones.\n\nEsta corriente narrativa produjo obras de trascendencia universal. Entre ellas destacan Doña Bárbara del venezolano Rómulo Gallegos en 1929, centrada en los llanos venezolanos; Don Segundo Sombra del argentino Ricardo Güiraldes en 1926, que retrata la vida del gaucho; y La vorágine del colombiano José Eustasio Rivera en 1924, que describe el infierno verde de las plantaciones de caucho de la selva amazónica.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Novela+realista+hispanoamericana",
+                "exercises": []
+            },
+            {
+                "topic": "El Modernismo",
+                "subject": "Historia",
+                "concept": "El Modernismo fue un movimiento literario fundamentalmente poético surgido en Hispanoamérica a finales del siglo diecinueve que revolucionó las letras en lengua española, caracterizándose por la búsqueda de la belleza absoluta, el refinamiento aristocrático del lenguaje, el exotismo de los ambientes y una gran innovación métrica y musicalidad en los versos.\n\nEl hito fundacional del movimiento ocurrió en 1888 con la publicación del libro de poemas y cuentos Azul... por el nicaragüense Rubén Darío en Valparaíso, Chile. Rubén Darío se convirtió en el líder indiscutible del Modernismo, uniendo a escritores de todo el continente y de España. En el Ecuador, los poetas de la Generación Decapitada adoptaron esta estética con tintes de profunda melancolía existencial.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=El+Modernismo",
+                "exercises": []
+            },
+            {
+                "topic": "Arte mestizo",
+                "subject": "Historia",
+                "concept": "El arte mestizo o arte barroco andino fue una manifestación artística y arquitectónica desarrollada en los virreinatos de Nueva España y del Perú durante los siglos diecisiete y dieciocho. Se caracterizó por la fusión y el diálogo estético entre las formas y técnicas del barroco europeo traído por los españoles y los elementos simbólicos de la cosmovisión de las culturas indígenas americanas.\n\nEste estilo mestizo es visible en las fachadas de templos coloniales, donde los ornamentos europeos conviven con flora y fauna autóctona como papayas, monos y jaguares, y símbolos andinos del sol y la luna. La decoración recargada de las columnas salomónicas y los relieves en piedra demostraron la gran destreza técnica de los artesanos indígenas y mestizos que ejecutaron estas obras imperiales.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Arte+mestizo",
+                "exercises": []
+            },
+            {
+                "topic": "Sincretismo religioso",
+                "subject": "Historia",
+                "concept": "El sincretismo religioso en el contexto colonial americano es el proceso de hibridación y fusión espiritual mediante el cual los elementos de la religión católica impuestos por los conquistadores españoles se entrelaron con las creencias, deidades y rituales ancestrales de los pueblos indígenas y afrodescendientes. Este proceso permitió a las comunidades originarias preservar parte de su identidad bajo el manto católico.\n\nUn ejemplo emblemático de sincretismo es la veneración de la Virgen María asociada a la Pachamama (Madre Tierra) y la celebración del Corpus Christi fusionada con la fiesta del Inti Raymi. Las procesiones y danzas tradicionales que se practican en la actualidad son el resultado viviente de esta compleja negociación cultural y religiosa surgida durante los siglos coloniales.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Sincretismo+religioso",
+                "exercises": []
+            },
+            {
+                "topic": "Función evangelizadora del arte colonial (Arquitectura, Escultura, Realismo, Imágenes útiles, Pintura)",
+                "subject": "Razonamiento Verbal",
+                "concept": "La función evangelizadora del arte colonial fue el uso sistemático de la arquitectura, escultura y pintura por la Iglesia Católica y la Corona española como herramientas didácticas y persuasivas de conversión para implantar la doctrina cristiana en las poblaciones indígenas analfabetas de América.\n\nLas iglesias se diseñaron con amplias capillas abiertas o atrios para realizar misas al aire libre debido a la costumbre indígena. La pintura y la escultura colonial buscaron un intenso realismo en las imágenes de Cristo y los santos utilizando cabello natural y ojos de vidrio para conmover al espectador. Estas imágenes útiles permitieron sustituir los antiguos ídolos por la iconografía cristiana a lo largo de los siglos dieciséis y diecisiete.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Función+evangelizadora+del+arte+colonial+(Arquitectura,+Escultura,+Realismo,+Imágenes+útiles,+Pintura)",
+                "exercises": []
+            },
+            {
+                "topic": "Término excluido",
+                "subject": "Razonamiento Verbal",
+                "concept": "El término excluido es un ejercicio de razonamiento verbal y semántico cuyo propósito es identificar la palabra que no guarda relación de afinidad léxica o que no pertenece al mismo campo semántico que agrupa a las demás opciones propuestas. Este ejercicio evalúa la capacidad de categorización lógica, la precisión conceptual y el léxico del estudiante.\n\nLa exclusión puede fundamentarse en diversos criterios de afinidad semántica, tales como sinonimia, de género a especie o de cohiponimia. Para resolverlo, el estudiante debe identificar claramente el rasgo semántico común de la mayoría y descartar el término discordante que rompe la coherencia conceptual del grupo.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Término+excluido",
+                "exercises": [
+                    {
+                        "problem": "Término excluido: Identifique el vocablo que no pertenece al campo semántico de **NOVELA REALISTA HISPANOAMERICANA**.",
+                        "solution": "La respuesta correcta es la d) porque Azul..."
+                    },
+                    {
+                        "problem": "Término excluido: Señale la palabra que se aparta del concepto de **SINCRETISMO**.",
+                        "solution": "La respuesta correcta es la b) porque Aislamiento"
+                    }
+                ]
+            },
+            {
+                "topic": "Ordenar oraciones",
+                "subject": "Razonamiento Numérico",
+                "concept": "El ordenamiento de oraciones es un ejercicio de razonamiento verbal y sintáctico que consiste en estructurar de manera coherente y secuencial un conjunto de enunciados desordenados para formar un texto cohesivo. Esta práctica evalúa el conocimiento de las transiciones gramaticales, la lógica discursiva y los conectores lógicos de causa y efecto.\n\nPara establecer el orden de las proposiciones, se aplican criterios formales de organización discursiva. El criterio deductivo ordena el texto yendo de lo general a lo particular. El criterio cronológico organiza las ideas de lo más antiguo a lo más reciente, mientras que el criterio causal ubica primero las causas y luego las consecuencias del fenómeno tratado.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Ordenar+oraciones",
+                "exercises": []
+            },
+            {
+                "topic": "Operaciones básicas",
+                "subject": "Razonamiento Numérico",
+                "concept": "Las operaciones básicas son el conjunto de procedimientos aritméticos fundamentales de la matemática aplicados a números enteros, decimales y racionales. El dominio de estas operaciones es el requisito indispensable para resolver problemas lógicos y de cálculo rápido en los exámenes de admisión.\n\nPara operar correctamente, el estudiante debe respetar rigurosamente la jerarquía de las operaciones matemáticas, la cual establece que se deben resolver primero los paréntesis y corchetes, luego las multiplicaciones y divisiones de izquierda a derecha, y finalmente las sumas y restas, evitando cometer errores comunes de cálculo bajo presión de tiempo.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Operaciones+básicas",
+                "exercises": [
+                    {
+                        "problem": "Operaciones básicas: Resuelve aplicando la jerarquía de las operaciones: 12 + 4 × 5 − 8 / 2 =",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Operaciones básicas: Resuelve: (24 − 6) / 3 + 5 × 2 =",
+                        "solution": ""
+                    }
+                ]
+            },
+            {
+                "topic": "Probabilidad",
+                "subject": "Razonamiento Numérico",
+                "concept": "La probabilidad es la medida numérica de la incertidumbre asociada a la ocurrencia de un suceso en un experimento aleatorio. Se calcula mediante la clásica regla de Laplace que divide los casos favorables entre los casos posibles. El valor de la probabilidad se ubica siempre en el intervalo cerrado de cero a uno, y se expresa comúnmente en porcentaje para facilitar su comprensión práctica.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Probabilidad",
+                "exercises": [
+                    {
+                        "problem": "Probabilidad: Se extrae una carta al azar de una baraja de 52 cartas. ¿Cuál es la probabilidad de que la carta sea de color rojo (corazones y diamantes, sabiendo que representan la mitad de la baraja)?",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Probabilidad: Si se lanza una moneda tres veces al aire, ¿cuál es la probabilidad de obtener exactamente tres caras?",
+                        "solution": ""
+                    }
+                ]
+            }
+        ],
+        "Sábado": [
+            {
+                "topic": "Literatura Ecuatoriana: Finales del XX y principios del XXI",
+                "subject": "Lengua y Literatura",
+                "concept": "La literatura ecuatoriana de finales del siglo veinte y principios del siglo veintiuno se caracteriza por una amplia diversidad temática y formal, explorando la vida urbana, la fragmentación de la identidad, la marginalidad y la experimentación lingüística, alejándose del realismo clásico para abrazar la metaficción y el género negro.\n\nEntre las escritoras contemporáneas más destacadas a nivel internacional figuran Mónica Ojeda, con novelas como Mandíbula en 2018, y María Fernanda Ampuero, con su libro de cuentos Pelea de gallos en 2018. Estas autoras, junto con narradores de las décadas precedentes como Javier Vásconez e Iván Égüez, han proyectado las letras ecuatorianas al escenario editorial global.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Literatura+Ecuatoriana:+Finales+del+XX+y+principios+del+XXI",
+                "exercises": []
+            },
+            {
+                "topic": "Narradores Ecuatorianos",
+                "subject": "Lengua y Literatura",
+                "concept": "Los narradores ecuatorianos del siglo veinte sentaron las bases de la identidad literaria del país, transitando desde el realismo social de denuncia del indigenismo y el Grupo de Guayaquil hacia narrativas más intimistas, psicológicas y experimentales en la segunda mitad de la centuria.\n\nEn esta transición descolló la figura de Eliécer Cárdenas, autor de la novela histórica Polvo y ceniza publicada en 1979, que mitificó la figura del bandolero popular Naún Briones. Asimismo, Miguel Donoso Pareja y Alicia Yánez Cossío, con su novela Bruna, soroche y tíos en 1973, aportaron visiones críticas sobre la sociedad andina y costera del Ecuador mediante una rica experimentación formal.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Narradores+Ecuatorianos",
+                "exercises": []
+            },
+            {
+                "topic": "Textos Ecuatorianos del siglo XX",
+                "subject": "Historia",
+                "concept": "Los textos ecuatorianos del siglo veinte reflejaron los profundos cambios políticos y sociales del país, desde el auge del cacao y el petróleo hasta la migración masiva. A través de cuentos, novelas y ensayos, los escritores representaron las tensiones de clase y los procesos de modernización de las ciudades de Quito y Guayaquil.\n\nEntre las obras esenciales de esta centuria figuran la novela Las cruces sobre el agua de Joaquín Gallegos Lara en 1946, que conmemora la masacre de obreros del 15 de noviembre de 1922 en Guayaquil, y la obra costumbrista y satírica El chulla Romero y Flores escrita por Jorge Icaza en 1958, que retrata las contradicciones de la burocracia andina de clase media.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Textos+Ecuatorianos+del+siglo+XX",
+                "exercises": []
+            },
+            {
+                "topic": "Características del arte barroco",
+                "subject": "Historia",
+                "concept": "El arte barroco fue un movimiento artístico surgido en Europa en el siglo diecisiete caracterizado por el dinamismo de las formas, el fuerte contraste de luces y sombras conocido como claroscuro, el naturalismo y una intensa expresividad dramática orientada a conmover y deslumbrar al espectador.\n\nEste estilo rompió con la simetría y el equilibrio clásico del Renacimiento en favor de las líneas curvas, el dinamismo y la decoración recargada. En la arquitectura, se emplearon columnas salomónicas con espirales helicoidales y frontones partidos, mientras que en la pintura se priorizó la tensión dramática y el realismo emocional para capturar el instante de máxima intensidad del suceso.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Características+del+arte+barroco",
+                "exercises": []
+            },
+            {
+                "topic": "El barroco americano",
+                "subject": "Historia",
+                "concept": "El barroco americano fue la reinterpretación criolla, mestiza y aborigen de los códigos estéticos del barroco europeo en el territorio americano durante los siglos diecisiete y dieciocho. Se distinguió por una exuberancia decorativa aún mayor que la europea y la incorporación de elementos de la naturaleza tropical y la iconografía nativa.\n\nLas fachadas de piedra tallada y los retablos cubiertos de pan de oro en los templos de México, Perú y Quito son testimonios de esta monumental síntesis cultural. Este estilo arquitectónico sirvió tanto para legitimar el poder imperial y eclesiástico de la Corona española como para expresar la identidad naciente de los artesanos y constructores mestizos.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=El+barroco+americano",
+                "exercises": []
+            },
+            {
+                "topic": "Escuela Quiteña",
+                "subject": "Razonamiento Verbal",
+                "concept": "La Escuela Quiteña es el conjunto de manifestaciones artísticas desarrolladas en el territorio de la Real Audiencia de Quito durante los siglos diecisiete y dieciocho, alcanzando un prestigio continental debido a su altísima calidad técnica y su originalidad estética mestiza.\n\nEntre sus máximos exponentes destacaron el escultor indígena Manuel Chili, conocido como Caspicara, famoso por sus delicados tallados en madera policromada, y el pintor mestizo Miguel de Santiago. Las iglesias quiteñas como la Compañía de Jesús y San Francisco, con sus retablos dorados y esculturas realistas de la Virgen de Quito, consolidaron el prestigio artístico de esta escuela colonial.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Escuela+Quiteña",
+                "exercises": []
+            },
+            {
+                "topic": "Comprensión lectora",
+                "subject": "Razonamiento Verbal",
+                "concept": "La comprensión lectora es la destreza cognitiva que consiste en interpretar, analizar y evaluar de forma crítica la información explícita e implícita contenida en un texto escrito. Esta competencia es indispensable para el éxito académico y constituye el núcleo de la evaluación de aptitud verbal en los exámenes de admisión.\n\nPara resolver ejercicios de comprensión lectora, el estudiante debe identificar el tema central, la idea principal y las ideas secundarias del escrito, además de deducir conclusiones válidas mediante inferencias lógicas directas, evitando interpretaciones sesgadas o extrapolar datos que no se encuentren fundamentados en la lectura.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Comprensión+lectora",
+                "exercises": [
+                    {
+                        "problem": "Comprensión lectora: \"La literatura es una forma de resistencia al olvido. Al narrar la masacre de 1922, Gallegos Lara no solo escribió una novela, sino que salvó de la desmemoria a los obreros asesinados. La ficción se convierte así en un registro histórico más duradero que los informes oficiales\". Según el texto, ¿cuál es la función principal de la novela \"Las cruces sobre el agua\"?",
+                        "solution": "La respuesta correcta es la c) porque Resistir al olvido y salvar de la desmemoria a los obreros asesinados en 1922."
+                    },
+                    {
+                        "problem": "Comprensión lectora: A partir del texto anterior, se infiere que:",
+                        "solution": "La respuesta correcta es la b) porque La literatura de ficción puede cumplir un papel de registro y memoria histórica."
+                    }
+                ]
+            },
+            {
+                "topic": "Concordancia verbal",
+                "subject": "Razonamiento Numérico",
+                "concept": "La concordancia verbal es la regla sintáctica fundamental que exige que el verbo principal y el núcleo del sujeto coincidan obligatoriamente en número y persona. Su correcto uso garantiza la coherencia gramatical de los enunciados escritos, evitando errores comunes de discrepancia entre sujeto plural y verbo singular.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Concordancia+verbal",
+                "exercises": [
+                    {
+                        "problem": "Concordancia verbal: Seleccione la opción con correcta concordancia verbal:",
+                        "solution": "La respuesta correcta es la b) porque La Escuela Quiteña y sus pintores revolucionaron el arte colonial."
+                    },
+                    {
+                        "problem": "Concordancia verbal: Complete: La colección de novelas contemporáneas ______ por la crítica internacional.",
+                        "solution": "La respuesta correcta es la b) porque fue aclamada"
+                    }
+                ]
+            },
+            {
+                "topic": "Proporcionalidad compuesta",
+                "subject": "Razonamiento Numérico",
+                "concept": "La proporcionalidad compuesta es el procedimiento aritmético empleado para resolver problemas matemáticos en los que intervienen tres o más magnitudes proporcionales y se requiere despejar un valor desconocido combinando relaciones de proporción directa o inversa.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Proporcionalidad+compuesta",
+                "exercises": [
+                    {
+                        "problem": "Comprensión lectora: \"La literatura es una forma de resistencia al olvido. Al narrar la masacre de 1922, Gallegos Lara no solo escribió una novela, sino que salvó de la desmemoria a los obreros asesinados. La ficción se convierte así en un registro histórico más duradero que los informes oficiales\". Según el texto, ¿cuál es la función principal de la novela \"Las cruces sobre el agua\"?",
+                        "solution": "La respuesta correcta es la c) porque Resistir al olvido y salvar de la desmemoria a los obreros asesinados en 1922."
+                    },
+                    {
+                        "problem": "Proporcionalidad compuesta: Si 5 escultores de la Escuela Quiteña tallan 10 imágenes religiosas en 6 días, ¿cuántos días tardarán 3 escultores en tallar 12 imágenes del mismo tipo?",
+                        "solution": ""
+                    }
+                ]
+            },
+            {
+                "topic": "Secuencias lógicas",
+                "subject": "Razonamiento Numérico",
+                "concept": "Las secuencias lógicas son sucesiones de números o figuras ordenadas que siguen un patrón aritmético o geométrico determinado que permite hallar el término que continúa de manera racional y ágil.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Secuencias+lógicas",
+                "exercises": [
+                    {
+                        "problem": "Secuencias lógicas: ¿Cuál es el término que continúa en la secuencia: 12, 15, 19, 24, 30, ...?",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 3, 9, 27, 81, ...?",
+                        "solution": ""
+                    }
+                ]
+            }
+        ],
+        "Domingo": [
+            {
+                "topic": "Poesía Ecuatoriana del siglo XX",
+                "subject": "Lengua y Literatura",
+                "concept": "La poesía ecuatoriana del siglo veinte experimentó una evolución extraordinaria, transitando desde la nostalgia intimista y melancólica del modernismo de la Generación Decapitada hacia las corrientes de vanguardia que rompieron con la métrica tradicional para incorporar temas urbanos, políticos y existenciales.\n\nEn la segunda mitad del siglo descollaron voces fundamentales de la lírica nacional. Entre ellas destaca Jorge Enrique Adoum, autor del monumental poemario Ecuador amargo publicado en 1949, que retrata con crudeza y lirismo la realidad social del país, y César Dávila Andrade, con su célebre y telúrico poema Boletín y elegía de las mitas en 1959, que rinde tributo a la explotación y dolor del mitayo andino.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Poesía+Ecuatoriana+del+siglo+XX",
+                "exercises": []
+            },
+            {
+                "topic": "Poemas épicos",
+                "subject": "Lengua y Literatura",
+                "concept": "Los poemas épicos son extensas composiciones narrativas en verso que relatan las hazañas heroicas y las gloriosas batallas de héroes legendarios o personajes históricos que encarnan los valores, el honor y el destino colectivo de una nación o pueblo. Su estructura suele caracterizarse por el tono elevado, la invocación a divinidades y el uso de metáforas grandiosas.\n\nEn la literatura universal, los referentes fundacionales son la Ilíada y la Odisea, atribuidas al poeta griego Homero en el siglo ocho antes de Cristo. En el ámbito ecuatoriano y de la gesta de independencia, el texto épico más célebre es La victoria de Junín: Canto a Bolívar, escrito por el poeta y estadista guayaquileño José Joaquín de Olmedo en 1825 para exaltar la figura del libertador Simón Bolívar.",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Poemas+épicos",
+                "exercises": []
+            },
+            {
+                "topic": "Obras de teatro clásico",
+                "subject": "Historia",
+                "concept": "Las obras de teatro clásico son aquellas piezas dramáticas escritas durante periodos de esplendor cultural e intelectual de la civilización occidental, principalmente en la Grecia antigua y el Siglo de Oro español, cuyas temáticas universales sobre el destino, el honor, la justicia y las pasiones humanas siguen vigentes y representándose en la actualidad.\n\nEn el Siglo de Oro español, que abarcó los siglos dieciséis y diecisiete, descollaron dramaturgos de renombre universal como Lope de Vega con Fuenteovejuna en 1619, Pedro Calderón de la Barca con La vida es sueño en 1635, y Tirso de Molina con El burlador de Sevilla, obra que popularizó universalmente al personaje mítico de Don Juan. Estas obras sentaron los cánones formales de la comedia nueva, caracterizada por la mezcla de lo trágico y lo cómico y la ruptura de las tres unidades clásicas.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Obras+de+teatro+clásico",
+                "exercises": []
+            },
+            {
+                "topic": "Las sublevaciones",
+                "subject": "Historia",
+                "concept": "Las sublevaciones indígenas y populares en la época colonial fueron levantamientos armados y rebeliones organizadas por las comunidades originarias y mestizas en contra de la opresión colonial española, el cobro abusivo de tributos y diezmos, y las penosas condiciones de explotación forzada en las minas y obrajes.\n\nEstas sublevaciones representaron actos de resistencia activa frente a la Corona y los terratenientes locales, buscando restaurar la autonomía comunitaria y protestar por las injustas condiciones de vida. La represión militar por parte de las autoridades coloniales fue feroz, resultando en la ejecución de los cabecillas de las rebeliones para escarmentar y desmovilizar a las poblaciones insumisas.",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Las+sublevaciones",
+                "exercises": []
+            },
+            {
+                "topic": "Sublevaciones del siglo XVIII",
+                "subject": "Razonamiento Verbal",
+                "concept": "Las sublevaciones del siglo dieciséis y dieciocho fueron rebeliones indígenas de gran magnitud desatadas por el endurecimiento del régimen colonial derivado de las reformas borbónicas, las cuales incrementaron los impuestos y los censos de población para optimizar la recaudación fiscal y el control imperial español.\n\nLos levantamientos más importantes ocurrieron a nivel continental e interandino. En el virreinato del Perú, la rebelión de Túpac Amaru II en 1780 sacudió las bases del poder colonial. En la Real Audiencia de Quito se desataron constantes sublevaciones locales, como la de Alausí en 1760 y la de Riobamba en 1764, lideradas por caciques y líderes comunitarios que denunciaron el azote del diezmo y exigieron el fin de la mita y el concertaje.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Sublevaciones+del+siglo+XVIII",
+                "exercises": []
+            },
+            {
+                "topic": "Precisión Semántica",
+                "subject": "Razonamiento Verbal",
+                "concept": "La precisión semántica consiste en la correcta elección de las palabras para transmitir un mensaje de forma unívoca, exacta y sin ambigüedades, seleccionando términos con el significado denotativo riguroso que requiere el contexto formal, lo que evita que el escrito pierda seriedad o induzca a errores de interpretación.",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Precisión+Semántica",
+                "exercises": [
+                    {
+                        "problem": "Precisión Semántica: Reemplace el término \"hacer\" por uno más preciso en: \"Los líderes indígenas decidieron hacer un levantamiento\".",
+                        "solution": "La respuesta correcta es la b) porque Organizar"
+                    },
+                    {
+                        "problem": "Precisión Semántica: Seleccione la palabra con mayor precisión semántica para sustituir a \"tener\" en: \"El poema Boletín y elegía de las mitas llega a tener un tono trágico\".",
+                        "solution": "La respuesta correcta es la a) porque Poseer"
+                    }
+                ]
+            },
+            {
+                "topic": "Sinónimos",
+                "subject": "Razonamiento Numérico",
+                "concept": "Los sinónimos son términos que, perteneciendo a la misma categoría gramatical, poseen significados equivalentes o afines, sirviendo para dotar de dinamismo formal y variedad estilística a la redacción académica, impidiendo la repetición viciosa de palabras en el discurso.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Sinónimos",
+                "exercises": [
+                    {
+                        "problem": "Sinónimos: Identifique el sinónimo de **SUBLEVACIÓN**.",
+                        "solution": "La respuesta correcta es la b) porque Rebelión"
+                    },
+                    {
+                        "problem": "Sinónimos: Señale la palabra que es sinónimo de **ÉPICO**.",
+                        "solution": "La respuesta correcta es la b) porque Heroico"
+                    }
+                ]
+            },
+            {
+                "topic": "Solución de problemas de ecuaciones lineales",
+                "subject": "Razonamiento Numérico",
+                "concept": "La solución de problemas de ecuaciones de primer grado consiste en la modelación y despeje algebraico de una incógnita para hallar valores numéricos desconocidos planteados en situaciones de la vida real.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Solución+de+problemas+de+ecuaciones+lineales",
+                "exercises": [
+                    {
+                        "problem": "Ecuaciones lineales: Si a la edad en la que Medardo Ángel Silva escribió su célebre poema (21 años) le sumamos el doble de una edad X, obtenemos 61. ¿Cuál es el valor de X?",
+                        "solution": ""
+                    },
+                    {
+                        "problem": "Ecuaciones lineales: La suma de dos números es 180. Si uno de ellos es el doble del otro, ¿cuál es el número menor?",
+                        "solution": ""
+                    }
+                ]
+            },
+            {
+                "topic": "Porcentajes",
+                "subject": "Razonamiento Numérico",
+                "concept": "Los porcentajes son proporciones numéricas calculadas sobre una base de cien unidades, de amplia utilidad para medir variaciones de tasas de interés, descuentos comerciales e impuestos fiscales.",
+                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "videoUrl": "https://www.youtube.com/results?search_query=Porcentajes",
+                "exercises": [
+                    {
+                        "problem": "¿En qué localidad de la sierra ecuatoriana estalló un gran levantamiento indígena contra el cobro de diezmos y tributos en el año 1764?",
+                        "solution": "La respuesta correcta es la c) porque Riobamba"
+                    },
+                    {
+                        "problem": "Ecuaciones lineales: Si al triple del impuesto del diezmo le restamos $10, obtenemos $80. ¿A cuánto ascendía dicho impuesto?",
+                        "solution": ""
+                    }
+                ]
+            }
+        ]
     }
 };
