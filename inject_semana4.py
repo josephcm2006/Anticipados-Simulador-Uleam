@@ -51,6 +51,7 @@ def parse_concepts_file(filepath):
     in_concept = False
     concept_lines = []
     topic_name = ""
+    topic_subject = None
     
     lines = content.split('\n')
     for line in lines:
@@ -64,9 +65,9 @@ def parse_concepts_file(filepath):
                     concept_text = concept_text[:-1].strip()
                 concepts.append({
                     "topic": topic_name,
-                    "subject": current_subject,
+                    "subject": topic_subject,
                     "concept": concept_text,
-                    "image": SUBJECT_IMAGES.get(current_subject, SUBJECT_IMAGES['Lengua y Literatura']),
+                    "image": SUBJECT_IMAGES.get(topic_subject, SUBJECT_IMAGES['Lengua y Literatura']),
                     "videoUrl": f"https://www.youtube.com/results?search_query={topic_name.replace(' ', '+')}",
                     "exercises": []
                 })
@@ -74,6 +75,7 @@ def parse_concepts_file(filepath):
             
             # Start new concept
             rest = stripped.replace("TEMA - ", "", 1)
+            topic_subject = current_subject
             if ", (" in rest:
                 topic_name, first_part = rest.split(", (", 1)
                 topic_name = topic_name.strip()
@@ -92,9 +94,9 @@ def parse_concepts_file(filepath):
             concept_text = concept_text[:-1].strip()
         concepts.append({
             "topic": topic_name,
-            "subject": current_subject,
+            "subject": topic_subject,
             "concept": concept_text,
-            "image": SUBJECT_IMAGES.get(current_subject, SUBJECT_IMAGES['Lengua y Literatura']),
+            "image": SUBJECT_IMAGES.get(topic_subject, SUBJECT_IMAGES['Lengua y Literatura']),
             "videoUrl": f"https://www.youtube.com/results?search_query={topic_name.replace(' ', '+')}",
             "exercises": []
         })
@@ -217,9 +219,11 @@ def parse_questions_file(filepath):
             
     return final_questions
 
-def find_matching_questions(questions, topic_name):
+def find_matching_questions(questions, topic_name, subject_name):
     matched = []
     for q in questions:
+        if q["subject"] != subject_name:
+            continue
         q_text_lower = q["question"].lower()
         topic_lower = topic_name.lower()
         
@@ -316,7 +320,7 @@ def main():
         for concept in day_concepts:
             subj = concept["subject"]
             if subj in ["Razonamiento Verbal", "Razonamiento Numérico"]:
-                matched_qs = find_matching_questions(day_questions, concept["topic"])
+                matched_qs = find_matching_questions(day_questions, concept["topic"], subj)
                 exercises = []
                 for mq in matched_qs[:2]:
                     exercises.append({

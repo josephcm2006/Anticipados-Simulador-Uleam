@@ -1,6 +1,6 @@
 📚 Lengua y Literatura (10 preguntas)
 1. ¿Qué signo de puntuación se utiliza para marcar pausas breves en la lectura e indicar aclaraciones o listas? a) Punto b) Dos puntos c) Coma d) Guion
-2. ¿Qué documento publicado en el siglo XVIII por la RAE consolidó las reglas de puntuación en el ámbito hispánico? a) Gramática castellana b) Prontuario de ortografía c) Diccionario de autoridades d) Tesoro de la lengua castellana
+2. ¿Qué documento publicado en el siglo XIX por la RAE consolidó las reglas de puntuación en el ámbito hispánico? a) Gramática castellana b) Prontuario de ortografía c) Diccionario de autoridades d) Tesoro de la lengua castellana
 3. ¿Cuál es el año de fundación de la Real Academia Española, entidad que regula la ortografía del español? a) 1492 b) 1542 c) 1713 d) 1812
 4. ¿Cómo se define el conjunto de normas que rigen la correcta escritura y representación gráfica de una lengua? a) Sintaxis b) Semántica c) Ortografía d) Morfología
 5. ¿Qué elemento sintáctico es indispensable en el predicado para que un enunciado constituya una oración bimembre? a) Un sustantivo propio b) Un verbo conjugado c) Un adjetivo calificativo d) Un artículo determinado
@@ -51,5 +51,5 @@ Tema: Porcentajes y Reglas de tres simples
 🔑 Clave de Respuestas
 Lengua y Literatura: 1: c | 2: b | 3: c | 4: c | 5: b | 6: c | 7: b | 8: b | 9: b | 10: b
 Historia: 1: c | 2: b | 3: b | 4: a | 5: b | 6: b | 7: c | 8: d | 9: b | 10: b
-Razonamiento Verbal: 1: b | 2: b | 3: b | 4: b | 5: b | 6: b | 7: b | 8: a | 9: b | 10: b
+Razonamiento Verbal: 1: b | 2: a | 3: b | 4: b | 5: b | 6: b | 7: b | 8: a | 9: b | 10: b
 Razonamiento Numérico: 1: b (2400 * 0.15 = 360) | 2: b ($20 * 0.10 = $2) | 3: c (Si el 40% está oxidado, el 60% está sano: 150 * 0.60 = 90) | 4: b ($80 * 1.05 = $84) | 5: b (12/60 = 1/5 = 20%) | 6: b (Proporcionalidad directa: 10 * 8 / 4 = 20 kg) | 7: b (Proporcionalidad inversa: 12 * 6 / 18 = 4 días) | 8: c (Proporcionalidad directa: 75 * 5 / 25 = 15 camisas) | 9: c (Proporcionalidad directa: 14 * 8 / 4 = 28 kg) | 10: b (Proporcionalidad inversa: 6 * 4 / 8 = 3 horas)

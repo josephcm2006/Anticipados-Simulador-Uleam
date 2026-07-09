@@ -2,7 +2,7 @@ MATERIA - LENGUA Y LITERATURA
 
 TEMA - Signos de puntuación, (Los signos de puntuación son las marcas gráficas que se emplean en los textos escritos para estructurar el discurso, delimitar las unidades sintácticas y facilitar la lectura y comprensión del mensaje. Estos signos evitan ambigüedades en la interpretación de los enunciados y señalan las pausas y la entonación que caracterizan al lenguaje hablado.
 
-Entre los signos de puntuación más comunes destacan el punto, que señala el final de una oración o de un texto; la coma, que indica pausas breves y separa elementos de una enumeración o aclaraciones; y el punto y coma, que une proposiciones coordinadas complejas. La estandarización de las reglas de puntuación se consolidó formalmente en el ámbito hispánico con la publicación del Prontuario de ortografía de la Real Academia Española en el siglo dieciocho.)
+Entre los signos de puntuación más comunes destacan el punto, que señala el final de una oración o de un texto; la coma, que indica pausas breves y separa elementos de una enumeración o aclaraciones; y el punto y coma, que une proposiciones coordinadas complejas. La estandarización de las reglas de puntuación se consolidó formalmente en el ámbito hispánico con la publicación del Prontuario de ortografía de la Real Academia Española en el siglo diecinueve.)
 
 TEMA - Ortografía, (La ortografía es el conjunto de normas y reglas que regulan la escritura correcta de una lengua, asegurando la uniformidad gráfica y la inteligibilidad mutua entre todos sus hablantes. Su estudio abarca el uso correcto de las grafías o letras, las reglas de acentuación gráfica mediante la tilde, el uso de las mayúsculas y la correcta separación silábica de las palabras.
 

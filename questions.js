@@ -11510,7 +11510,7 @@ const questionsData = {
             {
                 "id": 2,
                 "subject": "Lengua y Literatura",
-                "question": "¿Qué documento publicado en el siglo XVIII por la RAE consolidó las reglas de puntuación en el ámbito hispánico?",
+                "question": "¿Qué documento publicado en el siglo XIX por la RAE consolidó las reglas de puntuación en el ámbito hispánico?",
                 "options": [
                     "Gramática castellana",
                     "Prontuario de ortografía",
@@ -11777,8 +11777,8 @@ const questionsData = {
                     "cultivos - descansar",
                     "salarios - comprar"
                 ],
-                "correct": 1,
-                "explanation": "La respuesta correcta es la b) porque honores - huir"
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque deudas - trabajar"
             },
             {
                 "id": 23,
@@ -16161,9 +16161,9 @@ const studyData = {
             },
             {
                 "topic": "Verbo",
-                "subject": "Historia",
+                "subject": "Lengua y Literatura",
                 "concept": "El verbo es la clase de palabra variable que expresa acción, proceso, estado o existencia que afecta o realiza el sujeto. Funciona invariablemente como el núcleo del sintagma predicativo o verbal de la oración. Desde el punto de vista morfológico, es la categoría más compleja de la lengua castellana, ya que se compone de un lexema y de una desinencia verbal que aporta información de persona, número, tiempo, modo y aspecto.\n\nLa conjugación verbal en español se estructura en tres modelos básicos según la terminación de su infinitivo: primera conjugación en -ar, segunda conjugación en -er y tercera conjugación en -ir. Además, la distinción de modos y de tiempos posibilita matizar la actitud del hablante y situar con absoluta precisión cronológica los acontecimientos en el discurso histórico y cotidiano.",
-                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Verbo",
                 "exercises": []
             },
@@ -16177,9 +16177,9 @@ const studyData = {
             },
             {
                 "topic": "La encomienda",
-                "subject": "Razonamiento Verbal",
+                "subject": "Historia",
                 "concept": "La encomienda fue una institución socioeconómica colonial mediante la cual la Corona española concedía a un colonizador el derecho de percibir los tributos y los servicios personales de un grupo de indígenas. A cambio, el encomendero tenía la obligación legal y moral de proteger a los nativos, proveerles de vivienda y evangelizarlos en la doctrina católica mediante la contratación de sacerdotes doctrineros.\n\nEn la práctica, esta institución degeneró en una forma cruel de explotación y servidumbre virtual, lo que motivó las denuncias del fraile dominico Bartolomé de las Casas en su Brevísima relación de la destrucción de las Indias de 1552. A raíz de estas denuncias, la Corona promulgó las Leyes Nuevas de 1542, destinadas a limitar el poder hereditario de los encomenderos y abolir la esclavitud indígena, provocando graves rebeliones armadas de los colonos en el virreinato del Perú.",
-                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=La+encomienda",
                 "exercises": []
             },
@@ -16191,20 +16191,20 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Concordancia+verbal",
                 "exercises": [
                     {
-                        "problem": "Morfológicamente, ¿cuáles son las variaciones gramaticales que admite el sustantivo y que determinan su concordancia?",
-                        "solution": "La respuesta correcta es la c) porque Género y número"
-                    },
-                    {
                         "problem": "Complete la oración: Para que exista una adecuada ______, el verbo de la oración debe coincidir en número y persona con el ______.",
                         "solution": "La respuesta correcta es la b) porque concordancia - sujeto"
+                    },
+                    {
+                        "problem": "¿Qué nombre recibe la concordancia que se establece por el sentido o significado de las palabras y no por su forma gramatical?",
+                        "solution": "La respuesta correcta es la a) porque Ad sensum"
                     }
                 ]
             },
             {
                 "topic": "Precisión Semántica",
-                "subject": "Razonamiento Numérico",
+                "subject": "Razonamiento Verbal",
                 "concept": "La precisión semántica es la propiedad de los textos que consiste en emplear el término exacto y riguroso que corresponde a una idea o contexto determinado, evitando palabras comodín, vaguedades o sinónimos inexactos que alteren el significado del mensaje. El dominio de esta destreza es crucial para la redacción científica, literaria y académica, donde la claridad y la exactitud conceptual son indispensables.\n\nPara lograr una adecuada precisión, el emisor debe conocer a fondo el significado denotativo y las connotaciones de los vocablos de su léxico. El uso de diccionarios especializados, la lectura crítica y la revisión de borradores son técnicas recomendadas para sustituir términos generales como hacer, tener o cosa por verbos y sustantivos más específicos como construir, poseer o cualidad.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Precisión+Semántica",
                 "exercises": [
                     {
@@ -16271,9 +16271,9 @@ const studyData = {
             },
             {
                 "topic": "Artículo",
-                "subject": "Historia",
+                "subject": "Lengua y Literatura",
                 "concept": "El artículo es la palabra variable y átona que se antepone al sustantivo para anunciar su presencia, indicar su género y número, y señalar si el referente es conocido o desconocido por el receptor. Constituye un tipo de determinante que carece de significado propio, adquiriéndolo en combinación sintáctica con el sustantivo al que precede.\n\nSe clasifican en artículos definidos o determinados y artículos indefinidos o indeterminados, además del artículo neutro lo que sustantiva adjetivos. Su origen proviene de la evolución de los demostrativos latinos ille, illa, illud, transformándose paulatinamente a lo largo de la Edad Media hasta establecerse firmemente en la primera gramática castellana publicada por Antonio de Nebrija en 1492.",
-                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Artículo",
                 "exercises": []
             },
@@ -16287,9 +16287,9 @@ const studyData = {
             },
             {
                 "topic": "El concertaje",
-                "subject": "Razonamiento Verbal",
+                "subject": "Historia",
                 "concept": "El concertaje fue una institución socioeconómica colonial de carácter agrícola mediante la cual un indígena se comprometía a trabajar en la hacienda de un terrateniente a cambio de un salario mínimo y un pequeño lote de tierra de cultivo llamado huasipungo. En teoría, era un acuerdo voluntario de trabajo remunerado regulado por las autoridades de la Corona.\n\nEn la práctica colonial, el concertaje se convirtió en un mecanismo de servidumbre hereditaria por deudas, ya que los hacendados cobraban precios abusivos por los alimentos, el vestuario, las celebraciones religiosas y los tributos de los indígenas. Como el salario nunca alcanzaba para cubrir los costos, la deuda se acumulaba indefinidamente y se transmitía de padres a hijos, atando a las familias campesinas a la tierra de por vida.",
-                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=El+concertaje",
                 "exercises": []
             },
@@ -16312,9 +16312,9 @@ const studyData = {
             },
             {
                 "topic": "Antónimos",
-                "subject": "Razonamiento Numérico",
+                "subject": "Razonamiento Verbal",
                 "concept": "Los antónimos son palabras que presentan significados opuestos o contrarios entre sí, debiendo pertenecer obligatoriamente a la misma categoría gramatical y compartir el mismo campo semántico. El dominio de la antonimia facilita la expresión de contrastes, enriquece la argumentación de ideas opuestas y mejora la precisión léxica y la madurez discursiva del redactor.\n\nLos antónimos se clasifican en tres tipos. Los antónimos graduales admiten grados intermedios de significación entre los dos extremos, como frío y caliente. Los antónimos complementarios se excluyen mutuamente, de modo que la afirmación de uno implica la negación del otro. Los antónimos recíprocos requieren la existencia de la acción contraria para darse, como comprar y vender.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Antónimos",
                 "exercises": [
                     {
@@ -16352,11 +16352,11 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Solución+de+problemas+de+ecuaciones+lineales",
                 "exercises": [
                     {
-                        "problem": "¿Cuál es el método más seguro para verificar la correcta delimitación del sujeto mediante el cambio de número del verbo?",
-                        "solution": "La respuesta correcta es la b) porque Prueba de la concordancia"
+                        "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 2, 4, 8, 16, 32, ...?",
+                        "solution": ""
                     },
                     {
-                        "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 2, 4, 8, 16, 32, ...?",
+                        "problem": "Secuencias lógicas: ¿Qué número continúa en la serie: 50, 45, 40, 35, ...?",
                         "solution": ""
                     }
                 ]
@@ -16366,7 +16366,7 @@ const studyData = {
             {
                 "topic": "Signos de puntuación",
                 "subject": "Lengua y Literatura",
-                "concept": "Los signos de puntuación son las marcas gráficas que se emplean en los textos escritos para estructurar el discurso, delimitar las unidades sintácticas y facilitar la lectura y comprensión del mensaje. Estos signos evitan ambigüedades en la interpretación de los enunciados y señalan las pausas y la entonación que caracterizan al lenguaje hablado.\n\nEntre los signos de puntuación más comunes destacan el punto, que señala el final de una oración o de un texto; la coma, que indica pausas breves y separa elementos de una enumeración o aclaraciones; y el punto y coma, que une proposiciones coordinadas complejas. La estandarización de las reglas de puntuación se consolidó formalmente en el ámbito hispánico con la publicación del Prontuario de ortografía de la Real Academia Española en el siglo dieciocho.",
+                "concept": "Los signos de puntuación son las marcas gráficas que se emplean en los textos escritos para estructurar el discurso, delimitar las unidades sintácticas y facilitar la lectura y comprensión del mensaje. Estos signos evitan ambigüedades en la interpretación de los enunciados y señalan las pausas y la entonación que caracterizan al lenguaje hablado.\n\nEntre los signos de puntuación más comunes destacan el punto, que señala el final de una oración o de un texto; la coma, que indica pausas breves y separa elementos de una enumeración o aclaraciones; y el punto y coma, que une proposiciones coordinadas complejas. La estandarización de las reglas de puntuación se consolidó formalmente en el ámbito hispánico con la publicación del Prontuario de ortografía de la Real Academia Española en el siglo diecinueve.",
                 "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Signos+de+puntuación",
                 "exercises": []
@@ -16381,9 +16381,9 @@ const studyData = {
             },
             {
                 "topic": "Oración",
-                "subject": "Historia",
+                "subject": "Lengua y Literatura",
                 "concept": "La oración es la unidad mínima de comunicación lingüística con sentido completo, independencia sintáctica y una curva de entonación determinada. Sintácticamente, se caracteriza por presentar por lo menos un verbo conjugado que funciona como el núcleo del predicado, entablando una relación de concordancia obligatoria en número y persona con el núcleo del sujeto.\n\nLas oraciones se clasifican de forma tradicional bajo dos criterios fundamentales. Por su estructura sintáctica, se dividen en oraciones simples y oraciones compuestas. Por la actitud del emisor, se clasifican en declarativas, interrogativas, exclamativas, imperativas, dubitativas y desiderativas, permitiendo expresar de manera directa la intención del hablante.",
-                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Oración",
                 "exercises": []
             },
@@ -16397,9 +16397,9 @@ const studyData = {
             },
             {
                 "topic": "Latifundio",
-                "subject": "Razonamiento Verbal",
+                "subject": "Historia",
                 "concept": "El latifundio colonial fue una gran extensión de tierra agrícola de propiedad privada controlada por un solo terrateniente o hacendado español, la cual constituía la unidad económica y social dominante en las áreas rurales americanas. Estas inmensas propiedades rurales se originaron a partir de las mercedes de tierras concedidas por la Corona a los conquistadores y de la posterior usurpación violenta de los territorios de las comunidades indígenas.\n\nEl latifundio se caracterizó por su baja productividad y por el uso ineficiente de los recursos debido a que el terrateniente basaba sus ganancias en la explotación feudal de la mano de obra barata de indígenas y afrodescendientes mediante sistemas como el concertaje. Esta desigual estructura de la propiedad agraria concentrada en pocas manos perduró en la sociedad republicana del Ecuador hasta bien entrado el siglo veinte.",
-                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Latifundio",
                 "exercises": []
             },
@@ -16411,20 +16411,20 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Completamiento+de+oraciones",
                 "exercises": [
                     {
-                        "problem": "Complete la frase sobre ortografía: Las palabras agudas llevan tilde cuando terminan en:",
-                        "solution": "La respuesta correcta es la b) porque Vocal, N o S"
-                    },
-                    {
                         "problem": "Complete la oración: A pesar de la dura jornada laboral, los mitayos ______ cumpliendo sus ______ tareas.",
                         "solution": "La respuesta correcta es la b) porque continuaron - penosas"
+                    },
+                    {
+                        "problem": "Complete la oración: La acumulación de ______ obligaba al indígena a ______ de por vida en el latifundio.",
+                        "solution": "La respuesta correcta es la a) porque deudas - trabajar"
                     }
                 ]
             },
             {
                 "topic": "Interpretación de refranes",
-                "subject": "Razonamiento Numérico",
+                "subject": "Razonamiento Verbal",
                 "concept": "La interpretación de refranes es un ejercicio de razonamiento lógico y verbal que consiste en descifrar el significado implícito, la enseñanza moral o el consejo práctico que encierran los dichos populares transmitidos tradicionalmente por vía oral de generación en generación. Estas composiciones breves suelen utilizar el lenguaje figurado y la metáfora para transmitir sabiduría colectiva.\n\nEl proceso de resolución requiere que el estudiante analice el enunciado en su sentido figurado y lo asocie a una situación de la vida real o a un principio ético de conducta. Identificar la moraleja o el sentido analógico del refrán, y diferenciarlo de su lectura literal, permite al estudiante demostrar madurez en la comprensión de textos y agudeza en el razonamiento conceptual.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Interpretación+de+refranes",
                 "exercises": [
                     {
@@ -16462,12 +16462,12 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Reglas+de+tres+simples",
                 "exercises": [
                     {
-                        "problem": "¿Cuál es la clasificación de la oración \"Ojalá los mitayos hubieran regresado a sus hogares\"?",
-                        "solution": "La respuesta correcta es la b) porque Desiderativa"
+                        "problem": "Porcentajes: ¿Qué porcentaje representa 12 mitayos enfermos en un contingente de 60 hombres?",
+                        "solution": ""
                     },
                     {
-                        "problem": "Complete la oración: A pesar de la dura jornada laboral, los mitayos ______ cumpliendo sus ______ tareas.",
-                        "solution": "La respuesta correcta es la b) porque continuaron - penosas"
+                        "problem": "Regla de tres simple: Si 4 mitayos extraen 8 kg de plata en un día, ¿cuántos kg de plata extraerán 10 mitayos en el mismo tiempo al mismo ritmo?",
+                        "solution": ""
                     }
                 ]
             }
@@ -16491,9 +16491,9 @@ const studyData = {
             },
             {
                 "topic": "El modernismo ecuatoriano: Generación decapitada",
-                "subject": "Historia",
+                "subject": "Lengua y Literatura",
                 "concept": "La Generación Decapitada fue una agrupación literaria modernista del Ecuador de inicios del siglo veinte integrada por los poetas Medardo Ángel Silva, Ernesto Noboa y Caamaño, Arturo Borja y Humberto Fierro. El término decapitada alude al trágico y prematuro deceso por suicidio de todos sus miembros a muy temprana edad.\n\nBajo la influencia del simbolismo francés, estos jóvenes poetas introdujeron el modernismo en el país. Sus poemas se caracterizaron por la melancolía existencial, la evasión de la cruda realidad nacional mediante ambientes exóticos y un depurado rigor formal. Entre sus creaciones destaca el poema El alma en los labios de Medardo Ángel Silva, escrito poco antes de su trágica muerte en 1919.",
-                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=El+modernismo+ecuatoriano:+Generación+decapitada",
                 "exercises": []
             },
@@ -16507,9 +16507,9 @@ const studyData = {
             },
             {
                 "topic": "Comunidad de Esmeraldas (Herencia cultural esmeraldeña)",
-                "subject": "Razonamiento Verbal",
+                "subject": "Historia",
                 "concept": "La comunidad afrodescendiente de Esmeraldas, ubicada en el litoral norte de la república del Ecuador, tiene un origen histórico singular que se remonta a 1553, cuando un barco de esclavos proveniente de Panamá naufragó frente a sus costas. Liderados por el cimarrón Alonso de Illescas, los supervivientes se establecieron en libertad, aliándose y mezclándose con las poblaciones indígenas locales.\n\nEsta alianza dio origen a la República de los Zambos, un territorio autónomo que resistió durante décadas el control militar de la Real Audiencia de Quito. La herencia cultural esmeraldeña se caracteriza por la música de marimba, los cantos tradicionales de arrullos y chigualos, y una rica literatura oral. En 2015, la música de marimba y los cantos tradicionales de Esmeraldas fueron declarados Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO.",
-                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Comunidad+de+Esmeraldas+(Herencia+cultural+esmeraldeña)",
                 "exercises": []
             },
@@ -16532,9 +16532,9 @@ const studyData = {
             },
             {
                 "topic": "Selección lógica",
-                "subject": "Razonamiento Numérico",
+                "subject": "Razonamiento Verbal",
                 "concept": "La selección lógica es un ejercicio de razonamiento verbal y conceptual que consiste en identificar cuál de las opciones de respuesta es el elemento esencial, indispensable o intrínsecamente necesario para la definición o existencia del término o concepto propuesto en la pregunta, descartando aquellas opciones que representan elementos accesorios o secundarios.\n\nPara resolver estos ítems, el estudiante debe analizar el núcleo conceptual del término. Por ejemplo, para que exista un libro, es absolutamente indispensable que tenga hojas o contenido escrito, mientras que la pasta dura, los dibujos o el prólogo son accesorios. Esta destreza mental fortalece la capacidad de síntesis, la abstracción y la precisión conceptual requerida en la argumentación científica.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Selección+lógica",
                 "exercises": [
                     {
@@ -16555,11 +16555,11 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Conjuntos",
                 "exercises": [
                     {
-                        "problem": "Selección lógica: Un **CONJUNTO** requiere indispensablemente de:",
-                        "solution": "La respuesta correcta es la c) porque Elementos"
+                        "problem": "Conjuntos: En una encuesta a 100 estudiantes sobre autores de la Generación Decapitada, 60 prefieren a Medardo Ángel Silva y 45 prefieren a Arturo Borja. Si 20 estudiantes prefieren a ambos poetas, ¿cuántos estudiantes no prefieren a ninguno de los dos?",
+                        "solution": ""
                     },
                     {
-                        "problem": "Conjuntos: En una encuesta a 100 estudiantes sobre autores de la Generación Decapitada, 60 prefieren a Medardo Ángel Silva y 45 prefieren a Arturo Borja. Si 20 estudiantes prefieren a ambos poetas, ¿cuántos estudiantes no prefieren a ninguno de los dos?",
+                        "problem": "Conjuntos: En un grupo de 80 afrodescendientes del Valle del Chota, 50 tocan el tambor bomba y 40 tocan la hoja de naranjo. Si 25 tocan ambos instrumentos, ¿cuántos tocan únicamente el tambor bomba?",
                         "solution": ""
                     }
                 ]
@@ -16572,11 +16572,11 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Fracciones",
                 "exercises": [
                     {
-                        "problem": "Selección lógica: Una **FRACCIÓN** requiere necesariamente de:",
-                        "solution": "La respuesta correcta es la a) porque Numerador y denominador"
+                        "problem": "Fracciones: Un escritor de la Generación del Treinta escribe 2/5 de su novela en enero y 1/3 en febrero. ¿Qué fracción de la novela ha escrito en total?",
+                        "solution": ""
                     },
                     {
-                        "problem": "Fracciones: Un escritor de la Generación del Treinta escribe 2/5 de su novela en enero y 1/3 en febrero. ¿Qué fracción de la novela ha escrito en total?",
+                        "problem": "Fracciones: Si una hacienda azucarera del Chota destina 3/4 de sus tierras al cultivo de caña y el resto a viñedos, ¿qué fracción de las tierras se dedica a los viñedos?",
                         "solution": ""
                     }
                 ]
@@ -16601,9 +16601,9 @@ const studyData = {
             },
             {
                 "topic": "El Modernismo",
-                "subject": "Historia",
+                "subject": "Lengua y Literatura",
                 "concept": "El Modernismo fue un movimiento literario fundamentalmente poético surgido en Hispanoamérica a finales del siglo diecinueve que revolucionó las letras en lengua española, caracterizándose por la búsqueda de la belleza absoluta, el refinamiento aristocrático del lenguaje, el exotismo de los ambientes y una gran innovación métrica y musicalidad en los versos.\n\nEl hito fundacional del movimiento ocurrió en 1888 con la publicación del libro de poemas y cuentos Azul... por el nicaragüense Rubén Darío en Valparaíso, Chile. Rubén Darío se convirtió en el líder indiscutible del Modernismo, uniendo a escritores de todo el continente y de España. En el Ecuador, los poetas de la Generación Decapitada adoptaron esta estética con tintes de profunda melancolía existencial.",
-                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=El+Modernismo",
                 "exercises": []
             },
@@ -16625,9 +16625,9 @@ const studyData = {
             },
             {
                 "topic": "Función evangelizadora del arte colonial (Arquitectura, Escultura, Realismo, Imágenes útiles, Pintura)",
-                "subject": "Razonamiento Verbal",
+                "subject": "Historia",
                 "concept": "La función evangelizadora del arte colonial fue el uso sistemático de la arquitectura, escultura y pintura por la Iglesia Católica y la Corona española como herramientas didácticas y persuasivas de conversión para implantar la doctrina cristiana en las poblaciones indígenas analfabetas de América.\n\nLas iglesias se diseñaron con amplias capillas abiertas o atrios para realizar misas al aire libre debido a la costumbre indígena. La pintura y la escultura colonial buscaron un intenso realismo en las imágenes de Cristo y los santos utilizando cabello natural y ojos de vidrio para conmover al espectador. Estas imágenes útiles permitieron sustituir los antiguos ídolos por la iconografía cristiana a lo largo de los siglos dieciséis y diecisiete.",
-                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Función+evangelizadora+del+arte+colonial+(Arquitectura,+Escultura,+Realismo,+Imágenes+útiles,+Pintura)",
                 "exercises": []
             },
@@ -16650,9 +16650,9 @@ const studyData = {
             },
             {
                 "topic": "Ordenar oraciones",
-                "subject": "Razonamiento Numérico",
+                "subject": "Razonamiento Verbal",
                 "concept": "El ordenamiento de oraciones es un ejercicio de razonamiento verbal y sintáctico que consiste en estructurar de manera coherente y secuencial un conjunto de enunciados desordenados para formar un texto cohesivo. Esta práctica evalúa el conocimiento de las transiciones gramaticales, la lógica discursiva y los conectores lógicos de causa y efecto.\n\nPara establecer el orden de las proposiciones, se aplican criterios formales de organización discursiva. El criterio deductivo ordena el texto yendo de lo general a lo particular. El criterio cronológico organiza las ideas de lo más antiguo a lo más reciente, mientras que el criterio causal ubica primero las causas y luego las consecuencias del fenómeno tratado.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Ordenar+oraciones",
                 "exercises": []
             },
@@ -16710,9 +16710,9 @@ const studyData = {
             },
             {
                 "topic": "Textos Ecuatorianos del siglo XX",
-                "subject": "Historia",
+                "subject": "Lengua y Literatura",
                 "concept": "Los textos ecuatorianos del siglo veinte reflejaron los profundos cambios políticos y sociales del país, desde el auge del cacao y el petróleo hasta la migración masiva. A través de cuentos, novelas y ensayos, los escritores representaron las tensiones de clase y los procesos de modernización de las ciudades de Quito y Guayaquil.\n\nEntre las obras esenciales de esta centuria figuran la novela Las cruces sobre el agua de Joaquín Gallegos Lara en 1946, que conmemora la masacre de obreros del 15 de noviembre de 1922 en Guayaquil, y la obra costumbrista y satírica El chulla Romero y Flores escrita por Jorge Icaza en 1958, que retrata las contradicciones de la burocracia andina de clase media.",
-                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Textos+Ecuatorianos+del+siglo+XX",
                 "exercises": []
             },
@@ -16734,9 +16734,9 @@ const studyData = {
             },
             {
                 "topic": "Escuela Quiteña",
-                "subject": "Razonamiento Verbal",
+                "subject": "Historia",
                 "concept": "La Escuela Quiteña es el conjunto de manifestaciones artísticas desarrolladas en el territorio de la Real Audiencia de Quito durante los siglos diecisiete y dieciocho, alcanzando un prestigio continental debido a su altísima calidad técnica y su originalidad estética mestiza.\n\nEntre sus máximos exponentes destacaron el escultor indígena Manuel Chili, conocido como Caspicara, famoso por sus delicados tallados en madera policromada, y el pintor mestizo Miguel de Santiago. Las iglesias quiteñas como la Compañía de Jesús y San Francisco, con sus retablos dorados y esculturas realistas de la Virgen de Quito, consolidaron el prestigio artístico de esta escuela colonial.",
-                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Escuela+Quiteña",
                 "exercises": []
             },
@@ -16759,9 +16759,9 @@ const studyData = {
             },
             {
                 "topic": "Concordancia verbal",
-                "subject": "Razonamiento Numérico",
+                "subject": "Razonamiento Verbal",
                 "concept": "La concordancia verbal es la regla sintáctica fundamental que exige que el verbo principal y el núcleo del sujeto coincidan obligatoriamente en número y persona. Su correcto uso garantiza la coherencia gramatical de los enunciados escritos, evitando errores comunes de discrepancia entre sujeto plural y verbo singular.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Concordancia+verbal",
                 "exercises": [
                     {
@@ -16782,11 +16782,11 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Proporcionalidad+compuesta",
                 "exercises": [
                     {
-                        "problem": "Comprensión lectora: \"La literatura es una forma de resistencia al olvido. Al narrar la masacre de 1922, Gallegos Lara no solo escribió una novela, sino que salvó de la desmemoria a los obreros asesinados. La ficción se convierte así en un registro histórico más duradero que los informes oficiales\". Según el texto, ¿cuál es la función principal de la novela \"Las cruces sobre el agua\"?",
-                        "solution": "La respuesta correcta es la c) porque Resistir al olvido y salvar de la desmemoria a los obreros asesinados en 1922."
+                        "problem": "Proporcionalidad compuesta: Si 5 escultores de la Escuela Quiteña tallan 10 imágenes religiosas en 6 días, ¿cuántos días tardarán 3 escultores en tallar 12 imágenes del mismo tipo?",
+                        "solution": ""
                     },
                     {
-                        "problem": "Proporcionalidad compuesta: Si 5 escultores de la Escuela Quiteña tallan 10 imágenes religiosas en 6 días, ¿cuántos días tardarán 3 escultores en tallar 12 imágenes del mismo tipo?",
+                        "problem": "Proporcionalidad compuesta: Si 4 costureras del obraje producen 40 mantas en 8 días, ¿cuántas mantas producirán 6 costureras en 12 días si trabajan al mismo ritmo?",
                         "solution": ""
                     }
                 ]
@@ -16828,9 +16828,9 @@ const studyData = {
             },
             {
                 "topic": "Obras de teatro clásico",
-                "subject": "Historia",
+                "subject": "Lengua y Literatura",
                 "concept": "Las obras de teatro clásico son aquellas piezas dramáticas escritas durante periodos de esplendor cultural e intelectual de la civilización occidental, principalmente en la Grecia antigua y el Siglo de Oro español, cuyas temáticas universales sobre el destino, el honor, la justicia y las pasiones humanas siguen vigentes y representándose en la actualidad.\n\nEn el Siglo de Oro español, que abarcó los siglos dieciséis y diecisiete, descollaron dramaturgos de renombre universal como Lope de Vega con Fuenteovejuna en 1619, Pedro Calderón de la Barca con La vida es sueño en 1635, y Tirso de Molina con El burlador de Sevilla, obra que popularizó universalmente al personaje mítico de Don Juan. Estas obras sentaron los cánones formales de la comedia nueva, caracterizada por la mezcla de lo trágico y lo cómico y la ruptura de las tres unidades clásicas.",
-                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Obras+de+teatro+clásico",
                 "exercises": []
             },
@@ -16844,9 +16844,9 @@ const studyData = {
             },
             {
                 "topic": "Sublevaciones del siglo XVIII",
-                "subject": "Razonamiento Verbal",
+                "subject": "Historia",
                 "concept": "Las sublevaciones del siglo dieciséis y dieciocho fueron rebeliones indígenas de gran magnitud desatadas por el endurecimiento del régimen colonial derivado de las reformas borbónicas, las cuales incrementaron los impuestos y los censos de población para optimizar la recaudación fiscal y el control imperial español.\n\nLos levantamientos más importantes ocurrieron a nivel continental e interandino. En el virreinato del Perú, la rebelión de Túpac Amaru II en 1780 sacudió las bases del poder colonial. En la Real Audiencia de Quito se desataron constantes sublevaciones locales, como la de Alausí en 1760 y la de Riobamba en 1764, lideradas por caciques y líderes comunitarios que denunciaron el azote del diezmo y exigieron el fin de la mita y el concertaje.",
-                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Sublevaciones+del+siglo+XVIII",
                 "exercises": []
             },
@@ -16869,9 +16869,9 @@ const studyData = {
             },
             {
                 "topic": "Sinónimos",
-                "subject": "Razonamiento Numérico",
+                "subject": "Razonamiento Verbal",
                 "concept": "Los sinónimos son términos que, perteneciendo a la misma categoría gramatical, poseen significados equivalentes o afines, sirviendo para dotar de dinamismo formal y variedad estilística a la redacción académica, impidiendo la repetición viciosa de palabras en el discurso.",
-                "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&auto=format&fit=crop&q=60",
+                "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Sinónimos",
                 "exercises": [
                     {
@@ -16909,11 +16909,11 @@ const studyData = {
                 "videoUrl": "https://www.youtube.com/results?search_query=Porcentajes",
                 "exercises": [
                     {
-                        "problem": "¿En qué localidad de la sierra ecuatoriana estalló un gran levantamiento indígena contra el cobro de diezmos y tributos en el año 1764?",
-                        "solution": "La respuesta correcta es la c) porque Riobamba"
+                        "problem": "Ecuaciones lineales: Si al triple del impuesto del diezmo le restamos $10, obtenemos $80. ¿A cuánto ascendía dicho impuesto?",
+                        "solution": ""
                     },
                     {
-                        "problem": "Ecuaciones lineales: Si al triple del impuesto del diezmo le restamos $10, obtenemos $80. ¿A cuánto ascendía dicho impuesto?",
+                        "problem": "Porcentajes: Si una comunidad indígena de 400 habitantes organizó una sublevación y el 25% de ellos marchó al cabildo, ¿cuántos indígenas participaron en la marcha?",
                         "solution": ""
                     }
                 ]
