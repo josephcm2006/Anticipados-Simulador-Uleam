@@ -122,23 +122,19 @@ def parse_questions_file(filepath):
         stripped = line.strip()
         if not stripped:
             continue
-        if "Lengua y Literatura" in stripped and "(" in stripped:
-            current_subject = "Lengua y Literatura"
-            in_answers = False
-        elif "Historia" in stripped and "(" in stripped:
-            current_subject = "Historia"
-            in_answers = False
-        elif "Razonamiento Verbal" in stripped and "(" in stripped:
-            current_subject = "Razonamiento Verbal"
-            in_answers = False
-        elif "Razonamiento Numérico" in stripped and "(" in stripped:
-            current_subject = "Razonamiento Numérico"
-            in_answers = False
-        elif "Clave de Respuestas" in stripped or "Clave de respuestas" in stripped:
+        if "Clave de Respuestas" in stripped or "Clave de respuestas" in stripped:
             in_answers = True
             current_subject = None
         elif in_answers:
             answer_key_lines.append(stripped)
+        elif "Lengua y Literatura" in stripped and "(" in stripped:
+            current_subject = "Lengua y Literatura"
+        elif "Historia" in stripped and "(" in stripped:
+            current_subject = "Historia"
+        elif "Razonamiento Verbal" in stripped and "(" in stripped:
+            current_subject = "Razonamiento Verbal"
+        elif "Razonamiento Numérico" in stripped and "(" in stripped:
+            current_subject = "Razonamiento Numérico"
         elif current_subject:
             # Parse: 1. Question text a) OptA b) OptB c) OptC d) OptD
             match = re.match(r'^(\d+)\.\s+(.*?)\s+a\)\s+(.*?)\s+b\)\s+(.*?)\s+c\)\s+(.*?)\s+d\)\s+(.*?)$', stripped)
@@ -218,6 +214,51 @@ def parse_questions_file(filepath):
             final_questions.append(q_copy)
             
     return final_questions
+
+def find_block_range(js_content, start_marker, start_search_idx=0):
+    idx = js_content.find(start_marker, start_search_idx)
+    if idx == -1:
+        return None
+    brace_start = js_content.find('{', idx)
+    if brace_start == -1:
+        return None
+    
+    brace_count = 1
+    i = brace_start + 1
+    n = len(js_content)
+    in_string = False
+    escape = False
+    string_char = None
+    
+    while i < n:
+        char = js_content[i]
+        if escape:
+            escape = False
+            i += 1
+            continue
+        if char == '\\':
+            escape = True
+            i += 1
+            continue
+        if in_string:
+            if char == string_char:
+                in_string = False
+            i += 1
+            continue
+        if char in ('"', "'", '`'):
+            in_string = True
+            string_char = char
+            i += 1
+            continue
+        if char == '{':
+            brace_count += 1
+        elif char == '}':
+            brace_count -= 1
+            if brace_count == 0:
+                return idx, i + 1
+        i += 1
+    return None
+
 
 def find_matching_questions(questions, topic_name, subject_name):
     matched = []
@@ -338,7 +379,11 @@ def main():
     with open("questions.js", "r", encoding="utf-8") as f:
         js_content = f.read()
         
-    target = """    "Semana 4": {
+    # Find the "Semana 4" blocks
+    res1 = find_block_range(js_content, '    "Semana 4": {')
+    if not res1:
+        # Fallback to the original target string if not found
+        target = """    "Semana 4": {
         "Lunes": [],
         "Martes": [],
         "Miércoles": [],
@@ -347,27 +392,33 @@ def main():
         "Sábado": [],
         "Domingo": []
     }"""
-    
-    idx1 = js_content.find(target)
-    if idx1 == -1:
-        print("Error: Target block not found in questions.js")
-        return
+        idx1 = js_content.find(target)
+        if idx1 == -1:
+            print("Error: Could not find Semana 4 block in questionsData")
+            return
+        idx1_end = idx1 + len(target)
         
-    idx2 = js_content.find(target, idx1 + 1)
-    if idx2 == -1:
-        print("Error: Second target block not found in questions.js")
-        return
+        idx2 = js_content.find(target, idx1_end)
+        if idx2 == -1:
+            print("Error: Could not find Semana 4 block in studyData")
+            return
+        idx2_end = idx2 + len(target)
+    else:
+        idx1, idx1_end = res1
+        res2 = find_block_range(js_content, '    "Semana 4": {', idx1_end)
+        if not res2:
+            print("Error: Could not find second Semana 4 block in studyData")
+            return
+        idx2, idx2_end = res2
         
     print("Formatting JS blocks...")
     questions_block = format_js_block(semana4_questions)
     study_block = format_js_block(semana4_study)
     
-    # Verify there are no duplicate backslashes (make sure newlines are just \n in JS strings)
-    # Since we parse from MD and write using json.dumps, the newlines in strings will be output as literal \n in JSON, which is perfect.
-    
     print("Injecting into questions.js...")
-    new_content = js_content[:idx2] + study_block + js_content[idx2 + len(target):]
-    new_content = new_content[:idx1] + questions_block + new_content[idx1 + len(target):]
+    # Replace the second block (studyData) first so that the character indices of the first block remain valid
+    new_content = js_content[:idx2] + study_block + js_content[idx2_end:]
+    new_content = new_content[:idx1] + questions_block + new_content[idx1_end:]
     
     with open("questions.js", "w", encoding="utf-8") as f:
         f.write(new_content)

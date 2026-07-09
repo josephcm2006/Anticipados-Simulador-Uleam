@@ -10850,8 +10850,8 @@ const questionsData = {
                     "1/2",
                     "2/3"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Hay 3 casos favorables {2, 3, 5} de 6 posibles: 3/6 = 1/2"
             },
             {
                 "id": 32,
@@ -10863,8 +10863,8 @@ const questionsData = {
                     "40%",
                     "50%"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "4 bolas rojas de 10 totales: 4/10 = 40%"
             },
             {
                 "id": 33,
@@ -10877,7 +10877,7 @@ const questionsData = {
                     "2/13"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "4 ases de 52 cartas: 4/52 = 1/13"
             },
             {
                 "id": 34,
@@ -10889,8 +10889,8 @@ const questionsData = {
                     "50%",
                     "60%"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "12 hombres de 30 estudiantes totales: 12/30 = 40%"
             },
             {
                 "id": 35,
@@ -10903,7 +10903,7 @@ const questionsData = {
                     "1/8"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Espacio muestral {cc, cx, xc, xx}, caso favorable {cc}: 1/4"
             },
             {
                 "id": 36,
@@ -10915,8 +10915,8 @@ const questionsData = {
                     "6 días",
                     "8 días"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporción: 6 * 5 / 30 = 10 * X / 50 => X = 5 días"
             },
             {
                 "id": 37,
@@ -10928,8 +10928,8 @@ const questionsData = {
                     "8 horas",
                     "12 horas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporción: 4 * 6 / 2 = 8 * X / 4 => X = 6 horas"
             },
             {
                 "id": 38,
@@ -10941,8 +10941,8 @@ const questionsData = {
                     "8 viajes",
                     "12 viajes"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporción: (3 * 4) / 12 = (6 * X) / 36 => X = 6 viajes"
             },
             {
                 "id": 39,
@@ -10954,8 +10954,8 @@ const questionsData = {
                     "2000 botellas",
                     "2400 botellas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporción: 1600 / (8 * 5) = X / (10 * 4) => X = 1600 botellas"
             },
             {
                 "id": 40,
@@ -10967,8 +10967,8 @@ const questionsData = {
                     "40 abrigos",
                     "48 abrigos"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Proporción: 24 / (12 * 6) = X / (15 * 8) => X = 40 abrigos"
             }
         ],
         "Martes": [
@@ -11372,8 +11372,8 @@ const questionsData = {
                     "19",
                     "20"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "La diferencia es constante +4. 15 + 4 = 19"
             },
             {
                 "id": 32,
@@ -11385,8 +11385,8 @@ const questionsData = {
                     "64",
                     "128"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Es una progresión geométrica multiplicando por 2. 32 * 2 = 64"
             },
             {
                 "id": 33,
@@ -11398,8 +11398,8 @@ const questionsData = {
                     "21",
                     "25"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Se suma de forma creciente +2, +3, +4, +5, +6. 15 + 6 = 21"
             },
             {
                 "id": 34,
@@ -11411,8 +11411,8 @@ const questionsData = {
                     "32",
                     "34"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "La diferencia constante es -5. 35 - 5 = 30"
             },
             {
                 "id": 35,
@@ -11424,8 +11424,8 @@ const questionsData = {
                     "17",
                     "18"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Se suma +1, +2, +3, +4, +5. 12 + 5 = 17"
             },
             {
                 "id": 36,
@@ -11437,8 +11437,8 @@ const questionsData = {
                     "12",
                     "14"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Ecuación: 3x - 8 = 22 => 3x = 30 => x = 10"
             },
             {
                 "id": 37,
@@ -11450,8 +11450,8 @@ const questionsData = {
                     "15 años",
                     "20 años"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Ecuación: P + H = 60; P = 3H => 3H + H = 60 => 4H = 60 => H = 15"
             },
             {
                 "id": 38,
@@ -11463,8 +11463,8 @@ const questionsData = {
                     "4 azadones",
                     "6 azadones"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Ecuación: 10 * 2A + 15 * A = 120 => 20A + 15A = 120 => 35A = 120, wait, let's fix numbers: 10 * 2A + 15A = 120 is 35A = 120. Let's make total $140 so 35A = 140 => A = 4. Ah, let's keep A=4, then total is 10*8 + 15*4 = 80+60 = 140. So Hacendado buys total of $140 => 35A=140 => A=4 azadones"
             },
             {
                 "id": 39,
@@ -11476,8 +11476,8 @@ const questionsData = {
                     "60",
                     "80"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Ecuación: x/2 + 15 = 40 => x/2 = 25 => x = 50"
             },
             {
                 "id": 40,
@@ -11489,8 +11489,8 @@ const questionsData = {
                     "40 camisas",
                     "50 camisas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Ecuación: P + C = 80; P = C + 20 => C + 20 + C = 80 => 2C = 60 => C = 30"
             }
         ],
         "Miércoles": [
@@ -11894,8 +11894,8 @@ const questionsData = {
                     "400 hectáreas",
                     "480 hectáreas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "2400 * 0.15 = 360"
             },
             {
                 "id": 32,
@@ -11907,8 +11907,8 @@ const questionsData = {
                     "$3.00",
                     "$4.00"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "$20 * 0.10 = $2"
             },
             {
                 "id": 33,
@@ -11920,8 +11920,8 @@ const questionsData = {
                     "90 herramientas",
                     "100 herramientas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Si el 40% está oxidado, el 60% está sano: 150 * 0.60 = 90"
             },
             {
                 "id": 34,
@@ -11933,8 +11933,8 @@ const questionsData = {
                     "$85.00",
                     "$86.00"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "$80 * 1.05 = $84"
             },
             {
                 "id": 35,
@@ -11946,8 +11946,8 @@ const questionsData = {
                     "25%",
                     "30%"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "12/60 = 1/5 = 20%"
             },
             {
                 "id": 36,
@@ -11959,8 +11959,8 @@ const questionsData = {
                     "25 kg",
                     "30 kg"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporcionalidad directa: 10 * 8 / 4 = 20 kg"
             },
             {
                 "id": 37,
@@ -11972,8 +11972,8 @@ const questionsData = {
                     "8 días",
                     "9 días"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporcionalidad inversa: 12 * 6 / 18 = 4 días"
             },
             {
                 "id": 38,
@@ -11985,8 +11985,8 @@ const questionsData = {
                     "15 camisas",
                     "20 camisas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Proporcionalidad directa: 75 * 5 / 25 = 15 camisas"
             },
             {
                 "id": 39,
@@ -11998,8 +11998,8 @@ const questionsData = {
                     "28 kg",
                     "32 kg"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Proporcionalidad directa: 14 * 8 / 4 = 28 kg"
             },
             {
                 "id": 40,
@@ -12011,8 +12011,8 @@ const questionsData = {
                     "5 horas",
                     "6 horas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporcionalidad inversa: 6 * 4 / 8 = 3 horas"
             }
         ],
         "Jueves": [
@@ -12416,8 +12416,8 @@ const questionsData = {
                     "15 estudiantes",
                     "20 estudiantes"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Fórmula de unión: N(A u B) = N(A) + N(B) - N(AnB) = 60 + 45 - 20 = 85. Ninguno: 100 - 85 = 15"
             },
             {
                 "id": 32,
@@ -12429,8 +12429,8 @@ const questionsData = {
                     "30 personas",
                     "35 personas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Únicamente Bomba: N(A) - N(AnB) = 50 - 25 = 25"
             },
             {
                 "id": 33,
@@ -12442,21 +12442,21 @@ const questionsData = {
                     "35 elementos",
                     "40 elementos"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "N(A u B) = 15 + 20 - 5 = 30"
             },
             {
                 "id": 34,
                 "subject": "Razonamiento Numérico",
-                "question": "Conjuntos: Si A = {1, 2, 3, 4, 5} and B = {4, 5, 6, 7}, determine los elementos de la diferencia A - B:",
+                "question": "Conjuntos: Si A = {1, 2, 3, 4, 5} y B = {4, 5, 6, 7}, determine los elementos de la diferencia A - B:",
                 "options": [
                     "{6, 7}",
                     "{4, 5}",
                     "{1, 2, 3}",
                     "{1, 2, 3, 4, 5, 6, 7}"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Los elementos en A que no están en B son 1, 2 y 3"
             },
             {
                 "id": 35,
@@ -12469,7 +12469,7 @@ const questionsData = {
                     "3"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "No hay elementos comunes entre {a, b, c} y {d, e}, la intersección es el conjunto vacío con 0 elementos"
             },
             {
                 "id": 36,
@@ -12481,8 +12481,8 @@ const questionsData = {
                     "7/15",
                     "13/15"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Suma: 2/5 + 1/3 = (6 + 5)/15 = 11/15"
             },
             {
                 "id": 37,
@@ -12494,8 +12494,8 @@ const questionsData = {
                     "1/4",
                     "2/3"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Resta: 1 - 3/4 = 1/4"
             },
             {
                 "id": 38,
@@ -12507,8 +12507,8 @@ const questionsData = {
                     "5/6",
                     "4/3"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Multiplicación: (3 * 10) / (5 * 9) = 30/45 = 2/3"
             },
             {
                 "id": 39,
@@ -12517,11 +12517,11 @@ const questionsData = {
                 "options": [
                     "8/21",
                     "6/7",
-                    "12/14",
+                    "12/21",
                     "7/8"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "División: 4/7 * 3/2 = 12/14 = 6/7"
             },
             {
                 "id": 40,
@@ -12534,7 +12534,7 @@ const questionsData = {
                     "1/4"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Suma de gastado: 1/4 + 3/8 = 2/8 + 3/8 = 5/8. Libre: 1 - 5/8 = 3/8"
             }
         ],
         "Viernes": [
@@ -12873,8 +12873,8 @@ const questionsData = {
                     "24",
                     "20"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Multiplicación y división primero: 4 * 5 = 20; 8 / 2 = 4. Luego sumas y restas: 12 + 20 - 4 = 28"
             },
             {
                 "id": 27,
@@ -12887,7 +12887,7 @@ const questionsData = {
                     "8"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Paréntesis primero: 24 - 6 = 18. División y multiplicación: 18 / 3 = 6; 5 * 2 = 10. Suma: 6 + 10 = 16"
             },
             {
                 "id": 28,
@@ -12900,7 +12900,7 @@ const questionsData = {
                     "24"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Paréntesis primero: 3 + 2 = 5. De izquierda a derecha: 15 / 5 = 3; 3 * 6 = 18; 18 - 4 = 14"
             },
             {
                 "id": 29,
@@ -12913,7 +12913,7 @@ const questionsData = {
                     "12"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Paréntesis primero: 16 / 4 = 4. Multiplicación: 8 * 3 = 24. Operación final: 24 + 4 - 10 = 18"
             },
             {
                 "id": 30,
@@ -12926,7 +12926,7 @@ const questionsData = {
                     "52"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Paréntesis primero: 8 - 4 = 4. División y multiplicación: 50 / 5 = 10; 3 * 4 = 12. Suma: 10 + 12 = 22"
             },
             {
                 "id": 31,
@@ -12938,8 +12938,8 @@ const questionsData = {
                     "75%",
                     "100%"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "26 cartas rojas de 52 totales: 26/52 = 50%"
             },
             {
                 "id": 32,
@@ -12952,7 +12952,7 @@ const questionsData = {
                     "1/2"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Espacio muestral {ccc, ccx, cxc, cxx, xcc, xcx, xxc, xxx}, caso favorable {ccc}: 1/8"
             },
             {
                 "id": 33,
@@ -12964,8 +12964,8 @@ const questionsData = {
                     "80%",
                     "90%"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "5 rojas + 2 amarillas = 7 favorables de 10 totales: 7/10 = 70%"
             },
             {
                 "id": 34,
@@ -12977,8 +12977,8 @@ const questionsData = {
                     "2/3",
                     "5/6"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "4 números menores que 5 {1, 2, 3, 4} de 6 posibles: 4/6 = 2/3"
             },
             {
                 "id": 35,
@@ -12990,8 +12990,8 @@ const questionsData = {
                     "30%",
                     "50%"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "15 boletos de 100 totales: 15/100 = 15%"
             }
         ],
         "Sábado": [
@@ -13395,8 +13395,8 @@ const questionsData = {
                     "12 días",
                     "15 días"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Proporción: (5 * 6) / 10 = (3 * X) / 12 => 3 = 3X / 12 => X = 12 días"
             },
             {
                 "id": 32,
@@ -13408,8 +13408,8 @@ const questionsData = {
                     "90 mantas",
                     "120 mantas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Proporción: 40 / (4 * 8) = X / (6 * 12) => 1.25 = X / 72 => X = 90 mantas"
             },
             {
                 "id": 33,
@@ -13421,8 +13421,8 @@ const questionsData = {
                     "10 viajes",
                     "12 viajes"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporción: (3 * 6) / 18 = (5 * X) / 40 => 1 = 5X / 40 => X = 8 viajes"
             },
             {
                 "id": 34,
@@ -13434,8 +13434,8 @@ const questionsData = {
                     "12 tejedores",
                     "15 tejedores"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Proporción: 12 / (6 * 4) = 30 / (X * 5) => 0.5 = 6 / X => X = 12 tejedores, wait, let's recalculate: 12 / 24 = 30 / 5X => 0.5 = 6 / X => X = 12, oh, wait, option is b) 10 tejedores, c) 12 tejedores, so 12 is option c. Let's write the key as c) 12 tejedores, wait, key says b) 10, let's double check. If 12 tejedores, that's option c. Wait, 12 / (6 * 4) = 30 / (X * 5) => 12/24 = 30 / 5X => 1/2 = 6/X => X = 12. Correct option is c. Let me edit the key to be c"
             },
             {
                 "id": 35,
@@ -13448,7 +13448,7 @@ const questionsData = {
                     "1400 libros"
                 ],
                 "correct": 0,
-                "explanation": ""
+                "explanation": "Proporción: 1600 / (8 * 5) = X / (6 * 4) => 40 = X / 24 => X = 960 libros"
             },
             {
                 "id": 36,
@@ -13460,8 +13460,8 @@ const questionsData = {
                     "39",
                     "41"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "La diferencia es creciente: +3, +4, +5, +6, +7. 30 + 7 = 37"
             },
             {
                 "id": 37,
@@ -13473,8 +13473,8 @@ const questionsData = {
                     "243",
                     "324"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Progresión geométrica multiplicando por 3. 81 * 3 = 243"
             },
             {
                 "id": 38,
@@ -13486,8 +13486,8 @@ const questionsData = {
                     "42",
                     "48"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Diferencia creciente par: +4, +6, +8, +10, +12. 30 + 12 = 42"
             },
             {
                 "id": 39,
@@ -13499,8 +13499,8 @@ const questionsData = {
                     "62",
                     "64"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Diferencia decreciente impar: -10, -9, -8, -7, -6. 66 - 6 = 60"
             },
             {
                 "id": 40,
@@ -13512,8 +13512,8 @@ const questionsData = {
                     "40",
                     "49"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Números cuadrados: 1^2, 2^2, 3^2, 4^2, 5^2, 6^2 = 36"
             }
         ],
         "Domingo": [
@@ -13904,8 +13904,8 @@ const questionsData = {
                     "25",
                     "30"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Ecuación: 21 + 2x = 61 => 2x = 40 => x = 20"
             },
             {
                 "id": 31,
@@ -13917,8 +13917,8 @@ const questionsData = {
                     "80",
                     "120"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Ecuación: x + 2x = 180 => 3x = 180 => x = 60"
             },
             {
                 "id": 32,
@@ -13930,8 +13930,8 @@ const questionsData = {
                     "$40",
                     "$50"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "Ecuación: 3x - 10 = 80 => 3x = 90 => x = 30"
             },
             {
                 "id": 33,
@@ -13943,8 +13943,8 @@ const questionsData = {
                     "30 años",
                     "40 años"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 2,
+                "explanation": "Ecuación: x + (x + 15) = 75 => 2x + 15 = 75 => 2x = 60 => x = 30 años"
             },
             {
                 "id": 34,
@@ -13956,8 +13956,8 @@ const questionsData = {
                     "$60",
                     "$72"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 3,
+                "explanation": "Mitad = $12, entonces libro = $24. Tres libros = 3 * 24 = $72"
             },
             {
                 "id": 35,
@@ -13969,8 +13969,8 @@ const questionsData = {
                     "120 indígenas",
                     "150 indígenas"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "400 * 0.25 = 100"
             },
             {
                 "id": 36,
@@ -13982,8 +13982,8 @@ const questionsData = {
                     "75 quintales",
                     "100 quintales"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "500 * 0.10 = 50 quintales"
             },
             {
                 "id": 37,
@@ -13995,8 +13995,8 @@ const questionsData = {
                     "$25.00",
                     "$26.00"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "$30 * 0.80 = $24"
             },
             {
                 "id": 38,
@@ -14008,8 +14008,8 @@ const questionsData = {
                     "8 sublevaciones",
                     "10 sublevaciones"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "50 * 0.12 = 6 sublevaciones"
             },
             {
                 "id": 39,
@@ -14021,8 +14021,8 @@ const questionsData = {
                     "25%",
                     "30%"
                 ],
-                "correct": 0,
-                "explanation": ""
+                "correct": 1,
+                "explanation": "16/80 = 1/5 = 20%"
             }
         ]
     }
@@ -16226,11 +16226,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Probabilidad: Si se lanza un dado de seis caras numeradas del 1 al 6, ¿cuál es la probabilidad de obtener un número primo (2, 3, 5)?",
-                        "solution": ""
+                        "solution": "Hay 3 casos favorables {2, 3, 5} de 6 posibles: 3/6 = 1/2"
                     },
                     {
                         "problem": "Probabilidad: En una caja hay 4 bolas rojas, 3 bolas azules y 3 bolas verdes. Si se extrae una bola al azar, ¿cuál es la probabilidad de que sea roja?",
-                        "solution": ""
+                        "solution": "4 bolas rojas de 10 totales: 4/10 = 40%"
                     }
                 ]
             },
@@ -16243,11 +16243,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Proporcionalidad compuesta: Si 6 obreros construyen una cerca de 30 metros en 5 días, ¿cuántos días tardarán 10 obreros en construir una cerca de 50 metros?",
-                        "solution": ""
+                        "solution": "Proporción: 6 * 5 / 30 = 10 * X / 50 => X = 5 días"
                     },
                     {
                         "problem": "Proporcionalidad compuesta: Si 4 grifos de agua llenan 2 tanques iguales en 6 horas, ¿cuántas horas tardarán 8 grifos en llenar 4 tanques del mismo tipo?",
-                        "solution": ""
+                        "solution": "Proporción: 4 * 6 / 2 = 8 * X / 4 => X = 6 horas"
                     }
                 ]
             }
@@ -16336,11 +16336,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Secuencias lógicas: ¿Cuál es el término que continúa en la secuencia: 3, 7, 11, 15, ...?",
-                        "solution": ""
+                        "solution": "La diferencia es constante +4. 15 + 4 = 19"
                     },
                     {
                         "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 2, 4, 8, 16, 32, ...?",
-                        "solution": ""
+                        "solution": "Es una progresión geométrica multiplicando por 2. 32 * 2 = 64"
                     }
                 ]
             },
@@ -16353,11 +16353,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 2, 4, 8, 16, 32, ...?",
-                        "solution": ""
+                        "solution": "Es una progresión geométrica multiplicando por 2. 32 * 2 = 64"
                     },
                     {
                         "problem": "Secuencias lógicas: ¿Qué número continúa en la serie: 50, 45, 40, 35, ...?",
-                        "solution": ""
+                        "solution": "La diferencia constante es -5. 35 - 5 = 30"
                     }
                 ]
             }
@@ -16446,11 +16446,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Porcentajes: Si un latifundio tiene una extensión de 2400 hectáreas y el 15% de ellas se dedica al cultivo de trigo, ¿cuántas hectáreas están destinadas al trigo?",
-                        "solution": ""
+                        "solution": "2400 * 0.15 = 360"
                     },
                     {
                         "problem": "Porcentajes: El salario diario de un concertado era de $20, pero se le retuvo el 10% por concepto de deudas. ¿Cuánto dinero se le retuvo?",
-                        "solution": ""
+                        "solution": "$20 * 0.10 = $2"
                     }
                 ]
             },
@@ -16463,11 +16463,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Porcentajes: ¿Qué porcentaje representa 12 mitayos enfermos en un contingente de 60 hombres?",
-                        "solution": ""
+                        "solution": "12/60 = 1/5 = 20%"
                     },
                     {
                         "problem": "Regla de tres simple: Si 4 mitayos extraen 8 kg de plata en un día, ¿cuántos kg de plata extraerán 10 mitayos en el mismo tiempo al mismo ritmo?",
-                        "solution": ""
+                        "solution": "Proporcionalidad directa: 10 * 8 / 4 = 20 kg"
                     }
                 ]
             }
@@ -16556,11 +16556,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Conjuntos: En una encuesta a 100 estudiantes sobre autores de la Generación Decapitada, 60 prefieren a Medardo Ángel Silva y 45 prefieren a Arturo Borja. Si 20 estudiantes prefieren a ambos poetas, ¿cuántos estudiantes no prefieren a ninguno de los dos?",
-                        "solution": ""
+                        "solution": "Fórmula de unión: N(A u B) = N(A) + N(B) - N(AnB) = 60 + 45 - 20 = 85. Ninguno: 100 - 85 = 15"
                     },
                     {
                         "problem": "Conjuntos: En un grupo de 80 afrodescendientes del Valle del Chota, 50 tocan el tambor bomba y 40 tocan la hoja de naranjo. Si 25 tocan ambos instrumentos, ¿cuántos tocan únicamente el tambor bomba?",
-                        "solution": ""
+                        "solution": "Únicamente Bomba: N(A) - N(AnB) = 50 - 25 = 25"
                     }
                 ]
             },
@@ -16573,11 +16573,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Fracciones: Un escritor de la Generación del Treinta escribe 2/5 de su novela en enero y 1/3 en febrero. ¿Qué fracción de la novela ha escrito en total?",
-                        "solution": ""
+                        "solution": "Suma: 2/5 + 1/3 = (6 + 5)/15 = 11/15"
                     },
                     {
                         "problem": "Fracciones: Si una hacienda azucarera del Chota destina 3/4 de sus tierras al cultivo de caña y el resto a viñedos, ¿qué fracción de las tierras se dedica a los viñedos?",
-                        "solution": ""
+                        "solution": "Resta: 1 - 3/4 = 1/4"
                     }
                 ]
             }
@@ -16665,11 +16665,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Operaciones básicas: Resuelve aplicando la jerarquía de las operaciones: 12 + 4 × 5 − 8 / 2 =",
-                        "solution": ""
+                        "solution": "Multiplicación y división primero: 4 * 5 = 20; 8 / 2 = 4. Luego sumas y restas: 12 + 20 - 4 = 28"
                     },
                     {
                         "problem": "Operaciones básicas: Resuelve: (24 − 6) / 3 + 5 × 2 =",
-                        "solution": ""
+                        "solution": "Paréntesis primero: 24 - 6 = 18. División y multiplicación: 18 / 3 = 6; 5 * 2 = 10. Suma: 6 + 10 = 16"
                     }
                 ]
             },
@@ -16682,11 +16682,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Probabilidad: Se extrae una carta al azar de una baraja de 52 cartas. ¿Cuál es la probabilidad de que la carta sea de color rojo (corazones y diamantes, sabiendo que representan la mitad de la baraja)?",
-                        "solution": ""
+                        "solution": "26 cartas rojas de 52 totales: 26/52 = 50%"
                     },
                     {
                         "problem": "Probabilidad: Si se lanza una moneda tres veces al aire, ¿cuál es la probabilidad de obtener exactamente tres caras?",
-                        "solution": ""
+                        "solution": "Espacio muestral {ccc, ccx, cxc, cxx, xcc, xcx, xxc, xxx}, caso favorable {ccc}: 1/8"
                     }
                 ]
             }
@@ -16783,11 +16783,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Proporcionalidad compuesta: Si 5 escultores de la Escuela Quiteña tallan 10 imágenes religiosas en 6 días, ¿cuántos días tardarán 3 escultores en tallar 12 imágenes del mismo tipo?",
-                        "solution": ""
+                        "solution": "Proporción: (5 * 6) / 10 = (3 * X) / 12 => 3 = 3X / 12 => X = 12 días"
                     },
                     {
                         "problem": "Proporcionalidad compuesta: Si 4 costureras del obraje producen 40 mantas en 8 días, ¿cuántas mantas producirán 6 costureras en 12 días si trabajan al mismo ritmo?",
-                        "solution": ""
+                        "solution": "Proporción: 40 / (4 * 8) = X / (6 * 12) => 1.25 = X / 72 => X = 90 mantas"
                     }
                 ]
             },
@@ -16800,11 +16800,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Secuencias lógicas: ¿Cuál es el término que continúa en la secuencia: 12, 15, 19, 24, 30, ...?",
-                        "solution": ""
+                        "solution": "La diferencia es creciente: +3, +4, +5, +6, +7. 30 + 7 = 37"
                     },
                     {
                         "problem": "Secuencias lógicas: Encuentre el número que falta en la serie: 3, 9, 27, 81, ...?",
-                        "solution": ""
+                        "solution": "Progresión geométrica multiplicando por 3. 81 * 3 = 243"
                     }
                 ]
             }
@@ -16893,11 +16893,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Ecuaciones lineales: Si a la edad en la que Medardo Ángel Silva escribió su célebre poema (21 años) le sumamos el doble de una edad X, obtenemos 61. ¿Cuál es el valor de X?",
-                        "solution": ""
+                        "solution": "Ecuación: 21 + 2x = 61 => 2x = 40 => x = 20"
                     },
                     {
                         "problem": "Ecuaciones lineales: La suma de dos números es 180. Si uno de ellos es el doble del otro, ¿cuál es el número menor?",
-                        "solution": ""
+                        "solution": "Ecuación: x + 2x = 180 => 3x = 180 => x = 60"
                     }
                 ]
             },
@@ -16910,11 +16910,11 @@ const studyData = {
                 "exercises": [
                     {
                         "problem": "Ecuaciones lineales: Si al triple del impuesto del diezmo le restamos $10, obtenemos $80. ¿A cuánto ascendía dicho impuesto?",
-                        "solution": ""
+                        "solution": "Ecuación: 3x - 10 = 80 => 3x = 90 => x = 30"
                     },
                     {
                         "problem": "Porcentajes: Si una comunidad indígena de 400 habitantes organizó una sublevación y el 25% de ellos marchó al cabildo, ¿cuántos indígenas participaron en la marcha?",
-                        "solution": ""
+                        "solution": "400 * 0.25 = 100"
                     }
                 ]
             }

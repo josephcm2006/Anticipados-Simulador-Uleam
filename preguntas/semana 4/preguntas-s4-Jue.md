@@ -40,12 +40,12 @@ Tema: Conjuntos y Fracciones
 1. Conjuntos: En una encuesta a 100 estudiantes sobre autores de la Generación Decapitada, 60 prefieren a Medardo Ángel Silva y 45 prefieren a Arturo Borja. Si 20 estudiantes prefieren a ambos poetas, ¿cuántos estudiantes no prefieren a ninguno de los dos? a) 5 estudiantes b) 10 estudiantes c) 15 estudiantes d) 20 estudiantes
 2. Conjuntos: En un grupo de 80 afrodescendientes del Valle del Chota, 50 tocan el tambor bomba y 40 tocan la hoja de naranjo. Si 25 tocan ambos instrumentos, ¿cuántos tocan únicamente el tambor bomba? a) 15 personas b) 25 personas c) 30 personas d) 35 personas
 3. Conjuntos: Si el conjunto A tiene 15 elementos, el conjunto B tiene 20 elementos y su intersección tiene 5 elementos, ¿cuántos elementos tiene la unión de A y B? a) 20 elementos b) 30 elementos c) 35 elementos d) 40 elementos
-4. Conjuntos: Si A = {1, 2, 3, 4, 5} and B = {4, 5, 6, 7}, determine los elementos de la diferencia A - B: a) {6, 7} b) {4, 5} c) {1, 2, 3} d) {1, 2, 3, 4, 5, 6, 7}
+4. Conjuntos: Si A = {1, 2, 3, 4, 5} y B = {4, 5, 6, 7}, determine los elementos de la diferencia A - B: a) {6, 7} b) {4, 5} c) {1, 2, 3} d) {1, 2, 3, 4, 5, 6, 7}
 5. Conjuntos: Si A = {a, b, c} y B = {d, e}, determine el número de elementos de la intersección de A y B: a) 0 b) 1 c) 2 d) 3
 6. Fracciones: Un escritor de la Generación del Treinta escribe 2/5 de su novela en enero y 1/3 en febrero. ¿Qué fracción de la novela ha escrito en total? a) 3/8 b) 11/15 c) 7/15 d) 13/15
 7. Fracciones: Si una hacienda azucarera del Chota destina 3/4 de sus tierras al cultivo de caña y el resto a viñedos, ¿qué fracción de las tierras se dedica a los viñedos? a) 1/2 b) 1/3 c) 1/4 d) 2/3
 8. Fracciones: Resuelva la siguiente multiplicación de fracciones: (3/5) × (10/9) = a) 27/50 b) 2/3 c) 5/6 d) 4/3
-9. Fracciones: Divida la fracción 4/7 para 2/3: a) 8/21 b) 6/7 c) 12/14 d) 7/8
+9. Fracciones: Divida la fracción 4/7 para 2/3: a) 8/21 b) 6/7 c) 12/21 d) 7/8
 10. Fracciones: Si un mitayo gasta 1/4 de su jornada en excavar y 3/8 en transportar mineral, ¿qué fracción de la jornada le queda libre para el descanso? a) 3/8 b) 1/2 c) 5/8 d) 1/4
 
 🔑 Clave de Respuestas
