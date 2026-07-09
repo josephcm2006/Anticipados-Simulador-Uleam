@@ -1,7 +1,7 @@
 📚 Lengua y Literatura (10 preguntas)
 1. ¿Qué poeta ecuatoriano del siglo XX es el autor del célebre y telúrico poema social "Boletín y elegía de las mitas" publicado en 1959? a) Medardo Ángel Silva b) César Dávila Andrade c) Jorge Enrique Adoum d) Arturo Borja
 2. ¿En qué año publicó el poeta Jorge Enrique Adoum su monumental poemario social e histórico "Ecuador amargo"? a) En 1919 b) En 1934 c) En 1949 d) En 1959
-3. ¿Cómo se definen formalmente los poemas épicos en la literatura universal? a) Composiciones breves en prosa sobre el amor c) Cantos humorísticos de las fiestas populares b) Extensas composiciones narrativas en verso que relatan hazañas heroicas y batallas legendarias d) Diálogos cómicos para representaciones teatrales
+3. ¿Cómo se definen formalmente los poemas épicos en la literatura universal? a) Composiciones breves en prosa sobre el amor b) Extensas composiciones narrativas en verso que relatan hazañas heroicas y batallas legendarias c) Cantos humorísticos de las fiestas populares d) Diálogos cómicos para representaciones teatrales
 4. ¿A qué poeta de la antigua Grecia del siglo VIII a.C. se le atribuyen los poemas épicos de la Ilíada y la Odisea? a) Virgilio b) Homero c) Sófocles d) Eurípides
 5. ¿Qué estadista y poeta guayaquileño escribió en 1825 el célebre poema épico "La victoria de Junín: Canto a Bolívar"? a) José Joaquín de Olmedo b) Medardo Ángel Silva c) Eliécer Cárdenas d) Gabriel García Moreno
 6. ¿En qué año compuso José Joaquín de Olmedo su poema épico de la gesta libertaria "La victoria de Junín: Canto a Bolívar"? a) En 1812 b) En 1825 c) En 1888 d) En 1919

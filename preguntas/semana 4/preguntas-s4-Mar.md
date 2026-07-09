@@ -31,7 +31,7 @@ Tema: Sinónimos y Antónimos
 5. Antónimos: Identifique el antónimo complementario de la palabra **VIVO**. a) Enfermo b) Muerto c) Moribundo d) Sano
 6. Antónimos: ¿Cuál es el antónimo gradual de la palabra **CALIENTE**? a) Helado b) Frío c) Tibio d) Quemante
 7. Antónimos: Señale el antónimo recíproco de la palabra **COMPRAR**. a) Adquirir b) Vender c) Entregar d) Donar
-8. Antónimos: Identifique el antónimo de **CALIFICAR** en el contexto de adjetivos. a) Clasificar b) Determinar c) Describir d) Omitar
+8. Antónimos: Identifique el antónimo de **CALIFICAR** en el contexto de adjetivos. a) Clasificar b) Determinar c) Describir d) Omitir
 9. Sinónimos: Seleccione el sinónimo de la palabra **ADJETIVO** en su sentido gramatical. a) Modificador b) Núcleo c) Verbo d) Nexo
 10. Antónimos: ¿Cuál es el antónimo de **DETERMINATIVO**? a) Demostrativo b) Indefinido c) Calificativo d) Posesivo
 
@@ -51,5 +51,5 @@ Tema: Secuencias lógicas y Solución de problemas de ecuaciones lineales
 🔑 Clave de Respuestas
 Lengua y Literatura: 1: b | 2: c | 3: b | 4: b | 5: c | 6: b | 7: a | 8: c | 9: b | 10: b
 Historia: 1: b | 2: c | 3: b | 4: a | 5: d | 6: b | 7: c | 8: b | 9: b | 10: c
-Razonamiento Verbal: 1: c | 2: b | 3: b | 4: a | 5: b | 6: b | 7: b | 8: d | 9: a | 10: c
+Razonamiento Verbal: 1: c | 2: b | 3: b | 4: a | 5: b | 6: b | 7: b | 8: b | 9: a | 10: c
 Razonamiento Numérico: 1: c (La diferencia es constante +4. 15 + 4 = 19) | 2: c (Es una progresión geométrica multiplicando por 2. 32 * 2 = 64) | 3: c (Se suma de forma creciente +2, +3, +4, +5, +6. 15 + 6 = 21) | 4: b (La diferencia constante es -5. 35 - 5 = 30) | 5: c (Se suma +1, +2, +3, +4, +5. 12 + 5 = 17) | 6: b (Ecuación: 3x - 8 = 22 => 3x = 30 => x = 10) | 7: c (Ecuación: P + H = 60; P = 3H => 3H + H = 60 => 4H = 60 => H = 15) | 8: c (Ecuación: 10 * 2A + 15 * A = 120 => 20A + 15A = 120 => 35A = 120, wait, let's fix numbers: 10 * 2A + 15A = 120 is 35A = 120. Let's make total $140 so 35A = 140 => A = 4. Ah, let's keep A=4, then total is 10*8 + 15*4 = 80+60 = 140. So Hacendado buys total of $140 => 35A=140 => A=4 azadones) | 9: b (Ecuación: x/2 + 15 = 40 => x/2 = 25 => x = 50) | 10: b (Ecuación: P + C = 80; P = C + 20 => C + 20 + C = 80 => 2C = 60 => C = 30)

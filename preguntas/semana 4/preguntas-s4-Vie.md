@@ -29,36 +29,11 @@ Tema: Término excluido y Ordenar oraciones
 3. Término excluido: ¿Cuál de las siguientes opciones se excluye del grupo semántico de **ARTE MESTIZO**? a) Relieves de jaguares b) Columnas salomónicas c) Símbolos de la Pachamama d) Arte abstracto contemporáneo
 4. Término excluido: Seleccione el vocablo excluido en la serie de **TEATRO HISPANOAMERICANO DEL SIGLO XX**. a) Rodolfo Usigli b) Francisco Tobar García c) Griselda Gambaro d) Rubén Darío
 5. Término excluido: Señale la palabra que se excluye del concepto de **EVANGELIZACIÓN MEDIANTE EL ARTE**. a) Catequización b) Conversión c) Adoctrinamiento d) Secularización
-6. Ordenar oraciones: Organice las siguientes ideas para estructurar una explicación cronológica del Modernismo:
-1. Rubén Darío publicó su libro Azul... en Valparaíso en 1888, fundando el Modernismo.
-2. A finales del siglo diecinueve, la poesía hispanoamericana buscó una renovación estética.
-3. Posteriormente, poetas de toda América y España adoptaron esta nueva corriente literaria.
-4. En el siglo veinte, el modernismo derivó en corrientes posmodernistas y vanguardistas.
-a) 2, 1, 3, 4 b) 1, 2, 3, 4 c) 2, 3, 1, 4 d) 1, 3, 2, 4
-7. Ordenar oraciones: Ordene las partes para definir el proceso de análisis de término excluido:
-1. Primero, se analiza el significado de cada una de las palabras propuestas en el ejercicio.
-2. Después, se determina el campo semántico común que agrupa a la mayoría de las opciones.
-3. Finalmente, se identifica y excluye la palabra que no guarda relación de afinidad conceptual.
-4. Para resolver un ejercicio de término excluido, se requiere una metodología ordenada.
-a) 4, 1, 2, 3 b) 1, 2, 3, 4 c) 4, 2, 1, 3 d) 1, 4, 2, 3
-8. Ordenar oraciones: Ordene lógicamente los elementos sobre el arte barroco andino:
-1. representó una síntesis cultural única
-2. El arte barroco andino desarrollado en el periodo colonial
-3. entre los símbolos aborígenes y las técnicas estéticas europeas.
-4. que fusionó de forma creativa elementos decorativos.
-a) 2, 1, 4, 3 b) 2, 4, 3, 1 c) 1, 3, 2, 4 d) 2, 1, 3, 4
-9. Ordenar oraciones: Organice sintácticamente el enunciado:
-1. de las dictaduras y la injusticia social.
-2. El teatro del siglo veinte se convirtió
-3. en un canal de protesta y denuncia
-4. contra los abusos gubernamentales.
-a) 2, 3, 1, 4 b) 2, 3, 4, 1 c) 3, 2, 1, 4 d) 1, 2, 3, 4
-10. Ordenar oraciones: Ordene los elementos para dar sentido al concepto de sincretismo:
-1. mediante una síntesis ritual y festiva.
-2. deidades de la cosmovisión originaria
-3. El sincretismo religioso colonial integró
-4. dentro del santoral y calendario católico
-a) 3, 2, 4, 1 b) 3, 1, 2, 4 c) 1, 2, 3, 4 d) 2, 1, 3, 4
+6. Ordenar oraciones: Organice las siguientes ideas para estructurar una explicación cronológica del Modernismo: 1. Rubén Darío publicó su libro Azul... en Valparaíso en 1888, fundando el Modernismo. 2. A finales del siglo diecinueve, la poesía hispanoamericana buscó una renovación estética. 3. Posteriormente, poetas de toda América y España adoptaron esta nueva corriente literaria. 4. En el siglo veinte, el modernismo derivó en corrientes posmodernistas y vanguardistas. a) 2, 1, 3, 4 b) 1, 2, 3, 4 c) 2, 3, 1, 4 d) 1, 3, 2, 4
+7. Ordenar oraciones: Ordene las partes para definir el proceso de análisis de término excluido: 1. Primero, se analiza el significado de cada una de las palabras propuestas en el ejercicio. 2. Después, se determina el campo semántico común que agrupa a la mayoría de las opciones. 3. Finalmente, se identifica y excluye la palabra que no guarda relación de afinidad conceptual. 4. Para resolver un ejercicio de término excluido, se requiere una metodología ordenada. a) 4, 1, 2, 3 b) 1, 2, 3, 4 c) 4, 2, 1, 3 d) 1, 4, 2, 3
+8. Ordenar oraciones: Ordene lógicamente los elementos sobre el arte barroco andino: 1. representó una síntesis cultural única 2. El arte barroco andino desarrollado en el periodo colonial 3. entre los símbolos aborígenes y las técnicas estéticas europeas. 4. que fusionó de forma creativa elementos decorativos. a) 2, 1, 4, 3 b) 2, 4, 3, 1 c) 1, 3, 2, 4 d) 2, 1, 3, 4
+9. Ordenar oraciones: Organice sintácticamente el enunciado: 1. de las dictaduras y la injusticia social. 2. El teatro del siglo veinte se convirtió 3. en un canal de protesta y denuncia 4. contra los abusos gubernamentales. a) 2, 3, 1, 4 b) 2, 3, 4, 1 c) 3, 2, 1, 4 d) 1, 2, 3, 4
+10. Ordenar oraciones: Ordene los elementos para dar sentido al concepto de sincretismo: 1. mediante una síntesis ritual y festiva. 2. deidades de la cosmovisión originaria 3. El sincretismo religioso colonial integró 4. dentro del santoral y calendario católico a) 3, 2, 4, 1 b) 3, 1, 2, 4 c) 1, 2, 3, 4 d) 2, 1, 3, 4
 
 🧮 Razonamiento Numérico (10 preguntas)
 Tema: Operaciones básicas y Probabilidad

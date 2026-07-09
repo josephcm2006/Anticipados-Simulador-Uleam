@@ -11331,10 +11331,10 @@ const questionsData = {
                     "Clasificar",
                     "Determinar",
                     "Describir",
-                    "Omitar"
+                    "Omitir"
                 ],
-                "correct": 3,
-                "explanation": "La respuesta correcta es la d) porque Omitar"
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Determinar"
             },
             {
                 "id": 29,
@@ -12865,6 +12865,71 @@ const questionsData = {
             },
             {
                 "id": 26,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar oraciones: Organice las siguientes ideas para estructurar una explicación cronológica del Modernismo: 1. Rubén Darío publicó su libro Azul... en Valparaíso en 1888, fundando el Modernismo. 2. A finales del siglo diecinueve, la poesía hispanoamericana buscó una renovación estética. 3. Posteriormente, poetas de toda América y España adoptaron esta nueva corriente literaria. 4. En el siglo veinte, el modernismo derivó en corrientes posmodernistas y vanguardistas.",
+                "options": [
+                    "2, 1, 3, 4",
+                    "1, 2, 3, 4",
+                    "2, 3, 1, 4",
+                    "1, 3, 2, 4"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque 2, 1, 3, 4"
+            },
+            {
+                "id": 27,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar oraciones: Ordene las partes para definir el proceso de análisis de término excluido: 1. Primero, se analiza el significado de cada una de las palabras propuestas en el ejercicio. 2. Después, se determina el campo semántico común que agrupa a la mayoría de las opciones. 3. Finalmente, se identifica y excluye la palabra que no guarda relación de afinidad conceptual. 4. Para resolver un ejercicio de término excluido, se requiere una metodología ordenada.",
+                "options": [
+                    "4, 1, 2, 3",
+                    "1, 2, 3, 4",
+                    "4, 2, 1, 3",
+                    "1, 4, 2, 3"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque 4, 1, 2, 3"
+            },
+            {
+                "id": 28,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar oraciones: Ordene lógicamente los elementos sobre el arte barroco andino: 1. representó una síntesis cultural única 2. El arte barroco andino desarrollado en el periodo colonial 3. entre los símbolos aborígenes y las técnicas estéticas europeas. 4. que fusionó de forma creativa elementos decorativos.",
+                "options": [
+                    "2, 1, 4, 3",
+                    "2, 4, 3, 1",
+                    "1, 3, 2, 4",
+                    "2, 1, 3, 4"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque 2, 1, 4, 3"
+            },
+            {
+                "id": 29,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar oraciones: Organice sintácticamente el enunciado: 1. de las dictaduras y la injusticia social. 2. El teatro del siglo veinte se convirtió 3. en un canal de protesta y denuncia 4. contra los abusos gubernamentales.",
+                "options": [
+                    "2, 3, 1, 4",
+                    "2, 3, 4, 1",
+                    "3, 2, 1, 4",
+                    "1, 2, 3, 4"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque 2, 3, 4, 1"
+            },
+            {
+                "id": 30,
+                "subject": "Razonamiento Verbal",
+                "question": "Ordenar oraciones: Ordene los elementos para dar sentido al concepto de sincretismo: 1. mediante una síntesis ritual y festiva. 2. deidades de la cosmovisión originaria 3. El sincretismo religioso colonial integró 4. dentro del santoral y calendario católico",
+                "options": [
+                    "3, 2, 4, 1",
+                    "3, 1, 2, 4",
+                    "1, 2, 3, 4",
+                    "2, 1, 3, 4"
+                ],
+                "correct": 0,
+                "explanation": "La respuesta correcta es la a) porque 3, 2, 4, 1"
+            },
+            {
+                "id": 31,
                 "subject": "Razonamiento Numérico",
                 "question": "Operaciones básicas: Resuelve aplicando la jerarquía de las operaciones: 12 + 4 × 5 − 8 / 2 =",
                 "options": [
@@ -12877,7 +12942,7 @@ const questionsData = {
                 "explanation": "Multiplicación y división primero: 4 * 5 = 20; 8 / 2 = 4. Luego sumas y restas: 12 + 20 - 4 = 28"
             },
             {
-                "id": 27,
+                "id": 32,
                 "subject": "Razonamiento Numérico",
                 "question": "Operaciones básicas: Resuelve: (24 − 6) / 3 + 5 × 2 =",
                 "options": [
@@ -12890,7 +12955,7 @@ const questionsData = {
                 "explanation": "Paréntesis primero: 24 - 6 = 18. División y multiplicación: 18 / 3 = 6; 5 * 2 = 10. Suma: 6 + 10 = 16"
             },
             {
-                "id": 28,
+                "id": 33,
                 "subject": "Razonamiento Numérico",
                 "question": "Operaciones básicas: Resuelve: 15 / (3 + 2) × 6 − 4 =",
                 "options": [
@@ -12903,7 +12968,7 @@ const questionsData = {
                 "explanation": "Paréntesis primero: 3 + 2 = 5. De izquierda a derecha: 15 / 5 = 3; 3 * 6 = 18; 18 - 4 = 14"
             },
             {
-                "id": 29,
+                "id": 34,
                 "subject": "Razonamiento Numérico",
                 "question": "Operaciones básicas: Resuelve: 8 × 3 + (16 / 4) − 10 =",
                 "options": [
@@ -12916,7 +12981,7 @@ const questionsData = {
                 "explanation": "Paréntesis primero: 16 / 4 = 4. Multiplicación: 8 * 3 = 24. Operación final: 24 + 4 - 10 = 18"
             },
             {
-                "id": 30,
+                "id": 35,
                 "subject": "Razonamiento Numérico",
                 "question": "Operaciones básicas: Resuelve: 50 / 5 + 3 × (8 − 4) =",
                 "options": [
@@ -12929,7 +12994,7 @@ const questionsData = {
                 "explanation": "Paréntesis primero: 8 - 4 = 4. División y multiplicación: 50 / 5 = 10; 3 * 4 = 12. Suma: 10 + 12 = 22"
             },
             {
-                "id": 31,
+                "id": 36,
                 "subject": "Razonamiento Numérico",
                 "question": "Probabilidad: Se extrae una carta al azar de una baraja de 52 cartas. ¿Cuál es la probabilidad de que la carta sea de color rojo (corazones y diamantes, sabiendo que representan la mitad de la baraja)?",
                 "options": [
@@ -12942,7 +13007,7 @@ const questionsData = {
                 "explanation": "26 cartas rojas de 52 totales: 26/52 = 50%"
             },
             {
-                "id": 32,
+                "id": 37,
                 "subject": "Razonamiento Numérico",
                 "question": "Probabilidad: Si se lanza una moneda tres veces al aire, ¿cuál es la probabilidad de obtener exactamente tres caras?",
                 "options": [
@@ -12955,7 +13020,7 @@ const questionsData = {
                 "explanation": "Espacio muestral {ccc, ccx, cxc, cxx, xcc, xcx, xxc, xxx}, caso favorable {ccc}: 1/8"
             },
             {
-                "id": 33,
+                "id": 38,
                 "subject": "Razonamiento Numérico",
                 "question": "Probabilidad: En una bolsa hay 5 canicas rojas, 3 canicas verdes y 2 canicas amarillas. Si se extrae una canica al azar, ¿cuál es la probabilidad de que sea roja o amarilla?",
                 "options": [
@@ -12968,7 +13033,7 @@ const questionsData = {
                 "explanation": "5 rojas + 2 amarillas = 7 favorables de 10 totales: 7/10 = 70%"
             },
             {
-                "id": 34,
+                "id": 39,
                 "subject": "Razonamiento Numérico",
                 "question": "Probabilidad: Si se lanza un dado de seis caras, ¿cuál es la probabilidad de obtener un número menor que 5 (es decir, 1, 2, 3, 4)?",
                 "options": [
@@ -12981,7 +13046,7 @@ const questionsData = {
                 "explanation": "4 números menores que 5 {1, 2, 3, 4} de 6 posibles: 4/6 = 2/3"
             },
             {
-                "id": 35,
+                "id": 40,
                 "subject": "Razonamiento Numérico",
                 "question": "Probabilidad: En un sorteo de la hacienda, se venden 100 boletos de rifa. Si un indígena compra 15 boletos, ¿cuál es su probabilidad de ganar el sorteo?",
                 "options": [
@@ -13434,13 +13499,13 @@ const questionsData = {
                     "12 tejedores",
                     "15 tejedores"
                 ],
-                "correct": 1,
-                "explanation": "Proporción: 12 / (6 * 4) = 30 / (X * 5) => 0.5 = 6 / X => X = 12 tejedores, wait, let's recalculate: 12 / 24 = 30 / 5X => 0.5 = 6 / X => X = 12, oh, wait, option is b) 10 tejedores, c) 12 tejedores, so 12 is option c. Let's write the key as c) 12 tejedores, wait, key says b) 10, let's double check. If 12 tejedores, that's option c. Wait, 12 / (6 * 4) = 30 / (X * 5) => 12/24 = 30 / 5X => 1/2 = 6/X => X = 12. Correct option is c. Let me edit the key to be c"
+                "correct": 2,
+                "explanation": "Proporción: 12 / (6 * 4) = 30 / (X * 5) => 1/2 = 6/X => X = 12 tejedores"
             },
             {
                 "id": 35,
                 "subject": "Razonamiento Numérico",
-                "question": "Proporcionalidad compuesta: Si 8 operarios de una imprenta editan 1600 libros en 5 days, ¿cuántos libros editarán 6 operarios en 4 días trabajando al mismo ritmo?",
+                "question": "Proporcionalidad compuesta: Si 8 operarios de una imprenta editan 1600 libros en 5 días, ¿cuántos libros editarán 6 operarios en 4 días trabajando al mismo ritmo?",
                 "options": [
                     "960 libros",
                     "1000 libros",
@@ -13546,6 +13611,19 @@ const questionsData = {
             {
                 "id": 3,
                 "subject": "Lengua y Literatura",
+                "question": "¿Cómo se definen formalmente los poemas épicos en la literatura universal?",
+                "options": [
+                    "Composiciones breves en prosa sobre el amor",
+                    "Extensas composiciones narrativas en verso que relatan hazañas heroicas y batallas legendarias",
+                    "Cantos humorísticos de las fiestas populares",
+                    "Diálogos cómicos para representaciones teatrales"
+                ],
+                "correct": 1,
+                "explanation": "La respuesta correcta es la b) porque Extensas composiciones narrativas en verso que relatan hazañas heroicas y batallas legendarias"
+            },
+            {
+                "id": 4,
+                "subject": "Lengua y Literatura",
                 "question": "¿A qué poeta de la antigua Grecia del siglo VIII a.C. se le atribuyen los poemas épicos de la Ilíada y la Odisea?",
                 "options": [
                     "Virgilio",
@@ -13557,7 +13635,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Homero"
             },
             {
-                "id": 4,
+                "id": 5,
                 "subject": "Lengua y Literatura",
                 "question": "¿Qué estadista y poeta guayaquileño escribió en 1825 el célebre poema épico \"La victoria de Junín: Canto a Bolívar\"?",
                 "options": [
@@ -13570,7 +13648,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la a) porque José Joaquín de Olmedo"
             },
             {
-                "id": 5,
+                "id": 6,
                 "subject": "Lengua y Literatura",
                 "question": "¿En qué año compuso José Joaquín de Olmedo su poema épico de la gesta libertaria \"La victoria de Junín: Canto a Bolívar\"?",
                 "options": [
@@ -13583,7 +13661,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque En 1825"
             },
             {
-                "id": 6,
+                "id": 7,
                 "subject": "Lengua y Literatura",
                 "question": "¿Qué dramaturgo del Siglo de Oro español es el autor de la célebre obra de teatro clásico \"Fuenteovejuna\" de 1619?",
                 "options": [
@@ -13596,7 +13674,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Lope de Vega"
             },
             {
-                "id": 7,
+                "id": 8,
                 "subject": "Lengua y Literatura",
                 "question": "¿En qué año publicó el dramaturgo madrileño Pedro Calderón de la Barca su obra maestra filosófica \"La vida es sueño\"?",
                 "options": [
@@ -13609,7 +13687,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la c) porque En 1635"
             },
             {
-                "id": 8,
+                "id": 9,
                 "subject": "Lengua y Literatura",
                 "question": "¿Qué obra del teatro clásico español, atribuida a Tirso de Molina, popularizó universalmente el personaje mítico de Don Juan?",
                 "options": [
@@ -13622,7 +13700,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque El burlador de Sevilla"
             },
             {
-                "id": 9,
+                "id": 10,
                 "subject": "Lengua y Literatura",
                 "question": "¿Durante qué siglos se desarrolló el Siglo de Oro español, época de esplendor de las obras de teatro clásico y la poesía barroca?",
                 "options": [
@@ -13635,7 +13713,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la c) porque Siglos XVI y XVII"
             },
             {
-                "id": 10,
+                "id": 11,
                 "subject": "Historia",
                 "question": "¿Cuál era el motivo principal de las sublevaciones indígenas y populares desatadas durante el periodo colonial en América?",
                 "options": [
@@ -13648,7 +13726,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque La protesta activa contra la opresión colonial española, los tributos abusivos y la mita"
             },
             {
-                "id": 11,
+                "id": 12,
                 "subject": "Historia",
                 "question": "¿Cómo respondían comúnmente las autoridades de la Corona española ante las sublevaciones de las comunidades indígenas?",
                 "options": [
@@ -13661,7 +13739,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la c) porque Con una feroz represión militar y la ejecución de los líderes cabecillas"
             },
             {
-                "id": 12,
+                "id": 13,
                 "subject": "Historia",
                 "question": "¿Qué dinastía real gobernaba España en el siglo XVIII e implementó reformas fiscales que exacerbaron los levantamientos en América?",
                 "options": [
@@ -13674,7 +13752,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Los Borbones"
             },
             {
-                "id": 13,
+                "id": 14,
                 "subject": "Historia",
                 "question": "¿En qué año se desató a nivel continental la masiva rebelión indígena liderada por Túpac Amaru II en el virreinato del Perú?",
                 "options": [
@@ -13687,7 +13765,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la c) porque En 1780"
             },
             {
-                "id": 14,
+                "id": 15,
                 "subject": "Historia",
                 "question": "¿En qué año se produjo una importante sublevación indígena local en la población de Alausí en la Real Audiencia de Quito?",
                 "options": [
@@ -13700,7 +13778,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque En 1760"
             },
             {
-                "id": 15,
+                "id": 16,
                 "subject": "Historia",
                 "question": "¿En qué localidad de la sierra ecuatoriana estalló un gran levantamiento indígena contra el cobro de diezmos y tributos en el año 1764?",
                 "options": [
@@ -13713,7 +13791,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la c) porque Riobamba"
             },
             {
-                "id": 16,
+                "id": 17,
                 "subject": "Historia",
                 "question": "¿Qué conjunto de cambios administrativos y fiscales impulsó la monarquía española en el siglo XVIII, provocando las revueltas indígenas?",
                 "options": [
@@ -13726,7 +13804,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la a) porque Reformas borbónicas"
             },
             {
-                "id": 17,
+                "id": 18,
                 "subject": "Historia",
                 "question": "¿Qué impuesto eclesiástico obligatorio sobre la producción agrícola desató la ira de los indígenas en las revueltas del siglo XVIII?",
                 "options": [
@@ -13739,7 +13817,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la c) porque El diezmo"
             },
             {
-                "id": 18,
+                "id": 19,
                 "subject": "Historia",
                 "question": "¿Quién lideró la mayor rebelión indígena del siglo XVIII en el virreinato del Perú contra los abusos de los corregidores españoles?",
                 "options": [
@@ -13752,7 +13830,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Túpac Amaru II"
             },
             {
-                "id": 19,
+                "id": 20,
                 "subject": "Historia",
                 "question": "¿Cuál era uno de los principales objetivos de los levantamientos indígenas del siglo XVIII en la Real Audiencia de Quito?",
                 "options": [
@@ -13765,7 +13843,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Demandar el fin de la explotación forzada en la mita y el concertaje"
             },
             {
-                "id": 20,
+                "id": 21,
                 "subject": "Razonamiento Verbal",
                 "question": "Precisión Semántica: Reemplace el término \"hacer\" por uno más preciso en: \"Los líderes indígenas decidieron hacer un levantamiento\".",
                 "options": [
@@ -13778,7 +13856,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Organizar"
             },
             {
-                "id": 21,
+                "id": 22,
                 "subject": "Razonamiento Verbal",
                 "question": "Precisión Semántica: Seleccione la palabra con mayor precisión semántica para sustituir a \"tener\" en: \"El poema Boletín y elegía de las mitas llega a tener un tono trágico\".",
                 "options": [
@@ -13791,7 +13869,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la a) porque Poseer"
             },
             {
-                "id": 22,
+                "id": 23,
                 "subject": "Razonamiento Verbal",
                 "question": "Sinónimos: Identifique el sinónimo de **SUBLEVACIÓN**.",
                 "options": [
@@ -13804,7 +13882,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Rebelión"
             },
             {
-                "id": 23,
+                "id": 24,
                 "subject": "Razonamiento Verbal",
                 "question": "Sinónimos: Señale la palabra que es sinónimo de **ÉPICO**.",
                 "options": [
@@ -13817,7 +13895,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Heroico"
             },
             {
-                "id": 24,
+                "id": 25,
                 "subject": "Razonamiento Verbal",
                 "question": "Sinónimos: ¿Cuál de las siguientes palabras es un sinónimo de **EXALTAR** en el contexto de un poema épico?",
                 "options": [
@@ -13830,7 +13908,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Alabar"
             },
             {
-                "id": 25,
+                "id": 26,
                 "subject": "Razonamiento Verbal",
                 "question": "Precisión Semántica: Reemplace \"cosa\" por un sustantivo preciso: \"La opresión fiscal era la cosa que más molestaba a los indígenas\".",
                 "options": [
@@ -13843,7 +13921,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque El factor"
             },
             {
-                "id": 26,
+                "id": 27,
                 "subject": "Razonamiento Verbal",
                 "question": "Sinónimos: Identifique el sinónimo de **LÍRICO**.",
                 "options": [
@@ -13856,7 +13934,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Poético"
             },
             {
-                "id": 27,
+                "id": 28,
                 "subject": "Razonamiento Verbal",
                 "question": "Precisión Semántica: Reemplace la palabra \"decir\" por un verbo preciso en: \"Olmedo decidió decir las hazañas de Bolívar en su poema\".",
                 "options": [
@@ -13869,7 +13947,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la c) porque Narrar"
             },
             {
-                "id": 28,
+                "id": 29,
                 "subject": "Razonamiento Verbal",
                 "question": "Sinónimos: Señale el sinónimo de la palabra **REPRESIÓN**.",
                 "options": [
@@ -13882,7 +13960,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Opresión"
             },
             {
-                "id": 29,
+                "id": 30,
                 "subject": "Razonamiento Verbal",
                 "question": "Precisión Semántica: Reemplace el verbo \"poner\" por uno más preciso en: \"El virrey decidió poner un nuevo impuesto\".",
                 "options": [
@@ -13895,7 +13973,7 @@ const questionsData = {
                 "explanation": "La respuesta correcta es la b) porque Imponer"
             },
             {
-                "id": 30,
+                "id": 31,
                 "subject": "Razonamiento Numérico",
                 "question": "Ecuaciones lineales: Si a la edad en la que Medardo Ángel Silva escribió su célebre poema (21 años) le sumamos el doble de una edad X, obtenemos 61. ¿Cuál es el valor de X?",
                 "options": [
@@ -13908,7 +13986,7 @@ const questionsData = {
                 "explanation": "Ecuación: 21 + 2x = 61 => 2x = 40 => x = 20"
             },
             {
-                "id": 31,
+                "id": 32,
                 "subject": "Razonamiento Numérico",
                 "question": "Ecuaciones lineales: La suma de dos números es 180. Si uno de ellos es el doble del otro, ¿cuál es el número menor?",
                 "options": [
@@ -13921,7 +13999,7 @@ const questionsData = {
                 "explanation": "Ecuación: x + 2x = 180 => 3x = 180 => x = 60"
             },
             {
-                "id": 32,
+                "id": 33,
                 "subject": "Razonamiento Numérico",
                 "question": "Ecuaciones lineales: Si al triple del impuesto del diezmo le restamos $10, obtenemos $80. ¿A cuánto ascendía dicho impuesto?",
                 "options": [
@@ -13934,7 +14012,7 @@ const questionsData = {
                 "explanation": "Ecuación: 3x - 10 = 80 => 3x = 90 => x = 30"
             },
             {
-                "id": 33,
+                "id": 34,
                 "subject": "Razonamiento Numérico",
                 "question": "Ecuaciones lineales: La suma de las edades de dos líderes de una sublevación es 75 años. Si uno de ellos es 15 años mayor que el otro, ¿cuál es la edad del menor?",
                 "options": [
@@ -13947,7 +14025,7 @@ const questionsData = {
                 "explanation": "Ecuación: x + (x + 15) = 75 => 2x + 15 = 75 => 2x = 60 => x = 30 años"
             },
             {
-                "id": 34,
+                "id": 35,
                 "subject": "Razonamiento Numérico",
                 "question": "Ecuaciones lineales: Si la mitad del precio de un libro de teatro clásico es $12, ¿cuánto cuestan 3 libros del mismo precio?",
                 "options": [
@@ -13960,7 +14038,7 @@ const questionsData = {
                 "explanation": "Mitad = $12, entonces libro = $24. Tres libros = 3 * 24 = $72"
             },
             {
-                "id": 35,
+                "id": 36,
                 "subject": "Razonamiento Numérico",
                 "question": "Porcentajes: Si una comunidad indígena de 400 habitantes organizó una sublevación y el 25% de ellos marchó al cabildo, ¿cuántos indígenas participaron en la marcha?",
                 "options": [
@@ -13973,7 +14051,7 @@ const questionsData = {
                 "explanation": "400 * 0.25 = 100"
             },
             {
-                "id": 36,
+                "id": 37,
                 "subject": "Razonamiento Numérico",
                 "question": "Porcentajes: Un hacendado cobraba un diezmo del 10% sobre una cosecha de 500 quintales de maíz. ¿A cuántos quintales equivalía el diezmo?",
                 "options": [
@@ -13986,7 +14064,7 @@ const questionsData = {
                 "explanation": "500 * 0.10 = 50 quintales"
             },
             {
-                "id": 37,
+                "id": 38,
                 "subject": "Razonamiento Numérico",
                 "question": "Porcentajes: Si un libro de poesía costaba $30 y se le aplica un descuento del 20%, ¿cuál es el nuevo precio del libro?",
                 "options": [
@@ -13999,7 +14077,7 @@ const questionsData = {
                 "explanation": "$30 * 0.80 = $24"
             },
             {
-                "id": 38,
+                "id": 39,
                 "subject": "Razonamiento Numérico",
                 "question": "Porcentajes: Si el 12% de las 50 sublevaciones registradas en el siglo XVIII terminaron en amnistía, ¿cuántas sublevaciones tuvieron este desenlace?",
                 "options": [
@@ -14012,7 +14090,7 @@ const questionsData = {
                 "explanation": "50 * 0.12 = 6 sublevaciones"
             },
             {
-                "id": 39,
+                "id": 40,
                 "subject": "Razonamiento Numérico",
                 "question": "Porcentajes: ¿Qué porcentaje de un grupo de 80 actores teatrales representan 16 de ellos que interpretan teatro clásico?",
                 "options": [
@@ -16654,7 +16732,16 @@ const studyData = {
                 "concept": "El ordenamiento de oraciones es un ejercicio de razonamiento verbal y sintáctico que consiste en estructurar de manera coherente y secuencial un conjunto de enunciados desordenados para formar un texto cohesivo. Esta práctica evalúa el conocimiento de las transiciones gramaticales, la lógica discursiva y los conectores lógicos de causa y efecto.\n\nPara establecer el orden de las proposiciones, se aplican criterios formales de organización discursiva. El criterio deductivo ordena el texto yendo de lo general a lo particular. El criterio cronológico organiza las ideas de lo más antiguo a lo más reciente, mientras que el criterio causal ubica primero las causas y luego las consecuencias del fenómeno tratado.",
                 "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&auto=format&fit=crop&q=60",
                 "videoUrl": "https://www.youtube.com/results?search_query=Ordenar+oraciones",
-                "exercises": []
+                "exercises": [
+                    {
+                        "problem": "Ordenar oraciones: Organice las siguientes ideas para estructurar una explicación cronológica del Modernismo: 1. Rubén Darío publicó su libro Azul... en Valparaíso en 1888, fundando el Modernismo. 2. A finales del siglo diecinueve, la poesía hispanoamericana buscó una renovación estética. 3. Posteriormente, poetas de toda América y España adoptaron esta nueva corriente literaria. 4. En el siglo veinte, el modernismo derivó en corrientes posmodernistas y vanguardistas.",
+                        "solution": "La respuesta correcta es la a) porque 2, 1, 3, 4"
+                    },
+                    {
+                        "problem": "Ordenar oraciones: Ordene las partes para definir el proceso de análisis de término excluido: 1. Primero, se analiza el significado de cada una de las palabras propuestas en el ejercicio. 2. Después, se determina el campo semántico común que agrupa a la mayoría de las opciones. 3. Finalmente, se identifica y excluye la palabra que no guarda relación de afinidad conceptual. 4. Para resolver un ejercicio de término excluido, se requiere una metodología ordenada.",
+                        "solution": "La respuesta correcta es la a) porque 4, 1, 2, 3"
+                    }
+                ]
             },
             {
                 "topic": "Operaciones básicas",
