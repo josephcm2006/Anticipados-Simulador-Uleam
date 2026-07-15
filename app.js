@@ -918,8 +918,8 @@ function startFinalExam() {
     });
     
     // Order requested: Historia -> Lengua -> Razonamiento Numerico -> Razonamiento Logico
-    const selectedHistoria = getRandomItems(subjectMap.historia, 20);
-    const selectedLengua = getRandomItems(subjectMap.lengua, 20);
+    const selectedHistoria = getRandomItems(subjectMap.historia, 30);
+    const selectedLengua = getRandomItems(subjectMap.lengua, 30);
     const selectedMatematico = getRandomItems(subjectMap.matematico, 10);
     const selectedLogico = getRandomItems(subjectMap.logico, 10);
     
