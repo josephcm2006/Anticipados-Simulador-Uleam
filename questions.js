@@ -2217,7 +2217,7 @@ const questionsData = {
                     "x = 14",
                     "x = 6"
                 ],
-                "correct": 1,
+                "correct": 2,
                 "explanation": "Para resolver 2x - 4 = 10, sumamos 4 a ambos lados: 2x = 14. Luego dividimos entre 2: x = 14 / 2 = 7."
             },
             {
@@ -5665,7 +5665,7 @@ const questionsData = {
                     "7/12",
                     "10/12"
                 ],
-                "correct": 1,
+                "correct": 3,
                 "explanation": "Para resolver esto, multiplicamos numeradores entre sí y denominadores entre sí: 2*5 = 10 y 3*4 = 12, dando 10/12. Al simplificar entre 2, resulta 5/6"
             },
             {
@@ -7781,7 +7781,7 @@ const questionsData = {
                     "13/20",
                     "17/20"
                 ],
-                "correct": 1,
+                "correct": 2,
                 "explanation": "Suma de actividades: 2/5 + 1/4 = 8/20 + 5/20 = 13/20. Fracción libre: 1 - 13/20 = 7/20"
             },
             {

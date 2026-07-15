@@ -51,10 +51,11 @@
                     <button class="week-tab" data-week="2" id="tab-week-2">Semana 2</button>
                     <button class="week-tab" data-week="3" id="tab-week-3">Semana 3</button>
                     <button class="week-tab" data-week="4" id="tab-week-4">Semana 4</button>
+                    <button class="week-tab final-exam-tab" data-week="final" id="tab-final">Examen Final</button>
                 </div>
 
                 <!-- DAYS CONTAINER (Dynamic depending on active week) -->
-                <div class="days-section">
+                <div class="days-section" id="regular-days-section">
                     <h3 class="days-title">Días de la <span id="selected-week-title">Semana 1</span></h3>
                     <div class="week-exam-container" id="week-exam-container" style="display: none;">
                         <button id="btn-week-exam" class="week-exam-btn">
@@ -63,6 +64,29 @@
                     </div>
                     <div class="days-grid" id="days-grid">
                         <!-- Dynamic days will be rendered here -->
+                    </div>
+                </div>
+
+                <!-- FINAL EXAM SECTION -->
+                <div class="days-section" id="final-exam-section" style="display: none;">
+                    <h3 class="days-title">Examen Final</h3>
+                    <div class="final-exam-container" style="display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center; margin-top: 10px;">
+                        <p style="color: var(--text-secondary); max-width: 600px; line-height: 1.6;">El examen final consta de 60 preguntas seleccionadas al azar de todas las semanas en este orden: Historia (20), Lengua (20), Razonamiento Matemático (10) y Razonamiento Lógico (10). Se califica sobre 1000 puntos.</p>
+                        
+                        <div class="name-input-container" style="margin-top: 10px; width: 100%; max-width: 300px;">
+                            <input type="text" id="student-name-input" placeholder="Ingresa tu nombre..." style="width: 100%; padding: 12px 15px; font-size: 1.05rem; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-surface); color: var(--text-primary); text-align: center; font-family: inherit; outline: none;" autocomplete="off">
+                        </div>
+
+                        <button id="btn-start-final-exam" class="btn-primary" style="padding: 15px 30px; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);">
+                            INICIAR EXAMEN FINAL
+                        </button>
+                        
+                        <div class="records-container" style="width: 100%; max-width: 600px; margin-top: 20px; background: var(--bg-surface); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color);">
+                            <h4 style="margin-bottom: 15px; color: var(--text-primary); border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">Historial de Records (Sobre 1000 pts)</h4>
+                            <ul id="records-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
+                                <!-- Records injected here -->
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
@@ -205,6 +229,9 @@
                         <span class="score-total" id="score-total">0</span>
                     </div>
                     <div class="score-percentage" id="score-percentage">0% de aciertos</div>
+                    <div class="score-final" id="score-final" style="display: none; font-size: 2.5rem; font-weight: 700; color: var(--accent-cyan); margin: 15px 0;">
+                        1000 / 1000 pts
+                    </div>
 
                     <div class="results-actions">
                         <button id="btn-restart-quiz" class="btn-primary">Reintentar Cuestionario</button>

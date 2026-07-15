@@ -11,6 +11,8 @@ let selectedOptionIndex = null;
 let scoreCorrect = 0;
 let hasChecked = false;
 let isWeekExam = false;
+let isFinalExam = false;
+let currentStudentName = "";
 
 // DOM Elements
 const landingView = document.getElementById("landing-view");
@@ -21,6 +23,11 @@ const studyView = document.getElementById("study-view");
 
 const weekTabs = document.querySelectorAll(".week-tab");
 const daysGrid = document.getElementById("days-grid");
+const regularDaysSection = document.getElementById("regular-days-section");
+const finalExamSection = document.getElementById("final-exam-section");
+const btnStartFinalExam = document.getElementById("btn-start-final-exam");
+const studentNameInput = document.getElementById("student-name-input");
+const recordsList = document.getElementById("records-list");
 const selectedWeekTitle = document.getElementById("selected-week-title");
 const weekExamContainer = document.getElementById("week-exam-container");
 const btnWeekExam = document.getElementById("btn-week-exam");
@@ -54,6 +61,7 @@ const questionNavGrid = document.getElementById("question-nav-grid");
 const scoreCorrectDisplay = document.getElementById("score-correct");
 const scoreTotalDisplay = document.getElementById("score-total");
 const scorePercentage = document.getElementById("score-percentage");
+const scoreFinalDisplay = document.getElementById("score-final");
 const resultsIcon = document.getElementById("results-icon");
 const resultsSubtext = document.getElementById("results-subtext");
 
@@ -89,8 +97,16 @@ function init() {
             weekTabs.forEach(t => t.classList.remove("active"));
             tab.classList.add("active");
             currentWeek = tab.getAttribute("data-week");
-            selectedWeekTitle.textContent = `Semana ${currentWeek}`;
-            renderDays();
+            if (currentWeek === "final") {
+                if(regularDaysSection) regularDaysSection.style.display = "none";
+                if(finalExamSection) finalExamSection.style.display = "block";
+                renderFinalExamRecords();
+            } else {
+                if(regularDaysSection) regularDaysSection.style.display = "block";
+                if(finalExamSection) finalExamSection.style.display = "none";
+                selectedWeekTitle.textContent = `Semana ${currentWeek}`;
+                renderDays();
+            }
         });
     });
 
@@ -99,8 +115,9 @@ function init() {
 
     // Navigation and Action Buttons
     document.getElementById("btn-back-to-landing").addEventListener("click", () => {
-        if (isWeekExam) {
+        if (isFinalExam || isWeekExam) {
             showView("landing-view");
+            if (isFinalExam) renderFinalExamRecords();
         } else {
             showModeSelection(currentWeek, currentDay);
         }
@@ -115,7 +132,9 @@ function init() {
     });
 
     document.getElementById("btn-restart-quiz").addEventListener("click", () => {
-        if (isWeekExam) {
+        if (isFinalExam) {
+            startFinalExam();
+        } else if (isWeekExam) {
             startWeekExam(currentWeek);
         } else {
             startQuiz(currentWeek, currentDay);
@@ -128,8 +147,15 @@ function init() {
         });
     }
 
+    if (btnStartFinalExam) {
+        btnStartFinalExam.addEventListener("click", () => {
+            startFinalExam();
+        });
+    }
+
     document.getElementById("btn-home-from-results").addEventListener("click", () => {
         showView("landing-view");
+        if (isFinalExam) renderFinalExamRecords();
     });
 
     // New Mode Selection and Study Navigation
@@ -233,6 +259,7 @@ function showView(viewId) {
 // Start a quiz for a specific week and day
 function startQuiz(week, day) {
     isWeekExam = false;
+    isFinalExam = false;
     const weekKey = `Semana ${week}`;
     const allQuestions = (questionsData[weekKey] && questionsData[weekKey][day]) ? questionsData[weekKey][day] : [];
     
@@ -448,36 +475,67 @@ function showResults() {
     const total = activeQuestions.length;
     // Calculate final score dynamically
     const scoreCorrect = activeQuestions.filter(q => q.userSelected === q.correct).length;
-    scoreCorrectDisplay.textContent = scoreCorrect;
-    scoreTotalDisplay.textContent = total;
-    
     const percentage = Math.round((scoreCorrect / total) * 100);
-    scorePercentage.textContent = `${percentage}% de respuestas correctas`;
     
-    if (percentage === 100) {
-        resultsIcon.textContent = "🏆";
-        resultsSubtext.textContent = isWeekExam 
-            ? "¡Impecable! Has aprobado el Examen General con puntuación perfecta."
-            : "¡Impecable! Has respondido todo de forma correcta.";
-        scorePercentage.style.color = "var(--success)";
-    } else if (percentage >= 70) {
-        resultsIcon.textContent = "🎉";
-        resultsSubtext.textContent = isWeekExam
-            ? "¡Muy bien! Has aprobado el Examen General de la semana."
-            : "¡Muy bien! Estás listo para tus exámenes.";
-        scorePercentage.style.color = "var(--success)";
-    } else if (percentage >= 40) {
-        resultsIcon.textContent = "📚";
-        resultsSubtext.textContent = isWeekExam
-            ? "Intento regular. Te recomendamos volver a estudiar los conceptos diarios de la semana."
-            : "Buen intento, pero te recomendamos repasar los temas de estudio.";
-        scorePercentage.style.color = "var(--primary)";
+    if (isFinalExam) {
+        document.querySelector(".score-display").style.display = "none";
+        document.getElementById("score-percentage").style.display = "none";
+        
+        const finalScore = Math.round((scoreCorrect / total) * 1000);
+        if(scoreFinalDisplay) {
+            scoreFinalDisplay.style.display = "block";
+            scoreFinalDisplay.textContent = `${finalScore} / 1000 pts`;
+        }
+        
+        // Save to records
+        const record = {
+            name: currentStudentName,
+            date: new Date().toLocaleDateString(),
+            time: new Date().toLocaleTimeString(),
+            score: finalScore
+        };
+        const records = JSON.parse(localStorage.getItem('finalExamRecords') || '[]');
+        records.push(record);
+        localStorage.setItem('finalExamRecords', JSON.stringify(records));
+        
+        resultsIcon.textContent = finalScore >= 700 ? "🏆" : (finalScore >= 400 ? "📚" : "✍️");
+        resultsSubtext.textContent = finalScore >= 700
+            ? "¡Excelente! Has aprobado el Examen Final."
+            : "Sigue estudiando. Repasa los temas y vuelve a intentarlo.";
     } else {
-        resultsIcon.textContent = "✍️";
-        resultsSubtext.textContent = isWeekExam
-            ? "Examen desaprobado. Sigue estudiando los conceptos semanales y vuelve a intentarlo."
-            : "Sigue estudiando. Repasa las tablas del plan y vuelve a intentarlo.";
-        scorePercentage.style.color = "var(--error)";
+        document.querySelector(".score-display").style.display = "flex";
+        document.getElementById("score-percentage").style.display = "block";
+        if(scoreFinalDisplay) scoreFinalDisplay.style.display = "none";
+        
+        scoreCorrectDisplay.textContent = scoreCorrect;
+        scoreTotalDisplay.textContent = total;
+        scorePercentage.textContent = `${percentage}% de respuestas correctas`;
+        
+        if (percentage === 100) {
+            resultsIcon.textContent = "🏆";
+            resultsSubtext.textContent = isWeekExam 
+                ? "¡Impecable! Has aprobado el Examen General con puntuación perfecta."
+                : "¡Impecable! Has respondido todo de forma correcta.";
+            scorePercentage.style.color = "var(--success)";
+        } else if (percentage >= 70) {
+            resultsIcon.textContent = "🎉";
+            resultsSubtext.textContent = isWeekExam
+                ? "¡Muy bien! Has aprobado el Examen General de la semana."
+                : "¡Muy bien! Estás listo para tus exámenes.";
+            scorePercentage.style.color = "var(--success)";
+        } else if (percentage >= 40) {
+            resultsIcon.textContent = "📚";
+            resultsSubtext.textContent = isWeekExam
+                ? "Intento regular. Te recomendamos volver a estudiar los conceptos diarios de la semana."
+                : "Buen intento, pero te recomendamos repasar los temas de estudio.";
+            scorePercentage.style.color = "var(--primary)";
+        } else {
+            resultsIcon.textContent = "✍️";
+            resultsSubtext.textContent = isWeekExam
+                ? "Examen desaprobado. Sigue estudiando los conceptos semanales y vuelve a intentarlo."
+                : "Sigue estudiando. Repasa las tablas del plan y vuelve a intentarlo.";
+            scorePercentage.style.color = "var(--error)";
+        }
     }
 }
 
@@ -490,6 +548,7 @@ function showModeSelection(week, day) {
 // Start Study Session
 function startStudy(week, day) {
     isWeekExam = false;
+    isFinalExam = false;
     studyWeekDayTag.textContent = `Semana ${week} - ${day}`;
     showView("study-view");
     loadStudyContent(week, day);
@@ -748,6 +807,7 @@ function getRandomItems(array, count) {
 // Start randomized general week exam
 function startWeekExam(week) {
     isWeekExam = true;
+    isFinalExam = false;
     currentDay = "Examen General";
     
     const weekKey = `Semana ${week}`;
@@ -811,4 +871,117 @@ function startWeekExam(week) {
     loadQuestion();
 }
 
+// Start Final Exam
+function startFinalExam() {
+    if (studentNameInput) {
+        const inputName = studentNameInput.value.trim();
+        if (!inputName) {
+            alert("Por favor, ingresa tu nombre para poder realizar el Examen Final.");
+            studentNameInput.focus();
+            return;
+        }
+        currentStudentName = inputName;
+    }
 
+    isWeekExam = false;
+    isFinalExam = true;
+    currentDay = "Examen Final";
+    
+    // Gather all questions
+    const allQuestions = [];
+    if (typeof questionsData !== 'undefined') {
+        for (const week in questionsData) {
+            for (const day in questionsData[week]) {
+                allQuestions.push(...questionsData[week][day]);
+            }
+        }
+    }
+    
+    const subjectMap = {
+        historia: [],
+        lengua: [],
+        matematico: [],
+        logico: []
+    };
+    
+    allQuestions.forEach(q => {
+        const subj = (q.subject || "").toLowerCase();
+        if (subj.includes("historia")) {
+            subjectMap.historia.push(q);
+        } else if (subj.includes("lengua") || subj.includes("literatura")) {
+            subjectMap.lengua.push(q);
+        } else if (subj.includes("num") || subj.includes("mat")) {
+            subjectMap.matematico.push(q);
+        } else if (subj.includes("verbal") || subj.includes("lógic") || subj.includes("logic")) {
+            subjectMap.logico.push(q);
+        }
+    });
+    
+    // Order requested: Historia -> Lengua -> Razonamiento Numerico -> Razonamiento Logico
+    const selectedHistoria = getRandomItems(subjectMap.historia, 20);
+    const selectedLengua = getRandomItems(subjectMap.lengua, 20);
+    const selectedMatematico = getRandomItems(subjectMap.matematico, 10);
+    const selectedLogico = getRandomItems(subjectMap.logico, 10);
+    
+    const examQuestions = [
+        ...selectedHistoria,
+        ...selectedLengua,
+        ...selectedMatematico,
+        ...selectedLogico
+    ];
+    
+    activeQuestions = examQuestions.map(q => ({
+        ...q,
+        userSelected: null
+    }));
+    
+    currentQuestionIndex = 0;
+    scoreCorrect = 0;
+    hasChecked = false;
+    selectedOptionIndex = null;
+    
+    quizWeekDayTag.textContent = `Examen Final`;
+    showView("simulator-view");
+    renderQuestionNavGrid();
+    loadQuestion();
+}
+
+function renderFinalExamRecords() {
+    const records = JSON.parse(localStorage.getItem('finalExamRecords') || '[]');
+    if (recordsList) {
+        recordsList.innerHTML = "";
+        if (records.length === 0) {
+            recordsList.innerHTML = "<li style='color: var(--text-muted);'>Aún no tienes records. ¡Inicia tu primer examen final!</li>";
+            return;
+        }
+        
+        // Sort records by highest score first
+        records.sort((a, b) => b.score - a.score);
+        
+        records.forEach((record, idx) => {
+            const li = document.createElement("li");
+            li.style.display = "flex";
+            li.style.justifyContent = "space-between";
+            li.style.background = "rgba(255,255,255,0.05)";
+            li.style.padding = "10px 15px";
+            li.style.borderRadius = "8px";
+            li.style.alignItems = "center";
+            
+            let rankBadge = "";
+            if (idx === 0) rankBadge = "🥇 ";
+            else if (idx === 1) rankBadge = "🥈 ";
+            else if (idx === 2) rankBadge = "🥉 ";
+            
+            li.innerHTML = `
+                <div>
+                    <span style="font-weight: bold; font-size: 1.1rem; color: var(--accent-cyan);">${rankBadge}${record.score} pts</span>
+                    <span style="margin-left: 10px; color: var(--text-primary); font-weight: 500;">${record.name || "Anónimo"}</span>
+                </div>
+                <div style="font-size: 0.9rem; color: var(--text-secondary);">
+                    ${record.date} - ${record.time}
+                </div>
+            `;
+            recordsList.appendChild(li);
+        });
+    }
+}
