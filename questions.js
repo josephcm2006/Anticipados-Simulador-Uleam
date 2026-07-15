@@ -534,7 +534,7 @@ const questionsData = {
                     "La Revolución Francesa",
                     "La Revolución Rusa"
                 ],
-                "correct": 2,
+                "correct": 1,
                 "explanation": "La caída de Roma en el 476 d.C. puso fin al Imperio Romano de Occidente y marca el inicio de la Edad Media."
             },
             {
@@ -2217,7 +2217,7 @@ const questionsData = {
                     "x = 14",
                     "x = 6"
                 ],
-                "correct": 2,
+                "correct": 1,
                 "explanation": "Para resolver 2x - 4 = 10, sumamos 4 a ambos lados: 2x = 14. Luego dividimos entre 2: x = 14 / 2 = 7."
             },
             {
@@ -3616,7 +3616,7 @@ const questionsData = {
                     "1/4",
                     "1/10"
                 ],
-                "correct": 0,
+                "correct": 1,
                 "explanation": "Para resolver esto, sumamos todas las pelotas de la caja: 4 rojas + 6 azules = 10 pelotas en total. Como queremos sacar una roja, y hay 4, la probabilidad es 4 de 10, es decir 4/10"
             },
             {
@@ -5665,7 +5665,7 @@ const questionsData = {
                     "7/12",
                     "10/12"
                 ],
-                "correct": 3,
+                "correct": 1,
                 "explanation": "Para resolver esto, multiplicamos numeradores entre sí y denominadores entre sí: 2*5 = 10 y 3*4 = 12, dando 10/12. Al simplificar entre 2, resulta 5/6"
             },
             {
@@ -6161,7 +6161,7 @@ const questionsData = {
                     "5/10 (o 1/2)",
                     "1/3"
                 ],
-                "correct": 0,
+                "correct": 1,
                 "explanation": "Total de bolas: 3+2+5=10. Bolas azules favorables: 2, por lo tanto 2/10"
             },
             {
@@ -7807,7 +7807,7 @@ const questionsData = {
                     "5/12",
                     "1/2"
                 ],
-                "correct": 1,
+                "correct": 0,
                 "explanation": "M.C.M de 4 y 6 es 12. (9 - 2"
             },
             {
@@ -8303,7 +8303,7 @@ const questionsData = {
                     "1/1",
                     "2/3"
                 ],
-                "correct": 0,
+                "correct": 2,
                 "explanation": "1 caso favorable de 2 totales = 1/2"
             },
             {
@@ -8760,7 +8760,7 @@ const questionsData = {
                     "300 periódicos.",
                     "400 periódicos."
                 ],
-                "correct": 1,
+                "correct": 2,
                 "explanation": "Operarios y periódicos es directa; horas y periódicos es directa. 300 * (12/6"
             },
             {
@@ -8786,7 +8786,7 @@ const questionsData = {
                     "4 días.",
                     "5 días."
                 ],
-                "correct": 0,
+                "correct": 1,
                 "explanation": "Tejedores y días es inversa; mantas y días es directa. 6 * (3/6"
             },
             {
@@ -14105,6 +14105,12 @@ const questionsData = {
         ]
     }
 };
+
+
+
+
+
+
 
 // Banco de contenidos de estudio organizados por Semana y Día
 const studyData = {
